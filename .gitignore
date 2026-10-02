@@ -1,0 +1,19 @@
+# 中间产物：仓库快照/压缩包，共约 1 GB，不入库
+legado-collect/raw/
+
+# APK 构建中间文件（成品 apk 会入库）
+legado-collect/apk/unsigned.apk
+legado-collect/apk/aligned.apk
+legado-collect/apk/*.idsig
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 系统杂项
+Thumbs.db
+.DS_Store
+
+# 临时文件（token/提交信息），绝不入库
+.token.tmp
+.commitmsg.tmp
