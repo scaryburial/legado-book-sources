@@ -17,3 +17,6 @@ Thumbs.db
 # 临时文件（token/提交信息），绝不入库
 .token.tmp
 .commitmsg.tmp
+
+# APK 反编译/分析产生的中间文件，不入库
+analysis/
