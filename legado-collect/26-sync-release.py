@@ -39,17 +39,25 @@ BODY = """\
 
 合计 678 条，来自 2252 条成人向源（实测可用率 30.1%）。
 
-## 一键导入（手机点这个）
+## 一键导入（三合一，只导这一个就够）
+
+**手机直接点这个链接**（会唤起阅读 App 并弹出导入确认）：
 
 ```
-小说：legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FNovel.json
-漫画：legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FComic.json
-视频：legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FVideo.json
+legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FAll.json
 ```
 
-直链走 jsDelivr CDN，国内手机可直接访问。也可以复制
-`https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/Novel.json`
-这种地址，在 书源管理 → 网络导入 里粘贴。
+**或复制下面任一 https 直链**，在 阅读 App → 我的 → 书源管理 → 右上角 → 网络导入 里粘贴：
+
+| 线路 | 地址 |
+| --- | --- |
+| 仓库直链（raw） | `https://raw.githubusercontent.com/scaryburial/legado-book-sources/master/cat/All.json` |
+| 仓库直链（github 跳转） | `https://github.com/scaryburial/legado-book-sources/raw/master/cat/All.json` |
+| jsDelivr CDN（国内更快） | `https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/All.json` |
+
+三条线路都实测可下载，内容一致：678 条成人向书源，小说 644 + 漫画 32 + 视频 2。
+
+想分开导的话，用 `cat/Novel.json`、`cat/Comic.json`、`cat/Video.json` 三个文件。
 
 ## 实测与格式
 
@@ -89,6 +97,7 @@ def main() -> int:
         print("  删除旧附件:", a["name"])
 
     files = [
+        (ROOT / "cat" / "All.json", "Adult-All.json"),
         (ROOT / "cat" / "Novel.json", "Adult-Novel.json"),
         (ROOT / "cat" / "Comic.json", "Adult-Comic.json"),
         (ROOT / "cat" / "Video.json", "Adult-Video.json"),
