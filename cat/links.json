@@ -1,32 +1,24 @@
 [
  {
   "分类": "小说",
-  "文件": "Novel-1.json",
-  "条数": 3025,
-  "大小MB": 17.4,
-  "直链": "https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/Novel-1.json",
-  "一键导入": "legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FNovel-1.json"
- },
- {
-  "分类": "小说",
-  "文件": "Novel-2.json",
-  "条数": 2771,
-  "大小MB": 10.1,
-  "直链": "https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/Novel-2.json",
-  "一键导入": "legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FNovel-2.json"
+  "文件": "Novel.json",
+  "条数": 644,
+  "大小MB": 3.3,
+  "直链": "https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/Novel.json",
+  "一键导入": "legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FNovel.json"
  },
  {
   "分类": "漫画",
   "文件": "Comic.json",
-  "条数": 369,
-  "大小MB": 2.5,
+  "条数": 32,
+  "大小MB": 0.3,
   "直链": "https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/Comic.json",
   "一键导入": "legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FComic.json"
  },
  {
   "分类": "视频",
   "文件": "Video.json",
-  "条数": 23,
+  "条数": 2,
   "大小MB": 0.1,
   "直链": "https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/Video.json",
   "一键导入": "legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FVideo.json"

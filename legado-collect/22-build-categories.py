@@ -8,6 +8,7 @@
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import re
@@ -60,10 +61,13 @@ def quality(bs: dict) -> int:
     return s
 
 
-def load_sources() -> dict:
+def load_sources(scope: str) -> dict:
     """当前（已清洗）的全部书源，按地址索引"""
     pool = {}
-    for d in (ROOT / "out" / "00-全量去重", ROOT / "out-adult" / "00-全量去重"):
+    dirs = [ROOT / "out-adult" / "00-全量去重"]
+    if scope == "all":
+        dirs.insert(0, ROOT / "out" / "00-全量去重")
+    for d in dirs:
         for p in sorted(d.glob("part*.json")):
             for bs in json.loads(p.read_text(encoding="utf-8")):
                 pool[str(bs.get("bookSourceUrl"))] = bs
@@ -71,8 +75,13 @@ def load_sources() -> dict:
 
 
 def main() -> int:
-    pool = load_sources()
-    print(f"已清洗书源池: {len(pool)}")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--scope", choices=("adult", "all"), default="adult",
+                    help="adult=只要成人向（默认），all=全部")
+    args = ap.parse_args()
+
+    pool = load_sources(args.scope)
+    print(f"书源池（scope={args.scope}）: {len(pool)}")
 
     rows = []
     for f in sorted(LIVE.glob("test-*.csv")):
@@ -92,6 +101,8 @@ def main() -> int:
             continue
         url = r.get("地址", "").strip()
         if not url or url in seen:
+            continue
+        if args.scope == "adult" and r.get("成人向", "") != "1":
             continue
         bs = pool.get(url)
         if not bs:
@@ -127,6 +138,7 @@ def main() -> int:
     (FINAL / "stats.json").write_text(json.dumps(
         {"测试记录": len(rows), "状态分布": dict(stat.most_common()),
          "分类": manifest,
+         "范围": "成人向" if args.scope == "adult" else "全部",
          "说明": "只收录实测「可用」的书源；分类口径 bookSourceType 0=小说 2=漫画 4=视频"},
         ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps(dict(stat.most_common()), ensure_ascii=False))

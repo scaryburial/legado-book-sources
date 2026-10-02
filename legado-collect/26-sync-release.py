@@ -26,26 +26,37 @@ HEAD = {"Authorization": f"Bearer {TOKEN}", "Accept": "application/vnd.github+js
         "User-Agent": "codex"}
 
 BODY = """\
-## 三大分类（只收录实测可用的书源）
+## 成人向 · 三大分类（只收录实测可用的）
 
-全部源都按它自己的搜索地址跑过一次真实请求，**只有返回正常页面的才收录**，
-超时/域名失效/页面不存在/被拦的一律没有放进来。
+**范围：仅成人向书源。** 全部按它自己的搜索地址跑过一次真实请求，
+只有返回正常页面的才收录；超时/域名失效/页面不存在/被拦的一律没有放进来。
 
-| 分类 | 条数 | 文件 | 一键导入（手机点这个） |
-| --- | ---: | --- | --- |
-| 小说 | 3025 | `Novel-1.json` | `legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FNovel-1.json` |
-| 小说 | 2771 | `Novel-2.json` | `legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FNovel-2.json` |
-| 漫画 | 369 | `Comic.json` | `legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FComic.json` |
-| 视频 | 23 | `Video.json` | `legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FVideo.json` |
+| 分类 | 条数 | 说明 |
+| --- | ---: | --- |
+| 小说 | 644 | 成人向文本小说 |
+| 漫画 | 32 | 成人向漫画/图源 |
+| 视频 | 2 | 成人向视频 |
 
-直达链接走 jsDelivr CDN，国内手机可直接访问。
+合计 678 条，来自 2252 条成人向源（实测可用率 30.1%）。
 
-## 实测数据
+## 一键导入（手机点这个）
 
-- 参与测试 20600 个源 → **可用 6188（30.0%）**、可疑 2078、超时 3293、域名失效 2678、页面失效 2278、被拦 1268
+```
+小说：legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FNovel.json
+漫画：legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FComic.json
+视频：legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FVideo.json
+```
+
+直链走 jsDelivr CDN，国内手机可直接访问。也可以复制
+`https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/Novel.json`
+这种地址，在 书源管理 → 网络导入 里粘贴。
+
+## 实测与格式
+
+- 成人向源 2252 条参与测试 → **可用 678**
 - 分类口径：`bookSourceType` 0=小说、2=漫画、4=视频，名称关键词兜底纠错
-- 全部产物按官方 BookSource 实体做了格式清洗：字段类型、类型枚举、规则子字段全部合规，
-  校验错误 0、警告 0（脚本 `legado-collect/23-validate-format.py`）
+- 全部产物按官方 BookSource 实体清洗过：字段类型、类型枚举、规则子字段全部合规，
+  校验错误 0、警告 0（`legado-collect/23-validate-format.py`）
 
 ## 关于 APK
 
@@ -78,10 +89,9 @@ def main() -> int:
         print("  删除旧附件:", a["name"])
 
     files = [
-        (ROOT / "cat" / "Novel-1.json", "Novel-1.json"),
-        (ROOT / "cat" / "Novel-2.json", "Novel-2.json"),
-        (ROOT / "cat" / "Comic.json", "Comic.json"),
-        (ROOT / "cat" / "Video.json", "Video.json"),
+        (ROOT / "cat" / "Novel.json", "Adult-Novel.json"),
+        (ROOT / "cat" / "Comic.json", "Adult-Comic.json"),
+        (ROOT / "cat" / "Video.json", "Adult-Video.json"),
         (ROOT / "legado-collect" / "apk" / "legado-main-built.apk", "Legado-Main-BookSources.apk"),
         (ROOT / "legado-collect" / "apk" / "legado-adult-built.apk", "Legado-Adult-BookSources.apk"),
         (ROOT / "一键导入链接.md", "Import-Links.md"),
