@@ -7,6 +7,7 @@
 """
 from __future__ import annotations
 
+import argparse
 import json
 import zipfile
 from pathlib import Path
@@ -14,26 +15,51 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent            # legado-collect/
 SRC_APK = Path(r"C:/Users/Administrator/Downloads/io.legado.app.release.apk")
-OUT_APK = HERE / "unsigned.apk"
-
-ADULT_DIR = ROOT / "out-adult" / "00-全量去重"
 REPLACE_RULE = ROOT.parent / "净化规则.json"
+
+# 主流版内置上限：官方推荐的导入量级，超过容易 OOM
+MAIN_BUDGET = 18 * 1024 * 1024
+
+
+def load_parts(d: Path, limit_bytes: int | None = None):
+    """按分片顺序读取书源；分片已是「规则完整度↓、更新时间↓」排序。"""
+    items, used = [], 0
+    for p in sorted(d.glob("part*.json")):
+        for it in json.loads(p.read_text(encoding="utf-8")):
+            items.append(it)
+            if limit_bytes:
+                used += len(json.dumps(it, ensure_ascii=False).encode("utf-8")) + 40
+                if used >= limit_bytes:
+                    return items
+    return items
 
 
 def load_adult_sources():
-    items = []
-    for p in sorted(ADULT_DIR.glob("part*.json")):
-        items.extend(json.loads(p.read_text(encoding="utf-8")))
+    items = load_parts(ROOT / "out-adult" / "00-全量去重")
     # 去掉自定义排序字段里可能存在的负数顺序，按名称重排，保证导入后顺序稳定
     for i, it in enumerate(items):
         it["customOrder"] = i
     return items
 
 
+def load_main_sources():
+    """主流版：精品优先，按 18 MB 预算截断，避免首次导入 OOM。"""
+    items = load_parts(ROOT / "out" / "30-精品", MAIN_BUDGET)
+    for i, it in enumerate(items):
+        it["customOrder"] = i
+    return items
+
+
 def main() -> int:
-    sources = load_adult_sources()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--set", dest="which", choices=("adult", "main"), default="adult")
+    ap.add_argument("--out", default="unsigned.apk")
+    args = ap.parse_args()
+
+    sources = load_adult_sources() if args.which == "adult" else load_main_sources()
+    OUT_APK = HERE / args.out
     payload = json.dumps(sources, ensure_ascii=False, indent=1).encode("utf-8")
-    print(f"内置书源: {len(sources)} 条, {len(payload):,} 字节")
+    print(f"[{args.which}] 内置书源: {len(sources)} 条, {len(payload)/1024/1024:.1f} MB")
 
     rules = json.loads(REPLACE_RULE.read_text(encoding="utf-8"))
     rule_bytes = json.dumps(rules, ensure_ascii=False, indent=1).encode("utf-8")

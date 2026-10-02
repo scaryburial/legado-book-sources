@@ -1,16 +1,23 @@
-# 内置成人向书源 + 净化规则，重打包并签名
+# 内置书源 + 净化规则，重打包并签名
+#   -Set adult  成人向版（2323 条全量）
+#   -Set main   主流版（精品精选，约 18 MB）
+param(
+    [ValidateSet('adult', 'main')][string]$Set = 'adult'
+)
 $ErrorActionPreference = 'Stop'
 $here = $PSScriptRoot
 $bt   = 'C:\Users\Administrator\AppData\Local\Android\Sdk\build-tools\35.0.1'
 $ks   = Join-Path $here 'legado-built.keystore'
-$out  = Join-Path $here 'legado-adult-built.apk'
+$name = if ($Set -eq 'adult') { 'legado-adult-built.apk' } else { 'legado-main-built.apk' }
+$out  = Join-Path $here $name
+$unsigned = Join-Path $here "unsigned-$Set.apk"
+$aligned  = Join-Path $here "aligned-$Set.apk"
 
 # ---------- 1. 重打包 ----------
-python (Join-Path $here 'repack.py')
+python (Join-Path $here 'repack.py') --set $Set --out "unsigned-$Set.apk"
 
 # ---------- 2. 对齐（resources.arsc 必须 4 字节对齐） ----------
-$aligned = Join-Path $here 'aligned.apk'
-& "$bt\zipalign.exe" -f -p 4 (Join-Path $here 'unsigned.apk') $aligned
+& "$bt\zipalign.exe" -f -p 4 $unsigned $aligned
 "zipalign 完成"
 
 # ---------- 3. 生成签名密钥（仅首次） ----------
