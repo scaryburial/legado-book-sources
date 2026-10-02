@@ -850,7 +850,7 @@
  },
  {
   "bookSourceUrl": "https://danwenku.com",
-  "bookSourceName": "蛋文库 ",
+  "bookSourceName": "蛋文库",
   "bookSourceGroup": "轻小说",
   "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0) Mobile Safari/537.36\"}",
   "loginUrl": "https://danwenku.com",
@@ -2736,7 +2736,7 @@
  },
  {
   "bookSourceUrl": "https://manga.bilibili.com#♤yc",
-  "bookSourceName": "哔哩哔哩  ",
+  "bookSourceName": "哔哩哔哩",
   "bookSourceGroup": "正版漫画 书源",
   "header": "",
   "loginUrl": "https://manga.bilibili.com/",
@@ -3999,7 +3999,7 @@
  },
  {
   "bookSourceUrl": "https://book.sfacg.com#yc1101",
-  "bookSourceName": "SF轻小说 ",
+  "bookSourceName": "SF轻小说",
   "bookSourceGroup": "⌨📧网文",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
@@ -7185,7 +7185,7 @@
  },
  {
   "bookSourceUrl": "https://www.linovelib.com#夏一L",
-  "bookSourceName": "  a🎈哔哩轻小说▪日轻💜💜[仅发现]无插图",
+  "bookSourceName": "a🎈哔哩轻小说▪日轻💜💜[仅发现]无插图",
   "bookSourceGroup": "夏一L,★,🎈 轻文",
   "bookUrlPattern": "",
   "loginUrl": "https://www.linovelib.com/login.php",
@@ -7243,7 +7243,7 @@
  },
  {
   "bookSourceUrl": "https://w.linovelib.com#6.14",
-  "bookSourceName": "  b🎈哔哩轻小说  文字有问题？  bak",
+  "bookSourceName": "b🎈哔哩轻小说  文字有问题？  bak",
   "bookSourceGroup": "🎈 轻文",
   "bookUrlPattern": ".+/novel/\\d+.html",
   "header": "{\"User-Agent\": \"Mobile\"\n}",
@@ -7520,7 +7520,7 @@
  },
  {
   "bookSourceUrl": "http://so.slieny.com",
-  "bookSourceName": "📖幽月轻小说文库 ",
+  "bookSourceName": "📖幽月轻小说文库",
   "bookSourceGroup": "发现失效,📖轻文,搜索失效",
   "bookSourceComment": "// Error: 发现失效, 搜索失效",
   "exploreUrl": "冒险::http://novel.slieny.com/list/1_{{page}}.html\n搞笑::http://novel.slieny.com/list/2_{{page}}.html\n格斗::http://novel.slieny.com/list/3_{{page}}.html\n科幻::http://novel.slieny.com/list/4_{{page}}.html\n侦探::http://novel.slieny.com/list/5_{{page}}.html\n爱情::http://novel.slieny.com/list/6_{{page}}.html\n魔法::http://novel.slieny.com/list/7_{{page}}.html\n神魔::http://novel.slieny.com/list/8_{{page}}.html\n校园::http://novel.slieny.com/list/9_{{page}}.html\n恐怖::http://novel.slieny.com/list/10_{{page}}.html\n其他::http://novel.slieny.com/list/11_{{page}}.html\n已完结::http://novel.slieny.com/modules/article/index.php?fullflag=1&page={{page}}",
@@ -8810,7 +8810,7 @@
  },
  {
   "bookSourceUrl": "http://app.wenku8.com",
-  "bookSourceName": " 轻小说文库[api]",
+  "bookSourceName": "轻小说文库[api]",
   "bookSourceGroup": "轻小说",
   "jsLib": "t=Date.now().toString()",
   "header": "{\n\t\"User-Agent\": \"Dalvik/2.1.0 (Linux; U; Android 14; 23049RAD8C Build/UKQ1.230804.001)\"\n}",

@@ -1,41 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://www.94399.net",
-  "bookSourceName": "听涛轩",
-  "bookSourceGroup": "🏵️  小说",
-  "bookSourceComment": "",
-  "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&click=1&entry=1&s=1328547045850225434&p={{page-1}}",
-  "bookSourceType": 0,
-  "customOrder": 26877,
-  "lastUpdateTime": 1608650996333,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.result-game-item-info@tag.p.0@tag.span.1@text",
-   "bookList": "class.result-item result-game-item",
-   "bookUrl": "class.result-game-item-detail@tag.h3@tag.a@href",
-   "coverUrl": "class.result-game-item-pic@tag.a@tag.img@src",
-   "lastChapter": "class.result-game-item-info-tag.3@text",
-   "name": "class.result-game-item-detail@tag.h3@tag.a@text"
-  },
-  "ruleBookInfo": {
-   "author": "id.info@tag.p.0@text",
-   "intro": "id.intro@text##.*简介：",
-   "name": "id.info@tag.h1@text"
-  },
-  "ruleToc": {
-   "chapterList": "id.list@tag.dd",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "id.content@tag.p@textNodes"
-  }
- },
- {
   "bookSourceUrl": "https://m.tingbiquge.com",
   "bookSourceName": "听笔趣阁",
   "bookSourceGroup": "js失效,全部来自论坛",
@@ -5907,7 +5871,7 @@
  },
  {
   "bookSourceUrl": "https://miao.qimao.com",
-  "bookSourceName": "奇妙小说网 ",
+  "bookSourceName": "奇妙小说网",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -8287,7 +8251,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.fenxbook.com#fengtui dl         ",
+  "bookSourceUrl": "https://www.fenxbook.com#fengtui dl",
   "bookSourceName": "封推中文",
   "bookSourceGroup": "🍁,搜索失效",
   "bookUrlPattern": "",
@@ -24460,6 +24424,56 @@
    "replaceRegex": "",
    "sourceRegex": "",
    "webJs": ""
+  }
+ },
+ {
+  "bookSourceUrl": "http://wap.115wx.cc",
+  "bookSourceName": "次呀文学",
+  "bookSourceGroup": "-------",
+  "header": "{\"Referer\":'http://wap.115wx.cc'}",
+  "loginUrl": "",
+  "bookSourceComment": "",
+  "exploreUrl": "",
+  "searchUrl": "http://wap.115wx.cc/search,{\n  \"method\": \"POST\",\n  \"body\":\"keyword={{key}}&page={{page}}\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 15268,
+  "lastUpdateTime": 1733245635131,
+  "respondTime": 2627,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "class.book-meta-l@text",
+   "bookList": "class.book-li",
+   "bookUrl": "class.book-li@a@href",
+   "coverUrl": "div@img@src",
+   "intro": "class.book-intro@text",
+   "kind": "class.sk_b_span@textNodes",
+   "lastChapter": "class.blue@text",
+   "name": "class.book-cell@h4@text"
+  },
+  "ruleExplore": {
+   "intro": ""
+  },
+  "ruleBookInfo": {
+   "author": "class.qtxx@a@text",
+   "coverUrl": "img.0@src",
+   "intro": "class.book_desc@text",
+   "kind": "class.qtxx@p.1@text",
+   "lastChapter": "class.creat_time@text",
+   "name": "class.book_inf@h3@text",
+   "tocUrl": "text.更多章节@href",
+   "wordCount": "class.qtxx@p.2@text"
+  },
+  "ruleToc": {
+   "chapterList": "class.mulu_uld@li",
+   "chapterName": "h3@text##>",
+   "chapterUrl": "a@href"
+  },
+  "ruleContent": {
+   "content": "id.rd-txt@p@text",
+   "nextContentUrl": "@js:\nif (result.indexOf(\"next.png\") > -1) {\n\teval(String(result.match(/(eval\\(function\\(p,a,c,k,e,d\\)[^\\n]+\\)\\));/)[1]).replace(/\\|u[\\da-z]{13}\\|/,\"|nexturl|\"))\n\tnexturl\n}"
   }
  }
 ]

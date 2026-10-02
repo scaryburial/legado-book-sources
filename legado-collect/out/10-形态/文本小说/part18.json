@@ -1,37 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.yqzww.net",
-  "bookSourceName": "🍒 言情中文",
-  "bookSourceGroup": "🍒30,🍋🍋🍋🍋🍋🍋,搜索失效",
-  "bookUrlPattern": "",
-  "loginUrl": "",
-  "bookSourceComment": "// Error: 搜索失效",
-  "searchUrl": "https://www.yqzww.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 22459,
-  "lastUpdateTime": 1685778444956,
-  "respondTime": 182958,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "class.s4@text",
-   "bookList": "class.novelslistss@tag.li",
-   "bookUrl": "class.s2@tag.a.0@href",
-   "lastChapter": "class.s3@tag.a.0@text",
-   "name": "class.s2@tag.a.0@text"
-  },
-  "ruleToc": {
-   "chapterList": "class.article-list@tag.dd@tag.a",
-   "chapterName": "text",
-   "chapterUrl": "href"
-  },
-  "ruleContent": {
-   "content": "id.content@html##言情中文网.*"
-  }
- },
- {
   "bookSourceUrl": "http://m.fqxs.org",
   "bookSourceName": "🍺 番茄小说",
   "bookSourceGroup": "番茄",
@@ -216,7 +184,7 @@
  },
  {
   "bookSourceUrl": "https://www.downbook.org#guaner",
-  "bookSourceName": "当书网 ",
+  "bookSourceName": "当书网",
   "bookSourceGroup": "发现失效,小说,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -1291,7 +1259,7 @@
  },
  {
   "bookSourceUrl": "https://quapp.shenbabao.com#♤guaner",
-  "bookSourceName": "APP① ",
+  "bookSourceName": "APP①",
   "bookSourceGroup": "已检验",
   "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
   "bookSourceComment": "",
@@ -3686,7 +3654,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.580bk.com/ ",
+  "bookSourceUrl": "https://www.580bk.com/",
   "bookSourceName": "锦绣文波",
   "bookSourceGroup": "-TinyZ",
   "bookUrlPattern": "",
@@ -3754,7 +3722,7 @@
  },
  {
   "bookSourceUrl": "https://m.thxsw.com/",
-  "bookSourceName": "官术网 ",
+  "bookSourceName": "官术网",
   "bookSourceGroup": "🏵️  小说",
   "bookSourceComment": "error:failed to connect to m.thxsw.com/2001::9df0:705 (port 443) from /240e:45f:c00:2ac3:7a1f:5379:68a7:111f (port 47982) after 15000ms\n",
   "searchUrl": "https://m.thxsw.com/search.php?q={{key}}",
@@ -6662,7 +6630,7 @@
  },
  {
   "bookSourceUrl": "https://www.diyibanzhu2.in",
-  "bookSourceName": " 版主",
+  "bookSourceName": "版主",
   "bookSourceGroup": "优质源",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; xxxx;wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.132 Mobile Safari/537.36\"\n}",
   "bookSourceComment": "",
@@ -13849,7 +13817,7 @@
  },
  {
   "bookSourceUrl": "https://www.xxsy.net/#kd11",
-  "bookSourceName": "✾+㊣潇湘书院 ",
+  "bookSourceName": "✾+㊣潇湘书院",
   "bookSourceGroup": "发现失效,搜索目录失效,﹅ ㊣ 正版,﹅ ✾ 言耽",
   "bookSourceComment": "// Error: 发现失效, 搜索目录失效",
   "exploreUrl": "[{\"title\":\"                         女频                        \",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"   潇湘书库   \",\"url\":\"https://www.xxsy.net/search?s_wd=&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   古代言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=1&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   玄幻言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=3&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   仙侠奇缘   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=4&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   现代言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=2&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   浪漫青春   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=6&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   悬疑推理   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=5&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   科幻空间   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=7&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   游戏竞技   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=8&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
@@ -16062,7 +16030,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://minguodaomuwangshi.wddsnxn.org",
+  "bookSourceUrl": "http://minguodaomuwangshi.wddsnxn.org",
   "bookSourceName": "民国盗墓",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "",
@@ -17590,7 +17558,7 @@
  },
  {
   "bookSourceUrl": "http://ku.mumuceo.com#乃星edit",
-  "bookSourceName": "a🔎全网榜单💙仅发现mumuceo➖➖➖➖➖　",
+  "bookSourceName": "a🔎全网榜单💙仅发现mumuceo➖➖➖➖➖",
   "bookSourceGroup": "21.0228乃星,★",
   "bookUrlPattern": "",
   "header": "",
@@ -20774,7 +20742,7 @@
  },
  {
   "bookSourceUrl": "https://www.28lu.net/book/100655867/341617450.html",
-  "bookSourceName": " 笔趣阁。",
+  "bookSourceName": "笔趣阁。",
   "bookSourceGroup": "搜索链接规则为空",
   "bookSourceComment": "https://www.28lu.net/book/100655867/341617450.html",
   "bookSourceType": 0,

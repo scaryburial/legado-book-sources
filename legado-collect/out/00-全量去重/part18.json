@@ -1,56 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://www.shuyuewu.co/",
-  "bookSourceName": "🎉书阅屋",
-  "bookSourceGroup": "🎉 精选 🎉",
-  "header": "",
-  "loginUrl": "",
-  "bookSourceComment": "",
-  "exploreUrl": "",
-  "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=shuyuewu.co&q={{key}}",
-  "bookSourceType": 0,
-  "customOrder": 26669,
-  "lastUpdateTime": 1610563854611,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.s4@text",
-   "bookList": "class.search-list@li!0",
-   "bookUrl": "class.s2@a@href@js:\nr=result.match(/(\\d+)/)\nid=r[1]\nvar iid = parseInt(id/1000);\n'http://www.shuyuewu.co/'+iid+'_'+id+'/'",
-   "coverUrl": "class.s2@tag.a@href##http.*id<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.shuyuewu.co/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
-   "kind": "",
-   "lastChapter": "class.s2@a@href##$##,{\"webView\":true}<js>java.ajax(result)</js>class.info@class.small@tag.span.5@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
-   "name": "class.s2@a@text"
-  },
-  "ruleExplore": {
-   "author": "",
-   "bookList": "",
-   "bookUrl": "",
-   "lastChapter": "",
-   "name": ""
-  },
-  "ruleBookInfo": {
-   "author": "class.info@class.small@tag.span.0@text##作 者：",
-   "coverUrl": "class.cover@tag.img.0@src",
-   "intro": "class.intro@text##简介：|作者.*",
-   "kind": "class.info@class.small@tag.span.1@text&&\nclass.info@class.small@tag.span.2@text&&\nclass.info@class.small@tag.span.4@text##更新时间：|分类：|状态：",
-   "lastChapter": "class.info@class.small@tag.span.5@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
-   "name": "class.info@h2@text##最新章节"
-  },
-  "ruleToc": {
-   "chapterList": "class.listmain@tag.dd",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "id.content@html##请记住本书首发域.*|http.*html|\\(|\\)",
-   "imageStyle": "0"
-  }
- },
- {
   "bookSourceUrl": "http://www.bookgew.com",
   "bookSourceName": "🎉 书阁网",
   "bookSourceGroup": "﹅ ♛ 精品,搜索失效",
@@ -698,7 +647,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.caimoge.com#sitembox dl",
+  "bookSourceUrl": "https://www.caimoge.com#sitembox dl",
   "bookSourceName": "💯采墨阁",
   "bookSourceGroup": "搜书",
   "bookUrlPattern": "",
@@ -10816,7 +10765,7 @@
  },
  {
   "bookSourceUrl": "http://www.abcxs.com",
-  "bookSourceName": " 🎉ABC小说",
+  "bookSourceName": "🎉ABC小说",
   "bookSourceGroup": "🎉 精选 🎉",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -25857,7 +25806,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.17kxs.club",
+  "bookSourceUrl": "http://www.17kxs.club",
   "bookSourceName": "一起看",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -28360,7 +28309,7 @@
  },
  {
   "bookSourceUrl": "https://m.shukeba.com",
-  "bookSourceName": " 书客吧",
+  "bookSourceName": "书客吧",
   "bookSourceGroup": "4、普通",
   "bookUrlPattern": "https?://[a-z]*.shukeba.com/book/\\d+.html",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0.1; vivo Y66 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36\"\n}",
@@ -40937,6 +40886,46 @@
   },
   "ruleContent": {
    "content": "id.nr1@textNodes##§?看.?书.?就.?百.?度.?燃.?文.?书.?库|\\(?[(http)レ].*"
+  }
+ },
+ {
+  "bookSourceUrl": "https://m.ggdownxs.cc",
+  "bookSourceName": "格格党ggdownxs",
+  "bookSourceGroup": "普通",
+  "bookSourceComment": "",
+  "searchUrl": "https://m.ggdownxs.cc/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename&submit=\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 21674,
+  "lastUpdateTime": 0,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "tag.a.2@text",
+   "bookList": "class.cover@class.line",
+   "bookUrl": "class.line@tag.a.1@href",
+   "kind": "tag.a.0@text##\\[|\\]",
+   "name": "tag.a.1@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.block@tag.p.2@a@text",
+   "coverUrl": "class.block_img2@img@src",
+   "intro": "class.intro_info@text",
+   "kind": "class.block@tag.p.3@a@text",
+   "lastChapter": "class.block@tag.p.6@a@text",
+   "name": "class.block@tag.h2@a@text",
+   "tocUrl": "text.查看目录@href"
+  },
+  "ruleToc": {
+   "chapterList": "class.chapter@li@a",
+   "chapterName": "text",
+   "chapterUrl": "href",
+   "nextTocUrl": "text.下一页@href"
+  },
+  "ruleContent": {
+   "content": "id.nr1@html"
   }
  }
 ]

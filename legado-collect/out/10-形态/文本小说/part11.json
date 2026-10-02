@@ -1,81 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.gaysay.com",
-  "bookSourceName": "基友书屋",
-  "bookSourceGroup": "小说 书源",
-  "bookUrlPattern": "",
-  "concurrentRate": "",
-  "header": "",
-  "loginUrl": "",
-  "loginUi": "",
-  "loginCheckJs": "",
-  "coverDecodeJs": "",
-  "bookSourceComment": "",
-  "variableComment": "",
-  "exploreUrl": "",
-  "exploreScreen": "",
-  "searchUrl": "/search/{{key}}/{{page}}",
-  "bookSourceType": 0,
-  "customOrder": 22736,
-  "lastUpdateTime": 1750793012332,
-  "respondTime": 0,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": false,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "a.2@text",
-   "bookList": ".SHsectionThree-middle@p",
-   "bookUrl": "a.1@href",
-   "coverUrl": "",
-   "intro": "",
-   "kind": "a.0@text",
-   "lastChapter": "",
-   "name": "a.1@text",
-   "wordCount": ""
-  },
-  "ruleExplore": {
-   "author": "a.2@text",
-   "bookList": ".SHsectionThree-middle@p",
-   "bookUrl": "a.1@href",
-   "coverUrl": "",
-   "intro": "",
-   "kind": "a.0@text",
-   "lastChapter": "",
-   "name": "a.1@text",
-   "wordCount": ""
-  },
-  "ruleBookInfo": {
-   "author": "[property=\"og:novel:author\"]@content",
-   "canReName": "",
-   "coverUrl": "[property=\"og:image\"]@content",
-   "init": "",
-   "intro": "[property=\"og:description\"]@content",
-   "kind": "[property~=category|status|update_time]@content",
-   "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content||[property=\"og:novel:lastest_chapter_name\"]@content",
-   "name": "[property=\"og:novel:book_name\"]@content",
-   "tocUrl": ".BGsectionOne-bottom@a.1@href",
-   "wordCount": ""
-  },
-  "ruleToc": {
-   "chapterList": "<js>\ntemp=result\nR=org.jsoup.Jsoup.parse(temp).select(\".BCsectionTwo-top-chapter a\")\nc=[]\nR.forEach(r=>{\n\ti=String(r.attr('href')).replace(/.+\\/\\d+\\/(\\d+)\\.html/,`$1`)\n\t//java.log(i)\n\tc.push({\n\t\tname:r.text(),\n\t\turl:r.attr('href'),\n\t\tindex:i\n\t\t})\n\t})\ntry{\n\to=temp.match(/originalOrder[^=]*=[^\\[]*\\[([^\\]]+)\\]/)[1]\n\to=o.split(\",\")\n\tc.sort((a,b)=>o[c.indexOf(a)]-o[c.indexOf(b)])\n\t}catch (err){\n\t\tjava.log(err)\n\t\tc.sort((a,b)=>a.index-b.index)\n\t\t}\n\tresult=c\n</js>",
-   "chapterName": "name",
-   "chapterUrl": ".BGsectionOne-bottom@a.1@href",
-   "isVip": "",
-   "isVolume": "",
-   "nextTocUrl": "id.next@href",
-   "updateTime": ""
-  },
-  "ruleContent": {
-   "content": "<js>\nmatch=result.match(/d\\(\".+\"[^\"]+\".+\"\\)/)\nfunction d(a, b){\n\tb = java.md5Encode(b)\n\tiv = b.substring(0, 16)\n\tkey = b.substring(16)\n\tCipher=java.createSymmetricCrypto(\"AES/CBC/PKCS7Padding\" ,key,iv)\n\treturn Cipher.decryptStr(a)}\neval(match[0])\n</js>\np@text",
-   "imageStyle": "",
-   "nextContentUrl": "",
-   "replaceRegex": "",
-   "sourceRegex": "",
-   "webJs": ""
-  }
- },
- {
   "bookSourceUrl": "https://www.zmccx.com#🎃",
   "bookSourceName": "天域小说",
   "bookSourceGroup": "小说 书源",
@@ -11628,7 +11552,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://www.imayitxt.com   ",
+  "bookSourceUrl": "http://www.imayitxt.com",
   "bookSourceName": "马戏小说",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -28196,7 +28120,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.heiyan.com        ",
+  "bookSourceUrl": "https://www.heiyan.com",
   "bookSourceName": "黑岩阅读",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -36231,7 +36155,7 @@
  },
  {
   "bookSourceUrl": "https://m.biquge345.com",
-  "bookSourceName": " 出处源-仓库笔趣阁",
+  "bookSourceName": "出处源-仓库笔趣阁",
   "loginCheckJs": "",
   "searchUrl": "/waps.php,{\n  \"body\": \"s={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
   "bookSourceType": 0,
@@ -37209,7 +37133,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://book.vik.im/ ",
+  "bookSourceUrl": "https://book.vik.im/",
   "bookSourceName": "阅读电子书屋◎GEd520◎",
   "bookSourceGroup": "写源",
   "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 14; V2304A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.118 Mobile Safari/537.36',\n\"Referer\":\"https://book.vik.im/\"}",
@@ -38326,7 +38250,7 @@
  },
  {
   "bookSourceUrl": "http://www.bbiquge8.net",
-  "bookSourceName": " 笔趣阁11",
+  "bookSourceName": "笔趣阁11",
   "bookSourceGroup": "",
   "bookSourceComment": "2025，3月30号 静白修复",
   "searchUrl": "http://www.bbiquge8.net/search.html?searchtype=novelname&searchkey={{key}}",
@@ -38366,7 +38290,7 @@
  },
  {
   "bookSourceUrl": "http://www.anshuge.com/",
-  "bookSourceName": " 大帝小说",
+  "bookSourceName": "大帝小说",
   "bookSourceGroup": "",
   "header": "",
   "loginUrl": "",
@@ -41102,7 +41026,7 @@
  },
  {
   "bookSourceUrl": "https://www.69read.net/",
-  "bookSourceName": "69书吧read ",
+  "bookSourceName": "69书吧read",
   "bookSourceGroup": "S_Lin",
   "bookUrlPattern": "",
   "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36\"}",
@@ -42607,7 +42531,7 @@
  },
  {
   "bookSourceUrl": "http://www.39txt.com",
-  "bookSourceName": " 笔趣阁网",
+  "bookSourceName": "笔趣阁网",
   "bookSourceGroup": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3704.400 QQBrowser/10.4.3587.400\"\n}",
   "bookSourceComment": "",
@@ -56483,6 +56407,52 @@
    "replaceRegex": "##最新网址.*|\\s*（.*）\\s.*\\n|第\\d+章|\\(.*|.*\\).*\\n|第.*卷",
    "sourceRegex": "",
    "webJs": ""
+  }
+ },
+ {
+  "bookSourceUrl": "http://www.molizw.com/##1",
+  "bookSourceName": "魔法书库",
+  "bookSourceGroup": "-------",
+  "bookSourceComment": "",
+  "searchUrl": "http://www.molizw.com/so.html?keyWord={{key}},{\n  \"webView\":true\n  }",
+  "bookSourceType": 0,
+  "customOrder": 213,
+  "lastUpdateTime": 1732529127071,
+  "respondTime": 13356,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "span.3@text",
+   "bookList": "class.txt-list txt-list-row5@li!0",
+   "bookUrl": "a.0@href##$##,{\"webView\":true}",
+   "checkKeyWord": "我的",
+   "coverUrl": "a@href##.+\\D((\\d+)\\d{3})\\D##/files/article/image/$2/$1/$1s.jpg###",
+   "intro": "",
+   "kind": "span.0@text##\\[|\\]",
+   "lastChapter": "span.2@text",
+   "name": "li@span.1@text"
+  },
+  "ruleBookInfo": {
+   "author": "p.0@text",
+   "coverUrl": "img@src",
+   "intro": "class.m-desc xs-show@text##简介: ##",
+   "kind": "p.1@text##类 别：##",
+   "lastChapter": "p.5@text##最新章节：##",
+   "name": "h1.1@text"
+  },
+  "ruleToc": {
+   "chapterList": ".section-list.1@li",
+   "chapterName": "a@text",
+   "chapterUrl": "a@href##$##,{\"webView\":true}",
+   "nextTocUrl": "option@value||text.下一页@href##$##,{\"webView\":true}"
+  },
+  "ruleContent": {
+   "content": "class.content@html",
+   "imageStyle": "",
+   "nextContentUrl": "text.下一页@href##$##,{\"webView\":true}",
+   "replaceRegex": "##最新网址.*|\\（本章未完.*|第(.*?)章.*|.*\\(第\\d\\/\\d页\\)"
   }
  }
 ]

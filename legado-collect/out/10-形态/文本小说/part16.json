@@ -1,47 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.81zw.cc/",
-  "bookSourceName": "🎊八一中文⑰",
-  "bookSourceGroup": "优质源👍",
-  "bookSourceComment": "",
-  "searchUrl": "https://www.81zw.cc/search/,{\r\n  \"method\": \"POST\",\r\n  \"body\": \"searchkey={{key}}&searchtype=all\"\r\n}",
-  "bookSourceType": 0,
-  "customOrder": 26327,
-  "lastUpdateTime": 1615545555083,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.s4@text",
-   "bookList": "class.layout layout2 layout-co18@tag.li",
-   "bookUrl": "tag.a.0@href",
-   "kind": "class.s1@text&&\nclass.s5@text##\\[|\\]",
-   "lastChapter": "class.s3@a@text",
-   "name": "class.s2@a@text"
-  },
-  "ruleBookInfo": {
-   "author": "class.fix@tag.p.0@text##作者：",
-   "coverUrl": "class.imgbox@tag.img@src",
-   "intro": "class.m-desc@text",
-   "kind": "class.fix@tag.p.1@text&&\nclass.fix@tag.p.2@text&&\nclass.fix@tag.p.4@text##类别：|状态：|最后更新：",
-   "lastChapter": "class.section-box.0@tag.li.0@a@text",
-   "name": "class.top@tag.h1@text",
-   "tocUrl": ""
-  },
-  "ruleToc": {
-   "chapterList": "class.section-box.1@li",
-   "chapterName": "tag.a.0@text",
-   "chapterUrl": "tag.a.0@href",
-   "nextTocUrl": "text.下一页@href"
-  },
-  "ruleContent": {
-   "content": "id.content@html##章节错误.*并刷新页面。|天才一秒记.*更新最快！",
-   "nextContentUrl": "text.下一页@href"
-  }
- },
- {
   "bookSourceUrl": "https://www.shxczl.com/",
   "bookSourceName": "🎉八一中文⑮",
   "bookSourceGroup": "🎉 精选 🎉",
@@ -7037,7 +6995,7 @@
  },
  {
   "bookSourceUrl": "https://m.8kana.com#南笙21.0101",
-  "bookSourceName": " 不可能的世界#南笙21.0101",
+  "bookSourceName": "不可能的世界#南笙21.0101",
   "bookSourceGroup": "﹅ 通用书源▪︎玄奇,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -15707,7 +15665,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.caimoge.com#sitembox dl",
+  "bookSourceUrl": "https://www.caimoge.com#sitembox dl",
   "bookSourceName": "💯采墨阁",
   "bookSourceGroup": "搜书",
   "bookUrlPattern": "",
@@ -25334,7 +25292,7 @@
  },
  {
   "bookSourceUrl": "http://www.abcxs.com",
-  "bookSourceName": " 🎉ABC小说",
+  "bookSourceName": "🎉ABC小说",
   "bookSourceGroup": "🎉 精选 🎉",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -38573,7 +38531,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.17kxs.club",
+  "bookSourceUrl": "http://www.17kxs.club",
   "bookSourceName": "一起看",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -40932,7 +40890,7 @@
  },
  {
   "bookSourceUrl": "https://m.shukeba.com",
-  "bookSourceName": " 书客吧",
+  "bookSourceName": "书客吧",
   "bookSourceGroup": "4、普通",
   "bookUrlPattern": "https?://[a-z]*.shukeba.com/book/\\d+.html",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0.1; vivo Y66 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36\"\n}",
@@ -42364,6 +42322,43 @@
   },
   "ruleContent": {
    "content": ".novelinfvie@html"
+  }
+ },
+ {
+  "bookSourceUrl": "https://m.yzwxs.org/",
+  "bookSourceName": "信息网",
+  "bookSourceGroup": "自添",
+  "bookSourceComment": "",
+  "searchUrl": "https://m.yzwxs.org/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 9366,
+  "lastUpdateTime": 0,
+  "respondTime": 5144,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.odd.1@text",
+   "bookList": "tag.tbody.0@id.nr",
+   "bookUrl": "class.odd.0@tag.a@href",
+   "lastChapter": "class.even.0@tag.a@text",
+   "name": "class.odd.0@tag.a@text"
+  },
+  "ruleBookInfo": {
+   "author": "id.info@tag.p.0@text##作    者",
+   "coverUrl": "id.fmimg@tag.img@src",
+   "intro": "id.intro@tag.p@text",
+   "lastChapter": "tag.dl@tag.dd.0@tag.a@text",
+   "name": "tag.h1@text"
+  },
+  "ruleToc": {
+   "chapterList": "tag.dl@tag.dd",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "id.content@text"
   }
  }
 ]

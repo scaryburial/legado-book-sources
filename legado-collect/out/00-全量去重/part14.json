@@ -1,61 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://www.ibiqu.net#🎃",
-  "bookSourceName": "笔趣阁",
-  "bookSourceGroup": "小说 书源",
-  "bookUrlPattern": "http://www.ibiqu.net/book/\\d+/",
-  "loginUrl": "",
-  "bookSourceComment": "// Error: 搜索目录失效",
-  "exploreUrl": "",
-  "searchUrl": "http://www.ibiqu.net/modules/article/search.php?searchkey={{key}}",
-  "bookSourceType": 0,
-  "customOrder": 4661,
-  "lastUpdateTime": 1721116929419,
-  "respondTime": 192278,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "tag.td.2@text",
-   "bookList": "class.grid@tag.tr",
-   "bookUrl": "tag.td.0@tag.a@href",
-   "coverUrl": "",
-   "kind": "tag.td.4@text&&\ntag.td.5@text",
-   "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
-   "name": "tag.td.0@tag.a@text",
-   "wordCount": "tag.td.3@text"
-  },
-  "ruleExplore": {
-   "author": "",
-   "bookList": "",
-   "bookUrl": "",
-   "coverUrl": "",
-   "intro": "",
-   "kind": "",
-   "lastChapter": "",
-   "name": ""
-  },
-  "ruleBookInfo": {
-   "author": "[property=og:novel:author]@content",
-   "coverUrl": "[property=og:image]@content",
-   "init": "",
-   "intro": "[property=og:description]@content",
-   "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
-   "lastChapter": "[property=og:novel:latest_chapter_name]@content##免费章节 |正文卷 |正文 |VIP章节 ",
-   "name": "[property=og:novel:book_name]@content##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁",
-   "wordCount": ""
-  },
-  "ruleToc": {
-   "chapterList": "id.list@tag.dd",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "id.content@html##笔趣阁.*最新章节！|最快更新.*最新章节！"
-  }
- },
- {
   "bookSourceUrl": "https://www.1qxs.com#🎃",
   "bookSourceName": "一七小说",
   "bookSourceGroup": "小说 书源",
@@ -23756,7 +23700,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#□namo-bl",
-  "bookSourceName": " ●💵起点 男频♥bl   ♂流♂   edit",
+  "bookSourceName": "●💵起点 男频♥bl   ♂流♂   edit",
   "bookSourceGroup": "-------",
   "bookUrlPattern": "",
   "header": "",
@@ -28619,7 +28563,7 @@
  },
  {
   "bookSourceUrl": "http://www.ucxsw.com",
-  "bookSourceName": " 呀唔小说",
+  "bookSourceName": "呀唔小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -30302,7 +30246,7 @@
   }
  },
  {
-  "bookSourceUrl": "  https://m.mayids.com",
+  "bookSourceUrl": "https://m.mayids.com",
   "bookSourceName": "蚂蚁文学",
   "bookSourceGroup": "3",
   "bookUrlPattern": "",
@@ -34511,7 +34455,7 @@
  },
  {
   "bookSourceUrl": "https://www.aiwx.info",
-  "bookSourceName": " 爱小说啦",
+  "bookSourceName": "爱小说啦",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "",
@@ -34553,7 +34497,7 @@
  },
  {
   "bookSourceUrl": "http://m.xiaos8.com",
-  "bookSourceName": " 小说吧",
+  "bookSourceName": "小说吧",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
@@ -34817,7 +34761,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.yuanzun888.com②   ",
+  "bookSourceUrl": "https://www.yuanzun888.com②",
   "bookSourceName": "元尊小说网②",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
@@ -34939,7 +34883,7 @@
  },
  {
   "bookSourceUrl": "https://www.x81zw.co#1",
-  "bookSourceName": " 新八一中文 ",
+  "bookSourceName": "新八一中文",
   "bookSourceGroup": "🍍🍍🍍🍍🍍🍍,♜230,搜索失效",
   "bookSourceComment": "// Error: 搜索失效\n\n8++,0++,新八一中文🅰️💙💙🅰️",
   "searchUrl": "/search.php?keyword={{key}}",
@@ -34978,7 +34922,7 @@
  },
  {
   "bookSourceUrl": "https://m.xqianqian.com/",
-  "bookSourceName": " 千千小说",
+  "bookSourceName": "千千小说",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "https://m.xqianqian.com/s.php?q={{key}}",
@@ -35813,7 +35757,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net##time",
-  "bookSourceName": " 晋江文学 ",
+  "bookSourceName": "晋江文学",
   "bookSourceGroup": "💭💭💭💭💭💭",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -38736,7 +38680,7 @@
  },
  {
   "bookSourceUrl": "http://www.i7wx.net#grid tr!0",
-  "bookSourceName": " 爱奇",
+  "bookSourceName": "爱奇",
   "bookSourceGroup": "﹅ ♞ 普通,搜索失效",
   "bookUrlPattern": "http://www.i7wx.net/book/\\d+.html",
   "bookSourceComment": "// Error: 搜索失效",
@@ -43331,7 +43275,7 @@
  },
  {
   "bookSourceUrl": "https://www.230book.com",
-  "bookSourceName": " 230book",
+  "bookSourceName": "230book",
   "bookSourceGroup": "💭💭💭💭💭💭",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
@@ -43756,7 +43700,7 @@
  },
  {
   "bookSourceUrl": "https://hongxiu.me",
-  "bookSourceName": "📒红 袖 招 ",
+  "bookSourceName": "📒红 袖 招",
   "bookSourceGroup": "💠 其他,🚀 加速",
   "bookUrlPattern": "",
   "header": "",
@@ -45409,6 +45353,60 @@
   },
   "ruleContent": {
    "content": "id.htmlContent@p@html##推荐下.*更新快！|推荐一个.*com ！|广个告.*离线朗读！|广个告.*更新快！|.*咪.*咪.*阅.*读.*"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.umiwx.info",
+  "bookSourceName": "完美小说",
+  "bookSourceGroup": "Namo",
+  "bookSourceComment": "",
+  "exploreUrl": "",
+  "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"post\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 8079,
+  "lastUpdateTime": 1687753365030,
+  "respondTime": 4156,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "tag.li.1@text",
+   "bookList": ".info",
+   "bookUrl": "a@href",
+   "coverUrl": "",
+   "kind": "",
+   "lastChapter": "a.1@text",
+   "name": "a@text",
+   "wordCount": ""
+  },
+  "ruleExplore": {
+   "author": "",
+   "bookList": "",
+   "bookUrl": "",
+   "coverUrl": "",
+   "intro": "",
+   "lastChapter": "",
+   "name": ""
+  },
+  "ruleBookInfo": {
+   "author": "[property$=author]@content",
+   "coverUrl": "class.articleInfoPic@src",
+   "intro": "#wrap@html##阅读提示.*",
+   "kind": "[property~=category|update_time]@content##小说|\\s.*",
+   "lastChapter": "[property$=latest_chapter_name]@content##[\\(（【].*?[求更票谢乐发订合补加Kk].*?[】）\\)]",
+   "name": "[property$=book_name]@content",
+   "tocUrl": "text.点击阅读@href"
+  },
+  "ruleToc": {
+   "chapterList": "#newlist li",
+   "chapterName": "a@text##[\\(（【].*?[求更票谢乐发订合补加Kk].*?[】）\\)]",
+   "chapterUrl": "a@href"
+  },
+  "ruleContent": {
+   "content": "#content@html",
+   "nextContentUrl": "",
+   "replaceRegex": "##最新网址.*"
   }
  }
 ]

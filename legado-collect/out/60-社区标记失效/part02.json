@@ -12967,7 +12967,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://m.zhaishuyuan.com/            ",
+  "bookSourceUrl": "https://m.zhaishuyuan.com/",
   "bookSourceName": "🧐斋书苑⑤",
   "bookSourceGroup": "发现失效,搜索失效",
   "bookUrlPattern": "",
@@ -13937,7 +13937,7 @@
  },
  {
   "bookSourceUrl": "http://www.txshuku.la#一程",
-  "bookSourceName": "📚 天下书库 ",
+  "bookSourceName": "📚 天下书库",
   "bookSourceGroup": "出版,发现失效,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -21272,7 +21272,7 @@
  },
  {
   "bookSourceUrl": "http://so.slieny.com",
-  "bookSourceName": "📖幽月轻小说文库 ",
+  "bookSourceName": "📖幽月轻小说文库",
   "bookSourceGroup": "发现失效,📖轻文,搜索失效",
   "bookSourceComment": "// Error: 发现失效, 搜索失效",
   "exploreUrl": "冒险::http://novel.slieny.com/list/1_{{page}}.html\n搞笑::http://novel.slieny.com/list/2_{{page}}.html\n格斗::http://novel.slieny.com/list/3_{{page}}.html\n科幻::http://novel.slieny.com/list/4_{{page}}.html\n侦探::http://novel.slieny.com/list/5_{{page}}.html\n爱情::http://novel.slieny.com/list/6_{{page}}.html\n魔法::http://novel.slieny.com/list/7_{{page}}.html\n神魔::http://novel.slieny.com/list/8_{{page}}.html\n校园::http://novel.slieny.com/list/9_{{page}}.html\n恐怖::http://novel.slieny.com/list/10_{{page}}.html\n其他::http://novel.slieny.com/list/11_{{page}}.html\n已完结::http://novel.slieny.com/modules/article/index.php?fullflag=1&page={{page}}",
@@ -28013,7 +28013,7 @@
  },
  {
   "bookSourceUrl": "https://www.aiwx.info",
-  "bookSourceName": " 爱小说啦",
+  "bookSourceName": "爱小说啦",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "",
@@ -28055,7 +28055,7 @@
  },
  {
   "bookSourceUrl": "http://m.xiaos8.com",
-  "bookSourceName": " 小说吧",
+  "bookSourceName": "小说吧",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
@@ -28267,7 +28267,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.yuanzun888.com②   ",
+  "bookSourceUrl": "https://www.yuanzun888.com②",
   "bookSourceName": "元尊小说网②",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
@@ -28389,7 +28389,7 @@
  },
  {
   "bookSourceUrl": "https://www.x81zw.co#1",
-  "bookSourceName": " 新八一中文 ",
+  "bookSourceName": "新八一中文",
   "bookSourceGroup": "🍍🍍🍍🍍🍍🍍,♜230,搜索失效",
   "bookSourceComment": "// Error: 搜索失效\n\n8++,0++,新八一中文🅰️💙💙🅰️",
   "searchUrl": "/search.php?keyword={{key}}",
@@ -28428,7 +28428,7 @@
  },
  {
   "bookSourceUrl": "https://m.xqianqian.com/",
-  "bookSourceName": " 千千小说",
+  "bookSourceName": "千千小说",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "https://m.xqianqian.com/s.php?q={{key}}",
@@ -29859,7 +29859,7 @@
  },
  {
   "bookSourceUrl": "http://www.i7wx.net#grid tr!0",
-  "bookSourceName": " 爱奇",
+  "bookSourceName": "爱奇",
   "bookSourceGroup": "﹅ ♞ 普通,搜索失效",
   "bookUrlPattern": "http://www.i7wx.net/book/\\d+.html",
   "bookSourceComment": "// Error: 搜索失效",
@@ -32721,7 +32721,7 @@
  },
  {
   "bookSourceUrl": "https://m.xqianqian.com/#onede",
-  "bookSourceName": " 千千小说#onede",
+  "bookSourceName": "千千小说#onede",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "https://m.xqianqian.com/s.php?q={{key}}",
@@ -32841,7 +32841,7 @@
  },
  {
   "bookSourceUrl": "http://www.yousuu.com:80",
-  "bookSourceName": " 优书",
+  "bookSourceName": "优书",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "api/search?type=title&value={{key}}&page={{page}}",
@@ -33022,7 +33022,7 @@
  },
  {
   "bookSourceUrl": "https://site.douban.com/194593/widget/notes/11784332",
-  "bookSourceName": " 豆瓣·小站",
+  "bookSourceName": "豆瓣·小站",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "exploreUrl": "科幻短篇::https://site.douban.com/194593/widget/notes/11784332/",
@@ -33130,7 +33130,7 @@
  },
  {
   "bookSourceUrl": "https://m.mihua.net",
-  "bookSourceName": " 米花书房",
+  "bookSourceName": "米花书房",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "https://m.mihua.net/mcms/login.php",
@@ -33417,7 +33417,7 @@
  },
  {
   "bookSourceUrl": "https://m.dushuzhe.com",
-  "bookSourceName": " 读书者",
+  "bookSourceName": "读书者",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
   "bookSourceComment": "// Error: 搜索失效",
@@ -33461,7 +33461,7 @@
  },
  {
   "bookSourceUrl": "http://www.11txt.com",
-  "bookSourceName": " 凤凰小说",
+  "bookSourceName": "凤凰小说",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
   "bookSourceComment": "// Error: 搜索失效",
@@ -33798,7 +33798,7 @@
  },
  {
   "bookSourceUrl": "http://www.beqege.cc",
-  "bookSourceName": "贝切阁 ",
+  "bookSourceName": "贝切阁",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "",
@@ -33865,7 +33865,7 @@
  },
  {
   "bookSourceUrl": "http://www.beqege.cc#乃星",
-  "bookSourceName": "贝切阁 ",
+  "bookSourceName": "贝切阁",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "",
@@ -34635,7 +34635,7 @@
  },
  {
   "bookSourceUrl": "http://www.51ggd.com#wy18-1001",
-  "bookSourceName": " 格格党 #未月十八1001",
+  "bookSourceName": "格格党 #未月十八1001",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "https://www.51ggd.com/books/\\d+.html",
   "loginUrl": "",
@@ -35449,7 +35449,7 @@
  },
  {
   "bookSourceUrl": "https://novelepubs.com",
-  "bookSourceName": " 小说馆",
+  "bookSourceName": "小说馆",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "https://novelepubs.com/search?q={{key}}",
@@ -37020,7 +37020,7 @@
  },
  {
   "bookSourceUrl": "https://www.xiaojiaren.com",
-  "bookSourceName": " 笑佳人网",
+  "bookSourceName": "笑佳人网",
   "bookSourceGroup": "﹅ 通用书源▪︎玄奇,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "https://www.xiaojiaren.com/search/?searchkey={{key}}",
@@ -37063,7 +37063,7 @@
  },
  {
   "bookSourceUrl": "http://m.juyuanshu.com",
-  "bookSourceName": " 聚缘书源",
+  "bookSourceName": "聚缘书源",
   "bookSourceGroup": "﹅ 通用书源▪︎玄奇,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "http://m.juyuanshu.com/s.php,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",

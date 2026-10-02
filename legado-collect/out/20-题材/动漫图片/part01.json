@@ -592,7 +592,7 @@
  },
  {
   "bookSourceUrl": "https://m.ac.qq.com#一程",
-  "bookSourceName": "腾讯漫画 ",
+  "bookSourceName": "腾讯漫画",
   "bookSourceGroup": "正版漫画 书源",
   "bookSourceComment": "",
   "exploreUrl": "飙升榜::https://m.ac.qq.com/rank/index?type=rise&pageSize=10&page={{page}}\n畅销榜::https://m.ac.qq.com/rank/index?type=pay&pageSize=10&page={{page}}\n新作榜::https://m.ac.qq.com/rank/index?type=new&pageSize=10&page={{page}}\n真香榜::https://m.ac.qq.com/rank/index?type=hot&pageSize=10&page={{page}}\n条漫::https://m.ac.qq.com/category/listAll?type=tm&rank=upt&pageSize=30&page={{page}}\n独家::https://m.ac.qq.com/category/listAll?type=dj&rank=upt&pageSize=30&page={{page}}\n完结::https://m.ac.qq.com/category/listAll?type=wj&rank=upt&pageSize=30&page={{page}}\n日漫::https://m.ac.qq.com/category/listAll?type=rm&rank=upt&pageSize=30&page={{page}}\n恐怖::https://m.ac.qq.com/category/listAll?type=kb&rank=pgv&pageSize=30&page={{page}}\n妖怪::https://m.ac.qq.com/category/listAll?type=yg&rank=pgv&pageSize=30&page={{page}}\n恋爱::https://m.ac.qq.com/category/listAll?type=na&rank=pgv&pageSize=30&page={{page}}\n玄幻::https://m.ac.qq.com/category/listAll?type=xh&rank=pgv&pageSize=30&page={{page}}\n热血::https://m.ac.qq.com/category/listAll?type=rx&rank=pgv&pageSize=30&page={{page}}\n悬疑::https://m.ac.qq.com/category/listAll?type=xy&rank=pgv&pageSize=30&page={{page}}\n彩虹::https://m.ac.qq.com/category/listAll?type=dm&rank=pgv&pageSize=30&page={{page}}\n少女::https://m.ac.qq.com/category/listAll?type=sv&rank=pgv&pageSize=30&page={{page}}\n韩漫::https://m.ac.qq.com/category/listAll?type=hm&rank=pgv&pageSize=30&page={{page}}\n科幻::https://m.ac.qq.com/category/listAll?type=kh&rank=pgv&pageSize=30&page={{page}}\n逗比::https://m.ac.qq.com/category/listAll?type=db&rank=pgv&pageSize=30&page={{page}}\n校园::https://m.ac.qq.com/category/listAll?type=qcxy&rank=pgv&pageSize=30&page={{page}}\n都市::https://m.ac.qq.com/category/listAll?type=ds&rank=pgv&pageSize=30&page={{page}}\n治愈::https://m.ac.qq.com/category/listAll?type=zy&rank=pgv&pageSize=30&page={{page}}",
@@ -1893,7 +1893,7 @@
  },
  {
   "bookSourceUrl": "https://www.manmanapp.com#♤Haxc",
-  "bookSourceName": "漫漫漫画 ",
+  "bookSourceName": "漫漫漫画",
   "bookSourceGroup": "",
   "bookUrlPattern": "https://www.manmanapp.com/comic-\\d+.html",
   "bookSourceComment": "",
@@ -4465,7 +4465,7 @@
  },
  {
   "bookSourceUrl": "https://www.iqiyi.com/manhua",
-  "bookSourceName": "爱奇艺漫画 ",
+  "bookSourceName": "爱奇艺漫画",
   "bookSourceGroup": "漫画",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n}",
@@ -10344,7 +10344,7 @@
  },
  {
   "bookSourceUrl": "http://comic.mkzhan.com#Haxc1107",
-  "bookSourceName": "🎨 漫客栈🅰 ",
+  "bookSourceName": "🎨 漫客栈🅰",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"okhttp/3.11.0\"\n}",
@@ -10731,7 +10731,7 @@
  },
  {
   "bookSourceUrl": "https://manga.bilibili.com#♤yc",
-  "bookSourceName": "哔哩哔哩  ",
+  "bookSourceName": "哔哩哔哩",
   "bookSourceGroup": "正版漫画 书源",
   "header": "",
   "loginUrl": "https://manga.bilibili.com/",
@@ -13385,7 +13385,7 @@
  },
  {
   "bookSourceUrl": "https://m.laimanhua.net#♤Haxc",
-  "bookSourceName": "来漫画 ",
+  "bookSourceName": "来漫画",
   "bookSourceGroup": "🎨 漫画",
   "bookUrlPattern": "",
   "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36\"}",
@@ -20502,7 +20502,7 @@
  },
  {
   "bookSourceUrl": "https://www.manhuadb.com",
-  "bookSourceName": "✐ 漫画DB ",
+  "bookSourceName": "✐ 漫画DB",
   "bookSourceGroup": "🍉漫画",
   "bookUrlPattern": "",
   "loginUrl": "",

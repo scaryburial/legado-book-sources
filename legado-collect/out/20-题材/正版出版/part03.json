@@ -621,7 +621,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://betawww.zongheng.com  ",
+  "bookSourceUrl": "http://betawww.zongheng.com",
   "bookSourceName": "💰纵横①",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -1704,7 +1704,7 @@
  },
  {
   "bookSourceUrl": "http://www.txshuku.la",
-  "bookSourceName": "📚 天下书库 ",
+  "bookSourceName": "📚 天下书库",
   "bookSourceGroup": "📚 出版发行 📚",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -2091,7 +2091,7 @@
  },
  {
   "bookSourceUrl": "https://www.qubook.net#乃星",
-  "bookSourceName": "  b🌸趣书网💜💜💜🔎json（宝书网？） bak",
+  "bookSourceName": "b🌸趣书网💜💜💜🔎json（宝书网？） bak",
   "bookSourceGroup": "🌸  常用,21.0611乃星,★,",
   "bookUrlPattern": "",
   "header": "",
@@ -2289,7 +2289,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/free#21.5.13关耳edit",
-  "bookSourceName": "  a💰晋江▪言情 分类标签💜💜💜#关耳edit",
+  "bookSourceName": "a💰晋江▪言情 分类标签💜💜💜#关耳edit",
   "bookSourceGroup": "💰 正版,★,★💰正版",
   "bookUrlPattern": "",
   "header": "",
@@ -2403,7 +2403,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/channel/index/#玄奇edit",
-  "bookSourceName": "  b💰晋江app▪百合 分类▪#玄奇edit  bak",
+  "bookSourceName": "b💰晋江app▪百合 分类▪#玄奇edit  bak",
   "bookSourceGroup": "正版,⚙️已检,21.0624玄奇,★,★💰正版",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -2469,7 +2469,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/channel/index/#关耳",
-  "bookSourceName": "  a💰晋江app▪百合 分类▪#关耳6.19🅰🅰🅰",
+  "bookSourceName": "a💰晋江app▪百合 分类▪#关耳6.19🅰🅰🅰",
   "bookSourceGroup": "💰 正版,21.0619关耳,★,★💰正版",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -2535,7 +2535,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/free#关耳",
-  "bookSourceName": "  a💰晋江▪百合 分类标签💜💜💜#关耳",
+  "bookSourceName": "a💰晋江▪百合 分类标签💜💜💜#关耳",
   "bookSourceGroup": "💰 正版,21.0619关耳,★,★💰正版",
   "bookUrlPattern": "",
   "header": "",
@@ -2595,7 +2595,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#乃星6.11",
-  "bookSourceName": "  b💰起点▪女频▪#乃星edit bak",
+  "bookSourceName": "b💰起点▪女频▪#乃星edit bak",
   "bookSourceGroup": "💰 正版,21.0611乃星,★,★💰正版",
   "bookUrlPattern": "",
   "header": "",
@@ -2890,7 +2890,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://qidian.com ",
+  "bookSourceUrl": "http://qidian.com",
   "bookSourceName": "🏵起点【女频】",
   "bookSourceGroup": "⁶❀耽女︎ºั轻言",
   "loginUrl": "https://passport.qidian.com",
@@ -3882,7 +3882,7 @@
  },
  {
   "bookSourceUrl": "http://www.txshuku.la#一程",
-  "bookSourceName": "📚 天下书库 ",
+  "bookSourceName": "📚 天下书库",
   "bookSourceGroup": "出版,发现失效,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -15818,7 +15818,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://book.vik.im/ ",
+  "bookSourceUrl": "https://book.vik.im/",
   "bookSourceName": "阅读电子书屋◎GEd520◎",
   "bookSourceGroup": "写源",
   "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 14; V2304A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.118 Mobile Safari/537.36',\n\"Referer\":\"https://book.vik.im/\"}",
@@ -20182,7 +20182,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#□namo-bl",
-  "bookSourceName": " ●💵起点 男频♥bl   ♂流♂   edit",
+  "bookSourceName": "●💵起点 男频♥bl   ♂流♂   edit",
   "bookSourceGroup": "-------",
   "bookUrlPattern": "",
   "header": "",
@@ -21237,7 +21237,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net##time",
-  "bookSourceName": " 晋江文学 ",
+  "bookSourceName": "晋江文学",
   "bookSourceGroup": "💭💭💭💭💭💭",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -21961,7 +21961,7 @@
  },
  {
   "bookSourceUrl": "https://www.230book.com",
-  "bookSourceName": " 230book",
+  "bookSourceName": "230book",
   "bookSourceGroup": "💭💭💭💭💭💭",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",

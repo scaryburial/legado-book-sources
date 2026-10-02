@@ -1,53 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.youpinbook.com#🎃",
-  "bookSourceName": "优品小说🎃",
-  "bookSourceGroup": "",
-  "bookSourceComment": "",
-  "exploreUrl": "玄幻::/fenlei/1/{{page}}/\n奇幻::/fenlei/2/{{page}}/\n武侠::/fenlei/3/{{page}}/\n仙侠::/fenlei/4/{{page}}/\n都市::/fenlei/5/{{page}}/\n军事::/fenlei/6/{{page}}/\n历史::/fenlei/7/{{page}}/\n游戏::/fenlei/8/{{page}}/\n竞技::/fenlei/9/{{page}}/\n科幻::/fenlei/10/{{page}}/\n悬疑::/fenlei/11/{{page}}/\n灵异::/fenlei/12/{{page}}/\n其他::/fenlei/13/{{page}}/\n古代::/fenlei/14/{{page}}/\n仙侠::/fenlei/15/{{page}}/\n现代::/fenlei/16/{{page}}/\n浪漫::/fenlei/17/{{page}}/\n玄幻::/fenlei/18/{{page}}/\n悬疑::/fenlei/19/{{page}}/\n科幻::/fenlei/20/{{page}}/\n游戏::/fenlei/21/{{page}}/\nBL::/fenlei/22/{{page}}/\nGL::/fenlei/23/{{page}}/\n二次::/fenlei/24/{{page}}/\n热门::/rank/allvisit/",
-  "searchUrl": "https://www.sososhu.com/?q={{key}}&site=youpin,{\n\"webView\":true}",
-  "bookSourceType": 0,
-  "customOrder": 2617,
-  "lastUpdateTime": 0,
-  "respondTime": 5777,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "tag.dl@tag.dt@tag.span@text",
-   "bookList": "class.hot@class.item",
-   "bookUrl": "tag.dl@tag.dt@tag.a@href",
-   "checkKeyWord": "都市",
-   "coverUrl": "class.image@tag.a@img@src",
-   "intro": "tag.dl@tag.dd@text",
-   "name": "tag.dl@tag.dt@tag.a@text"
-  },
-  "ruleExplore": {
-   "author": "tag.dl@tag.div@tag.a@text",
-   "bookList": "class.l rank@class.item",
-   "bookUrl": "tag.dl@tag.dt@tag.a@href",
-   "coverUrl": "class.image@tag.a@tag.img@data-original",
-   "intro": "tag.dl@tag.dd@text",
-   "name": "tag.dl@tag.dt@tag.a@text",
-   "wordCount": "tag.dl@tag.div@tag.em[0]@text"
-  },
-  "ruleBookInfo": {
-   "lastChapter": "id.info@tag.p[5]@tag.a@text",
-   "tocUrl": "text.章节目录@href"
-  },
-  "ruleToc": {
-   "chapterList": "id.content_1@tag.a",
-   "chapterName": "text",
-   "chapterUrl": "href",
-   "nextTocUrl": "text.下一页@href"
-  },
-  "ruleContent": {
-   "content": "id.booktxt@html",
-   "nextContentUrl": "text.下一页@href"
-  }
- },
- {
   "bookSourceUrl": "http://m.utexs.com#🎃",
   "bookSourceName": "优特小说🎃",
   "bookSourceGroup": "",
@@ -23440,6 +23392,45 @@
   },
   "ruleContent": {
    "content": ":_S001_/Q5KNETl3bnMRzUGoGvob5g0h8Kc1vq9/wHl9U8M+RV02uWmuVn//ZigFtbEz7gBPikk1eVIZpfo\nQ8SNnIbjnGr8w5WTFyJAPUnnzYKc1OudIY5c/VhslAV/g8nIuWREL0fjdLKeS5O+Ue1MUJWZWUoq\n9tG9PFUpxlM00u/20/lhrZBXXSW+HDleYsF7SlQ+yAg8oiPkl8Fp3ww5VphBo6OerkwJFagQb/a5\nc1Kn4AzHwUscSAAN1XfH4rUKu4JwLOA9d6Bl2dr+DRQ9+PCBt6Y2U87N3fflxEMJaim2Khz4F9bv\nKwaKv/xphDmy6XDrSX2Z0bzN1i4LEJGECSw+SneNjUvTv0dxgDxHXb3Gm7qwfL1kWhmZgGj7TJ37\nT5URNoKWED2O0vyn2z7KCcufnqtcYetYrCEoJLtjIvfmODcr75nttOF928lTd33t60tO0r/xy0DL\nIkBG6PhfPWdIeF9yCXJ0JQXlIB/L5pv5ZK3XWFM3BygJoitGJyZ4uNRdg/iIiwC5B7p6oz33vJGd\nFdW1U3EgghNfFpuKhk1H6QPXjzgAVBp32gZA8x2s0iz7LAL7B9NBu1X8Da3PggHAaI1VPNlXO9dp\nXN4X0rftseljLK/ObydagccLVvzU4sPbVp6TFMoqs0GrLijE+Fj+ufTPyaUES173z6IJmPp0K80v\nVDTBYrX653QQSEoaTJvLBik+7Q09HXFCIexwCNrqqH7M7AefakZIYoEXGBG2/JLEG9SoR5+nLkdU\n23QxQZSkG8XuXBtE9LhPUCZxv/MhHflcqmPzgDHC/vXzvToXd9rEmxAmU2/V/SgY2ncAnS+UKOWN\nXBaNDkixFgyGI1UqSIDVf/5NlfVcyzZ6XlZB4fVNh9x4fO0EdGh7hJcGXBiVUu3hBniqsFeNo6sG\n32WxaOB5OxBM0KxPwAbzjoD6K5UuMM5DDa3u1MKR574aDeIGuqwv23lJ9J8kFS86OqyXhuUlmol8\nNXz93hiNUJiuRBvmpx/NdX495/srUbGWESdOSX3PCpX4sjOy53Q3WV20LrHu30s3x9946X9s8EQp\ntv2EngK+ZtKk9Nf+Zw6PXXtl9rysD0NF31idfCsP++cddNsX9icUkDXLwGfK5Q8OxNTlVnIt6pm3\nVvMYd8G1U0OJS0B+7/WrStmlV1ikoZIFko0SQ2VfNXK+IlWxk483D1pu61FNQTqLsiWN9GUsEGfh\np7wMDtdyAkH940hL5frhmjgTd8H9H1/4gNjclDQ40uLr3lWn4D0Mjop5fPbW2Yz6CGQVEMDJDlVx\nARrxL6xT0JbPrCqstYR/gtsjvy3t6E3/oAjjiAahR863Zs8C6ZjtyiXDTiU4HeIbAJfQEJeX8dbf\nUwb2e/seO/zCZxaXuCAzYY8slZPbt396SKqv9DJB0EzlGOMPO7kL9BEnFzUpooFnEXYNfanSzsBX\nADHSxSvXE7nn8rWAAUFrb6EUjlIYLd1nT4ECm0sZhHxPq6myb7ObfpCZ1M1pdddklipe6Hudc2z/\nZDPXQulVdMZWuvW4CqAfV/yDn/2RT7c6emPTPpNbxQM6yG+0p54HwAMjOyvtsDGcnFVz5byGjyiJ\n4CyhyOf1iwX84beiIs1LoeiCI53jfjI0+k6SG/41gpuBqwBUl2GlQfonBlSPlR8i+iWl+QKyMng3\nbXlPUAivXKHlWHd5rznynbYxu50zDxmExtgX/8uT/4mKJqeXAI9w1VE62Gss/LDDn525m4v7OpKk\nCetOniQR793J5rz8zsGNbV5xuWS1rB+/XCClZZ9yVP83qrOz9qeBuKu78gQWG/D3Dte7RZ+O+PrG\nN5Ng39GeffhvV3EQafR5KZEjpx4OS2FuZC1TjQc+LYdcZfUWYrBYhA==\n"
+  }
+ },
+ {
+  "bookSourceUrl": "http://m.manhuaju.com",
+  "bookSourceName": "漫画居",
+  "bookSourceGroup": "",
+  "bookUrlPattern": "",
+  "loginUrl": "",
+  "bookSourceComment": "",
+  "exploreUrl": "完结::http://m.manhuaju.com/wanjie/\n连载中::http://m.manhuaju.com/lianzai/\n日韩::http://m.manhuaju.com/rihan/\n内地::http://m.manhuaju.com/neidi/\n港台::http://m.manhuaju.com/gangntai/\n欧美::http://m.manhuaju.com/oumei/\n其他::http://m.manhuaju.com/qita/\n少年::http://m.manhuaju.com/shaonianqu/\n少女::http://m.manhuaju.com/shaonvqu/\n青年::http://m.manhuaju.com/qingnian/\n少儿::http://m.manhuaju.com/shaoer/\n热血::http://m.manhuaju.com/rexue/\n格斗::http://m.manhuaju.com/gedou/\n科幻::http://m.manhuaju.com/kehuan/\n竞技::http://m.manhuaju.com/jingji/\n搞笑::http://m.manhuaju.com/gaoxiao/\n推理::http://m.manhuaju.com/tuili/\n恐怖::http://m.manhuaju.com/kongbu/\n耽美::http://m.manhuaju.com/danmei/\n少女::http://m.manhuaju.com/shaonv/\n恋爱::http://m.manhuaju.com/lianai/\n生活::http://m.manhuaju.com/shenghuo/\n战争::http://m.manhuaju.com/zhanzheng/\n故事::http://m.manhuaju.com/gushi/\n冒险::http://m.manhuaju.com/maoxian/\n魔幻::http://m.manhuaju.com/mohuan/\n玄幻::http://m.manhuaju.com/xuanhuan/\n校园::http://m.manhuaju.com/xiaoyuan/\n悬疑::http://m.manhuaju.com/xuanyi/\n萌系::http://m.manhuaju.com/mengxi/\n穿越::http://m.manhuaju.com/chuanyue/\n后宫::http://m.manhuaju.com/hougong/\n都市::http://m.manhuaju.com/dushi/\n武侠::http://m.manhuaju.com/wuxia/\n历史::http://m.manhuaju.com/lishi/\n同人::http://m.manhuaju.com/tongren/\n励志::http://m.manhuaju.com/lizhi/\n百合::http://m.manhuaju.com/baihe/\n治愈::http://m.manhuaju.com/zhiyu/\n机甲::http://m.manhuaju.com/jijia/\n纯爱::http://m.manhuaju.com/chunai/\n美食::http://m.manhuaju.com/meishi/\n血腥::http://m.manhuaju.com/xuexing/\n僵尸::http://m.manhuaju.com/jiangshi/\n恶搞::http://m.manhuaju.com/egao/\n虐心::http://m.manhuaju.com/nuexin/\n动作::http://m.manhuaju.com/dongzuo/\n惊险::http://m.manhuaju.com/jingxian/\n唯美::http://m.manhuaju.com/weimei/\n震撼::http://m.manhuaju.com/zhenhan/\n复仇::http://m.manhuaju.com/fuchou/\n侦探::http://m.manhuaju.com/zhentan/\n脑洞::http://m.manhuaju.com/naodong/\n奇幻::http://m.manhuaju.com/qihuan/\n宫斗::http://m.manhuaju.com/gongdou/\n爆笑::http://m.manhuaju.com/baoxiao/\n运动::http://m.manhuaju.com/yundong/\n青春::http://m.manhuaju.com/qingchun/\n灵异::http://m.manhuaju.com/lingyi/\n古风::http://m.manhuaju.com/gufeng/\n权谋::http://m.manhuaju.com/quanmou/\n节操::http://m.manhuaju.com/jiecao/\n明星::http://m.manhuaju.com/mingxing/\n暗黑::http://m.manhuaju.com/anhei/\n社会::http://m.manhuaju.com/shehui/\n浪漫::http://m.manhuaju.com/langman/\n栏目::http://m.manhuaju.com/lanmu/\n仙侠::http://m.manhuaju.com/xianxia/\nnull",
+  "searchUrl": "http://m.manhuaju.com/statics/search.aspx?key={{key}}",
+  "bookSourceType": 0,
+  "customOrder": 21754,
+  "lastUpdateTime": 0,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "bookList": "class.imgBox@tag.li||class.col_3_1@tag.li",
+   "bookUrl": "tag.a.0@href||tag.a.0@href",
+   "coverUrl": "tag.img@src||tag.img@src",
+   "lastChapter": "class.info@text||class.info@text",
+   "name": "class.txtA@text||class.txtA@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.sub_r@class.txtItme.1@text",
+   "intro": "class.Introduct@tag.p.4@text",
+   "kind": "class.sub_r@class.txtItme.2@text"
+  },
+  "ruleToc": {
+   "chapterList": "-id.list@class.Drama autoHeight@tag.li",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "function getImgList(){\r\n    var str = html.match(/murl_e=\\\"(.*?)\\\"/)[1];\r\n    var list = JsEngine.atob(str).split(\"\\\\$qingtiandy\\\\$\");\r\n    return list;\r\n}",
+   "nextContentUrl": "class.action-list@tag.li.2@text.下一页@href"
   }
  }
 ]

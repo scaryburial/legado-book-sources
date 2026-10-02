@@ -262,7 +262,7 @@
  },
  {
   "bookSourceUrl": "http://www.remenxs.cc",
-  "bookSourceName": " 热门小说",
+  "bookSourceName": "热门小说",
   "bookSourceGroup": "",
   "loginUrl": "",
   "bookSourceType": 0,
@@ -484,7 +484,7 @@
  },
  {
   "bookSourceUrl": "https://www.leduwo8.com",
-  "bookSourceName": " 乐读窝",
+  "bookSourceName": "乐读窝",
   "bookSourceGroup": "",
   "loginUrl": "",
   "bookSourceType": 0,
@@ -573,7 +573,7 @@
  },
  {
   "bookSourceUrl": "https://m.30sy.com",
-  "bookSourceName": " 30书院",
+  "bookSourceName": "30书院",
   "bookSourceGroup": "",
   "loginUrl": "",
   "bookSourceType": 0,
@@ -770,7 +770,7 @@
  },
  {
   "bookSourceUrl": "http://m.lawenxs.net",
-  "bookSourceName": "    辣文",
+  "bookSourceName": "辣文",
   "bookSourceGroup": "4、普通",
   "bookSourceType": 0,
   "customOrder": 0,
@@ -964,7 +964,7 @@
  },
  {
   "bookSourceUrl": "http://ibuk.org",
-  "bookSourceName": " ASMR",
+  "bookSourceName": "ASMR",
   "bookSourceGroup": "a1、有声",
   "loginUrl": "",
   "bookSourceType": 1,
@@ -1014,7 +1014,7 @@
  },
  {
   "bookSourceUrl": "https://www.33shu.com",
-  "bookSourceName": " 闪闪书",
+  "bookSourceName": "闪闪书",
   "bookSourceGroup": "4、普通",
   "loginUrl": "",
   "bookSourceType": 0,
@@ -3143,7 +3143,7 @@
   "enabledExplore": true
  },
  {
-  "bookSourceUrl": "http://www.fcolxi.com  ",
+  "bookSourceUrl": "http://www.fcolxi.com",
   "bookSourceName": "冰阔乐",
   "bookSourceGroup": "",
   "bookSourceType": 0,

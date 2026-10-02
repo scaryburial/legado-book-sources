@@ -1,63 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.diyitxt.com/#♤pb",
-  "bookSourceName": "🍑diyitxt.com",
-  "bookSourceGroup": "效验可用",
-  "bookUrlPattern": "https://www.diyitxt.com/shu\\d+/",
-  "loginUrl": "",
-  "bookSourceComment": "",
-  "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/modules/article/articlelist.php?class=1&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"武侠\",\"url\":\"/modules/article/articlelist.php?class=2&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"都市\",\"url\":\"/modules/article/articlelist.php?class=3&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"历史\",\"url\":\"/modules/article/articlelist.php?class=4&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"游戏\",\"url\":\"/modules/article/articlelist.php?class=5&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"科幻\",\"url\":\"/modules/article/articlelist.php?class=6&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"恐怖\",\"url\":\"/modules/article/articlelist.php?class=7&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"二次\",\"url\":\"/modules/article/articlelist.php?class=8&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"经典\",\"url\":\"/modules/article/articlelist.php?class=9&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"古代\",\"url\":\"/modules/article/articlelist.php?class=10&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"现代\",\"url\":\"/modules/article/articlelist.php?class=11&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"幻想\",\"url\":\"/modules/article/articlelist.php?class=12&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"青春\",\"url\":\"/modules/article/articlelist.php?class=13&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"网络\",\"url\":\"/modules/article/articlelist.php?class=14&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"科幻\",\"url\":\"/modules/article/articlelist.php?class=15&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"鬼怪\",\"url\":\"/modules/article/articlelist.php?class=16&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"N次\",\"url\":\"/modules/article/articlelist.php?class=17&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}},{\"title\":\"言情\",\"url\":\"/modules/article/articlelist.php?class=18&page={{page}}\",\"style\":{\"layout_flexGrow\":0.25,\"layout_flexBasisPercent\":-1}}]\n",
-  "searchUrl": "https://www.diyitxt.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n\"charset\": \"gbk\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 17306,
-  "lastUpdateTime": 1698077013460,
-  "respondTime": 4129,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "tag.td.2@text||id.info@tag.p.0@text",
-   "bookList": "class.grid@tr!0||id.wrapper",
-   "bookUrl": "tag.td.0@a@href",
-   "coverUrl": "tag.td.0@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://img.diyitxt.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
-   "intro": "",
-   "kind": "tag.td.4@text",
-   "lastChapter": "tag.td.1@a@text||id.list@tag.dd.0@a@text",
-   "name": "tag.td.0@a@text||id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁|免费.*",
-   "wordCount": "tag.td.3@text"
-  },
-  "ruleExplore": {
-   "author": "class.s5@text",
-   "bookList": "class.l@li",
-   "bookUrl": "class.s2@a@href",
-   "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://img.diyitxt.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
-   "lastChapter": "class.s3@text",
-   "name": "class.s2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁|免费.*"
-  },
-  "ruleBookInfo": {
-   "author": "id.info@tag.p.0@text",
-   "canReName": "",
-   "coverUrl": "id.fmimg@img@src",
-   "intro": "id.intro@text",
-   "kind": "id.info@tag.p.2@text##最后更新：",
-   "lastChapter": "id.list@tag.dd.0@a@text",
-   "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁|免费.*",
-   "tocUrl": ""
-  },
-  "ruleToc": {
-   "chapterList": "id.list@dd",
-   "chapterName": "a@text",
-   "chapterUrl": "a@href",
-   "nextTocUrl": "text.下一页@href"
-  },
-  "ruleContent": {
-   "content": "id.content@html##点此章节报错|喜欢.*更新速度最快.*",
-   "nextContentUrl": "text.下一页@href",
-   "replaceRegex": "##\\(记住本站.*com\\)"
-  }
- },
- {
   "bookSourceUrl": "https://www.bctshu.com",
   "bookSourceName": "🔰 百草堂文学",
   "bookSourceGroup": "🔰 普通",
@@ -1786,7 +1728,7 @@
  },
  {
   "bookSourceUrl": "http://m.qingkanshu.net",
-  "bookSourceName": "请看小说(天天修复) ",
+  "bookSourceName": "请看小说(天天修复)",
   "bookSourceGroup": "微筛选",
   "bookSourceComment": "// Error: Timed out waiting for 1000 ms\n\n天天的鸟蛋蛋",
   "exploreUrl": "{\"title\":\"玄幻\",\"url\":\"/xuanhuan/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/wuxia/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"言情\",\"url\":\"/yanqing/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/lishi/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"网游\",\"url\":\"/wangyou/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/kehuan/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"恐怖\",\"url\":\"/kongbu/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"排行榜\",\"url\":\"/top/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"全本\",\"url\":\"/quanben/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
@@ -7285,7 +7227,7 @@
  },
  {
   "bookSourceUrl": "http://www.qkwx.net/##@遇知",
-  "bookSourceName": " 去看文学",
+  "bookSourceName": "去看文学",
   "bookSourceGroup": "未分,校验超时",
   "bookSourceComment": "// Error: Timed out waiting for 180000 ms",
   "exploreUrl": "[\n{\"title\":\"🔖分类🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"玄幻\",\"url\":\"/fenlei/1_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真\",\"url\":\"/fenlei/2_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/fenlei/3_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/fenlei/4_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/fenlei/5_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/fenlei/6_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖榜单🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"总点击榜\",\"url\":\"/top/allvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月点击榜\",\"url\":\"/top/monthvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周点击榜\",\"url\":\"/top/weekvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日点击榜\",\"url\":\"/top/dayvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总收藏榜\",\"url\":\"/top/goodnum/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总推荐榜\",\"url\":\"/top/weekvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"数字排行\",\"url\":\"/top/size/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"本站推荐\",\"url\":\"/top/toptime/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最近更新\",\"url\":\"/top/lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最新入库\",\"url\":\"/top/postdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖完结🔖\",\"url\":\"/quanben/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}\n]",
@@ -11270,7 +11212,7 @@
  },
  {
   "bookSourceUrl": "https://xxzs.app",
-  "bookSourceName": " 小小追书",
+  "bookSourceName": "小小追书",
   "bookSourceGroup": "@jwk",
   "bookUrlPattern": "",
   "header": "<js>\n(()=>{\neval(String(source.loginUrl));\n$$=[\n\t\"ruffianhankin.meritreader\",\n\t\"diandianbook.androidreading\",\n\t\"xiaoxiaobook.zuiread\",\n\t\"zhuishudashi.read\",\n\t\"zshuall.fread\",\n\t\"kkmfxs.xsfmkkapp\"\n]\nurl=\"com.\"+$$[$.c]\n\n\ntime=Math.round(new Date()/1000)\nsign=java.md5Encode(url+1+time+\"vhjJVz1St6tK7!8n#B0MqRIuE2Dh7!C#\")\n\nreturn JSON.stringify({\n\t\t\"pt\": 1,\n\t\t\"time\": time,\n\t\t\"sign\": sign,\n\t\t\"package\": url,\n\t\t\"User-Agent\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safari/9537.53\"\n\t})\n})()\n</js>",
@@ -12015,7 +11957,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#□namo-gl",
-  "bookSourceName": " ●💵起点 女频♥gl   ♀流♀   edit",
+  "bookSourceName": "●💵起点 女频♥gl   ♀流♀   edit",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "",
@@ -13714,7 +13656,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#未月十八小改",
-  "bookSourceName": "💡 起点总榜 ",
+  "bookSourceName": "💡 起点总榜",
   "bookSourceGroup": "07.🍈🍈🍈",
   "bookUrlPattern": "",
   "header": "",
@@ -13958,7 +13900,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#□namo-b",
-  "bookSourceName": "  b💰起点♂男频❤️总榜+细分榜单 bak",
+  "bookSourceName": "b💰起点♂男频❤️总榜+细分榜单 bak",
   "bookSourceGroup": "05.🍆🍆🍆",
   "bookUrlPattern": "",
   "header": "",
@@ -21595,7 +21537,7 @@
  },
  {
   "bookSourceUrl": "http://www.jilin567.com",
-  "bookSourceName": " 吉林小说",
+  "bookSourceName": "吉林小说",
   "bookSourceGroup": "",
   "bookSourceComment": "",
   "exploreUrl": "玄幻小说::/xuanhuan/{{page}}.html&&仙侠小说::/xianxia/{{page}}.html&&都市小说::/dushi/{{page}}.html&&军史小说::/junshi/{{page}}.html&&网游小说::/wangyou/{{page}}.html&&科幻小说::/kehuan/{{page}}.html&&恐怖小说::/kongbu/{{page}}.html",
@@ -21640,7 +21582,7 @@
  },
  {
   "bookSourceUrl": "https://www.muye.net",
-  "bookSourceName": " 木叶小说",
+  "bookSourceName": "木叶小说",
   "bookSourceGroup": "【小说2书源】",
   "header": "{\"User-Agent\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E230 Safari/601.1\"}",
   "loginUrl": "https://m.jjwxc.net/",
@@ -25511,6 +25453,74 @@
   },
   "ruleContent": {
    "content": "#content@html"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.meiguixsw.com",
+  "bookSourceName": "🍺 玫瑰小说",
+  "bookSourceGroup": "小说",
+  "bookUrlPattern": "http://www.meiguixsw.com/book/\\d+.html",
+  "header": "",
+  "loginUrl": "{\n  \"url\": \"\"\n}",
+  "bookSourceComment": "㊫www搜出错，改m搜。\n迷迭1.1\n书源＆小说交流群637775313\n行\ntag.a.1@href@js:result.replace(/(.*)/,'https://www.meiguixsw.com$1,{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"}')\n行\ntag.a.1@href##(.*)##https://www.meiguixsw.com$1,{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"}###",
+  "exploreUrl": "玄幻奇幻::/fenlei/1_{{page}}/\n武侠仙侠::/fenlei/2_{{page}}/\n都市言情::/fenlei/3_{{page}}/\n历史军事::/fenlei/4_{{page}}/\n游戏竞技::/fenlei/5_{{page}}/\n科幻灵异::/fenlei/6_{{page}}/\n其他类型::/fenlei/7_{{page}}/\n　　　　::\n　　　　::",
+  "searchUrl": "https://m.meiguixsw.com/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}&searchtype=articlename\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 24241,
+  "lastUpdateTime": 1680669174018,
+  "respondTime": 3622,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "tag.p@text##.*\\/",
+   "bookList": "class.cover@tag.p[0:3]",
+   "bookUrl": "tag.a.1@href##(.*)##https://www.meiguixsw.com$1,{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"}###",
+   "checkKeyWord": "",
+   "coverUrl": "tag.a.1@href##.*/(\\d+)(\\d{3}).html##http://image.meiguixsw.com/$1/$1$2/$1$2s.jpg",
+   "intro": "",
+   "kind": "tag.a.0@text##\\[|\\]",
+   "lastChapter": "tag.a.1@href<js>java.ajax('https://m.meiguixsw.com'+result)</js>class.block_txt2@tag.p.-1@a@text&&.block_txt2 p.-2@text##\\n更新：##·",
+   "name": "tag.a.1@text",
+   "wordCount": ""
+  },
+  "ruleExplore": {
+   "author": "tag.dd.1@tag.span.0@a@text",
+   "bookList": "id.sitebox@dl",
+   "bookUrl": "h3@a@href",
+   "coverUrl": "img@src",
+   "intro": "tag.dd.2@text##\\[.*",
+   "kind": "h3@span@text&&\ntag.dd.1@tag.span.1@text",
+   "lastChapter": "tag.dd.3@a@text",
+   "name": "h3@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+   "wordCount": "tag.dd.1@tag.span.2@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.bookright@id.author@a@text",
+   "coverUrl": "id.bookimg@img@src",
+   "init": "",
+   "intro": "id.bookintro@text",
+   "kind": "id.count@tag.span.0@text&&\nid.count@tag.span.5@text",
+   "lastChapter": "id.newlist@tag.li.0@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "class.bookright@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+   "tocUrl": "id.reader@a@href",
+   "wordCount": "id.count@tag.span.4@text"
+  },
+  "ruleToc": {
+   "chapterList": "+id.readerlist@tag.ul@tag.li@tag.a",
+   "chapterName": "text##(正文)?(\\s+|_)|[\\(（].*[求更谢乐发推].*[）\\)]",
+   "chapterUrl": "href",
+   "isVip": "",
+   "nextTocUrl": "",
+   "updateTime": ""
+  },
+  "ruleContent": {
+   "content": "id.content@html##欢迎关注收藏.*|(全本|玫瑰小说网).*|感谢阅读，|.，最快.*最新章节！",
+   "imageStyle": "0",
+   "nextContentUrl": "",
+   "sourceRegex": "",
+   "webJs": ""
   }
  }
 ]

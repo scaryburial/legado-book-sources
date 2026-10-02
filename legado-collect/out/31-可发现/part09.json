@@ -1,47 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://quanxiaoshuo.net/",
-  "bookSourceName": "💦全全小说②",
-  "bookSourceGroup": "",
-  "bookUrlPattern": "http://quanxiaoshuo.net/\\d+/",
-  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
-  "loginUrl": "",
-  "bookSourceComment": "",
-  "exploreUrl": "奇幻小说::/qihuan/{{page}}/\n玄幻小说::/xuanhuan/{{page}}/\n言情小说::/yanqing/{{page}}/\n都市小说::/dushi/{{page}}/\n游戏小说::/youxi/{{page}}/\n竞技小说::/jingji/{{page}}/\n武侠小说::/wuxia/{{page}}/\n历史小说::/lishi/{{page}}/\n军事小说::/junshi/{{page}}/\n科幻小说::/kehuan/{{page}}/\n仙侠小说::/xianxia/{{page}}/\n灵异小说::/lingyi/{{page}}/\n女性小说::/nvxing/{{page}}/\n其他小说::/qita/{{page}}/",
-  "searchUrl": "http://quanxiaoshuo.net/s_{{key}}/{{page}}/,{\n\"charset\":\"gbk\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 26123,
-  "lastUpdateTime": 1715030927361,
-  "respondTime": 79670,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "class.cc4@tag.a@text",
-   "bookList": "class.list_content",
-   "bookUrl": "class.cc2@tag.a@href",
-   "kind": "class.cc5@text",
-   "lastChapter": "class.cc3@tag.a@text",
-   "name": "class.cc2@tag.a@text"
-  },
-  "ruleBookInfo": {
-   "author": "class.w2@a@text",
-   "intro": "class.desc@text##简介：",
-   "kind": "class.w3@font@text&&\nclass.w4@text##.*（|）",
-   "lastChapter": "class.w4@a@text",
-   "name": "class.text@h1@tag.a.0@text"
-  },
-  "ruleToc": {
-   "chapterList": "class.chapters@class.chapter",
-   "chapterName": "tag.a.0@text",
-   "chapterUrl": "tag.a.0@href"
-  },
-  "ruleContent": {
-   "content": "id.content@textNodes"
-  }
- },
- {
   "bookSourceUrl": "http://m.kybook.com/",
   "bookSourceName": "💦科源小说①",
   "bookSourceGroup": "",
@@ -5705,7 +5663,7 @@
  },
  {
   "bookSourceUrl": "https://book.sfacg.com#yc1101",
-  "bookSourceName": "SF轻小说 ",
+  "bookSourceName": "SF轻小说",
   "bookSourceGroup": "⌨📧网文",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
@@ -6320,7 +6278,7 @@
  },
  {
   "bookSourceUrl": "https://www.qixiashu.com#♤pb",
-  "bookSourceName": "八月文学 ",
+  "bookSourceName": "八月文学",
   "bookSourceGroup": "🥇小黑网络素材",
   "bookUrlPattern": "https://www.qixiashu.com/yue/\\d+/\\d+/",
   "loginUrl": "",
@@ -8926,7 +8884,7 @@
  },
  {
   "bookSourceUrl": "https://m.xxbiqudu.com/##@遇知",
-  "bookSourceName": " xx笔趣读",
+  "bookSourceName": "xx笔趣读",
   "bookSourceGroup": "⌨📧网文",
   "loginUrl": "",
   "bookSourceComment": "",
@@ -10405,7 +10363,7 @@
  },
  {
   "bookSourceUrl": "https://www.bsxiaoshuo.com#♤yc",
-  "bookSourceName": "㊣ 笔尚小说 ",
+  "bookSourceName": "㊣ 笔尚小说",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "concurrentRate": "",
@@ -15106,7 +15064,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.77xiaoshuo.cc",
+  "bookSourceUrl": "http://www.77xiaoshuo.cc",
   "bookSourceName": "⁷⁷小说",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -16805,7 +16763,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.zhaishuyuan8.org",
+  "bookSourceUrl": "http://www.zhaishuyuan8.org",
   "bookSourceName": "摘书楼",
   "bookSourceGroup": "",
   "bookUrlPattern": "http://www.zhaishuyuan8.org/\\d+/",
@@ -16942,7 +16900,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.bixia88.org",
+  "bookSourceUrl": "http://www.bixia88.org",
   "bookSourceName": "⭐️笔下文学",
   "bookSourceGroup": "3",
   "bookUrlPattern": "",
@@ -18609,7 +18567,7 @@
   }
  },
  {
-  "bookSourceUrl": "   http://wap.95shubao.cc",
+  "bookSourceUrl": "http://wap.95shubao.cc",
   "bookSourceName": "🍉 九五小说网",
   "bookSourceGroup": "3",
   "bookUrlPattern": "",
@@ -18694,7 +18652,7 @@
   }
  },
  {
-  "bookSourceUrl": "       http://m.shatanxs.com",
+  "bookSourceUrl": "http://m.shatanxs.com",
   "bookSourceName": "⭐️沙滩",
   "bookSourceGroup": "3",
   "bookSourceComment": "",
@@ -18740,7 +18698,7 @@
   }
  },
  {
-  "bookSourceUrl": "       https://m.cc148.org",
+  "bookSourceUrl": "https://m.cc148.org",
   "bookSourceName": "⭐️笔趣阁",
   "bookSourceGroup": "3",
   "bookSourceComment": "",
@@ -18786,7 +18744,7 @@
   }
  },
  {
-  "bookSourceUrl": "        https://m.huaxiangju.com",
+  "bookSourceUrl": "https://m.huaxiangju.com",
   "bookSourceName": "⭐️花香居",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -18834,7 +18792,7 @@
   }
  },
  {
-  "bookSourceUrl": "        http://wap.cuiweishuba.cc",
+  "bookSourceUrl": "http://wap.cuiweishuba.cc",
   "bookSourceName": "⭐️翠微居",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -18890,7 +18848,7 @@
   }
  },
  {
-  "bookSourceUrl": "        http://m.zzzcn.org",
+  "bookSourceUrl": "http://m.zzzcn.org",
   "bookSourceName": "⭐️笔趣阁",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -18946,7 +18904,7 @@
   }
  },
  {
-  "bookSourceUrl": "        http://m.lewenge.la",
+  "bookSourceUrl": "http://m.lewenge.la",
   "bookSourceName": "⭐️乐文",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -19002,7 +18960,7 @@
   }
  },
  {
-  "bookSourceUrl": "        http://m.shuzwa.com",
+  "bookSourceUrl": "http://m.shuzwa.com",
   "bookSourceName": "⭐️书馆",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -19049,7 +19007,7 @@
   }
  },
  {
-  "bookSourceUrl": "        http://m.paoshu8.info",
+  "bookSourceUrl": "http://m.paoshu8.info",
   "bookSourceName": "⭐️泡书",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -19105,7 +19063,7 @@
   }
  },
  {
-  "bookSourceUrl": "   http://m.548xs.com",
+  "bookSourceUrl": "http://m.548xs.com",
   "bookSourceName": "⭐️悟空",
   "bookSourceGroup": "3",
   "bookSourceComment": "",
@@ -19152,7 +19110,7 @@
   }
  },
  {
-  "bookSourceUrl": "       http://wap.ncwxst.cc",
+  "bookSourceUrl": "http://wap.ncwxst.cc",
   "bookSourceName": "⭐️暖才小说",
   "bookSourceGroup": "3",
   "bookSourceComment": "",
@@ -19199,7 +19157,7 @@
   }
  },
  {
-  "bookSourceUrl": "       http://m.susuzw.com",
+  "bookSourceUrl": "http://m.susuzw.com",
   "bookSourceName": "⭐️速速小说",
   "bookSourceGroup": "3",
   "bookSourceComment": "",
@@ -19309,7 +19267,7 @@
   }
  },
  {
-  "bookSourceUrl": "    https://m.danmei999.cc",
+  "bookSourceUrl": "https://m.danmei999.cc",
   "bookSourceName": "🌺女生文学",
   "bookSourceGroup": "👍 备用",
   "header": "",
@@ -24453,7 +24411,7 @@
  },
  {
   "bookSourceUrl": "http://b.sis.la",
-  "bookSourceName": " ✈sis文学网sis",
+  "bookSourceName": "✈sis文学网sis",
   "bookSourceGroup": "❤小说",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -25145,6 +25103,50 @@
   "ruleContent": {
    "content": "$..current_chapter.chapter_img_list.[*]@js:result.split(\"\\n\").map(x=>'<img src=\\\"'+x+'\\\">').join(\"\\n\")",
    "imageStyle": "FULL"
+  }
+ },
+ {
+  "bookSourceUrl": "http://www.ggdxsw.cc",
+  "bookSourceName": "格格党",
+  "bookSourceGroup": "女频",
+  "bookUrlPattern": "https?://www.ggdxsw.cc/m/novel/\\d+.html",
+  "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+  "bookSourceComment": "",
+  "exploreUrl": "玄幻修真::/m_1_{{page}}/\n都市商战::/m_2_{{page}}/\n历史军事::/m_3_{{page}}/\n网游科幻::/m_4_{{page}}/\n恐怖推理::/m_5_{{page}}/\n穿越架空::/m_6_{{page}}/\n古典言情::/m_7_{{page}}/\n现代言情::/m_8_{{page}}/\n耽美同人::/m_9_{{page}}/\n综合其他::/m_10_{{page}}/",
+  "searchUrl": "http://www.ggdxsw.cc/m/search/?wd={{key}}",
+  "bookSourceType": 0,
+  "customOrder": 9388,
+  "lastUpdateTime": 1701521677800,
+  "respondTime": 6845,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "span@text",
+   "bookList": ".round",
+   "bookUrl": "a@href",
+   "intro": ".des@text",
+   "kind": "0",
+   "name": "h3@text"
+  },
+  "ruleBookInfo": {
+   "author": "@get:{a}",
+   "coverUrl": "@get:{c}",
+   "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+   "intro": "@get:{i}",
+   "kind": "@get:{k}",
+   "lastChapter": "@get:{l}",
+   "name": "@get:{n}"
+  },
+  "ruleToc": {
+   "chapterList": "dl#g dd a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "ruleContent": {
+   "content": ".con p!-1:-2@html",
+   "replaceRegex": "##【畅读更新慢.*退出畅读！】"
   }
  }
 ]

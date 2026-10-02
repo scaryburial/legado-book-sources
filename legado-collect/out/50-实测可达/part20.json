@@ -1,70 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.sanjiangge.org#grid tr!0",
-  "bookSourceName": "🎉 三江阁",
-  "bookSourceGroup": "🎉精品",
-  "bookUrlPattern": "",
-  "header": "",
-  "loginUrl": "coolapk@芜恙;wordCount",
-  "bookSourceComment": "",
-  "exploreUrl": "",
-  "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 17197,
-  "lastUpdateTime": 1602731574282,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "author",
-   "bookList": ".grid tr!0\n<js>\nresult.toArray().slice(0, 3).map(el => {\n\tvar url = String(el.select('a:eq(0)').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n\tvar J = org.jsoup.Jsoup.parse(java.ajax(url));\n\tvar o = selector => String(J.select(selector).text());\n\tvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\treturn {\n\t\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\t\tauthor: og('novel:author'),\n\t\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n\t\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, '') + ' • ' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-'),\n\t\tintro: og('description').replace(/.*(观看小说|简介)[:：]|各位书友.*/g, '').replace(/\\s+/g, ''),\n\t\tcover: og('image'),\n\t\turl: url,\n\t};\n}); \n</js>",
-   "bookUrl": "url",
-   "coverUrl": "cover",
-   "intro": "intro",
-   "kind": "kind",
-   "lastChapter": "latest",
-   "name": "name",
-   "wordCount": ""
-  },
-  "ruleExplore": {
-   "author": "",
-   "bookList": "",
-   "bookUrl": "",
-   "coverUrl": "",
-   "intro": "",
-   "kind": "",
-   "lastChapter": "",
-   "name": "",
-   "wordCount": ""
-  },
-  "ruleBookInfo": {
-   "author": "author",
-   "coverUrl": "cover",
-   "init": "<js> \nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).text()) ;\nvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\nvar book = {\n\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\tauthor: og('novel:author'),\n\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, ''),\n\tintro: o('#intro').replace(/.*(观看小说|简介)[:：]|各位书友.*/g, '').replace(/\\s+/g, '\\n'),\n\tcover: og('image'),\n\turl: og('novel:read_url'),\n};\nbook;\n</js>",
-   "intro": "intro",
-   "kind": "kind",
-   "lastChapter": "latest",
-   "name": "name",
-   "tocUrl": "url",
-   "wordCount": ""
-  },
-  "ruleToc": {
-   "chapterList": "#list dd a",
-   "chapterName": "text",
-   "chapterUrl": "href",
-   "nextTocUrl": "",
-   "updateTime": ""
-  },
-  "ruleContent": {
-   "content": "#content@textNodes",
-   "nextContentUrl": "",
-   "sourceRegex": "",
-   "webJs": ""
-  }
- },
- {
   "bookSourceUrl": "http://m.3qdu.com",
   "bookSourceName": "🎉 三趣读小说",
   "bookSourceGroup": "﹅ ♛ 精品,搜索失效",
@@ -20420,7 +20355,7 @@
  },
  {
   "bookSourceUrl": "http://www.tsxsw.net",
-  "bookSourceName": "🐳吞噬小说 ",
+  "bookSourceName": "🐳吞噬小说",
   "bookSourceGroup": "🍥 男频备用 🍥,⌛️ 全局搜书 ⌛️,®️ 搜书男频 ®️",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -23814,6 +23749,71 @@
   "customOrder": 27901,
   "lastUpdateTime": 1614752057281,
   "respondTime": 181775,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "author",
+   "bookList": "#alistbox\n<js>\nresult.toArray().slice(0, 3).map(el => {\n\tvar url = String(el.select('a:eq(0)').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n\tvar J = org.jsoup.Jsoup.parse(java.ajax(url));\n\tvar o = selector => String(J.select(selector).text());\n\tvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\treturn {\n\t\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\t\tauthor: og('novel:author'),\n\t\tkind: og('novel:category') + ',' + o('.top').match(/状态：(.*)\\s更/)[1].replace(/中|已/, ''),\n    wordCount: o('.top').match(/字数：(.*)字/)[1],\n\t\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, '') + ' • ' + o('.top').match(/时间：(.*)\\s/)[1].replace(/\\//g, '-'),\n\t\tintro: o('.intro').replace(/.*(观看小说|简介)[:：]|(各位书友|Tags).*/g, '').replace(/\\s+/g, ''),\n\t\tcover: og('image'),\n\t\turl: url,\n\t};\n}); \n</js>",
+   "bookUrl": "url",
+   "coverUrl": "cover",
+   "intro": "intro",
+   "kind": "kind",
+   "lastChapter": "latest",
+   "name": "name",
+   "wordCount": "wordCount"
+  },
+  "ruleExplore": {
+   "author": "",
+   "bookList": "",
+   "bookUrl": "",
+   "coverUrl": "",
+   "intro": "",
+   "kind": "",
+   "lastChapter": "",
+   "name": "",
+   "wordCount": ""
+  },
+  "ruleBookInfo": {
+   "author": "author",
+   "coverUrl": "cover",
+   "init": "<js> \nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).text()) ;\nvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\nvar book = {\n\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\tauthor: og('novel:author'),\n\tkind: og('novel:category') + ',' + o('.top').match(/状态：(.*)\\s更/)[1].replace(/中|已/, ''),\n  wordCount: o('.top').match(/字数：(.*)字/)[1],\n\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, ''),\n\tintro: '　　最近更新:' + o('.top').match(/时间：(.*)\\s/)[1].replace(/\\//g, '-') + '\\n' + o('.intro').replace(/.*(观看小说|简介)[:：]|(各位书友|Tags).*/g, '').replace(/\\s+/g, '\\n'),\n\tcover: og('image'),\n\turl: og('novel:read_url'),\n};\nbook;\n</js>",
+   "intro": "intro",
+   "kind": "kind",
+   "lastChapter": "latest",
+   "name": "name",
+   "tocUrl": "url",
+   "wordCount": "wordCount"
+  },
+  "ruleToc": {
+   "chapterList": ".link_14 dd a",
+   "chapterName": "text##^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*",
+   "chapterUrl": "href",
+   "nextTocUrl": "",
+   "updateTime": ""
+  },
+  "ruleContent": {
+   "content": "#content p:not(:last-child)@html",
+   "nextContentUrl": "",
+   "sourceRegex": "",
+   "webJs": ""
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.shouda8.com#alistbox",
+  "bookSourceName": "👍 手打吧",
+  "bookSourceGroup": "👍 优选",
+  "bookUrlPattern": "https://www.shouda8.com/\\d+/",
+  "header": "",
+  "loginUrl": "coolapk@芜恙",
+  "bookSourceComment": "",
+  "exploreUrl": "",
+  "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 26227,
+  "lastUpdateTime": 1605988614491,
+  "respondTime": 180000,
   "weight": 0,
   "enabled": true,
   "enabledExplore": true,

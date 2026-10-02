@@ -7067,7 +7067,7 @@
  },
  {
   "bookSourceUrl": "https://ting35.com/#35听书",
-  "bookSourceName": " 三五听书网",
+  "bookSourceName": "三五听书网",
   "bookSourceGroup": "﹅ 通用书源▪︎玄奇,搜索失效",
   "bookUrlPattern": "https://ting35.com/book/\\d+.html",
   "loginUrl": "",
@@ -12240,7 +12240,7 @@
  },
  {
   "bookSourceUrl": "https://www.800edu.net",
-  "bookSourceName": "🥛有声屋 ",
+  "bookSourceName": "🥛有声屋",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "https://www.800edu.net/book/\\d+/\\d+",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
@@ -13482,7 +13482,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://m.xfflim8.com/ ",
+  "bookSourceUrl": "http://m.xfflim8.com/",
   "bookSourceName": "📻幸福听书",
   "bookSourceGroup": "听书 书源; 发现规则语法错误",
   "bookUrlPattern": "",

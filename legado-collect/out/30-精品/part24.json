@@ -1,52 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://m.dearzwxs.com/",
-  "bookSourceName": "👾第二中文",
-  "bookSourceGroup": "",
-  "bookUrlPattern": "",
-  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-  "loginUrl": "",
-  "bookSourceComment": "",
-  "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 20875,
-  "lastUpdateTime": 0,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.data.0@tag.a@text",
-   "bookList": "class.list@tag.li",
-   "bookUrl": "tag.a.0@href",
-   "coverUrl": "tag.img@src",
-   "intro": "class.intro@text",
-   "kind": "tag.span@text",
-   "lastChapter": "class.data.1@tag.a@text",
-   "name": "class.bookname@tag.a@text"
-  },
-  "ruleBookInfo": {
-   "author": "class.author@tag.a@text",
-   "coverUrl": "class.detail@tag.img@src",
-   "intro": "class.intro.0@tag.p.0@textNodes",
-   "kind": "",
-   "lastChapter": "class.new@tag.a@text",
-   "name": "class.name@text",
-   "tocUrl": "class.now@tag.a@href",
-   "wordCount": "class.layui-bg-red@text"
-  },
-  "ruleToc": {
-   "chapterList": "class.read@tag.li",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href",
-   "nextTocUrl": "text.下一页@href"
-  },
-  "ruleContent": {
-   "content": "class.content@tag.p!-1@text"
-  }
- },
- {
   "bookSourceUrl": "http://m.xishiwx.com/",
   "bookSourceName": "👾西施文学",
   "bookSourceGroup": "",
@@ -3637,7 +3590,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://m.xfflim8.com/ ",
+  "bookSourceUrl": "http://m.xfflim8.com/",
   "bookSourceName": "📻幸福听书",
   "bookSourceGroup": "听书 书源; 发现规则语法错误",
   "bookUrlPattern": "",
@@ -4382,7 +4335,7 @@
  },
  {
   "bookSourceUrl": "http://www.liudatxt.com/",
-  "bookSourceName": " 溜达小说",
+  "bookSourceName": "溜达小说",
   "bookSourceGroup": "",
   "bookSourceComment": "",
   "exploreUrl": "",
@@ -7526,7 +7479,7 @@
  },
  {
   "bookSourceUrl": "https://baike.baidu.com/",
-  "bookSourceName": " 百度百科",
+  "bookSourceName": "百度百科",
   "bookSourceGroup": "💭💭💭💭💭💭,校验公众号：【omega推文】",
   "bookUrlPattern": "已校验",
   "loginUrl": "",
@@ -8422,7 +8375,7 @@
  },
  {
   "bookSourceUrl": "https://quapp.shenbabao.com#♤guaner",
-  "bookSourceName": "APP① ",
+  "bookSourceName": "APP①",
   "bookSourceGroup": "已检验",
   "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
   "bookSourceComment": "",
@@ -10198,7 +10151,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.580bk.com/ ",
+  "bookSourceUrl": "https://www.580bk.com/",
   "bookSourceName": "锦绣文波",
   "bookSourceGroup": "-TinyZ",
   "bookUrlPattern": "",
@@ -10266,7 +10219,7 @@
  },
  {
   "bookSourceUrl": "https://m.thxsw.com/",
-  "bookSourceName": "官术网 ",
+  "bookSourceName": "官术网",
   "bookSourceGroup": "🏵️  小说",
   "bookSourceComment": "error:failed to connect to m.thxsw.com/2001::9df0:705 (port 443) from /240e:45f:c00:2ac3:7a1f:5379:68a7:111f (port 47982) after 15000ms\n",
   "searchUrl": "https://m.thxsw.com/search.php?q={{key}}",
@@ -12104,7 +12057,7 @@
  },
  {
   "bookSourceUrl": "https://www.diyibanzhu2.in",
-  "bookSourceName": " 版主",
+  "bookSourceName": "版主",
   "bookSourceGroup": "优质源",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; xxxx;wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.132 Mobile Safari/537.36\"\n}",
   "bookSourceComment": "",

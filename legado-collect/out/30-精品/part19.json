@@ -1,45 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://m.duqu.net/modules/article/articlefilter.php",
-  "bookSourceName": "🍎小说书库",
-  "bookSourceGroup": "22",
-  "bookSourceComment": "",
-  "searchUrl": "http://m.duqu.net/modules/article/search.php,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=all\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 19212,
-  "lastUpdateTime": 1700659033408,
-  "respondTime": 16180,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "class.gray@text## .*|",
-   "bookList": "class.c_row cf",
-   "bookUrl": "tag.a@href",
-   "coverUrl": "tag.img@src",
-   "name": "class.row_text@text## .* "
-  },
-  "ruleBookInfo": {
-   "author": "class.fss.0@text## 推荐：.*：.* 类别：.*点击：.*",
-   "coverUrl": "tag.img@src",
-   "kind": "class.fr fss@text",
-   "lastChapter": "class.ullist@tag.li.0@text##第一章 .*",
-   "name": "class.mbs@tag.a@text",
-   "tocUrl": "text.查看目录@href"
-  },
-  "ruleToc": {
-   "chapterList": "class.index@tag.dd",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href",
-   "nextTocUrl": "text.下一页@href"
-  },
-  "ruleContent": {
-   "content": "id.acontent@html",
-   "nextContentUrl": "tag.ul@tag.li.-1@tag.a@href"
-  }
- },
- {
   "bookSourceUrl": "https://www.sinicprint.com",
   "bookSourceName": "江印小说sinicprint",
   "bookSourceGroup": "❤小说",
@@ -1084,7 +1044,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net##time",
-  "bookSourceName": " 晋江文学 ",
+  "bookSourceName": "晋江文学",
   "bookSourceGroup": "💭💭💭💭💭💭",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -4413,7 +4373,7 @@
  },
  {
   "bookSourceUrl": "https://www.230book.com",
-  "bookSourceName": " 230book",
+  "bookSourceName": "230book",
   "bookSourceGroup": "💭💭💭💭💭💭",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
@@ -4595,7 +4555,7 @@
  },
  {
   "bookSourceUrl": "https://hongxiu.me",
-  "bookSourceName": "📒红 袖 招 ",
+  "bookSourceName": "📒红 袖 招",
   "bookSourceGroup": "💠 其他,🚀 加速",
   "bookUrlPattern": "",
   "header": "",
@@ -8503,7 +8463,7 @@
  },
  {
   "bookSourceUrl": "https://www.alphapolis.co.jp/",
-  "bookSourceName": "📖 AlphaPolis ",
+  "bookSourceName": "📖 AlphaPolis",
   "bookSourceGroup": "📖 小说",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -16507,7 +16467,7 @@
  },
  {
   "bookSourceUrl": "http://www.iyoule.com",
-  "bookSourceName": " ⚡️⚡️有乐中文",
+  "bookSourceName": "⚡️⚡️有乐中文",
   "bookSourceGroup": "已检验",
   "bookUrlPattern": "",
   "loginUrl": "http://www.iyoule.com/",
@@ -21776,6 +21736,46 @@
   "ruleContent": {
    "content": "id.nr1@textNodes##ァ.*м|更新最快.*中.*m|ァ.*ng|新.*中.*[a-zA-Z]+[^\\s]*[a-zA-Z]",
    "nextContentUrl": "id.pb_next@href"
+  }
+ },
+ {
+  "bookSourceUrl": "https://m.aixdzs.com##响海",
+  "bookSourceName": "爱下电子书",
+  "bookSourceGroup": "校验可用",
+  "bookSourceComment": "",
+  "searchUrl": "https://m.aixdzs.com/search?k={{key}}",
+  "bookSourceType": 0,
+  "customOrder": 989,
+  "lastUpdateTime": 1659798259028,
+  "respondTime": 21259,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.meta-l@text",
+   "bookList": "class.ix-list ix-border-t@tag.li",
+   "bookUrl": "tag.a@href",
+   "coverUrl": "tag.img@src",
+   "intro": "class.nowrap.1@html",
+   "kind": "class.tag-small lightgreen@text&&class=tag-small smallblue@text&&class.lz@text",
+   "lastChapter": "class.nowrap.-1@text##最新:",
+   "name": "class.ix-list-img-square@tag.a@tag.img@alt##封面",
+   "wordCount": "class=tag-small smallblue@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.ix-nowrap.0@tag.a@text",
+   "name": "class.ix-list-img-square.0@tag.img.0@alt##封面",
+   "wordCount": "class.ix-nowrap.2@text## .*| 热度.*|字数:"
+  },
+  "ruleToc": {
+   "chapterList": "class.chapter@tag.li!0",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "class.page-content@tag.section@tag.p@html",
+   "nextContentUrl": ""
   }
  }
 ]

@@ -1,110 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.489d.com",
-  "bookSourceName": "海棠书屋",
-  "bookSourceGroup": "",
-  "bookUrlPattern": "",
-  "concurrentRate": "",
-  "header": "",
-  "loginUrl": "",
-  "loginUi": "",
-  "loginCheckJs": "",
-  "coverDecodeJs": "",
-  "bookSourceComment": "by_distance",
-  "variableComment": "",
-  "exploreUrl": "[\n    {\"title\":\"✨海棠书屋分类✨\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n    {\"title\":\"玄幻\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n    {\"title\":\"仙侠\",\"url\":\"/xianxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n    {\"title\":\"都市\",\"url\":\"/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n    {\"title\":\"历史\",\"url\":\"/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n    {\"title\":\"网游\",\"url\":\"/wangyou/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n    {\"title\":\"科幻\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n    {\"title\":\"恐怖\",\"url\":\"/kongbu/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n    {\"title\":\"其他\",\"url\":\"/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}\n]",
-  "exploreScreen": "",
-  "searchUrl": "/search.html,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n\t}",
-  "bookSourceType": 0,
-  "customOrder": 2901,
-  "lastUpdateTime": 1697385417337,
-  "respondTime": 824,
-  "weight": 1,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "span.1@text",
-   "bookList": ".j_list_container li",
-   "bookUrl": "a.c_strong@href",
-   "coverUrl": "img@_src",
-   "intro": "p.0@text",
-   "kind": "span.0@text",
-   "lastChapter": "a.-1@text",
-   "name": "a.c_strong@text",
-   "wordCount": ""
-  },
-  "ruleExplore": {
-   "author": "span.0@text",
-   "bookList": ".j_bookList li",
-   "bookUrl": "a.-1@href",
-   "coverUrl": "img@_src",
-   "intro": "a.-1@text",
-   "kind": "span.1@text",
-   "lastChapter": "",
-   "name": "h2@text",
-   "wordCount": ""
-  },
-  "ruleBookInfo": {
-   "init": "",
-   "author": "[property$=\"author\"]@content",
-   "coverUrl": "[property$=\"image\"]@content",
-   "intro": "[property$=\"description\"]@content",
-   "kind": "[property$=\"category\"]@content",
-   "lastChapter": "[property$=\"latest_chapter_name\"]@content",
-   "name": "[property$=\"book_name\"]@content",
-   "canReName": "",
-   "tocUrl": "",
-   "wordCount": ""
-  },
-  "ruleToc": {
-   "chapterList": "#chapterList li",
-   "chapterName": "a@text",
-   "chapterUrl": "a@href",
-   "isVip": "",
-   "isVolume": "",
-   "nextTocUrl": "",
-   "updateTime": ""
-  },
-  "ruleContent": {
-   "content": "#TextContent@textNodes",
-   "nextContentUrl": "",
-   "imageStyle": "",
-   "webJs": "",
-   "sourceRegex": "",
-   "replaceRegex": ""
-  }
- },
- {
-  "bookSourceUrl": "https://234.234516.xyz",
-  "bookSourceName": "海棠书屋",
-  "bookSourceGroup": "",
-  "bookSourceComment": "",
-  "exploreUrl": "催眠::https://234.234516.xyz/public/api.php?app=search&q=催眠&page={{page}}\n系统::/public/api.php?app=search&q=系统&page={{page}}",
-  "searchUrl": "https://234.234516.xyz/public/api.php?app=search&q={{key}}&page={{page}}",
-  "bookSourceType": 0,
-  "customOrder": 373,
-  "lastUpdateTime": 1752370920317,
-  "respondTime": 6636,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "bookList": "ul@li",
-   "bookUrl": "a@href",
-   "intro": "p@text",
-   "name": "p@text## |/|　|作者.*"
-  },
-  "ruleToc": {
-   "chapterList": "div",
-   "chapterName": "h1@text"
-  },
-  "ruleContent": {
-   "content": "div@textNodes##加载中.*|请选择.*|分享到.*|链接：.*|AI辅助创.*|请填写.*"
-  }
- },
- {
   "bookSourceUrl": "https://www.haitangshufang.com",
   "bookSourceName": "海棠书屋",
   "bookSourceGroup": "",
@@ -1828,7 +1723,7 @@
  },
  {
   "bookSourceUrl": "https://www.mkzhan.com#♤yc",
-  "bookSourceName": "漫客栈 ",
+  "bookSourceName": "漫客栈",
   "bookSourceGroup": "需要登录",
   "bookUrlPattern": "",
   "header": "",
@@ -8576,6 +8471,48 @@
   }
  },
  {
+  "bookSourceUrl": "https://www.xhwx6.com/",
+  "bookSourceName": "玄幻文学",
+  "bookSourceGroup": "",
+  "exploreUrl": "玄幻::https://www.xhwx6.com/xuanhuan.html?page={{page}}\n仙侠::https://www.xhwx6.com/xianxia.html?page={{page}}\n都市::https://www.xhwx6.com/dushi.html?page={{page}}\n历史::https://www.xhwx6.com/lishi.html?page={{page}}\n科幻::https://www.xhwx6.com/kehuan.html?page={{page}}\n恐怖::https://www.xhwx6.com/kongbu.html?page={{page}}\n其他::https://www.xhwx6.com/qita.html?page={{page}}\n",
+  "searchUrl": "@js:\n\njava.put('key',key)\n\nurl='https://www.xhwx6.com/'",
+  "bookSourceType": 0,
+  "customOrder": 1706,
+  "lastUpdateTime": 1740758253376,
+  "respondTime": 1830,
+  "weight": 60,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "//div[3]/text()",
+   "bookList": "<js>\nkey = java.get('key')\n\nf = `https://www.wanwx.com/search`\n\nlet e = `${java.encodeURI(key, 'utf-8')}`\n\n\n//use xpath to get the value\nconst path = '//div[@id=\"search\"]//input[@name=\"_token\"]/@value';\ntoken = java.getElement(path);  \n\n\nvar body = `kw=${key}&_token=${token}`\n\n// Define the option object\nvar option = { \n\"method\": \"POST\",\n\t\"body\": body\n\t};\n\n// Construct the result\nf =`https://www.xhwx6.com/search,` +\n    JSON.stringify(option);\n\n//Fetch data from the new URL\nr2 = java.ajax(f)\nr2\n \n</js>\n//li[@class='clearfix'][position()>1]\n",
+   "bookUrl": "//div[1]/a/@href",
+   "checkKeyWord": "闪婚",
+   "lastChapter": "//div[2]/a/text()",
+   "name": "//div[1]/a##<[^>]*>"
+  },
+  "ruleExplore": {
+   "author": "//div[3]/text()",
+   "bookList": "//ul[@class='books']/li[@class=\"clearfix\"]",
+   "bookUrl": "//a/@href",
+   "coverUrl": "//img/@src",
+   "name": "//a/@title"
+  },
+  "ruleBookInfo": {
+   "coverUrl": "//meta[@property=\"og:image\"]/@content",
+   "intro": "//meta[@property=\"og:description\"]/@content"
+  },
+  "ruleToc": {
+   "chapterList": "//div[@class=\"book_list\"][2]/ul/li",
+   "chapterName": "//a/text()",
+   "chapterUrl": "//a/@href"
+  },
+  "ruleContent": {
+   "content": "//div[@id=\"htmlContent\"]/p/text()"
+  }
+ },
+ {
   "bookSourceUrl": "http://www.xuankuge.com#yc1101",
   "bookSourceName": "玄幻阁 #一程",
   "bookSourceGroup": "综合",
@@ -12901,7 +12838,7 @@
  },
  {
   "bookSourceUrl": "http://www.motiexs.com",
-  "bookSourceName": "磨铁小说 ",
+  "bookSourceName": "磨铁小说",
   "bookSourceGroup": "",
   "exploreUrl": "[\n{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuanqihuan/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/wuxiaxianxia/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/dushiyanqing/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/lishijunshi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/youxijingji/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻传奇\",\"url\":\"/kehuanchuanqi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖灵异\",\"url\":\"/kongbulingyi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.29,\"layout_flexGrow\":-1}},\n\n]",
   "searchUrl": "@js:\n\nvar html = java.ajax(source.getKey())\n\ntoken = org.jsoup.Jsoup.parse(html).select('input[name=_token]').attr('value')\n\n\"/search,\"+JSON.stringify({\n  \"body\": `_token=${token}&keyword=${key}`,\n  \"method\": \"POST\"\n})",
@@ -19212,6 +19149,58 @@
   }
  },
  {
+  "bookSourceUrl": "https://www.xbiquge.la/",
+  "bookSourceName": "笔趣阁",
+  "bookSourceGroup": "",
+  "bookUrlPattern": "https://www.xbiquge.la/\\d+/\\d+/",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows; U; Windows NT 5.2;. en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 Quark/4.6.6.164\"\n}",
+  "loginUrl": "",
+  "bookSourceComment": "",
+  "exploreUrl": "玄幻小说::/fenlei/1_{{page}}.html\n修真小说::/fenlei/2_{{page}}.html\n都市小说::/fenlei/3_{{page}}.html\n穿越小说::/fenlei/4_{{page}}.html\n网游小说::/fenlei/5_{{page}}.html\n科幻小说::/fenlei/6_{{page}}.html",
+  "searchUrl": "https://www.xbiquge.la/modules/article/waps.php?searchkey={{key}}",
+  "bookSourceType": 0,
+  "customOrder": 15300,
+  "lastUpdateTime": 1754708257273,
+  "respondTime": 32480,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "tag.td.2@text",
+   "bookList": "class.grid@tag.tr!0",
+   "bookUrl": "tag.td.0@tag.a@href",
+   "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.xbiquge.la/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+   "lastChapter": "tag.td.1@tag.a@text",
+   "name": "tag.td.0@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+  },
+  "ruleExplore": {
+   "author": "class.s5@text",
+   "bookList": "class.l@li",
+   "bookUrl": "class.s2@a@href",
+   "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.xbiquge.la/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+   "lastChapter": "class.s3@a@text",
+   "name": "class.s2@a@text"
+  },
+  "ruleBookInfo": {
+   "author": "id.info@tag.p.0@text##作    者：",
+   "coverUrl": "id.fmimg@tag.img@src",
+   "intro": "id.intro@text",
+   "kind": "id.info@tag.p.2@text##最后更新：",
+   "lastChapter": "id.info@tag.p.3@a@text",
+   "name": "id.info@tag.h1.0@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+  },
+  "ruleToc": {
+   "chapterList": "id.list@tag.dd",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "id.content@html##亲,点击进去,给个好.*漂亮的老婆哦!|手机站全新改版.*广告清新阅读！",
+   "nextContentUrl": ""
+  }
+ },
+ {
   "bookSourceUrl": "https://www.conglianhao.com/",
   "bookSourceName": "笔趣阁",
   "bookSourceGroup": "全部来自论坛",
@@ -21898,6 +21887,54 @@
   }
  },
  {
+  "bookSourceUrl": "https://biquge42.com",
+  "bookSourceName": "笔趣阁⑭",
+  "bookSourceGroup": "【小说1书源】",
+  "bookSourceComment": "无搜索",
+  "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/shu/xuanhuan/1/\",\"style\":{}},{\"title\":\"武侠\",\"url\":\"/shu/wuxia/1/\",\"style\":{}},{\"title\":\"都市\",\"url\":\"/shu/dushi/1/\",\"style\":{}},{\"title\":\"穿越\",\"url\":\"/shu/lishi/1/\",\"style\":{}},{\"title\":\"科幻\",\"url\":\"/shu/kehuan/1/\",\"style\":{}},{\"title\":\"网游\",\"url\":\"/shu/youxi/1/\",\"style\":{}},{\"title\":\"女生\",\"url\":\"/shu/nvsheng/1/\",\"style\":{}},{\"title\":\"同人\",\"url\":\"/shu/qita/1/\",\"style\":{}}]",
+  "searchUrl": "https://biquge42.com/search/?searchkey={{key}},{\n  \"webView\": true\n}",
+  "bookSourceType": 0,
+  "customOrder": 11361,
+  "lastUpdateTime": 1682688840015,
+  "respondTime": 12002,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": ".text-muted.0@text##/",
+   "bookList": "div.row@.col-md-4",
+   "bookUrl": "a@href",
+   "coverUrl": ".thumbnail@img@src",
+   "intro": "p.text-muted@text",
+   "name": "h4@text"
+  },
+  "ruleExplore": {
+   "author": ".text-muted.0@text##/",
+   "bookList": "div.row@.col-md-4",
+   "bookUrl": "a@href",
+   "coverUrl": ".thumbnail@img@src",
+   "intro": "p.text-muted@text",
+   "name": "h4@text"
+  },
+  "ruleBookInfo": {
+   "author": "[property=\"og:novel:author\"]@content",
+   "coverUrl": ".img-thumbnail@img@src",
+   "intro": "[property=\"og:description\"]@content",
+   "kind": "[property=\"og:novel:category\"]@content",
+   "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+   "name": "[property=\"og:title\"]@content"
+  },
+  "ruleToc": {
+   "chapterList": "dl@dd",
+   "chapterName": "a@text",
+   "chapterUrl": "a@href"
+  },
+  "ruleContent": {
+   "content": "id.htmlContent@p@textNodes"
+  }
+ },
+ {
   "bookSourceUrl": "https://m.bxetv.com/",
   "bookSourceName": "笔趣阁◎GEd520◎",
   "bookSourceGroup": "综合",
@@ -24465,7 +24502,7 @@
  },
  {
   "bookSourceUrl": "https://www.bimidu.com",
-  "bookSourceName": "笔迷读 ",
+  "bookSourceName": "笔迷读",
   "bookSourceGroup": "",
   "bookUrlPattern": "https?://www.bimidu.com/\\d+/\\d+/",
   "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
@@ -26919,57 +26956,6 @@
    "content": "#nr@html",
    "nextContentUrl": "text.下一页@href",
    "replaceRegex": "##\\(本章完\\)|阅读提示.*阅读模式.*|.*下一页继续阅读.*"
-  }
- },
- {
-  "bookSourceUrl": "https://www.jwxs.org#🎃",
-  "bookSourceName": "精武小说🎃",
-  "bookSourceGroup": "",
-  "bookSourceComment": "",
-  "exploreUrl": "玄幻::/fenlei/{{page}}/1/\n奇幻::/fenlei/2/{{page}}/\n武侠::/fenlei/3/{{page}}/\n仙侠::/fenlei/4/{{page}}/\n都市::/fenlei/5/{{page}}/\n军事::/fenlei/6/{{page}}/\n历史::/fenlei/7/{{page}}/\n游戏::/fenlei/8/{{page}}/\n竞技::/fenlei/9/{{page}}/\n科幻::/fenlei/10/{{page}}/\n悬疑::/fenlei/11/{{page}}/\n灵异::/fenlei/12/{{page}}/\n其他::/fenlei/13/{{page}}/\n古代::/fenlei/14/{{page}}/\n仙侠::/fenlei/15/{{page}}/\n现代::/fenlei/16/{{page}}/\n浪漫::/fenlei/17/{{page}}/\n玄幻::/fenlei/18/{{page}}/\n悬疑::/fenlei/19/{{page}}/\n科幻::/fenlei/20/{{page}}/\n游戏::/fenlei/21/{{page}}/\nBL::/fenlei/22/{{page}}/\nGL::/fenlei/23/{{page}}/\n二次::/fenlei/24/{{page}}/\n热门::/rank/allvisit/",
-  "searchUrl": "https://www.sososhu.com/?site=1&q={{key}},{\n  headers: { \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\" }}",
-  "bookSourceType": 0,
-  "customOrder": 2259,
-  "lastUpdateTime": 0,
-  "respondTime": 3931,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "span@text",
-   "bookList": "<js>\nif (result.match(/阅读云/)) {\n   u = baseUrl.split(',')[0]\n   cookie.removeCookie(u)\n   // java.startBrowserAwait(u, \"验证\")\n   java.webView(null, u, \"document.cookie\")\n   ck = cookie.getCookie(u)\n   head = JSON.stringify({ headers: { 'Cookie': ck } })\n   url = u + \",\" + head\n   result = java.ajax(url)\n}\nresult\n</js>\n.block > div > div:nth-child(n+1)",
-   "bookUrl": "a@href",
-   "coverUrl": "img@src",
-   "intro": "dd@text",
-   "name": "a@text"
-  },
-  "ruleExplore": {
-   "author": "span@text##著",
-   "bookList": ".item",
-   "bookUrl": "dl>dt>a@href",
-   "coverUrl": "dl>dt>a@href\n<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\nsource.key +'/images/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
-   "intro": "dd@text",
-   "name": "dl>dt>a@text"
-  },
-  "ruleBookInfo": {
-   "author": "[property$=author]@content",
-   "coverUrl": "[property$=image]@content",
-   "intro": "[property$=description]@content",
-   "kind": "[property~=category|status|update_time]@content",
-   "lastChapter": "[property$=lastest_chapter_name]@content",
-   "name": "[property$=book_name]@content",
-   "tocUrl": "text.章节目录@href"
-  },
-  "ruleToc": {
-   "chapterList": "#content_1@a",
-   "chapterName": "text",
-   "chapterUrl": "href",
-   "nextTocUrl": "option@value"
-  },
-  "ruleContent": {
-   "content": "#booktxt@html",
-   "nextContentUrl": "text.下一页@href"
   }
  }
 ]

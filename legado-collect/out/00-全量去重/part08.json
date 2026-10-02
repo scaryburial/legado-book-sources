@@ -1,60 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.ziqige.cc/#♤pb",
-  "bookSourceName": "♜紫气阁 #pb",
-  "bookSourceGroup": "[1]",
-  "bookUrlPattern": "https://www.ziqige.cc/book_\\d+/",
-  "bookSourceComment": "",
-  "exploreUrl": "玄幻小说::/fenlei/1_{{page}}/\n修真小说::/fenlei/2_{{page}}/\n都市小说::/fenlei/3_{{page}}/\n历史小说::/fenlei/4_{{page}}/\n网游小说::/fenlei/5_{{page}}/\n科幻小说::/fenlei/6_{{page}}/\n完本小说::/quanben/{{page}}",
-  "searchUrl": "https://www.ziqige.cc/modules/article/search.php?searchkey={{key}}&submit=%CB%D1%CB%F7&page={{page}},{\n'charset': 'gbk'\n}",
-  "bookSourceType": 0,
-  "customOrder": 4306,
-  "lastUpdateTime": 1641293750836,
-  "respondTime": 1138,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "tag.td.2@text||[property=og:novel:author]@content",
-   "bookList": "class.grid@tr!0||tag.html",
-   "bookUrl": "tag.td.0@a@href",
-   "coverUrl": "[property=og:image]@content",
-   "intro": "[property=og:description]@content",
-   "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
-   "lastChapter": "tag.td.1@a@text||[property=og:novel:latest_chapter_name]@content",
-   "name": "tag.td.0@a@text||[property=og:novel:book_name]@content",
-   "wordCount": "tag.td.3@text"
-  },
-  "ruleExplore": {
-   "author": "class.author@text",
-   "bookList": "class.titlelist@li",
-   "bookUrl": "class.zp@a@href",
-   "coverUrl": "class.zp@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ziqige.cc/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
-   "kind": "class.sj@text",
-   "lastChapter": "class.zz@a@text",
-   "name": "class.zp@a@text"
-  },
-  "ruleBookInfo": {
-   "author": "[property=og:novel:author]@content",
-   "coverUrl": "[property=og:image]@content",
-   "intro": "[property=og:description]@content",
-   "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
-   "lastChapter": "[property=og:novel:latest_chapter_name]@content",
-   "name": "[property=og:novel:book_name]@content",
-   "tocUrl": ""
-  },
-  "ruleToc": {
-   "chapterList": "class.zjlist@dd",
-   "chapterName": "a@text",
-   "chapterUrl": "a@href"
-  },
-  "ruleContent": {
-   "content": "id.content@html##一秒记住.*免费阅读！|紫气阁.*最新章节！",
-   "nextContentUrl": "text.下一页@href"
-  }
- },
- {
   "bookSourceUrl": "https://www.xs222.cc/",
   "bookSourceName": "💦顶点小说⑧",
   "bookSourceGroup": "💦 精品 💦",
@@ -8001,7 +7946,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#♂",
-  "bookSourceName": "💰 起点 ",
+  "bookSourceName": "💰 起点",
   "bookSourceGroup": "[小说源]",
   "bookUrlPattern": "",
   "header": "",
@@ -20793,7 +20738,7 @@
  },
  {
   "bookSourceUrl": "https://m.zongheng.com#□namo edit4",
-  "bookSourceName": "  🖤㊣ 纵横m▪细分榜单",
+  "bookSourceName": "🖤㊣ 纵横m▪细分榜单",
   "bookSourceGroup": "¹▽置顶`ȏ´正版发现",
   "bookUrlPattern": "",
   "header": "",
@@ -20849,7 +20794,7 @@
  },
  {
   "bookSourceUrl": "https://www.urhtbooks.com",
-  "bookSourceName": " 海  棠  城",
+  "bookSourceName": "海  棠  城",
   "bookSourceGroup": "⁸̶̥̥̥̆ૢ)论坛↓下载",
   "header": "",
   "loginUrl": "https://www.urhtbooks.com/login.php",
@@ -21782,7 +21727,7 @@
  },
  {
   "bookSourceUrl": "https://downbook.cc#乃星md912",
-  "bookSourceName": "  🌼 当书网™ ♛♛♚",
+  "bookSourceName": "🌼 当书网™ ♛♛♚",
   "bookSourceGroup": "",
   "bookUrlPattern": "https://downbook.cc/TXT/down_\\d+.html",
   "header": "",
@@ -21844,7 +21789,7 @@
  },
  {
   "bookSourceUrl": "https://www.baoshuu.com#关耳md912",
-  "bookSourceName": "  🌼 宝书网™ ♛♚　无搜索",
+  "bookSourceName": "🌼 宝书网™ ♛♚　无搜索",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "",
@@ -22718,7 +22663,7 @@
  },
  {
   "bookSourceUrl": "http://www.go5.cc",
-  "bookSourceName": " 🥛go5 ",
+  "bookSourceName": "🥛go5",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "http://www.go5.cc/book/\\d+",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
@@ -22773,7 +22718,7 @@
  },
  {
   "bookSourceUrl": "https://www.imiaobige.com#发现",
-  "bookSourceName": "🥛妙笔阁 ",
+  "bookSourceName": "🥛妙笔阁",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "",
   "header": "",
@@ -24446,7 +24391,7 @@
  },
  {
   "bookSourceUrl": "https://www.9txs.org#冷魅edit33",
-  "bookSourceName": "  🖤㊝ 九桃小说▪︎CSS ♛♛♛♚✘",
+  "bookSourceName": "🖤㊝ 九桃小说▪︎CSS ♛♛♛♚✘",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "",
@@ -47341,7 +47286,7 @@
  },
  {
   "bookSourceUrl": "http://www.txshuku.net",
-  "bookSourceName": "📚 天下书库 ",
+  "bookSourceName": "📚 天下书库",
   "bookSourceGroup": "📚出版,☣️senhora起点",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -49400,6 +49345,63 @@
   "ruleContent": {
    "content": "id.content@tag.p@html",
    "nextContentUrl": "text.下一页@href"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.balingtxt.com",
+  "bookSourceName": "🎉 八零电子书[仅发现]",
+  "bookSourceGroup": "",
+  "header": "",
+  "bookSourceComment": "",
+  "exploreUrl": "奇幻修真::/sort3/{{page}}.html\n奇幻魔法::/sort13/{{page}}.html\n异术超能::/sort1/{{page}}.html\n东方传奇::/sort12/{{page}}.html\n王朝争霸::/sort14/{{page}}.html\n江湖武侠::/sort15/{{page}}.html\n未来幻想::/sort9/{{page}}.html\n灵异鬼怪::/sort10/{{page}}.html\n探险揭秘::/sort22/{{page}}.html\n历史传记::/sort6/{{page}}.html\n特种军旅::/sort7/{{page}}.html\n虚拟网游::/sort16/{{page}}.html\n竞技体育::/sort8/{{page}}.html\n魔幻女强::/sort2/{{page}}.html\n都市婚姻::/sort4/{{page}}.html\n百合之恋::/sort5/{{page}}.html\n同人美文::/sort11/{{page}}.html\n穿越架空::/sort17/{{page}}.html\n王室贵族::/sort18/{{page}}.html\n魔法校园::/sort19/{{page}}.html\n乡土布衣::/sort20/{{page}}.html\n官职商战::/sort21/{{page}}.html\n间谍暗战::/sort23/{{page}}.html\n唯美言情::/sort24/{{page}}.html\n诗歌文集::/sort25/{{page}}.html",
+  "searchUrl": "https://www.balingtxt.com/modules/article/search.php,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}\n",
+  "bookSourceType": 0,
+  "customOrder": 13801,
+  "lastUpdateTime": 1630689780709,
+  "respondTime": 2230,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "tag.a.2@text",
+   "bookList": "class.storelistbt5@tag.ul@tag.li",
+   "bookUrl": "a@href",
+   "intro": "tag.p.-2@text",
+   "kind": "tag.p.0@textNodes##作者：\n分类：",
+   "lastChapter": "tag.p.-1@textNodes",
+   "name": "tag.a.1@text##TXT下载"
+  },
+  "ruleExplore": {
+   "author": "class.parag_2013@tag.a@text",
+   "bookList": "id.list_art_2013",
+   "bookUrl": "tag.a@href",
+   "coverUrl": "tag.a@tag.img@src",
+   "intro": "class.book_jj@text",
+   "lastChapter": "class.book_rg@tag.b@text",
+   "name": "class.book_bg@tag.a@text##TXT下载"
+  },
+  "ruleBookInfo": {
+   "author": "tag.li.0@tag.a@text",
+   "coverUrl": "class.soft_info_r@tag.img@src",
+   "init": "id.soft_info_para",
+   "intro": "",
+   "kind": "",
+   "lastChapter": "tag.li.-3@textNodes",
+   "name": "h1@text##TXT全集下载",
+   "tocUrl": "text.在线阅读_目录@href"
+  },
+  "ruleToc": {
+   "chapterList": "id.yulan@tag.a",
+   "chapterName": "text",
+   "chapterUrl": "href",
+   "nextTocUrl": ""
+  },
+  "ruleContent": {
+   "content": "class.book_content@html##txt下载地址[\\w\\W]*|最新网址.*",
+   "nextContentUrl": "",
+   "sourceRegex": "",
+   "webJs": ""
   }
  }
 ]

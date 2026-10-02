@@ -1,7 +1,7 @@
 [
  {
   "bookSourceUrl": "https://site.douban.com/194593/widget/notes/11784332",
-  "bookSourceName": " 豆瓣·小站",
+  "bookSourceName": "豆瓣·小站",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "exploreUrl": "科幻短篇::https://site.douban.com/194593/widget/notes/11784332/",
@@ -210,7 +210,7 @@
  },
  {
   "bookSourceUrl": "http://www.beqege.cc",
-  "bookSourceName": "贝切阁 ",
+  "bookSourceName": "贝切阁",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "",
@@ -277,7 +277,7 @@
  },
  {
   "bookSourceUrl": "http://www.beqege.cc#乃星",
-  "bookSourceName": "贝切阁 ",
+  "bookSourceName": "贝切阁",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "",
@@ -6436,7 +6436,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.fenxbook.com#fengtui dl         ",
+  "bookSourceUrl": "https://www.fenxbook.com#fengtui dl",
   "bookSourceName": "封推中文",
   "bookSourceGroup": "🍁,搜索失效",
   "bookUrlPattern": "",
@@ -6818,7 +6818,7 @@
  },
  {
   "bookSourceUrl": "http://www.147xs.org#grid tr!0#芜恙",
-  "bookSourceName": "  b🌸147小说🅰💜💜💜w #芜恙 bak",
+  "bookSourceName": "b🌸147小说🅰💜💜💜w #芜恙 bak",
   "bookSourceGroup": "👍 优质,21.01芜恙,★,",
   "bookUrlPattern": "",
   "header": "",
@@ -11561,7 +11561,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.17kxs.club",
+  "bookSourceUrl": "http://www.17kxs.club",
   "bookSourceName": "一起看",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -13291,7 +13291,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.booktxt.com①    ",
+  "bookSourceUrl": "https://www.booktxt.com①",
   "bookSourceName": "🐶顶点小说①",
   "bookSourceGroup": "SSS",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
@@ -14341,7 +14341,7 @@
  },
  {
   "bookSourceUrl": "https://www.downbook.org#guaner",
-  "bookSourceName": "当书网 ",
+  "bookSourceName": "当书网",
   "bookSourceGroup": "发现失效,小说,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -17666,7 +17666,7 @@
  },
  {
   "bookSourceUrl": "https://www.28lu.net/book/100655867/341617450.html",
-  "bookSourceName": " 笔趣阁。",
+  "bookSourceName": "笔趣阁。",
   "bookSourceGroup": "搜索链接规则为空",
   "bookSourceComment": "https://www.28lu.net/book/100655867/341617450.html",
   "bookSourceType": 0,

@@ -7056,7 +7056,7 @@
  },
  {
   "bookSourceUrl": "https://www.bimidu.com",
-  "bookSourceName": "笔迷读 ",
+  "bookSourceName": "笔迷读",
   "bookSourceGroup": "",
   "bookUrlPattern": "https?://www.bimidu.com/\\d+/\\d+/",
   "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
@@ -15501,7 +15501,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://android.jjwxc.net       ",
+  "bookSourceUrl": "http://android.jjwxc.net",
   "bookSourceName": "绿江小说",
   "bookSourceGroup": "女频",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -19693,7 +19693,7 @@
  },
  {
   "bookSourceUrl": "https://m.ac.qq.com#一程",
-  "bookSourceName": "腾讯漫画 ",
+  "bookSourceName": "腾讯漫画",
   "bookSourceGroup": "正版漫画 书源",
   "bookSourceComment": "",
   "exploreUrl": "飙升榜::https://m.ac.qq.com/rank/index?type=rise&pageSize=10&page={{page}}\n畅销榜::https://m.ac.qq.com/rank/index?type=pay&pageSize=10&page={{page}}\n新作榜::https://m.ac.qq.com/rank/index?type=new&pageSize=10&page={{page}}\n真香榜::https://m.ac.qq.com/rank/index?type=hot&pageSize=10&page={{page}}\n条漫::https://m.ac.qq.com/category/listAll?type=tm&rank=upt&pageSize=30&page={{page}}\n独家::https://m.ac.qq.com/category/listAll?type=dj&rank=upt&pageSize=30&page={{page}}\n完结::https://m.ac.qq.com/category/listAll?type=wj&rank=upt&pageSize=30&page={{page}}\n日漫::https://m.ac.qq.com/category/listAll?type=rm&rank=upt&pageSize=30&page={{page}}\n恐怖::https://m.ac.qq.com/category/listAll?type=kb&rank=pgv&pageSize=30&page={{page}}\n妖怪::https://m.ac.qq.com/category/listAll?type=yg&rank=pgv&pageSize=30&page={{page}}\n恋爱::https://m.ac.qq.com/category/listAll?type=na&rank=pgv&pageSize=30&page={{page}}\n玄幻::https://m.ac.qq.com/category/listAll?type=xh&rank=pgv&pageSize=30&page={{page}}\n热血::https://m.ac.qq.com/category/listAll?type=rx&rank=pgv&pageSize=30&page={{page}}\n悬疑::https://m.ac.qq.com/category/listAll?type=xy&rank=pgv&pageSize=30&page={{page}}\n彩虹::https://m.ac.qq.com/category/listAll?type=dm&rank=pgv&pageSize=30&page={{page}}\n少女::https://m.ac.qq.com/category/listAll?type=sv&rank=pgv&pageSize=30&page={{page}}\n韩漫::https://m.ac.qq.com/category/listAll?type=hm&rank=pgv&pageSize=30&page={{page}}\n科幻::https://m.ac.qq.com/category/listAll?type=kh&rank=pgv&pageSize=30&page={{page}}\n逗比::https://m.ac.qq.com/category/listAll?type=db&rank=pgv&pageSize=30&page={{page}}\n校园::https://m.ac.qq.com/category/listAll?type=qcxy&rank=pgv&pageSize=30&page={{page}}\n都市::https://m.ac.qq.com/category/listAll?type=ds&rank=pgv&pageSize=30&page={{page}}\n治愈::https://m.ac.qq.com/category/listAll?type=zy&rank=pgv&pageSize=30&page={{page}}",
@@ -20546,7 +20546,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://mangguoshufang.com/ ",
+  "bookSourceUrl": "https://mangguoshufang.com/",
   "bookSourceName": "芒果书坊",
   "bookSourceGroup": "-------",
   "header": "@js: UA = java.getWebViewUA();\nha = {\n\t\"User-Agent\": UA\n}\nJSON.stringify(ha);",
@@ -22686,7 +22686,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.luoliwx.net",
+  "bookSourceUrl": "https://www.luoliwx.net",
   "bookSourceName": "萝莉文学",
   "bookSourceGroup": "涩文",
   "exploreUrl": "最近更新::https://m.3322t.com/top/lastupdate_{{page}}/\n最新入库::https://m.3322t.com/top/postdate_{{page}}/\n总收藏榜::https://m.3322t.com/top/goodnum_{{page}}/\n总点击榜::https://m.3322t.com/top/allvisit_{{page}}/\n总推荐榜::https://m.3322t.com/top/allvote_{{page}}/\n总字数榜::https://m.3322t.com/top/size_{{page}}/\n玄幻奇幻::https://m.3322t.com/sort/1_{{page}}/\n武侠仙侠::https://m.3322t.com/sort/2_{{page}}/\n都市言情::https://m.3322t.com/sort/3_{{page}}/\n科幻网游::https://m.3322t.com/sort/4_{{page}}/\n惊悚悬疑::https://m.3322t.com/sort/5_{{page}}/\n耽美同人::https://m.3322t.com/sort/6_{{page}}/\n穿越架空::https://m.3322t.com/sort/7_{{page}}/\n高辣浓情::https://m.3322t.com/sort/8_{{page}}/\n禁忌百合::https://m.3322t.com/sort/9_{{page}}/\n精品文学::https://m.3322t.com/sort/10_{{page}}/",

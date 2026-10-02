@@ -1,75 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://i.12bz.net",
-  "bookSourceName": "第一版主🎃#4",
-  "bookSourceGroup": "18",
-  "bookUrlPattern": "",
-  "concurrentRate": "",
-  "header": "{\n\"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/84.0.4147.135\"\n}",
-  "loginUrl": "",
-  "loginCheckJs": "",
-  "bookSourceComment": "",
-  "exploreUrl": "                                 榜   单                               \n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n                                 分   类                               \n玄幻小说::/sort/1_{{page}}/\n修真小说::/sort/2_{{page}}/\n都市小说::/sort/3_{{page}}/\n穿越小说::/sort/4_{{page}}/\n  藏经阁  ::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n其他小说::/sort/7_{{page}}/",
-  "searchUrl": "/s.php,{\n\"method\": \"POST\",\n\"body\":\"type=articlename&s={{key}}\",\n\"charset\":\"gbk\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 23551,
-  "lastUpdateTime": 1733192539678,
-  "respondTime": 27710,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.line@tag.a.2@text",
-   "bookList": "class.line",
-   "bookUrl": "class.line@tag.a.1@href",
-   "coverUrl": "img@src||tag.a.0@href##.*/(\\d+)/(\\d+)/##http://www.12bz.net/files/article/image/$1/$2/$2s.jpg",
-   "intro": "",
-   "kind": "class.line@tag.a.0@text##\\[|\\]",
-   "lastChapter": "",
-   "name": "class.line@tag.a.1@text",
-   "wordCount": ""
-  },
-  "ruleExplore": {
-   "author": "class.line@tag.a.2@text",
-   "bookList": "class.line",
-   "bookUrl": "class.line@tag.a.1@href",
-   "coverUrl": "",
-   "intro": "",
-   "kind": "class.line@tag.a.0@text##\\[|\\]",
-   "lastChapter": "",
-   "name": "class.line@tag.a.1@text",
-   "wordCount": ""
-  },
-  "ruleBookInfo": {
-   "author": "class.block_txt2@tag.p.2@tag.a@text",
-   "canReName": "",
-   "coverUrl": "class.block_img2@tag.img.0@src",
-   "init": "",
-   "intro": "class.intro_info@html",
-   "kind": "class.block_txt2@tag.p.3@tag.a@text&&.block_txt2@tag.p.4@text##状态：",
-   "lastChapter": "class.block_txt2@tag.p.6@tag.a@text",
-   "name": "class.block_txt2@tag.h2@text",
-   "tocUrl": "",
-   "wordCount": ""
-  },
-  "ruleToc": {
-   "chapterList": "class.chapter.1@tag.li",
-   "chapterName": "@text",
-   "chapterUrl": "tag.a@href",
-   "nextTocUrl": ".right@tag.a@href",
-   "updateTime": ""
-  },
-  "ruleContent": {
-   "content": "#nr1@html##\\-\\-.*",
-   "imageStyle": "",
-   "nextContentUrl": "#pb_next@href",
-   "replaceRegex": "",
-   "sourceRegex": "#pb_next@href",
-   "webJs": ""
-  }
- },
- {
   "bookSourceUrl": "http://i.12bz.net#🎃",
   "bookSourceName": "🎃第一版主🎃#10",
   "bookSourceGroup": "",
@@ -8265,7 +8195,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://m.23uswx.org/ ",
+  "bookSourceUrl": "http://m.23uswx.org/",
   "bookSourceName": "顶点小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "http://m.23uswx.org/book/\\d+/",
@@ -12557,7 +12487,7 @@
  },
  {
   "bookSourceUrl": "http://www.yqk.net#♤yc",
-  "bookSourceName": "言情小说 ",
+  "bookSourceName": "言情小说",
   "bookSourceGroup": "小说 书源",
   "loginUrl": "",
   "bookSourceComment": "// Error: Connection reset\n\n两次搜索间隔10秒",
@@ -26415,7 +26345,7 @@
  },
  {
   "bookSourceUrl": "https://www.121du.net#(没问题有可能魔法)",
-  "bookSourceName": " 一读小说",
+  "bookSourceName": "一读小说",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "最开始第1篇加载不出来之后正常。",
   "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/dushi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/lishi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻灵异\",\"url\":\"/kehuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"网游竞技\",\"url\":\"/wangyou/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女频频道\",\"url\":\"/nvpin/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/qita/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -26457,7 +26387,7 @@
  },
  {
   "bookSourceUrl": "https://www.121du.net",
-  "bookSourceName": " 一读小说",
+  "bookSourceName": "一读小说",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "最开始第1篇加载不出来之后正常。",
   "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/dushi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/lishi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻灵异\",\"url\":\"/kehuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"网游竞技\",\"url\":\"/wangyou/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女频频道\",\"url\":\"/nvpin/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/qita/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -29543,7 +29473,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#namo-gl",
-  "bookSourceName": "  起点女频流",
+  "bookSourceName": "起点女频流",
   "bookSourceGroup": "起点",
   "bookUrlPattern": "",
   "header": "",
@@ -31845,7 +31775,7 @@
  },
  {
   "bookSourceUrl": "https://b.faloo.com##男生标签",
-  "bookSourceName": " 飞卢男生▪标签",
+  "bookSourceName": "飞卢男生▪标签",
   "bookSourceGroup": "",
   "bookUrlPattern": "https://b\\.faloo\\.com/f/\\d+.html",
   "concurrentRate": "",
@@ -34897,7 +34827,7 @@
  },
  {
   "bookSourceUrl": "http://www.3qxs.cc/#♤pb",
-  "bookSourceName": "起来小说 ",
+  "bookSourceName": "起来小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "http://www.3qxs.cc/article/\\d+/",
   "loginUrl": "",
@@ -50010,7 +49940,7 @@
  },
  {
   "bookSourceUrl": "https://sspwk.me",
-  "bookSourceName": " 少数派吧",
+  "bookSourceName": "少数派吧",
   "bookSourceGroup": "小说 书源",
   "loginUrl": "",
   "bookSourceComment": "// Error: 搜索失效",
@@ -51484,6 +51414,62 @@
   "ruleContent": {
    "content": "#cont-body p@textNodes",
    "nextContentUrl": ".page a@href"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.qqxs.tw/",
+  "bookSourceName": "千千小说",
+  "bookSourceGroup": "小说 书源",
+  "bookUrlPattern": "https://www.qqxs.tw/\\d+_\\d+/",
+  "loginUrl": "{\n  \"url\": \"null\"\n}",
+  "bookSourceComment": "// Error: 发现失效, 搜索失效",
+  "exploreUrl": "玄幻小说::https://m.qqxs.tw/list/1_{{page}}.html\n武侠小说::https://m.qqxs.tw/list/2_{{page}}.html\n都市小说::https://m.qqxs.tw/list/3_{{page}}.html\n历史小说::https://m.qqxs.tw/list/4_{{page}}.html\n推理小说::https://m.qqxs.tw/list/5_{{page}}.html\n网游小说::https://m.qqxs.tw/list/6_{{page}}.html\n科幻小说::https://m.qqxs.tw/list/7_{{page}}.html\n恐怖小说::https://m.qqxs.tw/list/8_{{page}}.html\n穿越小说::https://m.qqxs.tw/list/9_{{page}}.html\n其他小说::https://m.qqxs.tw/list/10_{{page}}.html\n完本小说::https://m.qqxs.tw/full/{{page}}.html",
+  "searchUrl": "https://www.qqxs.tw/modules/article/search.php?searchkey={{key}}&page={{page}},{\"charset\":\"gbk\"}",
+  "bookSourceType": 0,
+  "customOrder": 22906,
+  "lastUpdateTime": 1720895574233,
+  "respondTime": 191507,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.s4@text",
+   "bookList": "class.novelslistss@li",
+   "bookUrl": "class.s2@tag.a@href",
+   "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.qqxs.tw/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+   "intro": "",
+   "kind": "class.s1@text",
+   "lastChapter": "class.s3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 |卷1 ",
+   "name": "class.s2@tag.a@text"
+  },
+  "ruleExplore": {
+   "author": "class.article@tag.p.0@tag.span.0@text##作者:",
+   "bookList": "class.list-item",
+   "bookUrl": "class.article@tag.a.0@href@js:\nr=result.match(/_(\\d+)/)\nid=r[1]\nvar iid = parseInt(id/1000);\n'https://www.qqxs.tw/'+iid+'_'+id+'/'",
+   "coverUrl": "img@src",
+   "intro": "class.article@tag.a.1@text",
+   "lastChapter": "",
+   "name": "class.article@tag.a.0@text"
+  },
+  "ruleBookInfo": {
+   "author": "id.info@tag.p.0@tag.a.0@text",
+   "coverUrl": "id.fmimg@img@src",
+   "init": "",
+   "intro": "id.intro@text",
+   "lastChapter": "id.list@tag.dd.0@a@text##免费章节 |正文卷 |正文 |VIP章节 |卷1 ",
+   "name": "id.info@tag.h1@text",
+   "wordCount": "id.info@tag.p.2@text##更新时间："
+  },
+  "ruleToc": {
+   "chapterList": "id.list@tag.dd",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "id.content@html##千千小说.*最新章节！|一秒记住.*免费阅读！|.*第.*章.*",
+   "imageStyle": "0",
+   "replaceRegex": ""
   }
  }
 ]

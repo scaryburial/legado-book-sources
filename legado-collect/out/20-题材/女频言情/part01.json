@@ -2087,7 +2087,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://android.jjwxc.net       ",
+  "bookSourceUrl": "http://android.jjwxc.net",
   "bookSourceName": "绿江小说",
   "bookSourceGroup": "女频",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -4363,7 +4363,7 @@
  },
  {
   "bookSourceUrl": "http://www.fxsw.top",
-  "bookSourceName": " 腐小说",
+  "bookSourceName": "腐小说",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "concurrentRate": "",
@@ -7502,7 +7502,7 @@
  },
  {
   "bookSourceUrl": "http://www.yqk.net#♤yc",
-  "bookSourceName": "言情小说 ",
+  "bookSourceName": "言情小说",
   "bookSourceGroup": "小说 书源",
   "loginUrl": "",
   "bookSourceComment": "// Error: Connection reset\n\n两次搜索间隔10秒",
@@ -7954,7 +7954,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#namo-gl",
-  "bookSourceName": "  起点女频流",
+  "bookSourceName": "起点女频流",
   "bookSourceGroup": "起点",
   "bookUrlPattern": "",
   "header": "",
@@ -8988,7 +8988,7 @@
  },
  {
   "bookSourceUrl": "https://api.yousuu.com#md109b",
-  "bookSourceName": " 优书网api▪书评 ♛♛♛  关键词 »» 搜书名；\n　  @作者名 »» 搜作者； #作者名 »» 搜作者。",
+  "bookSourceName": "优书网api▪书评 ♛♛♛  关键词 »» 搜书名；\n　  @作者名 »» 搜作者； #作者名 »» 搜作者。",
   "bookSourceGroup": "📃 优书",
   "bookUrlPattern": ".+/api/book/.+",
   "header": "{\n\"cookie\":\"Hm_lvt_42e120beff2c918501a12c0d39a4e067=1633547154;Hm_lpvt_42e120beff2c918501a12c0d39a4e067=1633548639;token=dxJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTU4MDYzMSwiaWF0IjoxNjMzNTQ4MzEyLCJleHAiOjE2MzYxNDAzMTJ9.9AT4u_mJfIEHHtT8XLyuURjnX0dEdFeaMQ00RCmL3hb;token.sig=tMIAzO7keIPLSV0HQXGecStYR7YV3rhD8Jc_1evvx8F\"\n}",
@@ -10387,7 +10387,7 @@
   }
  },
  {
-  "bookSourceUrl": "    https://m.danmei999.cc",
+  "bookSourceUrl": "https://m.danmei999.cc",
   "bookSourceName": "🌺女生文学",
   "bookSourceGroup": "👍 备用",
   "header": "",
@@ -11174,7 +11174,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/#md.101-bg",
-  "bookSourceName": "  ㊣ 晋江言情♂♀▪︎标签 ♛♛♛♚",
+  "bookSourceName": "㊣ 晋江言情♂♀▪︎标签 ♛♛♛♚",
   "bookSourceGroup": "🍋🍋🍋🍋🍋🍋,㊣35",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -11241,7 +11241,7 @@
  },
  {
   "bookSourceUrl": "https://www.jjwxc.net#嘚嘚edit",
-  "bookSourceName": "  a💰晋江▪详榜#嘚嘚edit",
+  "bookSourceName": "a💰晋江▪详榜#嘚嘚edit",
   "bookSourceGroup": "💰69,🍋🍋🍋🍋🍋🍋",
   "bookUrlPattern": "",
   "loginUrl": "{\n  \"url\": \"http://www.jjwxc.net\"\n}",
@@ -13392,7 +13392,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#□namo-gl",
-  "bookSourceName": " ●💵起点 女频♥gl   ♀流♀   edit",
+  "bookSourceName": "●💵起点 女频♥gl   ♀流♀   edit",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "",
@@ -18281,7 +18281,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#md0131tag2b",
-  "bookSourceName": "  🧐♀㊣ 起点女生▪标签▪♨️",
+  "bookSourceName": "🧐♀㊣ 起点女生▪标签▪♨️",
   "bookSourceGroup": "﹅ ㊣ 正版,发现失效,搜索失效",
   "bookUrlPattern": "",
   "header": "{\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"}",
@@ -19945,7 +19945,7 @@
  },
  {
   "bookSourceUrl": "https://www.urhtbooks.com",
-  "bookSourceName": " 海  棠  城",
+  "bookSourceName": "海  棠  城",
   "bookSourceGroup": "⁸̶̥̥̥̆ૢ)论坛↓下载",
   "header": "",
   "loginUrl": "https://www.urhtbooks.com/login.php",
@@ -20110,7 +20110,7 @@
  },
  {
   "bookSourceUrl": "https://www.baoshuu.com#关耳md912",
-  "bookSourceName": "  🌼 宝书网™ ♛♚　无搜索",
+  "bookSourceName": "🌼 宝书网™ ♛♚　无搜索",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "",

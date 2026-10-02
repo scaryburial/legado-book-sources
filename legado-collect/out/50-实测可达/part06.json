@@ -701,7 +701,7 @@
  },
  {
   "bookSourceUrl": "http://www.xs55.org",
-  "bookSourceName": "无限小说网 ",
+  "bookSourceName": "无限小说网",
   "bookSourceGroup": "",
   "bookSourceComment": "",
   "exploreUrl": "[\n{\"title\":\"玄幻\",\"url\":\"/html/xuanhuan/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/html/wuxia/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/html/dushi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/html/wangyou/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/html/chuanyue/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/html/kehuan/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/html/xuanyi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/html/qita/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"全本\",\"url\":\"/quanben/html/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]",
@@ -17134,7 +17134,7 @@
  },
  {
   "bookSourceUrl": "https://www.mkzhan.com#♤yc",
-  "bookSourceName": "漫客栈 ",
+  "bookSourceName": "漫客栈",
   "bookSourceGroup": "需要登录",
   "bookUrlPattern": "",
   "header": "",
@@ -18022,7 +18022,7 @@
  },
  {
   "bookSourceUrl": "https://www.manmanapp.com#♤Haxc",
-  "bookSourceName": "漫漫漫画 ",
+  "bookSourceName": "漫漫漫画",
   "bookSourceGroup": "",
   "bookUrlPattern": "https://www.manmanapp.com/comic-\\d+.html",
   "bookSourceComment": "",

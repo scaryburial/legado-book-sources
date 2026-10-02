@@ -1,49 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://api.dmzj1.com",
-  "bookSourceName": "🎨 动漫之家₂-M",
-  "bookSourceGroup": "🎨漫画",
-  "bookUrlPattern": "",
-  "loginUrl": "",
-  "bookSourceComment": "Error: json string can not be null or empty \n\nerror:json string can not be null or empty\nerror:List is empty.\n",
-  "exploreUrl": "人气排行日榜::https://api.m.dmzj1.com/rank/0-0-0-{{page-1}}.json\n人气排行周榜::https://api.m.dmzj1.com/rank/0-0-1-{{page-1}}.json\n人气排行月榜::https://api.m.dmzj1.com/rank/0-0-2-{{page-1}}.json\n人气排行总榜::https://api.m.dmzj1.com/rank/0-0-3-{{page-1}}.json\n吐槽排行日榜::https://api.m.dmzj1.com/rank/1-0-0-{{page-1}}.json\n吐槽排行周榜::https://api.m.dmzj1.com/rank/1-0-1-{{page-1}}.json\n吐槽排行月榜::https://api.m.dmzj1.com/rank/1-0-2-{{page-1}}.json\n吐槽排行总榜::https://api.m.dmzj1.com/rank/1-0-3-{{page-1}}.json\n订阅排行日榜::https://api.m.dmzj1.com/rank/2-0-0-{{page-1}}.json\n订阅排行周榜::https://api.m.dmzj1.com/rank/2-0-1-{{page-1}}.json\n订阅排行月榜::https://api.m.dmzj1.com/rank/2-0-2-{{page-1}}.json\n订阅排行总榜::https://api.m.dmzj1.com/rank/2-0-3-{{page-1}}.json\n最近更新::https://api.m.dmzj1.com/recommend/latest/{{page-1}}.json\n人气::https://api.m.dmzj1.com/classify/0-0-0-0-0-{{page-1}}.json\n更新::https://api.m.dmzj1.com/classify/0-0-0-0-1-{{page-1}}.json\n连载::https://api.m.dmzj1.com/classify/0-0-1-0-1-{{page-1}}.json\n完结::https://api.m.dmzj1.com/classify/0-0-2-0-1-{{page-1}}.json\n少年::https://api.m.dmzj1.com/classify/0-1-0-0-1-{{page-1}}.json\n少女::https://api.m.dmzj1.com/classify/0-2-0-0-1-{{page-1}}.json\n青年::https://api.m.dmzj1.com/classify/0-3-0-0-1-{{page-1}}.json\n日本::https://api.m.dmzj1.com/classify/0-0-0-1-1-{{page-1}}.json\n内地::https://api.m.dmzj1.com/classify/0-0-0-2-1-{{page-1}}.json\n欧美::https://api.m.dmzj1.com/classify/0-0-0-3-1-{{page-1}}.json\n港台::https://api.m.dmzj1.com/classify/0-0-0-4-1-{{page-1}}.json\n韩国::https://api.m.dmzj1.com/classify/0-0-0-5-1-{{page-1}}.json\n其他::https://api.m.dmzj1.com/classify/0-0-0-6-1-{{page-1}}.json\n冒险::https://api.m.dmzj1.com/classify/1-0-0-0-1-{{page-1}}.json\n欢乐向::https://api.m.dmzj1.com/classify/2-0-0-0-1-{{page-1}}.json\n格斗::https://api.m.dmzj1.com/classify/3-0-0-0-1-{{page-1}}.json\n科幻::https://api.m.dmzj1.com/classify/4-0-0-0-1-{{page-1}}.json\n爱情::https://api.m.dmzj1.com/classify/5-0-0-0-1-{{page-1}}.json\n竞技::https://api.m.dmzj1.com/classify/6-0-0-0-1-{{page-1}}.json\n魔法::https://api.m.dmzj1.com/classify/7-0-0-0-1-{{page-1}}.json\n校园::https://api.m.dmzj1.com/classify/8-0-0-0-1-{{page-1}}.json\n悬疑::https://api.m.dmzj1.com/classify/9-0-0-0-1-{{page-1}}.json\n恐怖::https://api.m.dmzj1.com/classify/10-0-0-0-1-{{page-1}}.json\n生活亲情::https://api.m.dmzj1.com/classify/11-0-0-0-1-{{page-1}}.json\n百合::https://api.m.dmzj1.com/classify/12-0-0-0-1-{{page-1}}.json\n伪娘::https://api.m.dmzj1.com/classify/13-0-0-0-1-{{page-1}}.json\n耽美::https://api.m.dmzj1.com/classify/14-0-0-0-1-{{page-1}}.json\n后宫::https://api.m.dmzj1.com/classify/15-0-0-0-1-{{page-1}}.json\n萌系::https://api.m.dmzj1.com/classify/16-0-0-0-1-{{page-1}}.json\n治愈::https://api.m.dmzj1.com/classify/17-0-0-0-1-{{page-1}}.json\n武侠::https://api.m.dmzj1.com/classify/18-0-0-0-1-{{page-1}}.json\n职场::https://api.m.dmzj1.com/classify/19-0-0-0-1-{{page-1}}.json\n奇幻::https://api.m.dmzj1.com/classify/20-0-0-0-1-{{page-1}}.json\n节操::https://api.m.dmzj1.com/classify/21-0-0-0-1-{{page-1}}.json\n轻小说::https://api.m.dmzj1.com/classify/22-0-0-0-1-{{page-1}}.json\n搞笑::https://api.m.dmzj1.com/classify/23-0-0-0-1-{{page-1}}.json",
-  "searchUrl": "https://api.m.dmzj1.com/search/{{key}}",
-  "bookSourceType": 0,
-  "customOrder": 12776,
-  "lastUpdateTime": 1632998528404,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "$.authors",
-   "bookList": "$.[*]",
-   "bookUrl": "https://api.m.dmzj1.com/info/{$.comic_py}.html",
-   "coverUrl": "$.cover@js:header={\"Referer\":baseUrl}\nheaders={\"headers\":JSON.stringify(header)}\n;result.indexOf(\"http\")==0?result:\"https://images.dmzj1.com/\"+result+','+JSON.stringify(headers)",
-   "kind": "$.types&&$.status",
-   "lastChapter": "$.last_update_chapter_name",
-   "name": "$.name"
-  },
-  "ruleBookInfo": {
-   "author": "$.comic.authors",
-   "coverUrl": "",
-   "intro": "$.comic.description",
-   "kind": "$.comic.types&&$.comic.status##\\/",
-   "lastChapter": "$.comic.last_update_chapter_name",
-   "name": "$.comic.name"
-  },
-  "ruleToc": {
-   "chapterList": "-<js>\njava.getString(\"$.chapter_json\");\n</js>\n$.[*]data[*]",
-   "chapterName": "$.chapter_name",
-   "chapterUrl": "https://api.m.dmzj1.com/comic/chapter/{$.comic_id}/{$.id}.html"
-  },
-  "ruleContent": {
-   "content": "<js>\nvar data = result.match(/\"page_url\":(\\[.*?\\])/)[1];\ndata\n</js>\n$.[*]@js:\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)}\n;\nresult.split(\"\\n\").map(x=>'<img src=\\\"'+x+','+JSON.stringify(headers)+'\\\">').join(\"\\n\")",
-   "imageStyle": "FULL"
-  }
- },
- {
   "bookSourceUrl": "https://bmhl.xyz",
   "bookSourceName": "🎨 啵乐漫画",
   "bookSourceGroup": "",
@@ -9512,7 +9468,7 @@
  },
  {
   "bookSourceUrl": "http://www.txshuku.net",
-  "bookSourceName": "📚 天下书库 ",
+  "bookSourceName": "📚 天下书库",
   "bookSourceGroup": "📚出版,☣️senhora起点",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -16276,7 +16232,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://betawww.zongheng.com  ",
+  "bookSourceUrl": "http://betawww.zongheng.com",
   "bookSourceName": "💰纵横①",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -20146,7 +20102,7 @@
  },
  {
   "bookSourceUrl": "http://www.txshuku.la",
-  "bookSourceName": "📚 天下书库 ",
+  "bookSourceName": "📚 天下书库",
   "bookSourceGroup": "📚 出版发行 📚",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -21484,7 +21440,7 @@
  },
  {
   "bookSourceUrl": "https://www.linovelib.com#夏一L",
-  "bookSourceName": "  a🎈哔哩轻小说▪日轻💜💜[仅发现]无插图",
+  "bookSourceName": "a🎈哔哩轻小说▪日轻💜💜[仅发现]无插图",
   "bookSourceGroup": "夏一L,★,🎈 轻文",
   "bookUrlPattern": "",
   "loginUrl": "https://www.linovelib.com/login.php",
@@ -21542,7 +21498,7 @@
  },
  {
   "bookSourceUrl": "https://w.linovelib.com#6.14",
-  "bookSourceName": "  b🎈哔哩轻小说  文字有问题？  bak",
+  "bookSourceName": "b🎈哔哩轻小说  文字有问题？  bak",
   "bookSourceGroup": "🎈 轻文",
   "bookUrlPattern": ".+/novel/\\d+.html",
   "header": "{\"User-Agent\": \"Mobile\"\n}",
@@ -21702,7 +21658,7 @@
  },
  {
   "bookSourceUrl": "https://www.yoduzw.com#乃星edit22",
-  "bookSourceName": "  a🎈有度中文▪有插图🅰💜💜💜🔎乃星edit22",
+  "bookSourceName": "a🎈有度中文▪有插图🅰💜💜💜🔎乃星edit22",
   "bookSourceGroup": "🎈 轻文,21.0609乃星,★,★🔎",
   "bookSourceComment": "发现列表，迷迭二次排版，交流群637775313\n\n灰色章节无法获取的，就从上下章进入原网页，然后从正文进入该章节观看。\n\ncoolapk@叶落岚起",
   "exploreUrl": "💠　　　　　 🔹轻の小说🔹 　　　　　💠::/qingxiaoshuo/{{page}}.html\n☆电击文库::/dianjiwenku/{{page}}.html\n☆富士见文库::/fushijianwenku/{{page}}.html\r\n☆角川文库::/jiaochuanwenku/{{page}}.html\n\r\n☆MF 文库 ::/MFwenkuJ/{{page}}.html::\r\n☆Fami通文库::/Famitongwenku/{{page}}.html\r\n☆GA 文库 ::/GAwenku/{{page}}.html\n\r\n☆HJ 文库 ::/HJwenku/{{page}}.html\r\n☆ 一 迅 社 ::/yixunshe/{{page}}.html\n☆集 英 社 ::/jiyingshe/{{page}}.html\n\n☆小 学 馆 ::/xiaoxueguan/{{page}}.html\n☆ 讲 谈 社 ::/jiangtanshe/{{page}}.html\n☆ 少女文库 ::/shaonvwenku/{{page}}.html\n\r\n☆其他文库 ::/qitawenku/{{page}}.html\n\n💠  　　　　　🔹榜　单🔹　　　　　　💠::\n\n总点击::/top/allvisit_{{page}}.html\n月点击::/top/monthvisit_{{page}}.html\n周点击::/top/weekvisit_{{page}}.html \n日点击::/top/dayvisit_{{page}}.html\n\n总推荐::/top/allvote_{{page}}.html\n月推荐::/top/monthvote_{{page}}.html\n周推荐::/top/weekvote_{{page}}.html\n日推荐::/top/dayvote_{{page}}.html\n\n新书榜::/top/newhot_{{page}}.html\n收藏榜::/top/goodnum_{{page}}.html\n新入库::/top/postdate_{{page}}.html\n\n💠　　　　　 🔹网络小说🔹 　　　　　💠::\n网游小说 ::/wangyouxiaoshuo/{{page}}.html\r\n 玄幻小说 ::/xuanhuanxiaoshuo/{{page}}.html\r\n 穿越小说 ::/chuanyuexiaoshuo/{{page}}.html\n\r\n科幻小说 ::/kehuanxiaoshuo/{{page}}.html\r\n 仙侠小说 ::/xianxiaxiaoshuo/{{page}}.html\r\n 都市小说 ::/dushixiaoshuo/{{page}}.html\n\r\n武侠小说 ::/wuxiaxiaoshuo/{{page}}.html\r\n 历史小说 ::/lishixiaoshuo/{{page}}.html\r\n 竞技小说 ::/jingjixiaoshuo/{{page}}.html\n\r\n言情小说 ::/yanqingxiaoshuo/{{page}}.html\r\n 悬疑小说 ::/xuanyixiaoshuo/{{page}}.html\r\n 军事小说 ::/junshixiaoshuo/{{page}}.html\n\r\n灵异小说 ::/lingyixiaoshuo/{{page}}.html\n\n💠　　　　　 🔹经典文学🔹 　　　　　💠::\n传记回忆 ::/zhuanjihuiyi/{{page}}.html\r\n 英文读本 ::/yingwenduben/{{page}}.html\r\n 杂文随笔 ::/zawensuibi/{{page}}.html\n\r\n 经典言情 ::/jingdianyanqing/{{page}}.html\r\n 经典历史 ::/jingdianlishi/{{page}}.html\r\n 侦探推理 ::/zhentantuili/{{page}}.html\n\r\n 惊悚悬疑 ::/jingsongxuanyi/{{page}}.html\r\n 网络玄幻 ::/wangluoxuanhuan/{{page}}.html\r\n 寓言童话 ::/yuyantonghua/{{page}}.html\n\r\n 青春都市 ::/qingchundushi/{{page}}.html\r\n 社会心理 ::/shehuixinli/{{page}}.html\r\n 外国小说 ::/waiguoxiaoshuo/{{page}}.html\n\r\n 经典科幻 ::/jingdiankehuan/{{page}}.html\r\n 当代小说 ::/dangdaixiaoshuo/{{page}}.html\r\n 经典武侠 ::/jingdianwuxia/{{page}}.html\n\r\n 纪实报告 ::/jishibaogao/{{page}}.html\r\n 世界历史 ::/shijielishi/{{page}}.html\r\n 中国历史 ::/zhongguolishi/{{page}}.html\n\r\n 科普学习 ::/kepuxuexi/{{page}}.html\r\n 诗歌戏曲 ::/shigexiqu/{{page}}.html\r\n 宗教哲学 ::/zongjiaozhexue/{{page}}.html\n\r\n 文学理论 ::/wenxuelilun/{{page}}.html\r\n 日语读物 ::/riyuduwu/{{page}}.html\r\n 作 品 集  ::/zuopinji/{{page}}.html\n\n 国学古籍 ::/guoxueguji/{{page}}.html\r\n 战争军事 ::/zhanzhengjunshi/{{page}}.html\r\n 政治经济 ::/zhengzhijingji/{{page}}.html\n\r\n 古典文学 ::/gudianwenxue/{{page}}.html\r\n 现代小说 ::/xiandaixiaoshuo/{{page}}.html\r\n 官场小说 ::/guanchangxiaoshuo/{{page}}.html\n\n\n💠　　　　　 🔹繁体图书🔹 　　　　　💠::\n 世纪百强 ::/shijibaiqiang/{{page}}.html\r\n 随身智囊 ::/suishenzhinang/{{page}}.html\r\n 历史烟云 ::/lishiyanyun/{{page}}.html\n\r\n 武侠小说 ::/wuxia/{{page}}.html\r\n 悬疑小说 ::/xuanyi/{{page}}.html\r\n 言情小说 ::/yanqing/{{page}}.html\n\r\n 奇幻小说 ::/qihuanxiaoshuo/{{page}}.html",
@@ -22056,7 +22012,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/free#21.5.13关耳edit",
-  "bookSourceName": "  a💰晋江▪言情 分类标签💜💜💜#关耳edit",
+  "bookSourceName": "a💰晋江▪言情 分类标签💜💜💜#关耳edit",
   "bookSourceGroup": "💰 正版,★,★💰正版",
   "bookUrlPattern": "",
   "header": "",
@@ -22159,7 +22115,7 @@
  },
  {
   "bookSourceUrl": "https://www.shuchong.info#edit3",
-  "bookSourceName": "  b💯书虫💜全部🔎 #edit3 bak",
+  "bookSourceName": "b💯书虫💜全部🔎 #edit3 bak",
   "bookSourceGroup": "★,★🔎",
   "bookSourceComment": "old",
   "exploreUrl": "男生书库::/shuku/11_1_0_0_0_{{page}}_0_0\n男频连载::/shuku/11_2_0_0_0_{{page}}_0_0\n男频完结::/shuku/11_3_0_0_0_{{page}}_0_0\n添加时间::/shuku/11_1_0_0_8_{{page}}_0_0\n总点击榜::/shuku/11_1_0_0_2_{{page}}_0_0\n月点击榜::/shuku/11_1_0_0_5_{{page}}_0_0\n周点击榜::/shuku/11_1_0_0_4_{{page}}_0_0\n总推荐榜::/shuku/11_1_0_0_1_{{page}}_0_0\n月推荐榜::/shuku/11_1_0_0_7_{{page}}_0_0\n周推荐榜::/shuku/11_1_0_0_6_{{page}}_0_0\n总收藏榜::/shuku/11_1_0_0_3_{{page}}_0_0\n总字数榜::/shuku/11_1_0_0_9_{{page}}_0_0\n\n玄幻奇幻::/shuku/1_1_0_0_0_{{page}}_0_0\n玄幻总点::/shuku/1_1_0_0_2_{{page}}_0_0\n玄幻月点::/shuku/1_1_0_0_5_{{page}}_0_0\n玄幻周点::/shuku/1_1_0_0_4_{{page}}_0_0\n玄幻总推::/shuku/1_1_0_0_1_{{page}}_0_0\n玄幻月推::/shuku/1_1_0_0_7_{{page}}_0_0\n玄幻周推::/shuku/1_1_0_0_6_{{page}}_0_0\n玄幻总收::/shuku/1_1_0_0_3_{{page}}_0_0\n玄幻总字::/shuku/1_1_0_0_9_{{page}}_0_0\n东方玄幻::/shuku/1_1_0_1_0_{{page}}_0_0\n异世大陆::/shuku/1_1_0_2_0_{{page}}_0_0\n史诗奇幻::/shuku/1_1_0_3_0_{{page}}_0_0\n高武世界::/shuku/1_1_0_4_0_{{page}}_0_0\n剑与魔法::/shuku/1_1_0_5_0_{{page}}_0_0\n\n武侠仙侠::/shuku/2_1_0_0_0_{{page}}_0_0\n武侠总点::/shuku/2_1_0_0_2_{{page}}_0_0\n武侠月点::/shuku/2_1_0_0_5_{{page}}_0_0\n武侠周点::/shuku/2_1_0_0_4_{{page}}_0_0\n武侠总推::/shuku/2_1_0_0_1_{{page}}_0_0\n武侠月推::/shuku/2_1_0_0_7_{{page}}_0_0\n武侠周推::/shuku/2_1_0_0_6_{{page}}_0_0\n武侠总收::/shuku/2_1_0_0_3_{{page}}_0_0\n武侠总字::/shuku/2_1_0_0_9_{{page}}_0_0\n古典仙侠::/shuku/2_1_0_1_0_{{page}}_0_0\n修真文明::/shuku/2_1_0_2_0_{{page}}_0_0\n现代修真::/shuku/2_1_0_3_0_{{page}}_0_0\n神话修真::/shuku/2_1_0_4_0_{{page}}_0_0\n武侠幻想::/shuku/2_1_0_5_0_{{page}}_0_0\n幻想修仙::/shuku/2_1_0_6_0_{{page}}_0_0\n\n都市青春::/shuku/3_1_0_0_0_{{page}}_0_0\n都市总点::/shuku/3_1_0_0_2_{{page}}_0_0\n都市月点::/shuku/3_1_0_0_5_{{page}}_0_0\n都市周点::/shuku/3_1_0_0_4_{{page}}_0_0\n都市总推::/shuku/3_1_0_0_1_{{page}}_0_0\n都市月推::/shuku/3_1_0_0_7_{{page}}_0_0\n都市周推::/shuku/3_1_0_0_6_{{page}}_0_0\n都市总收::/shuku/3_1_0_0_3_{{page}}_0_0\n都市总字::/shuku/3_1_0_0_9_{{page}}_0_0\n都市生活::/shuku/3_1_0_1_0_{{page}}_0_0\n官场沉浮::/shuku/3_1_0_2_0_{{page}}_0_0\n娱乐明星::/shuku/3_1_0_3_0_{{page}}_0_0\n异术超能::/shuku/3_1_0_4_0_{{page}}_0_0\n\n历史军事::/shuku/4_1_0_0_0_{{page}}_0_0\n历史总点::/shuku/4_1_0_0_2_{{page}}_0_0\n历史月点::/shuku/4_1_0_0_5_{{page}}_0_0\n历史周点::/shuku/4_1_0_0_4_{{page}}_0_0\n历史总推::/shuku/4_1_0_0_1_{{page}}_0_0\n历史月推::/shuku/4_1_0_0_7_{{page}}_0_0\n历史周推::/shuku/4_1_0_0_6_{{page}}_0_0\n历史总收::/shuku/4_1_0_0_3_{{page}}_0_0\n历史总字::/shuku/4_1_0_0_9_{{page}}_0_0\n架空历史::/shuku/4_1_0_1_0_{{page}}_0_0\n秦汉三国::/shuku/4_1_0_2_0_{{page}}_0_0\n两晋隋唐::/shuku/4_1_0_3_0_{{page}}_0_0\n两宋元明::/shuku/4_1_0_4_0_{{page}}_0_0\n清史民国::/shuku/4_1_0_5_0_{{page}}_0_0\n外国历史::/shuku/4_1_0_6_0_{{page}}_0_0\n军事战争::/shuku/4_1_0_7_0_{{page}}_0_0\n抗战烽火::/shuku/4_1_0_8_0_{{page}}_0_0\n\n科幻灵异::/shuku/5_1_0_0_0_{{page}}_0_0\n科幻总点::/shuku/5_1_0_0_2_{{page}}_0_0\n科幻月点::/shuku/5_1_0_0_5_{{page}}_0_0\n科幻周点::/shuku/5_1_0_0_4_{{page}}_0_0\n科幻总推::/shuku/5_1_0_0_1_{{page}}_0_0\n科幻月推::/shuku/5_1_0_0_7_{{page}}_0_0\n科幻周推::/shuku/5_1_0_0_6_{{page}}_0_0\n科幻总收::/shuku/5_1_0_0_3_{{page}}_0_0\n科幻总字::/shuku/5_1_0_0_9_{{page}}_0_0\n未来世界::/shuku/5_1_0_1_0_{{page}}_0_0\n超级科技::/shuku/5_1_0_2_0_{{page}}_0_0\n时空穿梭::/shuku/5_1_0_3_0_{{page}}_0_0\n进化变异::/shuku/5_1_0_4_0_{{page}}_0_0\n末世危机::/shuku/5_1_0_5_0_{{page}}_0_0\n灵异鬼怪::/shuku/5_1_0_6_0_{{page}}_0_0\n侦探推理::/shuku/5_1_0_7_0_{{page}}_0_0\n寻墓探险::/shuku/5_1_0_8_0_{{page}}_0_0\n\n游戏竞技::/shuku/6_1_0_0_0_{{page}}_0_0\n游戏总点::/shuku/6_1_0_0_2_{{page}}_0_0\n游戏月点::/shuku/6_1_0_0_5_{{page}}_0_0\n游戏周点::/shuku/6_1_0_0_4_{{page}}_0_0\n游戏总推::/shuku/6_1_0_0_1_{{page}}_0_0\n游戏月推::/shuku/6_1_0_0_7_{{page}}_0_0\n游戏周推::/shuku/6_1_0_0_6_{{page}}_0_0\n游戏总收::/shuku/6_1_0_0_3_{{page}}_0_0\n游戏总字::/shuku/6_1_0_0_9_{{page}}_0_0\n虚拟网游::/shuku/6_1_0_1_0_{{page}}_0_0\n游戏异界::/shuku/6_1_0_2_0_{{page}}_0_0\n体育竞技::/shuku/6_1_0_3_0_{{page}}_0_0\n游戏生涯::/shuku/6_1_0_4_0_{{page}}_0_0\n电子竞技::/shuku/6_1_0_5_0_{{page}}_0_0\n\n女生言情::/shuku/9_1_0_0_0_{{page}}_0_0\n女生总点::/shuku/9_1_0_0_2_{{page}}_0_0\n女生月点::/shuku/9_1_0_0_5_{{page}}_0_0\n女生周点::/shuku/9_1_0_0_4_{{page}}_0_0\n女生总推::/shuku/9_1_0_0_1_{{page}}_0_0\n女生月推::/shuku/9_1_0_0_7_{{page}}_0_0\n女生周推::/shuku/9_1_0_0_6_{{page}}_0_0\n女生总收::/shuku/9_1_0_0_3_{{page}}_0_0\n女生总字::/shuku/9_1_0_0_9_{{page}}_0_0\n豪门总裁::/shuku/9_1_0_1_0_{{page}}_0_0\n现代言情::/shuku/9_1_0_2_0_{{page}}_0_0\n星际科幻::/shuku/9_1_0_3_0_{{page}}_0_0\n灵异推理::/shuku/9_1_0_4_0_{{page}}_0_0\n婚恋情缘::/shuku/9_1_0_5_0_{{page}}_0_0\n古代言情::/shuku/9_1_0_6_0_{{page}}_0_0\n玄幻仙侠::/shuku/9_1_0_7_0_{{page}}_0_0\n宫闱宅斗::/shuku/9_1_0_8_0_{{page}}_0_0\n\n次元同人::/shuku/20_1_0_0_0_{{page}}_0_0\n次元总点::/shuku/20_1_0_0_2_{{page}}_0_0\n次元月点::/shuku/20_1_0_0_5_{{page}}_0_0\n次元周点::/shuku/20_1_0_0_4_{{page}}_0_0\n次元总推::/shuku/20_1_0_0_1_{{page}}_0_0\n次元月推::/shuku/20_1_0_0_7_{{page}}_0_0\n次元周推::/shuku/20_1_0_0_6_{{page}}_0_0\n次元总收::/shuku/20_1_0_0_3_{{page}}_0_0\n次元总字::/shuku/20_1_0_0_9_{{page}}_0_0\n动漫同人::/shuku/20_1_0_1_0_{{page}}_0_0\n小说同人::/shuku/20_1_0_2_0_{{page}}_0_0\n影视同人::/shuku/20_1_0_3_0_{{page}}_0_0\n原生幻想::/shuku/20_1_0_4_0_{{page}}_0_0",
@@ -22202,7 +22158,7 @@
  },
  {
   "bookSourceUrl": "https://www.shuchong.info#关耳5.18edit",
-  "bookSourceName": "  b💯书虫#关耳💜完结/连载▪分类🔎  bak",
+  "bookSourceName": "b💯书虫#关耳💜完结/连载▪分类🔎  bak",
   "bookSourceGroup": "★,★🔎",
   "bookUrlPattern": "https://www.shuchong.info/book/\\d+.html",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
@@ -22252,7 +22208,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/channel/index/#玄奇edit",
-  "bookSourceName": "  b💰晋江app▪百合 分类▪#玄奇edit  bak",
+  "bookSourceName": "b💰晋江app▪百合 分类▪#玄奇edit  bak",
   "bookSourceGroup": "正版,⚙️已检,21.0624玄奇,★,★💰正版",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -22318,7 +22274,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/channel/index/#关耳",
-  "bookSourceName": "  a💰晋江app▪百合 分类▪#关耳6.19🅰🅰🅰",
+  "bookSourceName": "a💰晋江app▪百合 分类▪#关耳6.19🅰🅰🅰",
   "bookSourceGroup": "💰 正版,21.0619关耳,★,★💰正版",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -22384,7 +22340,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/free#关耳",
-  "bookSourceName": "  a💰晋江▪百合 分类标签💜💜💜#关耳",
+  "bookSourceName": "a💰晋江▪百合 分类标签💜💜💜#关耳",
   "bookSourceGroup": "💰 正版,21.0619关耳,★,★💰正版",
   "bookUrlPattern": "",
   "header": "",
@@ -22444,7 +22400,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#乃星6.11",
-  "bookSourceName": "  b💰起点▪女频▪#乃星edit bak",
+  "bookSourceName": "b💰起点▪女频▪#乃星edit bak",
   "bookSourceGroup": "💰 正版,21.0611乃星,★,★💰正版",
   "bookUrlPattern": "",
   "header": "",
@@ -24946,6 +24902,46 @@
   },
   "ruleContent": {
    "content": "class.content hide@html"
+  }
+ },
+ {
+  "bookSourceUrl": "https://us.webtoons.com/zh-hant",
+  "bookSourceName": "🎨Webtoon",
+  "bookSourceGroup": "🎨 漫画",
+  "bookUrlPattern": "",
+  "loginUrl": "",
+  "bookSourceComment": "error:timeout\n",
+  "exploreUrl": "全部::https://us.webtoons.com/zh-hant/genre",
+  "searchUrl": "https://us.webtoons.com/search?keyword={{key}},{\n  \"headers\": \"{Cookie:\\\"locale=zh_TW;\\\"}\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 25775,
+  "lastUpdateTime": 1621916624974,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.author@text",
+   "bookList": "class.card_lst@tag.li&&class.challenge_lst@tag.li",
+   "bookUrl": "tag.a@href",
+   "coverUrl": "tag.img@src@Header:{Referer:thisPage}",
+   "kind": "class.g_drama@text",
+   "name": "class.subj@text"
+  },
+  "ruleBookInfo": {
+   "intro": "class.summary@text",
+   "kind": "class.info@class.genre@text"
+  },
+  "ruleToc": {
+   "chapterList": "-id._listUl@tag.li",
+   "chapterName": "class.subj@text##\\]",
+   "chapterUrl": "tag.a@href",
+   "nextTocUrl": "@css:.paginate a:has(.on)~a@href"
+  },
+  "ruleContent": {
+   "content": ":_S001_nEmxFTqTFd9LYr+2pObimmrQbhJtu5Dh7zCpsq9JGVGdzGF1okeip+LDUq0R9VY7qtAqqYjvCkxK\nvPHggMNblA==\n",
+   "imageStyle": "0"
   }
  }
 ]

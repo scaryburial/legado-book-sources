@@ -1,61 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.qqxs.tw/",
-  "bookSourceName": "千千小说",
-  "bookSourceGroup": "小说 书源",
-  "bookUrlPattern": "https://www.qqxs.tw/\\d+_\\d+/",
-  "loginUrl": "{\n  \"url\": \"null\"\n}",
-  "bookSourceComment": "// Error: 发现失效, 搜索失效",
-  "exploreUrl": "玄幻小说::https://m.qqxs.tw/list/1_{{page}}.html\n武侠小说::https://m.qqxs.tw/list/2_{{page}}.html\n都市小说::https://m.qqxs.tw/list/3_{{page}}.html\n历史小说::https://m.qqxs.tw/list/4_{{page}}.html\n推理小说::https://m.qqxs.tw/list/5_{{page}}.html\n网游小说::https://m.qqxs.tw/list/6_{{page}}.html\n科幻小说::https://m.qqxs.tw/list/7_{{page}}.html\n恐怖小说::https://m.qqxs.tw/list/8_{{page}}.html\n穿越小说::https://m.qqxs.tw/list/9_{{page}}.html\n其他小说::https://m.qqxs.tw/list/10_{{page}}.html\n完本小说::https://m.qqxs.tw/full/{{page}}.html",
-  "searchUrl": "https://www.qqxs.tw/modules/article/search.php?searchkey={{key}}&page={{page}},{\"charset\":\"gbk\"}",
-  "bookSourceType": 0,
-  "customOrder": 22906,
-  "lastUpdateTime": 1720895574233,
-  "respondTime": 191507,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.s4@text",
-   "bookList": "class.novelslistss@li",
-   "bookUrl": "class.s2@tag.a@href",
-   "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.qqxs.tw/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
-   "intro": "",
-   "kind": "class.s1@text",
-   "lastChapter": "class.s3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 |卷1 ",
-   "name": "class.s2@tag.a@text"
-  },
-  "ruleExplore": {
-   "author": "class.article@tag.p.0@tag.span.0@text##作者:",
-   "bookList": "class.list-item",
-   "bookUrl": "class.article@tag.a.0@href@js:\nr=result.match(/_(\\d+)/)\nid=r[1]\nvar iid = parseInt(id/1000);\n'https://www.qqxs.tw/'+iid+'_'+id+'/'",
-   "coverUrl": "img@src",
-   "intro": "class.article@tag.a.1@text",
-   "lastChapter": "",
-   "name": "class.article@tag.a.0@text"
-  },
-  "ruleBookInfo": {
-   "author": "id.info@tag.p.0@tag.a.0@text",
-   "coverUrl": "id.fmimg@img@src",
-   "init": "",
-   "intro": "id.intro@text",
-   "lastChapter": "id.list@tag.dd.0@a@text##免费章节 |正文卷 |正文 |VIP章节 |卷1 ",
-   "name": "id.info@tag.h1@text",
-   "wordCount": "id.info@tag.p.2@text##更新时间："
-  },
-  "ruleToc": {
-   "chapterList": "id.list@tag.dd",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "id.content@html##千千小说.*最新章节！|一秒记住.*免费阅读！|.*第.*章.*",
-   "imageStyle": "0",
-   "replaceRegex": ""
-  }
- },
- {
   "bookSourceUrl": "http://wap.aixswx.com#onede",
   "bookSourceName": "星空小说",
   "bookSourceGroup": "小说 书源",
@@ -356,7 +300,7 @@
  },
  {
   "bookSourceUrl": "http://www.yunxs.com/#pb1101",
-  "bookSourceName": "云中书库 ",
+  "bookSourceName": "云中书库",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -721,7 +665,7 @@
  },
  {
   "bookSourceUrl": "http://www.77dushu.com/#♤pb",
-  "bookSourceName": "包读书网 ",
+  "bookSourceName": "包读书网",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "http://www.77dushu.com/novel/\\d+/",
   "loginUrl": "",
@@ -8606,7 +8550,7 @@
  },
  {
   "bookSourceUrl": "https://jpxs123.cc#001",
-  "bookSourceName": " 精品小说",
+  "bookSourceName": "精品小说",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "// Error: 搜索失效",
   "exploreUrl": "[{\"title\":\"最新小说\",\"url\":\"/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"精品小说\",\"url\":\"/book/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市小说\",\"url\":\"/dsxs/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"玄幻修真\",\"url\":\"/xuanhuan/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/lishi/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻竞技\",\"url\":\"/khjj/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"穿越架空\",\"url\":\"/cyjk/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"鬼话悬疑\",\"url\":\"/guihua/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"同人小说\",\"url\":\"/tongren/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -10899,7 +10843,7 @@
   }
  },
  {
-  "bookSourceUrl": "  https://m.ytryx.com",
+  "bookSourceUrl": "https://m.ytryx.com",
   "bookSourceName": "顶点小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "",
@@ -12974,7 +12918,7 @@
   }
  },
  {
-  "bookSourceUrl": "        https://m.shubaozu.org",
+  "bookSourceUrl": "https://m.shubaozu.org",
   "bookSourceName": "书包族吧",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "// Error: Timed out waiting for 180000 ms\n\n//@youke2580发现规则",
@@ -18181,7 +18125,7 @@
  },
  {
   "bookSourceUrl": "https://www.69book.net/",
-  "bookSourceName": "♜69书吧① ",
+  "bookSourceName": "♜69书吧①",
   "bookSourceGroup": "【小说 书源】",
   "bookUrlPattern": "https://www.69book.net/book/\\d+/",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
@@ -18529,7 +18473,7 @@
  },
  {
   "bookSourceUrl": "https://api.yousuu.com#md109b",
-  "bookSourceName": " 优书网api▪书评 ♛♛♛  关键词 »» 搜书名；\n　  @作者名 »» 搜作者； #作者名 »» 搜作者。",
+  "bookSourceName": "优书网api▪书评 ♛♛♛  关键词 »» 搜书名；\n　  @作者名 »» 搜作者； #作者名 »» 搜作者。",
   "bookSourceGroup": "📃 优书",
   "bookUrlPattern": ".+/api/book/.+",
   "header": "{\n\"cookie\":\"Hm_lvt_42e120beff2c918501a12c0d39a4e067=1633547154;Hm_lpvt_42e120beff2c918501a12c0d39a4e067=1633548639;token=dxJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTU4MDYzMSwiaWF0IjoxNjMzNTQ4MzEyLCJleHAiOjE2MzYxNDAzMTJ9.9AT4u_mJfIEHHtT8XLyuURjnX0dEdFeaMQ00RCmL3hb;token.sig=tMIAzO7keIPLSV0HQXGecStYR7YV3rhD8Jc_1evvx8F\"\n}",
@@ -19391,7 +19335,7 @@
  },
  {
   "bookSourceUrl": "https://m.junjh.com",
-  "bookSourceName": " 全本小说网junth",
+  "bookSourceName": "全本小说网junth",
   "bookSourceGroup": "🎉 精品",
   "bookUrlPattern": "https?://m.junjh.com/xiazai/\\d+/\\d+/",
   "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
@@ -20832,7 +20776,7 @@
  },
  {
   "bookSourceUrl": "https://www.liquge.com#♤yc",
-  "bookSourceName": " 笔趣阁 #一程",
+  "bookSourceName": "笔趣阁 #一程",
   "bookSourceGroup": "🍁 笔趣",
   "loginUrl": "",
   "bookSourceComment": "",
@@ -36307,7 +36251,7 @@
  },
  {
   "bookSourceUrl": "https://book.sfacg.com#yc1101",
-  "bookSourceName": "SF轻小说 ",
+  "bookSourceName": "SF轻小说",
   "bookSourceGroup": "⌨📧网文",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
@@ -36808,7 +36752,7 @@
  },
  {
   "bookSourceUrl": "https://www.qixiashu.com#♤pb",
-  "bookSourceName": "八月文学 ",
+  "bookSourceName": "八月文学",
   "bookSourceGroup": "🥇小黑网络素材",
   "bookUrlPattern": "https://www.qixiashu.com/yue/\\d+/\\d+/",
   "loginUrl": "",
@@ -39502,7 +39446,7 @@
  },
  {
   "bookSourceUrl": "https://m.xxbiqudu.com/##@遇知",
-  "bookSourceName": " xx笔趣读",
+  "bookSourceName": "xx笔趣读",
   "bookSourceGroup": "⌨📧网文",
   "loginUrl": "",
   "bookSourceComment": "",
@@ -41195,7 +41139,7 @@
  },
  {
   "bookSourceUrl": "https://www.bsxiaoshuo.com#♤yc",
-  "bookSourceName": "㊣ 笔尚小说 ",
+  "bookSourceName": "㊣ 笔尚小说",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "concurrentRate": "",
@@ -44956,7 +44900,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://m.xiang5.com\n",
+  "bookSourceUrl": "http://m.xiang5.com",
   "bookSourceName": "🛍︎香网小说",
   "bookSourceGroup": "【正版小说 书源】,发现失效,搜索失效",
   "bookUrlPattern": "",
@@ -45574,7 +45518,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.77xiaoshuo.cc",
+  "bookSourceUrl": "http://www.77xiaoshuo.cc",
   "bookSourceName": "⁷⁷小说",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -47104,7 +47048,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.zhaishuyuan8.org",
+  "bookSourceUrl": "http://www.zhaishuyuan8.org",
   "bookSourceName": "摘书楼",
   "bookSourceGroup": "",
   "bookUrlPattern": "http://www.zhaishuyuan8.org/\\d+/",
@@ -47241,7 +47185,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.bixia88.org",
+  "bookSourceUrl": "http://www.bixia88.org",
   "bookSourceName": "⭐️笔下文学",
   "bookSourceGroup": "3",
   "bookUrlPattern": "",
@@ -48553,7 +48497,7 @@
   }
  },
  {
-  "bookSourceUrl": "   http://wap.95shubao.cc",
+  "bookSourceUrl": "http://wap.95shubao.cc",
   "bookSourceName": "🍉 九五小说网",
   "bookSourceGroup": "3",
   "bookUrlPattern": "",
@@ -48638,7 +48582,7 @@
   }
  },
  {
-  "bookSourceUrl": "       http://m.shatanxs.com",
+  "bookSourceUrl": "http://m.shatanxs.com",
   "bookSourceName": "⭐️沙滩",
   "bookSourceGroup": "3",
   "bookSourceComment": "",
@@ -48684,7 +48628,7 @@
   }
  },
  {
-  "bookSourceUrl": "       https://m.cc148.org",
+  "bookSourceUrl": "https://m.cc148.org",
   "bookSourceName": "⭐️笔趣阁",
   "bookSourceGroup": "3",
   "bookSourceComment": "",
@@ -48730,7 +48674,7 @@
   }
  },
  {
-  "bookSourceUrl": "        https://m.huaxiangju.com",
+  "bookSourceUrl": "https://m.huaxiangju.com",
   "bookSourceName": "⭐️花香居",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -48778,7 +48722,7 @@
   }
  },
  {
-  "bookSourceUrl": "        http://wap.cuiweishuba.cc",
+  "bookSourceUrl": "http://wap.cuiweishuba.cc",
   "bookSourceName": "⭐️翠微居",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -48834,7 +48778,7 @@
   }
  },
  {
-  "bookSourceUrl": "        http://m.zzzcn.org",
+  "bookSourceUrl": "http://m.zzzcn.org",
   "bookSourceName": "⭐️笔趣阁",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -48890,7 +48834,7 @@
   }
  },
  {
-  "bookSourceUrl": "        http://m.lewenge.la",
+  "bookSourceUrl": "http://m.lewenge.la",
   "bookSourceName": "⭐️乐文",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -48946,7 +48890,7 @@
   }
  },
  {
-  "bookSourceUrl": "        http://m.shuzwa.com",
+  "bookSourceUrl": "http://m.shuzwa.com",
   "bookSourceName": "⭐️书馆",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -48993,7 +48937,7 @@
   }
  },
  {
-  "bookSourceUrl": "        http://m.paoshu8.info",
+  "bookSourceUrl": "http://m.paoshu8.info",
   "bookSourceName": "⭐️泡书",
   "bookSourceGroup": "3",
   "bookSourceComment": "//@youke2580发现规则",
@@ -49049,7 +48993,7 @@
   }
  },
  {
-  "bookSourceUrl": "   http://m.548xs.com",
+  "bookSourceUrl": "http://m.548xs.com",
   "bookSourceName": "⭐️悟空",
   "bookSourceGroup": "3",
   "bookSourceComment": "",
@@ -49096,7 +49040,7 @@
   }
  },
  {
-  "bookSourceUrl": "       http://wap.ncwxst.cc",
+  "bookSourceUrl": "http://wap.ncwxst.cc",
   "bookSourceName": "⭐️暖才小说",
   "bookSourceGroup": "3",
   "bookSourceComment": "",
@@ -49143,7 +49087,7 @@
   }
  },
  {
-  "bookSourceUrl": "       http://m.susuzw.com",
+  "bookSourceUrl": "http://m.susuzw.com",
   "bookSourceName": "⭐️速速小说",
   "bookSourceGroup": "3",
   "bookSourceComment": "",
@@ -49253,7 +49197,7 @@
   }
  },
  {
-  "bookSourceUrl": "    https://m.danmei999.cc",
+  "bookSourceUrl": "https://m.danmei999.cc",
   "bookSourceName": "🌺女生文学",
   "bookSourceGroup": "👍 备用",
   "header": "",
@@ -51177,6 +51121,55 @@
   "ruleContent": {
    "content": "#content1@html",
    "replaceRegex": "##最新网址.*"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.1718k.com/",
+  "bookSourceName": "起困小说（发现）",
+  "bookSourceGroup": "小说 书源",
+  "bookUrlPattern": "https://www.1718k.com/files/article/html/\\d+/\\d+/",
+  "header": "{\"accept-language\":\"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"}",
+  "bookSourceComment": "// Error: 搜索失效",
+  "exploreUrl": "玄幻小说::/fenlei1_{{page}}/\n武侠小说::/fenlei2_{{page}}/\n都市小说::/fenlei3_{{page}}/\n历史小说::/fenlei4_{{page}}/\n科幻小说::/fenlei5_{{page}}/\n游戏小说::/fenlei6_{{page}}/\n女生小说::/fenlei7_{{page}}/\n其他小说::/fenlei8_{{page}}/",
+  "searchUrl": "https://www.1718k.com/search/,{\"charset\":\"UTF-8\",\"method\":\"POST\",\"body\":\"searchkey={{key}}\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Safari/537.36\",\"Referer\":\"https://www.1718k.com/\"},\"webView\": true}",
+  "bookSourceType": 0,
+  "customOrder": 15351,
+  "lastUpdateTime": 1702221380314,
+  "respondTime": 185365,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.book_other.0@tag.span.0@text",
+   "bookList": "id.sitebox@id.nr||id.sitebox@dl",
+   "bookUrl": "h3@a@href",
+   "checkKeyWord": "万族之劫",
+   "coverUrl": "img@data-original",
+   "intro": "class.book_des@text",
+   "lastChapter": "class.book_other.1@a@text",
+   "name": "h3@a@text"
+  },
+  "ruleExplore": {
+   "bookList": ""
+  },
+  "ruleBookInfo": {
+   "author": "[property=og:novel:author]@content",
+   "coverUrl": "[property=og:image]@content",
+   "init": "",
+   "intro": "[property=og:description]@content",
+   "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
+   "lastChapter": "[property=og:novel:lastest_chapter_name]@content##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "[property=og:novel:book_name]@content##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+  },
+  "ruleToc": {
+   "chapterList": "id.chapterList@li",
+   "chapterName": "a@text",
+   "chapterUrl": "a@href"
+  },
+  "ruleContent": {
+   "content": "id.TextContent@p@html",
+   "nextContentUrl": "text.下一页@href"
   }
  }
 ]

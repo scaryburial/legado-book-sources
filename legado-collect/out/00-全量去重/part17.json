@@ -1,43 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://wap.1114txt.com",
-  "bookSourceName": "🎉 一世书城",
-  "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
-  "bookSourceComment": "",
-  "searchUrl": "http://www.xsxu.net/search/,{\n\"method\": \"POST\",\n\"body\": \"searchtype=all&searchkey={{key}}\"\n}",
-  "bookSourceType": 0,
-  "customOrder": -2085967931,
-  "lastUpdateTime": 1631205945740,
-  "respondTime": 5615,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "tag.a.-1@text",
-   "bookList": "class.SHsectionThree-middle@p",
-   "bookUrl": "tag.a.1@href",
-   "kind": "tag.a.0@text",
-   "name": "tag.a.1@text"
-  },
-  "ruleBookInfo": {
-   "coverUrl": "//meta[@property=\"og:image\"]/@content",
-   "intro": "//meta[@property=\"og:description\"]/@content",
-   "lastChapter": "//meta[@property=\"og:novel:lastest_chapter_name\"]/@content",
-   "tocUrl": "text.章节目录@href"
-  },
-  "ruleToc": {
-   "chapterList": "class.BCsectionTwo-top-chapter@a",
-   "chapterName": "text",
-   "chapterUrl": "href",
-   "nextTocUrl": "select@option@value"
-  },
-  "ruleContent": {
-   "content": "class.RBGsectionThree-content@html",
-   "nextContentUrl": "text.下一页@href"
-  }
- },
- {
   "bookSourceUrl": "http://api.ali.17k.com/免费",
   "bookSourceName": "17k免费",
   "bookSourceGroup": "发现失效,搜索目录失效,如月流光,☃晨光雨露᭄精俢源*,▽置顶`ȏ´正版发现",
@@ -6041,7 +6003,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.fenxbook.com#fengtui dl         ",
+  "bookSourceUrl": "https://www.fenxbook.com#fengtui dl",
   "bookSourceName": "封推中文",
   "bookSourceGroup": "🍁,搜索失效",
   "bookUrlPattern": "",
@@ -11373,7 +11335,7 @@
  },
  {
   "bookSourceUrl": "http://www.tsxsw.net",
-  "bookSourceName": "🐳吞噬小说 ",
+  "bookSourceName": "🐳吞噬小说",
   "bookSourceGroup": "🍥 男频备用 🍥,⌛️ 全局搜书 ⌛️,®️ 搜书男频 ®️",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -11881,7 +11843,7 @@
  },
  {
   "bookSourceUrl": "http://www.147xs.org#grid tr!0#芜恙",
-  "bookSourceName": "  b🌸147小说🅰💜💜💜w #芜恙 bak",
+  "bookSourceName": "b🌸147小说🅰💜💜💜w #芜恙 bak",
   "bookSourceGroup": "👍 优质,21.01芜恙,★,",
   "bookUrlPattern": "",
   "header": "",
@@ -12183,7 +12145,7 @@
  },
  {
   "bookSourceUrl": "https://api.ywpxg.com/api/v1/#ag2s",
-  "bookSourceName": "  b💯笔趣屋🅰APP💜💜💜🔎 #ag2s bak",
+  "bookSourceName": "b💯笔趣屋🅰APP💜💜💜🔎 #ag2s bak",
   "bookSourceGroup": "API,zip,🎉 精品,★,★🔎,☀️搜书/换源 A▪精品",
   "bookUrlPattern": "",
   "header": "",
@@ -12221,7 +12183,7 @@
  },
  {
   "bookSourceUrl": "https://m.9txs.com#关耳",
-  "bookSourceName": "  b💯九桃小说🅰🔎com#关耳 bak",
+  "bookSourceName": "b💯九桃小说🅰🔎com#关耳 bak",
   "bookSourceGroup": "21.0619关耳,★,★🔎",
   "bookUrlPattern": "https?://www.9txs.com/book/\\d+.html",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
@@ -21881,7 +21843,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.50zw.la ",
+  "bookSourceUrl": "https://www.50zw.la",
   "bookSourceName": "武林中文网 50zw.la",
   "bookSourceGroup": "🏵️  小说,🎉 精选 🎉",
   "bookUrlPattern": "",
@@ -27050,7 +27012,7 @@
  },
  {
   "bookSourceUrl": "http://www.lewen7.com",
-  "bookSourceName": "\r乐文小说网",
+  "bookSourceName": "乐文小说网",
   "bookSourceGroup": "⁵♡ོ晨光雨露✺普通源",
   "bookUrlPattern": "",
   "loginUrl": "null",
@@ -34731,7 +34693,7 @@
  },
  {
   "bookSourceUrl": "https://m.8kana.com#南笙21.0101",
-  "bookSourceName": " 不可能的世界#南笙21.0101",
+  "bookSourceName": "不可能的世界#南笙21.0101",
   "bookSourceGroup": "﹅ 通用书源▪︎玄奇,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -42759,6 +42721,57 @@
    "coverUrl": "class.s2@tag.a@href##http.*id<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.miaoshu5.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
    "kind": "",
    "lastChapter": "class.s2@a@href##http.*com<js>java.ajax('https://www.miaoshu5.com'+result)</js>class.info@class.small@tag.span.5@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "class.s2@a@text"
+  },
+  "ruleExplore": {
+   "author": "",
+   "bookList": "",
+   "bookUrl": "",
+   "lastChapter": "",
+   "name": ""
+  },
+  "ruleBookInfo": {
+   "author": "class.info@class.small@tag.span.0@text##作 者：",
+   "coverUrl": "class.cover@tag.img.0@src",
+   "intro": "class.intro@text##简介：|作者.*",
+   "kind": "class.info@class.small@tag.span.1@text&&\nclass.info@class.small@tag.span.2@text&&\nclass.info@class.small@tag.span.4@text##更新时间：|分类：|状态：",
+   "lastChapter": "class.info@class.small@tag.span.5@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "class.info@h2@text##最新章节"
+  },
+  "ruleToc": {
+   "chapterList": "class.listmain@tag.dd",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "id.content@html##请记住本书首发域.*|http.*html|\\(|\\)",
+   "imageStyle": "0"
+  }
+ },
+ {
+  "bookSourceUrl": "http://www.shuyuewu.co/",
+  "bookSourceName": "🎉书阅屋",
+  "bookSourceGroup": "🎉 精选 🎉",
+  "header": "",
+  "loginUrl": "",
+  "bookSourceComment": "",
+  "exploreUrl": "",
+  "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=shuyuewu.co&q={{key}}",
+  "bookSourceType": 0,
+  "customOrder": 26669,
+  "lastUpdateTime": 1610563854611,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.s4@text",
+   "bookList": "class.search-list@li!0",
+   "bookUrl": "class.s2@a@href@js:\nr=result.match(/(\\d+)/)\nid=r[1]\nvar iid = parseInt(id/1000);\n'http://www.shuyuewu.co/'+iid+'_'+id+'/'",
+   "coverUrl": "class.s2@tag.a@href##http.*id<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.shuyuewu.co/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+   "kind": "",
+   "lastChapter": "class.s2@a@href##$##,{\"webView\":true}<js>java.ajax(result)</js>class.info@class.small@tag.span.5@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
    "name": "class.s2@a@text"
   },
   "ruleExplore": {

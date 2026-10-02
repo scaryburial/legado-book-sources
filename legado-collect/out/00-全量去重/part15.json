@@ -1,59 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.umiwx.info",
-  "bookSourceName": "完美小说",
-  "bookSourceGroup": "Namo",
-  "bookSourceComment": "",
-  "exploreUrl": "",
-  "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"post\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 8079,
-  "lastUpdateTime": 1687753365030,
-  "respondTime": 4156,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "tag.li.1@text",
-   "bookList": ".info",
-   "bookUrl": "a@href",
-   "coverUrl": "",
-   "kind": "",
-   "lastChapter": "a.1@text",
-   "name": "a@text",
-   "wordCount": ""
-  },
-  "ruleExplore": {
-   "author": "",
-   "bookList": "",
-   "bookUrl": "",
-   "coverUrl": "",
-   "intro": "",
-   "lastChapter": "",
-   "name": ""
-  },
-  "ruleBookInfo": {
-   "author": "[property$=author]@content",
-   "coverUrl": "class.articleInfoPic@src",
-   "intro": "#wrap@html##阅读提示.*",
-   "kind": "[property~=category|update_time]@content##小说|\\s.*",
-   "lastChapter": "[property$=latest_chapter_name]@content##[\\(（【].*?[求更票谢乐发订合补加Kk].*?[】）\\)]",
-   "name": "[property$=book_name]@content",
-   "tocUrl": "text.点击阅读@href"
-  },
-  "ruleToc": {
-   "chapterList": "#newlist li",
-   "chapterName": "a@text##[\\(（【].*?[求更票谢乐发订合补加Kk].*?[】）\\)]",
-   "chapterUrl": "a@href"
-  },
-  "ruleContent": {
-   "content": "#content@html",
-   "nextContentUrl": "",
-   "replaceRegex": "##最新网址.*"
-  }
- },
- {
   "bookSourceUrl": "https://www.dawenxue.net#🎃",
   "bookSourceName": "大文学🎃#2",
   "bookSourceGroup": "",
@@ -1429,7 +1375,7 @@
  },
  {
   "bookSourceUrl": "https://m.xqianqian.com/#onede",
-  "bookSourceName": " 千千小说#onede",
+  "bookSourceName": "千千小说#onede",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "https://m.xqianqian.com/s.php?q={{key}}",
@@ -1549,7 +1495,7 @@
  },
  {
   "bookSourceUrl": "http://www.yousuu.com:80",
-  "bookSourceName": " 优书",
+  "bookSourceName": "优书",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "api/search?type=title&value={{key}}&page={{page}}",
@@ -1730,7 +1676,7 @@
  },
  {
   "bookSourceUrl": "https://site.douban.com/194593/widget/notes/11784332",
-  "bookSourceName": " 豆瓣·小站",
+  "bookSourceName": "豆瓣·小站",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "exploreUrl": "科幻短篇::https://site.douban.com/194593/widget/notes/11784332/",
@@ -1838,7 +1784,7 @@
  },
  {
   "bookSourceUrl": "https://m.mihua.net",
-  "bookSourceName": " 米花书房",
+  "bookSourceName": "米花书房",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "https://m.mihua.net/mcms/login.php",
@@ -2204,7 +2150,7 @@
  },
  {
   "bookSourceUrl": "https://m.dushuzhe.com",
-  "bookSourceName": " 读书者",
+  "bookSourceName": "读书者",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
   "bookSourceComment": "// Error: 搜索失效",
@@ -2248,7 +2194,7 @@
  },
  {
   "bookSourceUrl": "http://www.11txt.com",
-  "bookSourceName": " 凤凰小说",
+  "bookSourceName": "凤凰小说",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
   "bookSourceComment": "// Error: 搜索失效",
@@ -2585,7 +2531,7 @@
  },
  {
   "bookSourceUrl": "http://www.beqege.cc",
-  "bookSourceName": "贝切阁 ",
+  "bookSourceName": "贝切阁",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "",
@@ -2652,7 +2598,7 @@
  },
  {
   "bookSourceUrl": "http://www.beqege.cc#乃星",
-  "bookSourceName": "贝切阁 ",
+  "bookSourceName": "贝切阁",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "",
@@ -3571,7 +3517,7 @@
  },
  {
   "bookSourceUrl": "http://www.51ggd.com#wy18-1001",
-  "bookSourceName": " 格格党 #未月十八1001",
+  "bookSourceName": "格格党 #未月十八1001",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "https://www.51ggd.com/books/\\d+.html",
   "loginUrl": "",
@@ -6457,7 +6403,7 @@
  },
  {
   "bookSourceUrl": "https://novelepubs.com",
-  "bookSourceName": " 小说馆",
+  "bookSourceName": "小说馆",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "https://novelepubs.com/search?q={{key}}",
@@ -9292,7 +9238,7 @@
  },
  {
   "bookSourceUrl": "https://www.alphapolis.co.jp/",
-  "bookSourceName": "📖 AlphaPolis ",
+  "bookSourceName": "📖 AlphaPolis",
   "bookSourceGroup": "📖 小说",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -10367,7 +10313,7 @@
  },
  {
   "bookSourceUrl": "https://www.xiaojiaren.com",
-  "bookSourceName": " 笑佳人网",
+  "bookSourceName": "笑佳人网",
   "bookSourceGroup": "﹅ 通用书源▪︎玄奇,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "https://www.xiaojiaren.com/search/?searchkey={{key}}",
@@ -10452,7 +10398,7 @@
  },
  {
   "bookSourceUrl": "https://m.bbiqq.com",
-  "bookSourceName": " 笔趣阁㉓",
+  "bookSourceName": "笔趣阁㉓",
   "bookSourceGroup": "【🈵♥🈵💯】231123千组1,【】👾笔趣阁",
   "header": "{\n\t'cookie':'t=506479e350d38719802e162e49850d24; r=3107',\n\t'referer':'https://m.bbiqq.com/search/'\n\t}",
   "bookSourceComment": "",
@@ -10499,7 +10445,7 @@
  },
  {
   "bookSourceUrl": "http://m.qudushu.org",
-  "bookSourceName": " 去读书网",
+  "bookSourceName": "去读书网",
   "bookSourceGroup": "﹅ 通用书源▪︎玄奇",
   "bookUrlPattern": "",
   "concurrentRate": "",
@@ -10575,7 +10521,7 @@
  },
  {
   "bookSourceUrl": "http://m.juyuanshu.com",
-  "bookSourceName": " 聚缘书源",
+  "bookSourceName": "聚缘书源",
   "bookSourceGroup": "﹅ 通用书源▪︎玄奇,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "http://m.juyuanshu.com/s.php,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
@@ -19511,7 +19457,7 @@
  },
  {
   "bookSourceUrl": "https://m.bqgxsw.com/modules/article/search.php?searchtype=all&searchkey=%E6%88%91%E7%9A%84",
-  "bookSourceName": " ✎笔趣阁⑬④ ",
+  "bookSourceName": "✎笔趣阁⑬④",
   "bookSourceGroup": "笔趣,﹅ ♝ 优良,搜索目录失效",
   "bookUrlPattern": "",
   "concurrentRate": "",
@@ -19574,7 +19520,7 @@
  },
  {
   "bookSourceUrl": "https://m.bqgxsw.com/",
-  "bookSourceName": " ✎笔趣阁⑬④ ",
+  "bookSourceName": "✎笔趣阁⑬④",
   "bookSourceGroup": "笔趣,﹅ ♝ 优良,搜索目录失效",
   "bookUrlPattern": "",
   "concurrentRate": "",
@@ -23148,7 +23094,7 @@
  },
  {
   "bookSourceUrl": "http://0dkk.com#wy18-1001",
-  "bookSourceName": " 零点书院 #未月十八1001",
+  "bookSourceName": "零点书院 #未月十八1001",
   "bookSourceGroup": "已检验",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -24629,7 +24575,7 @@
  },
  {
   "bookSourceUrl": "http://www.iyoule.com",
-  "bookSourceName": " ⚡️⚡️有乐中文",
+  "bookSourceName": "⚡️⚡️有乐中文",
   "bookSourceGroup": "已检验",
   "bookUrlPattern": "",
   "loginUrl": "http://www.iyoule.com/",
@@ -29811,7 +29757,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.jinyongwang.com",
+  "bookSourceUrl": "http://www.jinyongwang.com",
   "bookSourceName": "金庸小说",
   "bookSourceGroup": "搜索目录失效",
   "bookUrlPattern": "",
@@ -36154,7 +36100,7 @@
  },
  {
   "bookSourceUrl": "https://s.lansheweb.com#渊呀81",
-  "bookSourceName": " 值得阅读API ",
+  "bookSourceName": "值得阅读API",
   "bookSourceGroup": "已检",
   "bookUrlPattern": "",
   "header": "",
@@ -36757,7 +36703,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.ymxxs.com/",
+  "bookSourceUrl": "https://www.ymxxs.com/",
   "bookSourceName": "衍墨轩",
   "bookSourceGroup": "已检验",
   "bookSourceComment": "",
@@ -43206,6 +43152,51 @@
   "ruleContent": {
    "content": "id.content@html##一秒记住.*无弹窗免费阅读！|～",
    "nextContentUrl": "text.下一页@href"
+  }
+ },
+ {
+  "bookSourceUrl": "http://www.dzxzh.com/",
+  "bookSourceName": "🍁笔趣阁⑦⑧",
+  "bookSourceGroup": "²♨笔-趣-阁❆",
+  "bookUrlPattern": "http://www.dzxzh.com/xs/\\d+/",
+  "bookSourceComment": "精准搜索",
+  "searchUrl": "http://www.dzxzh.com/user/search.html?q={{key}},{\"charset\":\"UTF-8\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Safari/537.36\",\"Referer\":\"http://www.dzxzh.com/\"},\"webView\": true}",
+  "bookSourceType": 0,
+  "customOrder": -2085970214,
+  "lastUpdateTime": 1649136942551,
+  "respondTime": 4436,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "tag.span.3@text",
+   "bookList": "id.book-list@tag.li!0",
+   "bookUrl": "tag.span.2@a@href",
+   "coverUrl": "tag.span.2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.dzxzh.com/img/'+iid+'/'+id+'.jpg';\n</js>",
+   "kind": "tag.span.4@text",
+   "lastChapter": "tag.span.6@a@text",
+   "name": "tag.span.2@a@text"
+  },
+  "ruleExplore": {
+   "bookList": ""
+  },
+  "ruleBookInfo": {
+   "author": "[property=og:novel:author]@content",
+   "coverUrl": "[property=og:image]@content",
+   "init": "",
+   "intro": "[property=og:description]@content",
+   "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
+   "lastChapter": "[property=og:novel:latest_chapter_name]@content##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "[property=og:novel:book_name]@content##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+  },
+  "ruleToc": {
+   "chapterList": "id.list@dd",
+   "chapterName": "a@text",
+   "chapterUrl": "a@href"
+  },
+  "ruleContent": {
+   "content": "id.htmlContent@html"
   }
  }
 ]

@@ -1,47 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.ks67.com/",
-  "bookSourceName": "🔰第五文学",
-  "bookSourceGroup": "🏵️  小说",
-  "bookSourceComment": "",
-  "searchUrl": "https://www.ks67.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 26810,
-  "lastUpdateTime": 1612710790670,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "tag.td.2@text",
-   "bookList": "class.grid@tag.tr",
-   "bookUrl": "tag.td.0@tag.a@href",
-   "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ks67.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
-   "kind": "tag.td.4@text&&\ntag.td.5@text",
-   "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
-   "name": "tag.td.0@tag.a@text##\\（.*",
-   "wordCount": "tag.td.3@text"
-  },
-  "ruleBookInfo": {
-   "author": "id.info@tag.p.0@text##作 者：",
-   "coverUrl": "id.fmimg@img@src",
-   "init": "",
-   "intro": "id.intro@tag.p.1@text",
-   "kind": "id.info@tag.p.2@text##类 别：",
-   "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
-   "name": "id.info@h1@text##\\（.*"
-  },
-  "ruleToc": {
-   "chapterList": "id.list@tag.dd",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "id.content@p@html"
-  }
- },
- {
   "bookSourceUrl": "https://www.xmalshenzu.com/",
   "bookSourceName": "🔰神族小说",
   "bookSourceGroup": "¹▽置顶`ȏ´正版发现",
@@ -2315,7 +2273,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.caimoge.com#sitembox dl",
+  "bookSourceUrl": "https://www.caimoge.com#sitembox dl",
   "bookSourceName": "💯采墨阁",
   "bookSourceGroup": "搜书",
   "bookUrlPattern": "",
@@ -7956,7 +7914,7 @@
  },
  {
   "bookSourceUrl": "http://www.abcxs.com",
-  "bookSourceName": " 🎉ABC小说",
+  "bookSourceName": "🎉ABC小说",
   "bookSourceGroup": "🎉 精选 🎉",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -17644,7 +17602,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.17kxs.club",
+  "bookSourceUrl": "http://www.17kxs.club",
   "bookSourceName": "一起看",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -19472,7 +19430,7 @@
  },
  {
   "bookSourceUrl": "https://m.shukeba.com",
-  "bookSourceName": " 书客吧",
+  "bookSourceName": "书客吧",
   "bookSourceGroup": "4、普通",
   "bookUrlPattern": "https?://[a-z]*.shukeba.com/book/\\d+.html",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0.1; vivo Y66 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36\"\n}",
@@ -21306,6 +21264,50 @@
   "ruleContent": {
    "content": "id.nr@textNodes",
    "nextContentUrl": "text.下一页@href"
+  }
+ },
+ {
+  "bookSourceUrl": "http://m.8jzw.com",
+  "bookSourceName": "八戒中文②",
+  "bookSourceGroup": "👍 优质",
+  "bookUrlPattern": "",
+  "loginUrl": "",
+  "bookSourceComment": "",
+  "searchUrl": "http://m.8jzw.com/search.php?q={{key}}&p={{page}}",
+  "bookSourceType": 0,
+  "customOrder": 20786,
+  "lastUpdateTime": 0,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.result-game-item-info@tag.p.0@tag.span.1@text",
+   "bookList": "class.result-item result-game-item",
+   "bookUrl": "class.result-game-item-detail@tag.h3@tag.a@href",
+   "coverUrl": "class.result-game-item-pic@tag.a@tag.img@src",
+   "kind": "class.result-game-item-info@tag.p.1@tag.span.1@text",
+   "lastChapter": "class.result-game-item-info@tag.p.3@tag.a@text",
+   "name": "class.result-game-item-detail@tag.h3@tag.a@tag.span@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.block_txt2@tag.p.2@text",
+   "coverUrl": "class.block_img2@tag.img@src",
+   "intro": "class.intro_info@text",
+   "kind": "class.block_txt2@tag.p.3@tag.a@text",
+   "lastChapter": "class.block_txt2@tag.p.6@tag.a@text",
+   "name": "class.block_txt2@tag.h2@tag.a@text"
+  },
+  "ruleToc": {
+   "chapterList": "class.chapter@tag.li",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href",
+   "nextTocUrl": "class.listpage@class.right@text.下一页@href"
+  },
+  "ruleContent": {
+   "content": "id.nr1@html##第.*章.*第.*页.*",
+   "nextContentUrl": "class.next@text.下一页@href"
   }
  }
 ]

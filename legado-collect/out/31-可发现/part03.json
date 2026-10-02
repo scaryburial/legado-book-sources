@@ -8139,7 +8139,7 @@
  },
  {
   "bookSourceUrl": "https://www.wtzw.com#♤yc",
-  "bookSourceName": "㊣梧桐中文 ",
+  "bookSourceName": "㊣梧桐中文",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "concurrentRate": "",
@@ -8766,7 +8766,7 @@
  },
  {
   "bookSourceUrl": "http://www.zwduxs.com#♤yc",
-  "bookSourceName": "八一中文② #一程  ",
+  "bookSourceName": "八一中文② #一程",
   "bookSourceGroup": "综合",
   "bookUrlPattern": "http?://www\\.zwduxs\\.com(/html)?/\\d+_\\d+/?",
   "loginUrl": "",
@@ -9581,7 +9581,7 @@
  },
  {
   "bookSourceUrl": "https://www.iqiyi.com/manhua",
-  "bookSourceName": "爱奇艺漫画 ",
+  "bookSourceName": "爱奇艺漫画",
   "bookSourceGroup": "漫画",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n}",
@@ -14599,7 +14599,7 @@
  },
  {
   "bookSourceUrl": "http://www.fxsw.top",
-  "bookSourceName": " 腐小说",
+  "bookSourceName": "腐小说",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "concurrentRate": "",
@@ -18515,7 +18515,7 @@
  },
  {
   "bookSourceUrl": "https://www.wxscs.com",
-  "bookSourceName": " 发表-源仓库🔰 万象书城吧",
+  "bookSourceName": "发表-源仓库🔰 万象书城吧",
   "bookSourceGroup": "",
   "bookUrlPattern": "https?://www.wxsc8.com/book/\\d+/",
   "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
@@ -18663,7 +18663,7 @@
  },
  {
   "bookSourceUrl": "http://m.kekewx.com",
-  "bookSourceName": " 发表源仓库-可可文学",
+  "bookSourceName": "发表源仓库-可可文学",
   "bookSourceGroup": "",
   "header": "",
   "bookSourceComment": "2024.12.6修复目录规则@MR.无名",
@@ -21490,7 +21490,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://wap.aixswx.org/ ",
+  "bookSourceUrl": "http://wap.aixswx.org/",
   "bookSourceName": "星空小说◎辞晨◎",
   "bookSourceGroup": "写源",
   "header": "{\n  'User-Agent': \"Mozilla/5.0 (Linux; Android 15; V2304A Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36\",\n  'sec-ch-ua-platform': \"\\\"Android\\\"\",\n  'origin': \"http://wap.aixswx.com\",\n  'x-requested-with': \"cn.mujiankeji.mbrowser\",\n  'referer': \"http://wap.aixswx.com\",\n  'accept-language': \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\n  'cookie':\"wsii=c6dd6741eff413b0b3fa34454297a6bb; wsii.sig=typqduZ5V0UckybAUZaTc4FDIo_WCyagwQ_gLqClIjM; Hm_lvt_53ebc424a3875367158e16f535e5fb60=1736855620; HMACCOUNT=BAE980A89729A2EC; Hm_lpvt_53ebc424a3875367158e16f535e5fb60=1736855665\"\n}",
@@ -23451,7 +23451,7 @@
  },
  {
   "bookSourceUrl": "http://www.weilaitianwang.org",
-  "bookSourceName": " 未来天王",
+  "bookSourceName": "未来天王",
   "bookSourceGroup": "",
   "bookSourceComment": "",
   "exploreUrl": "[{\"title\":\"最近更新\",\"url\":\"/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuanxiaoshuo/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真仙侠\",\"url\":\"/xiuzhenxiaoshuo/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市青春\",\"url\":\"/dushixiaoshuo/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史穿越\",\"url\":\"/chuanyuexiaoshuo/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游竞技\",\"url\":\"/wangyouxiaoshuo/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/kehuanxiaoshuo/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他小说\",\"url\":\"/qitaxiaoshuo/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完本小说\",\"url\":\"/wanben/1_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
@@ -24251,7 +24251,7 @@
  },
  {
   "bookSourceUrl": "https://www.mkzhan.com#♤yc",
-  "bookSourceName": "漫客栈 ",
+  "bookSourceName": "漫客栈",
   "bookSourceGroup": "需要登录",
   "bookUrlPattern": "",
   "header": "",

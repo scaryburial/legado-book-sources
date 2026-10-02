@@ -1,56 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://www.yimixs.cc/",
-  "bookSourceName": "一米小说yimixs[变动]",
-  "bookSourceGroup": "全部",
-  "header": "",
-  "bookSourceComment": "By_zhbyjm7783\n20231210 搜索\"_token=\"自动获取",
-  "exploreUrl": "",
-  "searchUrl": "@js:\nsource.key+\"search,\"+JSON.stringify({\n  \"body\": \"_token={{org.jsoup.Jsoup.parse(java.ajax(source.key)).select('input[name=_token]').attr('value')}}&keyword={{key}}&search_type=\",\n  \"method\": \"POST\"\n})",
-  "bookSourceType": 0,
-  "customOrder": 10320,
-  "lastUpdateTime": 1734322143863,
-  "respondTime": 2422,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "span.0@text",
-   "bookList": ".lazyload_box@li",
-   "bookUrl": "a.0@href",
-   "checkKeyWord": "",
-   "coverUrl": "img@src",
-   "intro": ".desc@text",
-   "kind": "",
-   "lastChapter": "span.1@text",
-   "name": "a.1@text"
-  },
-  "ruleExplore": {
-   "bookList": ""
-  },
-  "ruleBookInfo": {
-   "author": ".author@a@text",
-   "coverUrl": "img@src",
-   "intro": ".desc@text",
-   "kind": ".info@a.0@text",
-   "lastChapter": ".abook_contents_list@a.0@text",
-   "name": ".tit_bg@h2@text",
-   "tocUrl": "text.查看全部章节@href",
-   "wordCount": ".info@li.1@text"
-  },
-  "ruleToc": {
-   "chapterList": ".catalog_list@li",
-   "chapterName": "a@text",
-   "chapterUrl": "a@href",
-   "preUpdateJs": ""
-  },
-  "ruleContent": {
-   "content": ".article-body@p@text",
-   "nextContentUrl": ""
-  }
- },
- {
   "bookSourceUrl": "https://m.818812.net",
   "bookSourceName": "笑傲文学",
   "bookSourceGroup": "小说 书源",
@@ -5095,7 +5044,7 @@
  },
  {
   "bookSourceUrl": "http://www.5200xiaoshuo.com/#♤pb",
-  "bookSourceName": " 飞上小说",
+  "bookSourceName": "飞上小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "http://www.5200xiaoshuo.com/\\d+_\\d+/",
   "loginUrl": "",
@@ -10012,7 +9961,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.23meigui.com/ ",
+  "bookSourceUrl": "https://www.23meigui.com/",
   "bookSourceName": "116文学",
   "bookSourceGroup": "",
   "header": "",
@@ -16724,7 +16673,7 @@
  },
  {
   "bookSourceUrl": "https://www.ibiquge.net已整理",
-  "bookSourceName": " 笔趣阁",
+  "bookSourceName": "笔趣阁",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "已校验",
   "loginUrl": "",
@@ -37087,7 +37036,7 @@
  },
  {
   "bookSourceUrl": "http://www.ucxsw.com",
-  "bookSourceName": " 呀唔小说",
+  "bookSourceName": "呀唔小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -38238,7 +38187,7 @@
   }
  },
  {
-  "bookSourceUrl": "  https://m.mayids.com",
+  "bookSourceUrl": "https://m.mayids.com",
   "bookSourceName": "蚂蚁文学",
   "bookSourceGroup": "3",
   "bookUrlPattern": "",
@@ -41638,7 +41587,7 @@
  },
  {
   "bookSourceUrl": "https://www.aiwx.info",
-  "bookSourceName": " 爱小说啦",
+  "bookSourceName": "爱小说啦",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "",
@@ -41680,7 +41629,7 @@
  },
  {
   "bookSourceUrl": "http://m.xiaos8.com",
-  "bookSourceName": " 小说吧",
+  "bookSourceName": "小说吧",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
@@ -41860,7 +41809,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.yuanzun888.com②   ",
+  "bookSourceUrl": "https://www.yuanzun888.com②",
   "bookSourceName": "元尊小说网②",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "",
@@ -41982,7 +41931,7 @@
  },
  {
   "bookSourceUrl": "https://m.xqianqian.com/",
-  "bookSourceName": " 千千小说",
+  "bookSourceName": "千千小说",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookSourceComment": "// Error: 搜索失效",
   "searchUrl": "https://m.xqianqian.com/s.php?q={{key}}",
@@ -44735,6 +44684,53 @@
   "ruleContent": {
    "content": "id.chaptercontent@textNodes##（本章.*",
    "nextContentUrl": "text.下一章@href"
+  }
+ },
+ {
+  "bookSourceUrl": "http://www.minguoqiren.info",
+  "bookSourceName": "民国奇人minguo",
+  "bookSourceGroup": "❤小说",
+  "bookUrlPattern": "xs/\\d+/",
+  "header": "",
+  "loginUrl": "",
+  "bookSourceComment": "",
+  "exploreUrl": "",
+  "searchUrl": "s.php?ie=utf-8&s=000000&q={{key}}",
+  "bookSourceType": 0,
+  "customOrder": 1122,
+  "lastUpdateTime": 1695283121054,
+  "respondTime": 933,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": false,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.author@text",
+   "bookList": "class.bookbox",
+   "bookUrl": "h4@a@href",
+   "coverUrl": "img@src",
+   "intro": "",
+   "lastChapter": "class.update@a@text",
+   "name": "h4@a@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.info@class.small@tag.span.0@text",
+   "coverUrl": "class.cover@img@src",
+   "intro": "class.info@ownText",
+   "kind": "class.info@class.small@tag.span.4@text&&\nclass.info@class.small@tag.span.1@text&&\nclass.info@class.small@tag.span.2@text##分类：|状态：|更新时间：",
+   "lastChapter": "class.info@class.small@tag.span.5@a@text",
+   "name": "class.info@h2@text",
+   "tocUrl": "",
+   "wordCount": "class.info@class.small@tag.span.3@text##字数："
+  },
+  "ruleToc": {
+   "chapterList": "class.listmain@dd",
+   "chapterName": "a@text",
+   "chapterUrl": "a@href"
+  },
+  "ruleContent": {
+   "content": "id.content@html##http.*html|请记住本书首发.*org",
+   "nextContentUrl": "text.下一页@href"
   }
  }
 ]

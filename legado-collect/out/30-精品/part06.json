@@ -1,57 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://library.yuntuys.com/#天天的鸟蛋蛋",
-  "bookSourceName": "云图有声（登录）",
-  "bookSourceGroup": "听书 书源",
-  "header": "",
-  "loginUrl": "https://library.yuntuys.com/login",
-  "loginUi": "",
-  "bookSourceComment": "// Error: 搜索失效\n\n//\n\tdy@天天的鸟蛋蛋\n\t(自）\n<\t#\n\t账号：sxslib 密码：666666\n\t #>",
-  "exploreUrl": "特色::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=123&deptId=459&order=1&type=1&versionId=108\n文学::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=128&deptId=459&order=1&type=1&versionId=108\n教育::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=145&deptId=459&order=1&type=1&versionId=108\n人文::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=158&deptId=459&order=1&type=1&versionId=108\n军事::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=169&deptId=459&order=1&type=1&versionId=108\n生活::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=178&deptId=459&order=1&type=1&versionId=108",
-  "searchUrl": "https://api-micro.yuntuys.com/ytys/v5/resource/search/1/99999999999?deptId=459&search={{key}}&type=1&versionId=108",
-  "bookSourceType": 1,
-  "customOrder": 12596,
-  "lastUpdateTime": 1721095278109,
-  "respondTime": 181490,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "|{$.author}|{$.anchor}|",
-   "bookList": "$..list[*]",
-   "bookUrl": "https://api-micro.yuntuys.com/ytys/v5/resource/get/{$.id}?deptId=459&versionId=108",
-   "checkKeyWord": "旧事与新说：我的父亲冯友兰",
-   "coverUrl": "cover",
-   "intro": "summary",
-   "name": "name"
-  },
-  "ruleExplore": {
-   "author": "|{$..author}|{$..anchor}|",
-   "bookList": "$..list[*]",
-   "bookUrl": "https://api-micro.yuntuys.com/ytys/v5/resource/get/{$..id}?deptId=459&versionId=108",
-   "coverUrl": "cover",
-   "intro": "summary",
-   "kind": "{$..label}",
-   "name": "$..name"
-  },
-  "ruleBookInfo": {
-   "author": "|{$..author}|{$..anchor}|",
-   "intro": "$..summary##<p>.*",
-   "kind": "{$..label}",
-   "name": "$..name",
-   "tocUrl": "https://api-micro.yuntuys.com/ytys/v5/sequel/page/1/99999999999?deptId=459&history=true&resourceId={$..id}&sortBy=ASC&type=1&versionId=108"
-  },
-  "ruleToc": {
-   "chapterList": "$..list[*]",
-   "chapterName": "{$..rank} {$..name}",
-   "chapterUrl": "https://api-micro.yuntuys.com/ytys/v5/sequel/get/{$..id}?deptId=459&versionId=108"
-  },
-  "ruleContent": {
-   "content": "$..source"
-  }
- },
- {
   "bookSourceUrl": "https://api.coolapk.com",
   "bookSourceName": "酷安应用（评论）",
   "bookSourceGroup": "特殊 书源",
@@ -1121,7 +1069,7 @@
  },
  {
   "bookSourceUrl": "http://www.yunxs.com/#pb1101",
-  "bookSourceName": "云中书库 ",
+  "bookSourceName": "云中书库",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -7102,7 +7050,7 @@
  },
  {
   "bookSourceUrl": "https://jpxs123.cc#001",
-  "bookSourceName": " 精品小说",
+  "bookSourceName": "精品小说",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "// Error: 搜索失效",
   "exploreUrl": "[{\"title\":\"最新小说\",\"url\":\"/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"精品小说\",\"url\":\"/book/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市小说\",\"url\":\"/dsxs/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"玄幻修真\",\"url\":\"/xuanhuan/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/lishi/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻竞技\",\"url\":\"/khjj/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"穿越架空\",\"url\":\"/cyjk/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"鬼话悬疑\",\"url\":\"/guihua/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"同人小说\",\"url\":\"/tongren/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -10903,7 +10851,7 @@
   }
  },
  {
-  "bookSourceUrl": "        https://m.shubaozu.org",
+  "bookSourceUrl": "https://m.shubaozu.org",
   "bookSourceName": "书包族吧",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "// Error: Timed out waiting for 180000 ms\n\n//@youke2580发现规则",
@@ -16892,7 +16840,7 @@
  },
  {
   "bookSourceUrl": "https://m.laimanhua.net#♤Haxc",
-  "bookSourceName": "来漫画 ",
+  "bookSourceName": "来漫画",
   "bookSourceGroup": "🎨 漫画",
   "bookUrlPattern": "",
   "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36\"}",
@@ -25778,6 +25726,73 @@
    "content": "class.articleCon@html##【断青丝小说网】提醒书友.*一秒记住、永不丢失！|★籪靑丝小説网★|看，就来5G网！ 速度飞快哦，亲！|支持:断青丝小说.*报错以及求更请留言。|http.*html",
    "nextContentUrl": "text.下一页@href",
    "replaceRegex": "##\\s*-->>本章未完.*\\s*"
+  }
+ },
+ {
+  "bookSourceUrl": "http://du11du.com/",
+  "bookSourceName": "💯读一读小说",
+  "bookSourceGroup": "",
+  "bookUrlPattern": "http://du11du.com/txt-\\d+/",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows; U; Windows NT 5.2;. en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 Quark/4.6.6.164\"\n}",
+  "loginUrl": "",
+  "bookSourceComment": "",
+  "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/{{page}}.htm\n奇幻小说::/qihuanxiaoshuo/{{page}}.htm\n修真小说::/xiuzhenxiaoshuo/{{page}}.htm\n都市小说::/dushixiaoshuo/{{page}}.htm\n言情小说::/yanqingxiaoshuo/{{page}}.htm\n历史小说::/lishixiaoshuo/{{page}}.htm\n同人小说::/tongrenxiaoshuo/{{page}}.htm\n武侠小说::/wuxiaxiaoshuo/{{page}}.htm\n科幻小说::/kehuanxiaoshuo/{{page}}.htm\n游戏小说::/youxixiaoshuo/{{page}}.htm\n军事小说::/junshixiaoshuo/{{page}}.htm\n竞技小说::/jingjixiaoshuo/{{page}}.htm\n灵异小说::/lingyixiaoshuo/{{page}}.htm\n商战小说::/shangzhanxiaoshuo/{{page}}.htm\n校园小说::/xiaoyuanxiaoshuo/{{page}}.htm\n官场小说::/guanchangxiaoshuo/{{page}}.htm\n职场小说::/zhichangxiaoshuo/{{page}}.htm\n其他小说::/qitaxiaoshuo/{{page}}.htm",
+  "searchUrl": "http://du11du.com/search.htm?keyword={{key}}&pn={{page}}",
+  "bookSourceType": 0,
+  "customOrder": 11712,
+  "lastUpdateTime": 1715030317789,
+  "respondTime": 80371,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "tag.div.3@text",
+   "bookList": "class.panel-body@tag.li!0:-1",
+   "bookUrl": "tag.div.1@tag.a@href##$##,{\"webView\":true}",
+   "coverUrl": "",
+   "intro": "",
+   "kind": "tag.div.0@text",
+   "lastChapter": "tag.div.2@text",
+   "name": "tag.div.1@text",
+   "wordCount": ""
+  },
+  "ruleExplore": {
+   "author": "class.col-xs-2.0@text",
+   "bookList": "id.novel-list@li!0",
+   "bookUrl": "tag.a.0@href",
+   "coverUrl": "",
+   "intro": "",
+   "kind": "class.time@text",
+   "lastChapter": "tag.a.1@text",
+   "name": "class.col-xs-3@tag.a.0@text",
+   "wordCount": ""
+  },
+  "ruleBookInfo": {
+   "author": "##:author\"[^\"]+\"([^\"]+)##$1###",
+   "coverUrl": "##:image\"[^\"]+\"([^\"]+)##$1###",
+   "init": "",
+   "intro": "id.all@text##\\[收起\\]",
+   "kind": "class.list-group.0@tag.li.3@text&&\nclass.list-group.0@tag.li.1@a@text##更新时间：",
+   "lastChapter": "##:latest_chapter_name\"[^\"]+\"([^\"]+)##$1###",
+   "name": "##:title\"[^\"]+\"([^\"]+)##$1###",
+   "tocUrl": "class.mt20@class.tac@tag.a@href",
+   "wordCount": ""
+  },
+  "ruleToc": {
+   "chapterList": "class.list-group-item@tag.li",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href@js:'http://du11du.com'+result+',{webView:“true”}'",
+   "isVip": "",
+   "nextTocUrl": "",
+   "updateTime": ""
+  },
+  "ruleContent": {
+   "content": "id.txtContent@html",
+   "imageStyle": "0",
+   "nextContentUrl": "",
+   "sourceRegex": "",
+   "webJs": ""
   }
  }
 ]

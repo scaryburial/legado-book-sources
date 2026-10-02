@@ -1,46 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://www.acgzc.com#一程",
-  "bookSourceName": "安全小说",
-  "bookSourceGroup": "小说 书源",
-  "bookUrlPattern": "",
-  "loginUrl": "",
-  "bookSourceComment": "// Error: Unable to resolve host \"www.acgzc.com\": No address associated with hostname",
-  "exploreUrl": "古代幻想::/index.php/portal/booklist/?list=true&classid=19&classid=12&per_page={{page}}\n近代幻想::/index.php/portal/booklist/?list=true&classid=19&classid=19&per_page={{page}}\n未来幻想::/index.php/portal/booklist/?list=true&classid=19&classid=26&per_page={{page}}\n体育游戏::/index.php/portal/booklist/?list=true&classid=19&classid=33&per_page={{page}}\n同人作品::/index.php/portal/booklist/?list=true&classid=19&classid=42&per_page={{page}}\n短篇作品::/index.php/portal/booklist/?list=true&classid=19&classid=46&per_page={{page}}\n漫画世界::/index.php/portal/booklist/?list=true&classid=19&classid=50&per_page={{page}}\n异能时代::/index.php/portal/booklist/?list=true&classid=19&sclassid=20&per_page={{page}}\n穿越重生::/index.php/portal/booklist/?list=true&classid=19&sclassid=21&per_page={{page}}\n谍战风云::/index.php/portal/booklist/?list=true&classid=19&sclassid=22&per_page={{page}}\n架空战争::/index.php/portal/booklist/?list=true&classid=19&sclassid=23&per_page={{page}}\n军旅生活::/index.php/portal/booklist/?list=true&classid=19&sclassid=24&per_page={{page}}\n现代武林::/index.php/portal/booklist/?list=true&classid=19&sclassid=25&per_page={{page}}",
-  "searchUrl": "http://www.acgzc.com/index.php/portal/booklist/?list=true&keywords={{key}}&per_page={{page}}",
-  "bookSourceType": 0,
-  "customOrder": 16369,
-  "lastUpdateTime": 1727259203617,
-  "respondTime": 190017,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "class.author@tag.a@text",
-   "bookList": "class.rank-bg@class.rank-detail",
-   "bookUrl": "class.chapter@tag.a@href",
-   "kind": "class.category@tag.a@text##\\[|\\]",
-   "name": "class.chapter@tag.a@text"
-  },
-  "ruleBookInfo": {
-   "author": "class.a2@tag.h1@tag.span@text",
-   "coverUrl": "class.a1@tag.img.0@src",
-   "intro": "class.tab-content@tag.h3@text",
-   "name": "class.a2@tag.h1@text",
-   "tocUrl": "class.a3@tag.a@href"
-  },
-  "ruleToc": {
-   "chapterList": "class.zpxg@tag.a",
-   "chapterName": "text",
-   "chapterUrl": "href"
-  },
-  "ruleContent": {
-   "content": "class.z_zy@html",
-   "imageStyle": "0"
-  }
- },
- {
   "bookSourceUrl": "https://m.zwduxs.com",
   "bookSourceName": "👍 八一中文m",
   "bookSourceGroup": "。,3",
@@ -7423,7 +7382,7 @@
  },
  {
   "bookSourceUrl": "https://www.121du.net#(没问题有可能魔法)",
-  "bookSourceName": " 一读小说",
+  "bookSourceName": "一读小说",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "最开始第1篇加载不出来之后正常。",
   "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/dushi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/lishi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻灵异\",\"url\":\"/kehuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"网游竞技\",\"url\":\"/wangyou/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女频频道\",\"url\":\"/nvpin/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/qita/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -7465,7 +7424,7 @@
  },
  {
   "bookSourceUrl": "https://www.121du.net",
-  "bookSourceName": " 一读小说",
+  "bookSourceName": "一读小说",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "最开始第1篇加载不出来之后正常。",
   "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/dushi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/lishi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻灵异\",\"url\":\"/kehuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"网游竞技\",\"url\":\"/wangyou/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女频频道\",\"url\":\"/nvpin/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/qita/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -10438,7 +10397,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#namo-gl",
-  "bookSourceName": "  起点女频流",
+  "bookSourceName": "起点女频流",
   "bookSourceGroup": "起点",
   "bookUrlPattern": "",
   "header": "",
@@ -12450,7 +12409,7 @@
  },
  {
   "bookSourceUrl": "https://b.faloo.com##男生标签",
-  "bookSourceName": " 飞卢男生▪标签",
+  "bookSourceName": "飞卢男生▪标签",
   "bookSourceGroup": "",
   "bookUrlPattern": "https://b\\.faloo\\.com/f/\\d+.html",
   "concurrentRate": "",
@@ -15007,7 +14966,7 @@
  },
  {
   "bookSourceUrl": "http://www.3qxs.cc/#♤pb",
-  "bookSourceName": "起来小说 ",
+  "bookSourceName": "起来小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "http://www.3qxs.cc/article/\\d+/",
   "loginUrl": "",
@@ -25788,7 +25747,7 @@
  },
  {
   "bookSourceUrl": "https://sspwk.me",
-  "bookSourceName": " 少数派吧",
+  "bookSourceName": "少数派吧",
   "bookSourceGroup": "小说 书源",
   "loginUrl": "",
   "bookSourceComment": "// Error: 搜索失效",
@@ -26155,6 +26114,58 @@
   "ruleContent": {
    "content": "body@textNodes",
    "imageStyle": "0"
+  }
+ },
+ {
+  "bookSourceUrl": "https://library.yuntuys.com/#天天的鸟蛋蛋",
+  "bookSourceName": "云图有声（登录）",
+  "bookSourceGroup": "听书 书源",
+  "header": "",
+  "loginUrl": "https://library.yuntuys.com/login",
+  "loginUi": "",
+  "bookSourceComment": "// Error: 搜索失效\n\n//\n\tdy@天天的鸟蛋蛋\n\t(自）\n<\t#\n\t账号：sxslib 密码：666666\n\t #>",
+  "exploreUrl": "特色::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=123&deptId=459&order=1&type=1&versionId=108\n文学::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=128&deptId=459&order=1&type=1&versionId=108\n教育::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=145&deptId=459&order=1&type=1&versionId=108\n人文::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=158&deptId=459&order=1&type=1&versionId=108\n军事::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=169&deptId=459&order=1&type=1&versionId=108\n生活::https://api-micro.yuntuys.com/ytys/v5/resource/class/1/99999999999?classId=178&deptId=459&order=1&type=1&versionId=108",
+  "searchUrl": "https://api-micro.yuntuys.com/ytys/v5/resource/search/1/99999999999?deptId=459&search={{key}}&type=1&versionId=108",
+  "bookSourceType": 1,
+  "customOrder": 12596,
+  "lastUpdateTime": 1721095278109,
+  "respondTime": 181490,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "|{$.author}|{$.anchor}|",
+   "bookList": "$..list[*]",
+   "bookUrl": "https://api-micro.yuntuys.com/ytys/v5/resource/get/{$.id}?deptId=459&versionId=108",
+   "checkKeyWord": "旧事与新说：我的父亲冯友兰",
+   "coverUrl": "cover",
+   "intro": "summary",
+   "name": "name"
+  },
+  "ruleExplore": {
+   "author": "|{$..author}|{$..anchor}|",
+   "bookList": "$..list[*]",
+   "bookUrl": "https://api-micro.yuntuys.com/ytys/v5/resource/get/{$..id}?deptId=459&versionId=108",
+   "coverUrl": "cover",
+   "intro": "summary",
+   "kind": "{$..label}",
+   "name": "$..name"
+  },
+  "ruleBookInfo": {
+   "author": "|{$..author}|{$..anchor}|",
+   "intro": "$..summary##<p>.*",
+   "kind": "{$..label}",
+   "name": "$..name",
+   "tocUrl": "https://api-micro.yuntuys.com/ytys/v5/sequel/page/1/99999999999?deptId=459&history=true&resourceId={$..id}&sortBy=ASC&type=1&versionId=108"
+  },
+  "ruleToc": {
+   "chapterList": "$..list[*]",
+   "chapterName": "{$..rank} {$..name}",
+   "chapterUrl": "https://api-micro.yuntuys.com/ytys/v5/sequel/get/{$..id}?deptId=459&versionId=108"
+  },
+  "ruleContent": {
+   "content": "$..source"
   }
  }
 ]

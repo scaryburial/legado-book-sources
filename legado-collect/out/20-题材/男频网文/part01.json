@@ -500,7 +500,7 @@
  },
  {
   "bookSourceUrl": "https://www.xhwx6.com/",
-  "bookSourceName": " 玄幻文学",
+  "bookSourceName": "玄幻文学",
   "bookSourceGroup": "",
   "exploreUrl": "玄幻::https://www.xhwx6.com/xuanhuan.html?page={{page}}\n仙侠::https://www.xhwx6.com/xianxia.html?page={{page}}\n都市::https://www.xhwx6.com/dushi.html?page={{page}}\n历史::https://www.xhwx6.com/lishi.html?page={{page}}\n科幻::https://www.xhwx6.com/kehuan.html?page={{page}}\n恐怖::https://www.xhwx6.com/kongbu.html?page={{page}}\n其他::https://www.xhwx6.com/qita.html?page={{page}}\n",
   "searchUrl": "@js:\n\njava.put('key',key)\n\nurl='https://www.xhwx6.com/'",
@@ -2209,7 +2209,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#□namo-b",
-  "bookSourceName": "  b💰起点♂男频❤️总榜+细分榜单 bak",
+  "bookSourceName": "b💰起点♂男频❤️总榜+细分榜单 bak",
   "bookSourceGroup": "05.🍆🍆🍆",
   "bookUrlPattern": "",
   "header": "",
@@ -5700,7 +5700,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#□namo-bl",
-  "bookSourceName": " ●💵起点 男频♥bl   ♂流♂   edit",
+  "bookSourceName": "●💵起点 男频♥bl   ♂流♂   edit",
   "bookSourceGroup": "-------",
   "bookUrlPattern": "",
   "header": "",
@@ -6466,7 +6466,7 @@
  },
  {
   "bookSourceUrl": "http://www.tsxsw.net",
-  "bookSourceName": "🐳吞噬小说 ",
+  "bookSourceName": "🐳吞噬小说",
   "bookSourceGroup": "🍥 男频备用 🍥,⌛️ 全局搜书 ⌛️,®️ 搜书男频 ®️",
   "bookUrlPattern": "",
   "loginUrl": "",

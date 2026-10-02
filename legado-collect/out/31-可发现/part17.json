@@ -1,42 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://www.ccdm5.com",
-  "bookSourceName": "🎨 CC漫画网",
-  "bookSourceGroup": "🎨漫画",
-  "bookUrlPattern": "",
-  "bookSourceComment": "",
-  "exploreUrl": "全部::http://www.ccdm5.com/List/All/0/0/0/0/0/click/p/{{page}}/\n日 本::http://www.ccdm5.com/List/All/0/0/0/1/0/click/p/{{page}}/\n港 台::http://www.ccdm5.com/List/All/0/0/0/3/0/click/p/{{page}}/\n欧 美::http://www.ccdm5.com/List/All/0/0/0/4/0/click/p/{{page}}/\n国 产::http://www.ccdm5.com/List/All/0/0/0/5/0/click/p/{{page}}/\n其 它::http://www.ccdm5.com/List/All/0/0/0/2/0/click/p/{{page}}/\n冒 险::http://www.ccdm5.com/List/All/0/1/0/0/0/click/p/{{page}}/\n搞 笑::http://www.ccdm5.com/List/All/0/2/0/0/0/click/p/{{page}}/\n格 斗::http://www.ccdm5.com/List/All/0/3/0/0/0/click/p/{{page}}/\n科 幻::http://www.ccdm5.com/List/All/0/4/0/0/0/click/p/{{page}}/\n爱 情::http://www.ccdm5.com/List/All/0/5/0/0/0/click/p/{{page}}/\n侦 探::http://www.ccdm5.com/List/All/0/6/0/0/0/click/p/{{page}}/\n竞 技::http://www.ccdm5.com/List/All/0/7/0/0/0/click/p/{{page}}/\n魔 法::http://www.ccdm5.com/List/All/0/8/0/0/0/click/p/{{page}}/\n东方神鬼::http://www.ccdm5.com/List/All/0/9/0/0/0/click/p/{{page}}/\n校 园::http://www.ccdm5.com/List/All/0/10/0/0/0/click/p/{{page}}/\n恐 怖::http://www.ccdm5.com/List/All/0/11/0/0/0/click/p/{{page}}/\n四 格::http://www.ccdm5.com/List/All/0/12/0/0/0/click/p/{{page}}/\n生活亲 情::http://www.ccdm5.com/List/All/0/13/0/0/0/click/p/{{page}}/\n百 合::http://www.ccdm5.com/List/All/0/14/0/0/0/click/p/{{page}}/\n伪 娘::http://www.ccdm5.com/List/All/0/15/0/0/0/click/p/{{page}}/\n悬 疑::http://www.ccdm5.com/List/All/0/16/0/0/0/click/p/{{page}}/\n耽 美::http://www.ccdm5.com/List/All/0/17/0/0/0/click/p/{{page}}/\n热 血::http://www.ccdm5.com/List/All/0/18/0/0/0/click/p/{{page}}/\n后 宫::http://www.ccdm5.com/List/All/0/19/0/0/0/click/p/{{page}}/\n历 史::http://www.ccdm5.com/List/All/0/20/0/0/0/click/p/{{page}}/\n战 争::http://www.ccdm5.com/List/All/0/21/0/0/0/click/p/{{page}}/\n萌 系::http://www.ccdm5.com/List/All/0/22/0/0/0/click/p/{{page}}/\n宅男腐女::http://www.ccdm5.com/List/All/0/23/0/0/0/click/p/{{page}}/\n治 愈::http://www.ccdm5.com/List/All/0/24/0/0/0/click/p/{{page}}/\n励 志::http://www.ccdm5.com/List/All/0/25/0/0/0/click/p/{{page}}/\n武 侠::http://www.ccdm5.com/List/All/0/26/0/0/0/click/p/{{page}}/\n机 战::http://www.ccdm5.com/List/All/0/27/0/0/0/click/p/{{page}}/\n音乐舞蹈::http://www.ccdm5.com/List/All/0/28/0/0/0/click/p/{{page}}/\n美 食::http://www.ccdm5.com/List/All/0/29/0/0/0/click/p/{{page}}/\n职 场::http://www.ccdm5.com/List/All/0/30/0/0/0/click/p/{{page}}/\n西方魔幻::http://www.ccdm5.com/List/All/0/31/0/0/0/click/p/{{page}}/\n高清单行 本::http://www.ccdm5.com/List/All/0/32/0/0/0/click/p/{{page}}/\n性转换::http://www.ccdm5.com/List/All/0/33/0/0/0/click/p/{{page}}/\n东 方::http://www.ccdm5.com/List/All/0/34/0/0/0/click/p/{{page}}/\n扶 她::http://www.ccdm5.com/List/All/0/35/0/0/0/click/p/{{page}}/\n魔 幻::http://www.ccdm5.com/List/All/0/36/0/0/0/click/p/{{page}}/\n奇 幻::http://www.ccdm5.com/List/All/0/37/0/0/0/click/p/{{page}}/\n节 操::http://www.ccdm5.com/List/All/0/38/0/0/0/click/p/{{page}}/\n轻小 说::http://www.ccdm5.com/List/All/0/39/0/0/0/click/p/{{page}}/\n颜 艺::http://www.ccdm5.com/List/All/0/40/0/0/0/click/p/{{page}}/\n其 他::http://www.ccdm5.com/List/All/0/41/0/0/0/click/p/{{page}}/\n少 女::http://www.ccdm5.com/List/All/3/0/0/0/0/click/p/{{page}}/\n少 年::http://www.ccdm5.com/List/All/1/0/0/0/0/click/p/{{page}}/\n青 年::http://www.ccdm5.com/List/All/2/0/0/0/0/click/p/{{page}}/\n连 载::http://www.ccdm5.com/List/All/0/0/0/0/2/click/p/{{page}}/\n完 结::http://www.ccdm5.com/List/All/0/0/0/0/1/click/p/{{page}}/\n排行榜::http://www.ccdm5.com/List/Hot/p/{{page}}/",
-  "searchUrl": "http://www.ccdm5.com/Search/Keyword/{{key}}",
-  "bookSourceType": 0,
-  "customOrder": 17032,
-  "lastUpdateTime": 1604245267633,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "bookList": "id.contList@tag.li",
-   "bookUrl": "tag.a.0@href",
-   "coverUrl": "tag.img@data-src",
-   "lastChapter": "class.tt@text",
-   "name": "class.ell@text"
-  },
-  "ruleBookInfo": {
-   "author": "class.detail-list cf@tag.span.3@tag.a@text",
-   "intro": "id.intro-all@text",
-   "kind": "class.status.0@tag.span.0@text"
-  },
-  "ruleToc": {
-   "chapterList": "class.chapter-list cf mt10@tag.li",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "function getImgList() {     \r\nvar str = html.match(/\\'fs\\':  \\[(.*?)\\]/);\r\nvar list = str[1].match(/sinmh[^\\\"]+/g);\r\nvar piclist = new Array([list.length]);        \r\nfor (var i = 0; i < list.length; i++) {   \r\npiclist[i] = \"http://ccimg1.61mh.com/\" + list[i];        \r\n}       \r\nreturn piclist;    \r\n}"
-  }
- },
- {
   "bookSourceUrl": "https://www.qinmanga.com",
   "bookSourceName": "🎨 親漫畫",
   "bookSourceGroup": "🎨漫画",
@@ -21431,6 +21394,54 @@
    "content": ".content@p@html",
    "nextContentUrl": "text.下一@href",
    "replaceRegex": "##本小章还未完，请点击下一页继续阅读后面精彩内容！|.*{{book.name}}.*|小主，.*"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.youpinbook.com#🎃",
+  "bookSourceName": "优品小说🎃",
+  "bookSourceGroup": "",
+  "bookSourceComment": "",
+  "exploreUrl": "玄幻::/fenlei/1/{{page}}/\n奇幻::/fenlei/2/{{page}}/\n武侠::/fenlei/3/{{page}}/\n仙侠::/fenlei/4/{{page}}/\n都市::/fenlei/5/{{page}}/\n军事::/fenlei/6/{{page}}/\n历史::/fenlei/7/{{page}}/\n游戏::/fenlei/8/{{page}}/\n竞技::/fenlei/9/{{page}}/\n科幻::/fenlei/10/{{page}}/\n悬疑::/fenlei/11/{{page}}/\n灵异::/fenlei/12/{{page}}/\n其他::/fenlei/13/{{page}}/\n古代::/fenlei/14/{{page}}/\n仙侠::/fenlei/15/{{page}}/\n现代::/fenlei/16/{{page}}/\n浪漫::/fenlei/17/{{page}}/\n玄幻::/fenlei/18/{{page}}/\n悬疑::/fenlei/19/{{page}}/\n科幻::/fenlei/20/{{page}}/\n游戏::/fenlei/21/{{page}}/\nBL::/fenlei/22/{{page}}/\nGL::/fenlei/23/{{page}}/\n二次::/fenlei/24/{{page}}/\n热门::/rank/allvisit/",
+  "searchUrl": "https://www.sososhu.com/?q={{key}}&site=youpin,{\n\"webView\":true}",
+  "bookSourceType": 0,
+  "customOrder": 2617,
+  "lastUpdateTime": 0,
+  "respondTime": 5777,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "tag.dl@tag.dt@tag.span@text",
+   "bookList": "class.hot@class.item",
+   "bookUrl": "tag.dl@tag.dt@tag.a@href",
+   "checkKeyWord": "都市",
+   "coverUrl": "class.image@tag.a@img@src",
+   "intro": "tag.dl@tag.dd@text",
+   "name": "tag.dl@tag.dt@tag.a@text"
+  },
+  "ruleExplore": {
+   "author": "tag.dl@tag.div@tag.a@text",
+   "bookList": "class.l rank@class.item",
+   "bookUrl": "tag.dl@tag.dt@tag.a@href",
+   "coverUrl": "class.image@tag.a@tag.img@data-original",
+   "intro": "tag.dl@tag.dd@text",
+   "name": "tag.dl@tag.dt@tag.a@text",
+   "wordCount": "tag.dl@tag.div@tag.em[0]@text"
+  },
+  "ruleBookInfo": {
+   "lastChapter": "id.info@tag.p[5]@tag.a@text",
+   "tocUrl": "text.章节目录@href"
+  },
+  "ruleToc": {
+   "chapterList": "id.content_1@tag.a",
+   "chapterName": "text",
+   "chapterUrl": "href",
+   "nextTocUrl": "text.下一页@href"
+  },
+  "ruleContent": {
+   "content": "id.booktxt@html",
+   "nextContentUrl": "text.下一页@href"
   }
  }
 ]

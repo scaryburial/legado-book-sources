@@ -1,45 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://us.webtoons.com/zh-hant",
-  "bookSourceName": "🎨Webtoon",
-  "bookSourceGroup": "🎨 漫画",
-  "bookUrlPattern": "",
-  "loginUrl": "",
-  "bookSourceComment": "error:timeout\n",
-  "exploreUrl": "全部::https://us.webtoons.com/zh-hant/genre",
-  "searchUrl": "https://us.webtoons.com/search?keyword={{key}},{\n  \"headers\": \"{Cookie:\\\"locale=zh_TW;\\\"}\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 25775,
-  "lastUpdateTime": 1621916624974,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.author@text",
-   "bookList": "class.card_lst@tag.li&&class.challenge_lst@tag.li",
-   "bookUrl": "tag.a@href",
-   "coverUrl": "tag.img@src@Header:{Referer:thisPage}",
-   "kind": "class.g_drama@text",
-   "name": "class.subj@text"
-  },
-  "ruleBookInfo": {
-   "intro": "class.summary@text",
-   "kind": "class.info@class.genre@text"
-  },
-  "ruleToc": {
-   "chapterList": "-id._listUl@tag.li",
-   "chapterName": "class.subj@text##\\]",
-   "chapterUrl": "tag.a@href",
-   "nextTocUrl": "@css:.paginate a:has(.on)~a@href"
-  },
-  "ruleContent": {
-   "content": ":_S001_nEmxFTqTFd9LYr+2pObimmrQbhJtu5Dh7zCpsq9JGVGdzGF1okeip+LDUq0R9VY7qtAqqYjvCkxK\nvPHggMNblA==\n",
-   "imageStyle": "0"
-  }
- },
- {
   "bookSourceUrl": "http://ssoonn.com",
   "bookSourceName": "🎨汗汗漫画",
   "bookSourceGroup": "🎨 漫画",
@@ -1772,7 +1732,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://qidian.com ",
+  "bookSourceUrl": "http://qidian.com",
   "bookSourceName": "🏵起点【女频】",
   "bookSourceGroup": "⁶❀耽女︎ºั轻言",
   "loginUrl": "https://passport.qidian.com",
@@ -2461,7 +2421,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://api.qingoo.cn       ",
+  "bookSourceUrl": "http://api.qingoo.cn",
   "bookSourceName": "🧐青果阅读",
   "bookSourceGroup": "🏵️  小说",
   "bookSourceComment": "",
@@ -17499,7 +17459,7 @@
  },
  {
   "bookSourceUrl": "http://m.97yd.com",
-  "bookSourceName": " 🎉九七阅读",
+  "bookSourceName": "🎉九七阅读",
   "bookSourceGroup": "🎉精品",
   "bookSourceComment": "",
   "exploreUrl": "玄幻奇幻::/xuanhuan/<,index_{{page}}.html>\n武侠仙侠::/wuxia/<,index_{{page}}.html>\n都市生活::/dushi/<,index_{{page}}.html>\n历史军事::/junshi/<,index_{{page}}.html>\n游戏竞技::/youxi/<,index_{{page}}.html>\n科幻灵异::/kehuan/<,index_{{page}}.html>\n现代言情::/xianyan/<,index_{{page}}.html>\n青春校园::/xiaoyuan/<,index_{{page}}.html>\n乡村爱情::/xiangcun/<,index_{{page}}.html>\n耽美同人::/danmei/<,index_{{page}}.html>\n古代言情::/guyan/<,index_{{page}}.html>\n穿越架空::/chuanyue/<,index_{{page}}.html>\n惊秫恐怖::/kongbu/<,index_{{page}}.html>\n悬疑推理::/xuanyi/<,index_{{page}}.html>\n综合其他::/qita/<,index_{{page}}.html>",
@@ -22154,6 +22114,47 @@
   "ruleContent": {
    "content": "id.BookText@textNodes##.*手机版阅读.*|.*uu小说.*|/txt/.*",
    "imageStyle": "0"
+  }
+ },
+ {
+  "bookSourceUrl": "http://www.gxwztv.com",
+  "bookSourceName": "🔰梧州",
+  "bookSourceGroup": "神段【大乘级】（小说源）",
+  "bookUrlPattern": "",
+  "loginUrl": "",
+  "bookSourceComment": "",
+  "exploreUrl": "玄幻::/xuanhuanxiaoshuo/\n奇幻::/qihuanxiaoshuo/\n修真::/xiuzhenxiaoshuo/\n都市::/dushixiaoshuo/\n言情::/yanqingxiaoshuo/\n历史::/lishixiaoshuo/\n同人::/xiaoshuo/\n武侠::/wuxiaxiaoshuo/\n科幻::/kehuanxiaoshuo/\n游戏::/youxixiaoshuo/\n军事::/junshixiaoshuo/\n竞技::/jingjixiaoshuo/\n灵异::/lingyixiaoshuo/\n商战::/shangzhanxiaoshuo/\n校园::/xiaoyuanxiaoshuo/\n官场::/guanchangxiaoshuo/\n职场::/zhichangxiaoshuo/\n其他::/qitaxiaoshuo/",
+  "searchUrl": "http://www.gxwztv.com/search.htm?keyword={{key}}&pn={{page-1}}",
+  "bookSourceType": 0,
+  "customOrder": 25396,
+  "lastUpdateTime": 1601998566824,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "class.col-xs-2.0@text",
+   "bookList": "class.list-group-item!0:%",
+   "bookUrl": "class.col-xs-3.0@tag.a.0@href",
+   "kind": "class.col-xs-1.0@text",
+   "lastChapter": "class.col-xs-4.0@tag.a.0@text",
+   "name": "class.col-xs-3.0@tag.a.0@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.col-xs-12 list-group-item no-border.0@tag.small.0@text",
+   "coverUrl": "class.panel-body.0@class.img-thumbnail.0@src",
+   "intro": "class.panel panel-default mt20.0@id.shot@text",
+   "name": "class.active.0@text",
+   "tocUrl": "class.list-group-item tac.0@tag.a.0@href"
+  },
+  "ruleToc": {
+   "chapterList": "id.chapters-list@tag.a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "ruleContent": {
+   "content": "id.txtContent@textNodes"
   }
  }
 ]

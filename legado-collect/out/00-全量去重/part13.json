@@ -1,43 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://yourbiquge.com/",
-  "bookSourceName": "你的笔趣阁",
-  "bookSourceGroup": "全部来自论坛,搜索失效",
-  "bookSourceComment": "// Error: 搜索失效",
-  "searchUrl": "<js>cookie.removeCookie(source.key);</js>\n/search/,{\"method\":\"POST\",\"body\":\"searchkey={{key}}\"}",
-  "bookSourceType": 0,
-  "customOrder": 329,
-  "lastUpdateTime": 1747539336475,
-  "respondTime": 184743,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "span@text",
-   "bookList": ".category-div",
-   "bookUrl": "a.0@href",
-   "intro": "div.-1@text",
-   "name": "h3@text"
-  },
-  "ruleBookInfo": {
-   "author": "[property=\"og:novel:author\"]@content",
-   "coverUrl": "[property=\"og:image\"]@content",
-   "intro": "[property=\"og:description\"]@content",
-   "kind": "[property~=category|status|update_time]@content",
-   "lastChapter": "[property~=las?test_chapter_name]@content",
-   "name": "[property=\"og:novel:book_name\"]@content"
-  },
-  "ruleToc": {
-   "chapterList": ".info-chapters.1@a",
-   "chapterName": "a@text",
-   "chapterUrl": "a@href"
-  },
-  "ruleContent": {
-   "content": ".content@html"
-  }
- },
- {
   "bookSourceUrl": "http://www.gashuw.com/",
   "bookSourceName": "歌书网",
   "bookSourceGroup": "全部来自论坛",
@@ -2693,7 +2655,7 @@
  },
  {
   "bookSourceUrl": "https://m.biquge345.com",
-  "bookSourceName": " 出处源-仓库笔趣阁",
+  "bookSourceName": "出处源-仓库笔趣阁",
   "loginCheckJs": "",
   "searchUrl": "/waps.php,{\n  \"body\": \"s={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
   "bookSourceType": 0,
@@ -3723,7 +3685,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://book.vik.im/ ",
+  "bookSourceUrl": "https://book.vik.im/",
   "bookSourceName": "阅读电子书屋◎GEd520◎",
   "bookSourceGroup": "写源",
   "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 14; V2304A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.118 Mobile Safari/537.36',\n\"Referer\":\"https://book.vik.im/\"}",
@@ -4887,7 +4849,7 @@
  },
  {
   "bookSourceUrl": "http://www.bbiquge8.net",
-  "bookSourceName": " 笔趣阁11",
+  "bookSourceName": "笔趣阁11",
   "bookSourceGroup": "",
   "bookSourceComment": "2025，3月30号 静白修复",
   "searchUrl": "http://www.bbiquge8.net/search.html?searchtype=novelname&searchkey={{key}}",
@@ -4927,7 +4889,7 @@
  },
  {
   "bookSourceUrl": "http://www.anshuge.com/",
-  "bookSourceName": " 大帝小说",
+  "bookSourceName": "大帝小说",
   "bookSourceGroup": "",
   "header": "",
   "loginUrl": "",
@@ -7953,7 +7915,7 @@
  },
  {
   "bookSourceUrl": "https://www.69read.net/",
-  "bookSourceName": "69书吧read ",
+  "bookSourceName": "69书吧read",
   "bookSourceGroup": "S_Lin",
   "bookUrlPattern": "",
   "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36\"}",
@@ -9506,7 +9468,7 @@
  },
  {
   "bookSourceUrl": "http://www.39txt.com",
-  "bookSourceName": " 笔趣阁网",
+  "bookSourceName": "笔趣阁网",
   "bookSourceGroup": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3704.400 QQBrowser/10.4.3587.400\"\n}",
   "bookSourceComment": "",
@@ -25664,7 +25626,7 @@
  },
  {
   "bookSourceUrl": "http://www.5200xiaoshuo.com/#♤pb",
-  "bookSourceName": " 飞上小说",
+  "bookSourceName": "飞上小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "http://www.5200xiaoshuo.com/\\d+_\\d+/",
   "loginUrl": "",
@@ -32535,7 +32497,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.23meigui.com/ ",
+  "bookSourceUrl": "https://www.23meigui.com/",
   "bookSourceName": "116文学",
   "bookSourceGroup": "",
   "header": "",
@@ -43798,7 +43760,7 @@
  },
  {
   "bookSourceUrl": "https://www.ibiquge.net已整理",
-  "bookSourceName": " 笔趣阁",
+  "bookSourceName": "笔趣阁",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "已校验",
   "loginUrl": "",
@@ -44761,6 +44723,62 @@
   "ruleContent": {
    "content": "class.text.6@html",
    "nextContentUrl": "text.下一章@href"
+  }
+ },
+ {
+  "bookSourceUrl": "http://www.ibiqu.net#🎃",
+  "bookSourceName": "笔趣阁",
+  "bookSourceGroup": "小说 书源",
+  "bookUrlPattern": "http://www.ibiqu.net/book/\\d+/",
+  "loginUrl": "",
+  "bookSourceComment": "// Error: 搜索目录失效",
+  "exploreUrl": "",
+  "searchUrl": "http://www.ibiqu.net/modules/article/search.php?searchkey={{key}}",
+  "bookSourceType": 0,
+  "customOrder": 4661,
+  "lastUpdateTime": 1721116929419,
+  "respondTime": 192278,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "tag.td.2@text",
+   "bookList": "class.grid@tag.tr",
+   "bookUrl": "tag.td.0@tag.a@href",
+   "coverUrl": "",
+   "kind": "tag.td.4@text&&\ntag.td.5@text",
+   "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "tag.td.0@tag.a@text",
+   "wordCount": "tag.td.3@text"
+  },
+  "ruleExplore": {
+   "author": "",
+   "bookList": "",
+   "bookUrl": "",
+   "coverUrl": "",
+   "intro": "",
+   "kind": "",
+   "lastChapter": "",
+   "name": ""
+  },
+  "ruleBookInfo": {
+   "author": "[property=og:novel:author]@content",
+   "coverUrl": "[property=og:image]@content",
+   "init": "",
+   "intro": "[property=og:description]@content",
+   "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
+   "lastChapter": "[property=og:novel:latest_chapter_name]@content##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "[property=og:novel:book_name]@content##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁",
+   "wordCount": ""
+  },
+  "ruleToc": {
+   "chapterList": "id.list@tag.dd",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "id.content@html##笔趣阁.*最新章节！|最快更新.*最新章节！"
   }
  }
 ]

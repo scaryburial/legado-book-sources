@@ -1359,7 +1359,7 @@
  },
  {
   "bookSourceUrl": "https://www.baoshuu.com#关耳edit",
-  "bookSourceName": "  a🌸宝书网💜💜💜🔎搜索需登录（=趣书网？）",
+  "bookSourceName": "a🌸宝书网💜💜💜🔎搜索需登录（=趣书网？）",
   "bookSourceGroup": "21.0619关耳,★,🌸  常用,★🔎,",
   "bookUrlPattern": "",
   "header": "",
@@ -1411,7 +1411,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/free#21.5.13关耳edit",
-  "bookSourceName": "  a💰晋江▪言情 分类标签💜💜💜#关耳edit",
+  "bookSourceName": "a💰晋江▪言情 分类标签💜💜💜#关耳edit",
   "bookSourceGroup": "💰 正版,★,★💰正版",
   "bookUrlPattern": "",
   "header": "",
@@ -1471,7 +1471,7 @@
  },
  {
   "bookSourceUrl": "https://www.shuchong.info#关耳5.18edit",
-  "bookSourceName": "  b💯书虫#关耳💜完结/连载▪分类🔎  bak",
+  "bookSourceName": "b💯书虫#关耳💜完结/连载▪分类🔎  bak",
   "bookSourceGroup": "★,★🔎",
   "bookUrlPattern": "https://www.shuchong.info/book/\\d+.html",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
@@ -1521,7 +1521,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/channel/index/#玄奇edit",
-  "bookSourceName": "  b💰晋江app▪百合 分类▪#玄奇edit  bak",
+  "bookSourceName": "b💰晋江app▪百合 分类▪#玄奇edit  bak",
   "bookSourceGroup": "正版,⚙️已检,21.0624玄奇,★,★💰正版",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -1587,7 +1587,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/channel/index/#关耳",
-  "bookSourceName": "  a💰晋江app▪百合 分类▪#关耳6.19🅰🅰🅰",
+  "bookSourceName": "a💰晋江app▪百合 分类▪#关耳6.19🅰🅰🅰",
   "bookSourceGroup": "💰 正版,21.0619关耳,★,★💰正版",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -1653,7 +1653,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net/free#关耳",
-  "bookSourceName": "  a💰晋江▪百合 分类标签💜💜💜#关耳",
+  "bookSourceName": "a💰晋江▪百合 分类标签💜💜💜#关耳",
   "bookSourceGroup": "💰 正版,21.0619关耳,★,★💰正版",
   "bookUrlPattern": "",
   "header": "",
@@ -1713,7 +1713,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#乃星6.11",
-  "bookSourceName": "  b💰起点▪女频▪#乃星edit bak",
+  "bookSourceName": "b💰起点▪女频▪#乃星edit bak",
   "bookSourceGroup": "💰 正版,21.0611乃星,★,★💰正版",
   "bookUrlPattern": "",
   "header": "",
@@ -2068,7 +2068,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://qidian.com ",
+  "bookSourceUrl": "http://qidian.com",
   "bookSourceName": "🏵起点【女频】",
   "bookSourceGroup": "⁶❀耽女︎ºั轻言",
   "loginUrl": "https://passport.qidian.com",
@@ -11193,7 +11193,7 @@
  },
  {
   "bookSourceUrl": "https://m.jjwxc.net##time",
-  "bookSourceName": " 晋江文学 ",
+  "bookSourceName": "晋江文学",
   "bookSourceGroup": "💭💭💭💭💭💭",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -13528,7 +13528,7 @@
  },
  {
   "bookSourceUrl": "https://www.yanqing888.org/#sitemboxdl",
-  "bookSourceName": "🥛言情888① ",
+  "bookSourceName": "🥛言情888①",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "https://www.yq-888.com/xiaoshuo/\\d+/\\d+/",
   "header": "",
@@ -13592,7 +13592,7 @@
  },
  {
   "bookSourceUrl": "https://www.yanqing888.org/",
-  "bookSourceName": "🥛言情888① ",
+  "bookSourceName": "🥛言情888①",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "https://www.yq-888.com/xiaoshuo/\\d+/\\d+/",
   "header": "",
@@ -14472,7 +14472,7 @@
  },
  {
   "bookSourceUrl": "https://m.9txs.com#关耳",
-  "bookSourceName": "  b💯九桃小说🅰🔎com#关耳 bak",
+  "bookSourceName": "b💯九桃小说🅰🔎com#关耳 bak",
   "bookSourceGroup": "21.0619关耳,★,★🔎",
   "bookUrlPattern": "https?://www.9txs.com/book/\\d+.html",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
@@ -18067,7 +18067,7 @@
  },
  {
   "bookSourceUrl": "https://baike.baidu.com/",
-  "bookSourceName": " 百度百科",
+  "bookSourceName": "百度百科",
   "bookSourceGroup": "💭💭💭💭💭💭,校验公众号：【omega推文】",
   "bookUrlPattern": "已校验",
   "loginUrl": "",
@@ -18103,7 +18103,7 @@
  },
  {
   "bookSourceUrl": "https://baike.baidu已整理",
-  "bookSourceName": " 百度百科",
+  "bookSourceName": "百度百科",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "已校验",
   "loginUrl": "",

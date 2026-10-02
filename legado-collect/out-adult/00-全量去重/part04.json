@@ -18077,7 +18077,7 @@
  },
  {
   "bookSourceUrl": "https://wap.wenxinge.org",
-  "bookSourceName": "🔞 文心阁 ",
+  "bookSourceName": "🔞 文心阁",
   "bookSourceGroup": "🔞130,🙈🙈🙈🙈🙈🙈,搜索失效",
   "bookSourceComment": "// Error: 搜索失效\n\n糖塔",
   "searchUrl": "https://wap.wenxinge.org/Search.html,{\n  \"body\": \"keyword={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",
@@ -18323,7 +18323,7 @@
  },
  {
   "bookSourceUrl": "https://www.haitangsoushu.com#未月十八改",
-  "bookSourceName": " 海棠搜书",
+  "bookSourceName": "海棠搜书",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索正文失效",
   "bookSourceComment": "// Error: 搜索正文失效",
   "exploreUrl": "",

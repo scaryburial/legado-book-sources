@@ -1,44 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://yc.ireader.com.cn",
-  "bookSourceName": "⚡ 掌阅书城",
-  "bookSourceGroup": "⚡ 正版",
-  "bookUrlPattern": "",
-  "loginUrl": "http://wap.yc.ireader.com.cn/login",
-  "bookSourceComment": "",
-  "searchUrl": "/search/{{key}}/",
-  "bookSourceType": 0,
-  "customOrder": 21825,
-  "lastUpdateTime": 1622072217557,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": ".book_aut@text",
-   "bookList": ".result-list ul li:lt(3)",
-   "bookUrl": ".book_name@href",
-   "coverUrl": ".book_cov img@src",
-   "intro": ".book_int@text@js:result.trim()",
-   "kind": ".book_inf_sec .label@text&&.book_inf_right@tag.p.0@text##中|已",
-   "lastChapter": ".book_inf_right@tag.p.1@text",
-   "name": ".book_name@text"
-  },
-  "ruleBookInfo": {
-   "intro": ".book_int_con .div1@html##^\\s*##<br>",
-   "tocUrl": "@js:baseUrl.replace(/\\/?$/, '/chapters/')"
-  },
-  "ruleToc": {
-   "chapterList": ".cata_list li",
-   "chapterName": "@js:(result.select('s').hasClass('vip') ? '🔒' : '') + String(result.select('a').text()).replace(/(\\d章)\\s?([^：])/, '$1 $2')",
-   "chapterUrl": "a@href"
-  },
-  "ruleContent": {
-   "content": ".read_text@html"
-  }
- },
- {
   "bookSourceUrl": "http://www.zhuishu.la",
   "bookSourceName": "⚡ 追书网",
   "bookSourceGroup": "⑤🛍︎  小说",
@@ -4212,7 +4173,7 @@
  },
  {
   "bookSourceUrl": "https://www.bsl666.com#md",
-  "bookSourceName": "㊝ 百书楼 ♜♜♜ ",
+  "bookSourceName": "㊝ 百书楼 ♜♜♜",
   "bookSourceGroup": "",
   "bookSourceComment": ",8++,0++👍百书楼🅰️🅰️💙💙💙🅰️z  haxc",
   "searchUrl": "https://www.bsl666.com/s.php?ie=gbk&q={{key}}",
@@ -24153,6 +24114,42 @@
   },
   "ruleContent": {
    "content": "//div[@id=\"txtbox\"]/script[1]/text()\n@js:\nforcejx=\"no\"\neval(String(result))\nnow"
+  }
+ },
+ {
+  "bookSourceUrl": "http://www.94399.net",
+  "bookSourceName": "听涛轩",
+  "bookSourceGroup": "🏵️  小说",
+  "bookSourceComment": "",
+  "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&click=1&entry=1&s=1328547045850225434&p={{page-1}}",
+  "bookSourceType": 0,
+  "customOrder": 26877,
+  "lastUpdateTime": 1608650996333,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.result-game-item-info@tag.p.0@tag.span.1@text",
+   "bookList": "class.result-item result-game-item",
+   "bookUrl": "class.result-game-item-detail@tag.h3@tag.a@href",
+   "coverUrl": "class.result-game-item-pic@tag.a@tag.img@src",
+   "lastChapter": "class.result-game-item-info-tag.3@text",
+   "name": "class.result-game-item-detail@tag.h3@tag.a@text"
+  },
+  "ruleBookInfo": {
+   "author": "id.info@tag.p.0@text",
+   "intro": "id.intro@text##.*简介：",
+   "name": "id.info@tag.h1@text"
+  },
+  "ruleToc": {
+   "chapterList": "id.list@tag.dd",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "id.content@tag.p@textNodes"
   }
  }
 ]

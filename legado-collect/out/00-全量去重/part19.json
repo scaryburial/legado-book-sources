@@ -1,45 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://m.ggdownxs.cc",
-  "bookSourceName": "格格党ggdownxs",
-  "bookSourceGroup": "普通",
-  "bookSourceComment": "",
-  "searchUrl": "https://m.ggdownxs.cc/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename&submit=\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 21674,
-  "lastUpdateTime": 0,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "tag.a.2@text",
-   "bookList": "class.cover@class.line",
-   "bookUrl": "class.line@tag.a.1@href",
-   "kind": "tag.a.0@text##\\[|\\]",
-   "name": "tag.a.1@text"
-  },
-  "ruleBookInfo": {
-   "author": "class.block@tag.p.2@a@text",
-   "coverUrl": "class.block_img2@img@src",
-   "intro": "class.intro_info@text",
-   "kind": "class.block@tag.p.3@a@text",
-   "lastChapter": "class.block@tag.p.6@a@text",
-   "name": "class.block@tag.h2@a@text",
-   "tocUrl": "text.查看目录@href"
-  },
-  "ruleToc": {
-   "chapterList": "class.chapter@li@a",
-   "chapterName": "text",
-   "chapterUrl": "href",
-   "nextTocUrl": "text.下一页@href"
-  },
-  "ruleContent": {
-   "content": "id.nr1@html"
-  }
- },
- {
   "bookSourceUrl": "https://www.ax81.com#🎃",
   "bookSourceName": "格格党🎃#2",
   "bookSourceGroup": "",
@@ -25426,7 +25386,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.xbiquge6.com④     ",
+  "bookSourceUrl": "https://www.xbiquge6.com④",
   "bookSourceName": "🐶笔趣阁④",
   "bookSourceGroup": "SSS",
   "bookSourceComment": "",
@@ -25464,7 +25424,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.bqg5.cc       ⑥  ",
+  "bookSourceUrl": "https://www.bqg5.cc       ⑥",
   "bookSourceName": "🐶笔趣阁⑥",
   "bookSourceGroup": "SSS",
   "bookSourceComment": "",
@@ -25500,7 +25460,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.biqugexx.com⑥    ",
+  "bookSourceUrl": "https://www.biqugexx.com⑥",
   "bookSourceName": "🐶笔趣阁⑥",
   "bookSourceGroup": "SSS",
   "bookUrlPattern": "",
@@ -25537,7 +25497,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://www.biqugewb.com        ",
+  "bookSourceUrl": "http://www.biqugewb.com",
   "bookSourceName": "🐶笔趣阁完本",
   "bookSourceGroup": "SSS",
   "header": "",
@@ -25578,7 +25538,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.booktxt.com①    ",
+  "bookSourceUrl": "https://www.booktxt.com①",
   "bookSourceName": "🐶顶点小说①",
   "bookSourceGroup": "SSS",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
@@ -26044,7 +26004,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.motanwx.com#search_text",
+  "bookSourceUrl": "https://www.motanwx.com#search_text",
   "bookSourceName": "👍 墨坛",
   "bookSourceGroup": "👍优质",
   "bookUrlPattern": "",
@@ -28694,7 +28654,7 @@
  },
  {
   "bookSourceUrl": "https://miao.qimao.com",
-  "bookSourceName": "奇妙小说网 ",
+  "bookSourceName": "奇妙小说网",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -31404,7 +31364,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://m.xfflim8.com/ ",
+  "bookSourceUrl": "http://m.xfflim8.com/",
   "bookSourceName": "📻幸福听书",
   "bookSourceGroup": "听书 书源; 发现规则语法错误",
   "bookUrlPattern": "",
@@ -32314,7 +32274,7 @@
  },
  {
   "bookSourceUrl": "http://www.liudatxt.com/",
-  "bookSourceName": " 溜达小说",
+  "bookSourceName": "溜达小说",
   "bookSourceGroup": "",
   "bookSourceComment": "",
   "exploreUrl": "",
@@ -35680,7 +35640,7 @@
  },
  {
   "bookSourceUrl": "https://quapp.shenbabao.com#wy18-1001",
-  "bookSourceName": " APP① #未月十八1001",
+  "bookSourceName": "APP① #未月十八1001",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
   "bookSourceComment": "// Error: 搜索失效",
@@ -35716,7 +35676,7 @@
  },
  {
   "bookSourceUrl": "https://baike.baidu.com/",
-  "bookSourceName": " 百度百科",
+  "bookSourceName": "百度百科",
   "bookSourceGroup": "💭💭💭💭💭💭,校验公众号：【omega推文】",
   "bookUrlPattern": "已校验",
   "loginUrl": "",
@@ -35752,7 +35712,7 @@
  },
  {
   "bookSourceUrl": "https://baike.baidu已整理",
-  "bookSourceName": " 百度百科",
+  "bookSourceName": "百度百科",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "已校验",
   "loginUrl": "",
@@ -36362,7 +36322,7 @@
  },
  {
   "bookSourceUrl": "https://www.downbook.org#guaner",
-  "bookSourceName": "当书网 ",
+  "bookSourceName": "当书网",
   "bookSourceGroup": "发现失效,小说,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -37807,7 +37767,7 @@
  },
  {
   "bookSourceUrl": "https://quapp.shenbabao.com#♤guaner",
-  "bookSourceName": "APP① ",
+  "bookSourceName": "APP①",
   "bookSourceGroup": "已检验",
   "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
   "bookSourceComment": "",
@@ -40341,7 +40301,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.580bk.com/ ",
+  "bookSourceUrl": "https://www.580bk.com/",
   "bookSourceName": "锦绣文波",
   "bookSourceGroup": "-TinyZ",
   "bookUrlPattern": "",
@@ -40409,7 +40369,7 @@
  },
  {
   "bookSourceUrl": "https://m.thxsw.com/",
-  "bookSourceName": "官术网 ",
+  "bookSourceName": "官术网",
   "bookSourceGroup": "🏵️  小说",
   "bookSourceComment": "error:failed to connect to m.thxsw.com/2001::9df0:705 (port 443) from /240e:45f:c00:2ac3:7a1f:5379:68a7:111f (port 47982) after 15000ms\n",
   "searchUrl": "https://m.thxsw.com/search.php?q={{key}}",
@@ -42670,6 +42630,39 @@
   },
   "ruleContent": {
    "content": "id.content@html"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.ucyst.com",
+  "bookSourceName": "酷书包",
+  "bookSourceGroup": "AAA,搜索失效",
+  "bookUrlPattern": "",
+  "loginUrl": "",
+  "bookSourceComment": "// Error: 搜索失效",
+  "searchUrl": "https://www.ucyst.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 24634,
+  "lastUpdateTime": 1601610339333,
+  "respondTime": 180239,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": false,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.odd.1@text",
+   "bookList": "class.grid@tag.tr!0",
+   "bookUrl": "class.odd.0@tag.a.0@href",
+   "lastChapter": "class.even.0@tag.a.0@text",
+   "name": "class.odd.0@tag.a.0@text"
+  },
+  "ruleToc": {
+   "chapterList": "class.ml_list@tag.li@tag.a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "ruleContent": {
+   "content": "class.articlecontent@html",
+   "imageStyle": "0"
   }
  }
 ]

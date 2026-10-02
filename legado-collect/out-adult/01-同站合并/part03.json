@@ -2225,7 +2225,7 @@
  },
  {
   "bookSourceUrl": "http://m.shubaowang123.cc",
-  "bookSourceName": "🚬 第二书包网 ",
+  "bookSourceName": "🚬 第二书包网",
   "bookSourceGroup": "🚬刘备",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -5027,7 +5027,7 @@
  },
  {
   "bookSourceUrl": "http://www.365mww.com",
-  "bookSourceName": "  美文网",
+  "bookSourceName": "美文网",
   "bookSourceGroup": "耽美,女频",
   "bookSourceComment": "",
   "exploreUrl": "现代耽美::/book/xddm/<,index_{{page}}.html>\n古代架空::/book/gdjk/<,index_{{page}}.html>\n穿越重生::/book/cycs/<,index_{{page}}.html>\n玄幻仙侠::/book/xhxx/<,index_{{page}}.html>\n灵异推理::/book/lytl/<,index_{{page}}.html>\n科幻网游::/book/khwy/<,index_{{page}}.html>\n海外耽美::/book/hwdm/<,index_{{page}}.html>\nＢＬ同人::/book/bl/<,index_{{page}}.html>\nＧＬ百合::/book/gl/<,index_{{page}}.html>",
@@ -17177,7 +17177,7 @@
  },
  {
   "bookSourceUrl": "https://wap.wenxinge.org",
-  "bookSourceName": "🔞 文心阁 ",
+  "bookSourceName": "🔞 文心阁",
   "bookSourceGroup": "🔞130,🙈🙈🙈🙈🙈🙈,搜索失效",
   "bookSourceComment": "// Error: 搜索失效\n\n糖塔",
   "searchUrl": "https://wap.wenxinge.org/Search.html,{\n  \"body\": \"keyword={{key}}\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}",

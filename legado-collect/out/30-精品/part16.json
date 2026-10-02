@@ -1,81 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://www.ujxsw.net#🎃",
-  "bookSourceName": "悠久小说",
-  "bookSourceGroup": "小说 书源",
-  "bookUrlPattern": "",
-  "concurrentRate": "",
-  "header": "",
-  "loginUrl": "",
-  "loginUi": "",
-  "loginCheckJs": "",
-  "coverDecodeJs": "",
-  "bookSourceComment": "",
-  "variableComment": "",
-  "exploreUrl": "",
-  "exploreScreen": "",
-  "searchUrl": "/searchbooks.php?searchkey={{key}}",
-  "bookSourceType": 0,
-  "customOrder": 5507,
-  "lastUpdateTime": 1750793012332,
-  "respondTime": 0,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": false,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "tag.a.2@text",
-   "bookList": "class.shulist@tag.ul",
-   "bookUrl": "tag.a.0@href",
-   "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.ujxs.com/files/article/image/$2/$1/$1s.jpg###",
-   "intro": "",
-   "kind": "tag.li.1@text&&class.five@text",
-   "lastChapter": "tag.a.1@text",
-   "name": "tag.a.0@text",
-   "wordCount": ""
-  },
-  "ruleExplore": {
-   "author": "tag.a.2@text",
-   "bookList": "class.shulist@tag.ul",
-   "bookUrl": "tag.a.0@href",
-   "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.ujxs.com/files/article/image/$2/$1/$1s.jpg###",
-   "intro": "",
-   "kind": "tag.li.1@text&&class.five@text",
-   "lastChapter": "tag.a.1@text",
-   "name": "tag.a.0@text",
-   "wordCount": ""
-  },
-  "ruleBookInfo": {
-   "author": "class.d_title@tag.a.0@text",
-   "canReName": "",
-   "coverUrl": "id.bookimg@tag.img@src",
-   "init": "",
-   "intro": "id.bookintro@tag.div@text##【展开】|【收起】",
-   "kind": "id.count@tag.span.0@text&&class.new@tag.span.1@text##更新时间：",
-   "lastChapter": "class.new@tag.a.0@text",
-   "name": "class.d_title@tag.h1@text##作者.*|\\s",
-   "tocUrl": "#newlist@tag.a.0@href",
-   "wordCount": "id.count@tag.span.4@text"
-  },
-  "ruleToc": {
-   "chapterList": "#readerlist@ul@tag.li",
-   "chapterName": "li@tag.a@text",
-   "chapterUrl": "#newlist@tag.a.0@href",
-   "isVip": "",
-   "isVolume": "",
-   "nextTocUrl": "",
-   "updateTime": ""
-  },
-  "ruleContent": {
-   "content": "class.read-content@html",
-   "imageStyle": "",
-   "nextContentUrl": "",
-   "replaceRegex": "##.*最新网址.*\\s|.*免费阅读！|佰度搜索.*|.*悠久小说.*|最新网址：www.ujxsw.com|www.ujxsw.net|.*第.*章.*\\s",
-   "sourceRegex": "",
-   "webJs": ""
-  }
- },
- {
   "bookSourceUrl": "https://m.shoujix.com#",
   "bookSourceName": "手机小说",
   "bookSourceGroup": "小说 书源",
@@ -7144,7 +7068,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://www.imayitxt.com   ",
+  "bookSourceUrl": "http://www.imayitxt.com",
   "bookSourceName": "马戏小说",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -20216,7 +20140,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.heiyan.com        ",
+  "bookSourceUrl": "https://www.heiyan.com",
   "bookSourceName": "黑岩阅读",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
@@ -27746,7 +27670,7 @@
  },
  {
   "bookSourceUrl": "http://www.anshuge.com/",
-  "bookSourceName": " 大帝小说",
+  "bookSourceName": "大帝小说",
   "bookSourceGroup": "",
   "header": "",
   "loginUrl": "",
@@ -31304,6 +31228,49 @@
    "content": "#chaptercontent@textNodes||class.Readarea ReadAjax_content@textNodes",
    "nextContentUrl": "text.下一页@href||text.下一@href",
    "replaceRegex": "##请收藏本站：.*ttps.*w.*a.*乐文小说网手机版.*h.*m.*c|首发网址.*c|请收藏.*c"
+  }
+ },
+ {
+  "bookSourceUrl": "http://www.xtangsanshu.com#🎃",
+  "bookSourceName": "唐三中文🎃",
+  "bookSourceGroup": "常规",
+  "bookSourceComment": "",
+  "exploreUrl": "",
+  "searchUrl": "/s.php?ie=utf-8&s=&q={{key}}",
+  "bookSourceType": 0,
+  "customOrder": 4935,
+  "lastUpdateTime": 1735627628919,
+  "respondTime": 743,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": ".author@text",
+   "bookList": ".bookbox",
+   "bookUrl": "a.0@href",
+   "coverUrl": "img@src",
+   "kind": ".cat@text##.*：|小说",
+   "lastChapter": ".update@a@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+   "name": ".bookname@text"
+  },
+  "ruleBookInfo": {
+   "author": ".small@span.0@text",
+   "coverUrl": ".cover@img@src",
+   "intro": ".intro@textNodes##(^|[。！？]+[”」）】]?)##$1<br>@js:result.replace(/作者.*《.*|无弹窗推荐.*/g,\"\")",
+   "kind": ".small@span.1:2:4@text##小说|.*：|\\s..:.*",
+   "lastChapter": ".last@a@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+   "name": ".info@h2@text",
+   "wordCount": ".small@span.3@text##.*："
+  },
+  "ruleToc": {
+   "chapterList": ".listmain@dd@a",
+   "chapterName": "text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+   "chapterUrl": "href"
+  },
+  "ruleContent": {
+   "content": "id.content@html",
+   "replaceRegex": "##\\s*http.*//.*\\s*|\\s*请记住本书首.*\\s*"
   }
  }
 ]

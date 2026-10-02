@@ -89,7 +89,8 @@ def clean_entry(bs: dict, stats: Counter):
         v = bs.get(f)
         if v is None:
             continue
-        out[f] = v if isinstance(v, str) else str(v)
+        s = v if isinstance(v, str) else str(v)
+        out[f] = s.strip() if f in ("bookSourceUrl", "bookSourceName") else s
 
     for f in INT_FIELDS:
         if f in bs:
@@ -206,7 +207,7 @@ def main() -> int:
         for p in parts:
             arr = json.loads(p.read_text(encoding="utf-8"))
             for bs in arr:
-                u = bs.get("bookSourceUrl")
+                u = str(bs.get("bookSourceUrl") or "").strip()
                 if u in seen:
                     stats[f"cross_dup"] += 1
                     continue

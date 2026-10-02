@@ -1,37 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.wanren8.co",
-  "bookSourceName": "📡 龙腾小说网",
-  "bookSourceGroup": "发现,发现失效,搜索失效",
-  "bookSourceComment": "// Error: 发现失效, 搜索失效",
-  "exploreUrl": "玄幻魔法::https://www.wanren8.co/modules/article/articlelist.php?class=1&page=1\n武侠修真::https://www.wanren8.co/modules/article/articlelist.php?class=2&page=1\n都市言情::https://www.wanren8.co/modules/article/articlelist.php?class=3&page=1\n历史军事::https://www.wanren8.co/modules/article/articlelist.php?class=4&page=1\n侦探推理::https://www.wanren8.co/modules/article/articlelist.php?class=5&page=1\n网游动漫::https://www.wanren8.co/modules/article/articlelist.php?class=6&page=1\n科幻小说::https://www.wanren8.co/modules/article/articlelist.php?class=7&page=1\n恐怖灵异::https://www.wanren8.co/modules/article/articlelist.php?class=8&page=1\n散文诗词::https://www.wanren8.co/modules/article/articlelist.php?class=9&page=1\n其他类型::https://www.wanren8.co/modules/article/articlelist.php?class=10&page=1\n全本::https://www.wanren8.co/modules/article/index.php?fullflag=1&page=1\nnull",
-  "searchUrl": "char=gbk",
-  "bookSourceType": 0,
-  "customOrder": 25961,
-  "lastUpdateTime": 1609593490856,
-  "respondTime": 183456,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.C.0@text",
-   "bookList": "tag.tr",
-   "bookUrl": "class.L.1@tag.a.0@href",
-   "kind": "class.C.2@text",
-   "lastChapter": "class.L.1@text",
-   "name": "class.L.0@text"
-  },
-  "ruleToc": {
-   "chapterList": "class.L",
-   "chapterName": "tag.a.0@text",
-   "chapterUrl": "tag.a.0@href"
-  },
-  "ruleContent": {
-   "content": "id.contents@textNodes"
-  }
- },
- {
   "bookSourceUrl": "http://www.shuquge.cc/",
   "bookSourceName": "♠ 书趣阁",
   "bookSourceGroup": "男频,搜索失效",
@@ -17078,7 +17046,7 @@
  },
  {
   "bookSourceUrl": "https://m.shukeba.com",
-  "bookSourceName": " 书客吧",
+  "bookSourceName": "书客吧",
   "bookSourceGroup": "4、普通",
   "bookUrlPattern": "https?://[a-z]*.shukeba.com/book/\\d+.html",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0.1; vivo Y66 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36\"\n}",
@@ -30712,7 +30680,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.xbiquge6.com④     ",
+  "bookSourceUrl": "https://www.xbiquge6.com④",
   "bookSourceName": "🐶笔趣阁④",
   "bookSourceGroup": "SSS",
   "bookSourceComment": "",
@@ -30750,7 +30718,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.bqg5.cc       ⑥  ",
+  "bookSourceUrl": "https://www.bqg5.cc       ⑥",
   "bookSourceName": "🐶笔趣阁⑥",
   "bookSourceGroup": "SSS",
   "bookSourceComment": "",
@@ -30786,7 +30754,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.biqugexx.com⑥    ",
+  "bookSourceUrl": "https://www.biqugexx.com⑥",
   "bookSourceName": "🐶笔趣阁⑥",
   "bookSourceGroup": "SSS",
   "bookUrlPattern": "",
@@ -30823,7 +30791,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://www.biqugewb.com        ",
+  "bookSourceUrl": "http://www.biqugewb.com",
   "bookSourceName": "🐶笔趣阁完本",
   "bookSourceGroup": "SSS",
   "header": "",
@@ -30864,7 +30832,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.booktxt.com①    ",
+  "bookSourceUrl": "https://www.booktxt.com①",
   "bookSourceName": "🐶顶点小说①",
   "bookSourceGroup": "SSS",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
@@ -32642,7 +32610,7 @@
  },
  {
   "bookSourceUrl": "https://miao.qimao.com",
-  "bookSourceName": "奇妙小说网 ",
+  "bookSourceName": "奇妙小说网",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -34879,7 +34847,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://m.xfflim8.com/ ",
+  "bookSourceUrl": "http://m.xfflim8.com/",
   "bookSourceName": "📻幸福听书",
   "bookSourceGroup": "听书 书源; 发现规则语法错误",
   "bookUrlPattern": "",
@@ -37360,7 +37328,7 @@
  },
  {
   "bookSourceUrl": "https://quapp.shenbabao.com#wy18-1001",
-  "bookSourceName": " APP① #未月十八1001",
+  "bookSourceName": "APP① #未月十八1001",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
   "bookSourceComment": "// Error: 搜索失效",
@@ -37396,7 +37364,7 @@
  },
  {
   "bookSourceUrl": "https://baike.baidu.com/",
-  "bookSourceName": " 百度百科",
+  "bookSourceName": "百度百科",
   "bookSourceGroup": "💭💭💭💭💭💭,校验公众号：【omega推文】",
   "bookUrlPattern": "已校验",
   "loginUrl": "",
@@ -37432,7 +37400,7 @@
  },
  {
   "bookSourceUrl": "https://baike.baidu已整理",
-  "bookSourceName": " 百度百科",
+  "bookSourceName": "百度百科",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "已校验",
   "loginUrl": "",
@@ -37969,7 +37937,7 @@
  },
  {
   "bookSourceUrl": "https://www.downbook.org#guaner",
-  "bookSourceName": "当书网 ",
+  "bookSourceName": "当书网",
   "bookSourceGroup": "发现失效,小说,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -38255,6 +38223,40 @@
   "ruleContent": {
    "content": ".my-article-content@html",
    "replaceRegex": "##备案号:\\w+|<!--.*-->##"
+  }
+ },
+ {
+  "bookSourceUrl": "https://m.85iu.com/",
+  "bookSourceName": "🎨 85漫画网",
+  "bookSourceGroup": "漫画",
+  "bookSourceComment": "",
+  "searchUrl": "https://m.85iu.com/search/?keywords={{key}}",
+  "bookSourceType": 2,
+  "customOrder": 18531,
+  "lastUpdateTime": 1674806785743,
+  "respondTime": 55837,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": ".txtItme.0@text",
+   "bookList": "#update_list@.itemBox",
+   "bookUrl": "a@href",
+   "checkKeyWord": "",
+   "coverUrl": "mip-img@src",
+   "kind": ".pd@text",
+   "name": ".title@text",
+   "wordCount": ".date@text"
+  },
+  "ruleToc": {
+   "chapterList": ".list@ul@li@a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "ruleContent": {
+   "content": ".erPag@mip-img@src\n@js:result.split(\"\\n\").map(x=>'<img src=\"'+x+'\">').join(\"\\n\")",
+   "nextContentUrl": "text.下一页@href"
   }
  }
 ]

@@ -1,71 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://m.jjwxc.net#迷迭edit-zbbgbl",
-  "bookSourceName": "  ||💰晋江app🌸言情/耽美🌸",
-  "bookSourceGroup": "发现失效,﹅ ♞ 普通,﹅ ㊣ 正版,漫画,﹅ ✾ 言耽",
-  "bookUrlPattern": "",
-  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
-  "loginUrl": "http://m.jjwxc.net",
-  "bookSourceComment": "// Error: 发现失效\n\n💡APP源\n💡我的书架 - 千字收益 无需登录即可获取\n💡其他书架需要登录才能获取\n💡【所有书架】获取APP里的所有书架 \n     分类标签为书架名称+书籍标签\n💡【养儿待嫁】是我个人的单独书架 \n     可以删除 或自行抓包获取自己的单独书架\n💡收藏时间/更新时间为晋江网页版收藏\n💡文末附带评论（默认15条）\n💡正文自带净化（逗号修正、感谢语删除）\nBy关耳+乃星改\n迷迭二次排版、轻改，交流群637775313\n作者有话要说的净化规则，会拖慢文章的加载速度，所以迷迭把作者有话要说、文末15条评论都去掉了。（若想看作者有话要说、文末15条评论，可把原bak复制回去）\n■■正文，正文规则■■6.30乃星 原bak\n<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n     Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.java.util \n);\nwith(javaImport){\n    let IV_PARAMETER = String(\"1ae2c94b\");\n    let ALGORITHM = \"DES\"; \n    let CIPHER_ALGORITHM = \"DES/CBC/PKCS5Padding\";\n    let CHARSET = \"utf-8\";\n    let password=String(\"KK!%G3JdCHJxpAF3%Vg9pN\");\nfunction decode(data){\nlet dks = new DESKeySpec(String(password).getBytes());\nlet keyFactory = SecretKeyFactory.getInstance(\"DES\");\nlet secretKey = keyFactory.generateSecret(dks);\nlet cipher = Cipher.getInstance(CIPHER_ALGORITHM);\nlet iv = new IvParameterSpec(IV_PARAMETER.getBytes(CHARSET));\ncipher.init(Cipher.DECRYPT_MODE, secretKey, iv);\nreturn new String(cipher.doFinal(Base64.getDecoder().decode(String(data).getBytes(CHARSET))), CHARSET);\n}\n}\n//DES解密结束\ncontent=java.getString(\"$.content\",false);\nsaybody=java.getString(\"$.sayBody\",false);\nsay=saybody!=\"\"?\"\\n◎作者有话说：\\n\"+saybody:\"\";\nif(baseUrl.match(/token/)){\nresult=String(decode(content)+say);\n}else{result=content+say}\n//获取评论开启\nif(!baseUrl.match(/baidu/)){\n//匹配书籍id跟章节id\nbid=baseUrl.match(/novelId=(\\d+)/)[1];\ncid=baseUrl.match(/chapterId=(\\d+)/)[1];\n//拼接评论url\nurl=\"https://s8-static.jjwxc.net/comment_json.php?novelid=\"+bid+\"&chapterid=\"+cid;\n//获取评论列表\nlist=JSON.parse(java.ajax(url)).body;\ncomment=\"\";\n//判断评论数量\nlen=list.length>15?15:list.length;\nfor(i=0;i<len;i++){\ncomment+=list[i].commentbody+\"\\n\"\n}\n//判断是否有评论\ncomment=\"\"?\"\":\"\\n◎最新评论：\\n\"+comment+\"\\n-完-\";\n//正文拼接评论\nresult=result+comment\n}else{result=result}\n</js>\n##◎作者有话说：\\s*感谢(在|投出|灌溉|小天使|.*扔了).*(小天使|老板|营养液|火箭炮|地雷).*|感谢(在|投出|灌溉|小天使).*?(小天使|老板|营养液).*|非常感谢.*?会继续努力.*|.*?(浅水炸弹|深水鱼雷|手榴弹|地雷|火箭炮|捉个虫|普通用户、初级).*|为营造更好的评论环境，近期网站要求发评须进行.*|此评论超时未审，暂被系统自动屏蔽.*\n■■详情，简介规则■■ 6.30乃星 原bak\n<js>if(/完结/.test(book.kind))book.canUpdate=false;\n//请假条\na=JSON.parse(java.ajax('http://app.jjwxc.org/androidapi/getnovelOtherInfo?novelId='+java.get('id')+'&type=novelbasicinfo&versionCode=163'));\n$=a.novelLeave;\nn='\\n';\nleave=$.leaveContent?'​'+'🎐'+$.leaveDateBack+n+'🎐'+$.leaveContent+n+'🎐'+$.leaveDate+n+'​'+n:'';\njava.put('leave',leave);\njava.put('intro',JSON.parse(result).novelIntro.replace(/\\#/g,'＃'));\nresult\n</js>\n&nbsp;&nbsp;{{java.get('leave')}}\n📍霸票排行：第 {{$.ranking##第|名}} 名\n📍收藏人数：共 {{$.novelbefavoritedcount}} 人\n📍营养液数：共 {{$.nutrition_novel}} 瓶\n📍该作视角：ฅ  {{$.mainview}}  ฅ<br>{{'\\n'+'​'}}\n🍶{{$.novelIntroShort}}🍶{{'\\n'+'​'}}\n{{String(java.get(\"intro\")).replace(/立意:/,'立意：')}}<br>\n标签：{{$.novelTags##,|\\s##🏷}}<br>\n{{$.protagonist##,|，|；|;##、}}<br>\n{{$.costar##,|，|；|;##、}}<br>\n{{$.other##,|，|；|;##、}}<br>\n风格：{{$.novelStyle}}\n评分：{{$.novelReviewScore}}<br>\n评论：{{$.comment_count}}\n<js>result.replace(/(立意：|标签：)/,'​\\n$1').replace(/🍶🍶/,'').replace(/(?:标签：|主角：|配角：|其它：|📍该作视角：|评分：)<br>/g,'').replace(/(立意：[\\s\\S]+?<br>)/,'$1'+'​'+'\\n').replace(/请假条\\(/,'请假条【').replace(/回归\\)：/,'回归】').replace(/请假时间：/,'请假时间◎')</js>\n■■详情，简介规则■■ 原bak\n<js>\n//请假条\na=JSON.parse(java.ajax('http://app.jjwxc.org/androidapi/getnovelOtherInfo?novelId='+baseUrl.match(/(\\d+)/)[1]+'&type=novelbasicinfo&versionCode=163'));\n$=a.novelLeave;\nn='\\n';\nleave=$.leaveContent?'————————•————————'+n+'​'+n+$.leaveDateBack+n+'​'+'​'+'      '+$.leaveContent+n+$.leaveDate.replace(/请假时间：/,'⌚️')+n+$.leaveIntro:'';\njava.put('leave',leave);\njava.put('intro',JSON.parse(result).novelIntro.replace(/\\#/g,'◆'));\nresult\n</js>\n&nbsp;&nbsp;📖{{$.novelIntroShort##。$}}📖{{'\\n&lrm;'}}<br>\n◉ 标签：{{$.novelTags##,|\\s##🏷}}<br>\n◉ {{$.protagonist##,|，|；|;##、}}<br>\n◉ {{$.costar##,|，|；|;##、}}<br>\n◉ {{$.other##,|，|；|;##、}}<br>\n◉ 视角：{{$.mainview}}<br>\n◉ 评分：{{$.novelReviewScore}}<br>\n◉ 收藏：{{$.novelbefavoritedcount}}<br>\n{{String(java.get('intro')).replace(/立意:/,'◎◎ 立意：')}}<br>{{java.get('leave')}}<br>\n{{'\\n'+'​'}}\n◉ 霸王票排行：{{$.ranking}}<br>\n◉ 灌溉：{{$.nutrition_novel}}    ◉ 评论：{{$.comment_count}}<br> \n◉ 风格：{{$.novelStyle}}\n<js>\nresult=String(result);\nli=result.match(/◎ 立意.*/)?'&lrm;\\n'+result.match(/(◎ 立意.*?<br>)/)[1]:'';\nString(result).replace(/📖📖/,'').replace(/(◉ 收藏.*?<br>)/,'$1\\n'+li+'&lrm;\\n'+'————————•————————\\n').replace(/◎◎ 立意.*<br>/,'').replace(/(?:◉ 标签：|◉ 主角：|◉ 配角：|◉ 其它：|◉ 视角：|◉ 评分：)<br>/g,'')</js>",
-  "exploreUrl": "🌸　　　　　◆ 我的书架 ◆　　　　　🌸::\n 所有书架 ::http://app.jjwxc.org:80/androidapi/incrementFavorite?versionCode=185&token={{java.getCookie(\"https://m.jjwxc.net\",\"sid\")}}&backupTime=1041350400&order=1\n 养儿待嫁 ::http://app.jjwxc.org:80/androidapi/incrementFavorite?versionCode=185&token={{java.getCookie(\"https://m.jjwxc.net\",\"sid\")}}&classId=17444&backupTime=1041350400&order=1\n 收藏作者 ::http://app.jjwxc.org:80/androidapi/favAuthorList?versionCode=185&token={{java.getCookie(\"https://m.jjwxc.net\",\"sid\")}}&isAll=1\n 千字收益 ::http://app.jjwxc.org:80/androidapi/newDayList?channelMore=1\n 收藏时间 ::https://m.jjwxc.net/my/fav?p={{page}}&r=1\n 更新时间 ::https://m.jjwxc.net/my/fav?p={{page}}\n\n\n🌸　　　　　◆ 言情首页 ◆　　　　　🌸::::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?channel=yq&version=4\n\n 驻站排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700031%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 新晋作者 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700026%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 长  生  殿 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700016%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n 月度排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700001%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 季度排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700006%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 半年排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700011%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n ★  古 言 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000020%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  现 言 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000021%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  衍 言 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000022%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  完 结 半 价  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000023%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n 古代言情 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000012%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 古代穿越 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000015%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 都市青春 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000013%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 幻想现言 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000014%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 奇幻言情 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000016%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 幻想未来 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000017%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 衍生言情 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000019%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n　　　　  ::\n　　　　  ::\n\n\n 古言淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000001%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 古穿淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000004%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 现言淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000002%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 幻言淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000003%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 奇幻淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000005%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 未来淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000006%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 衍言淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000012%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n　　　　  ::\n　　　　  ::\n\n\n🌸　　　　　◆ 耽美首页 ◆　　　　　🌸::::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?channel=noyq&version=4\n\n 月度排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700002%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 季度排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700007%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 半年排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700012%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n ★  古 耽 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000013%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  现 耽 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000012%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  幻 耽 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000017%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  衍 耽 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000015%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n ☆  古 代 纯 爱  ☆::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000009%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ☆  都 市 现 纯  ☆::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000008%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ☆  幻 想 现 纯  ☆::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000016%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ☆  衍 生 纯 爱  ☆::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000011%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n 古纯淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000008%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 现纯淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000007%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 幻纯淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000013%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n 新晋作者 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700027%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n　　　　  ::\n　　　　  ::\n\n\n",
-  "searchUrl": "http://android.jjwxc.net/androidapi/search?keyword={{key}}&type=1&page={{page}}&searchType=1&sortMode=DESC\n@js:java.put('key',key);java.put('page',page);result",
-  "bookSourceType": 0,
-  "customOrder": 13800,
-  "lastUpdateTime": 1626513872834,
-  "respondTime": 183980,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "$.authorname",
-   "bookList": "<js>\nkey=java.get('key');\npage=java.get('page');\n\n//创建两个空数组\njson=[];json2=[];\n\n//判定json里是否有items\nif(JSON.parse(result).items){\njson=JSON.parse(result).items;}\n\n//加载作者搜索页面并转为json\njson1=JSON.parse(java.ajax('http://android.jjwxc.net/androidapi/search?keyword='+key+'&type=2&page='+page+'&searchType=7&sortMode=DESC'));\n\n//判定json里是否有items\nif(json1.items){\njson2=json1.items\n}\n\n//书名搜索列表与作者搜索列表拼接\nlist=json.concat(json2);\n\n\nresult=JSON.stringify(list)\n</js>\n$.[*]",
-   "bookUrl": "http://app-cdn.jjwxc.net/androidapi/novelbasicinfo?novelId={{$.novelid||$.novelId}}",
-   "coverUrl": "$.cover",
-   "intro": "$.novelintroshort",
-   "kind": "$.tags&&$.novelSizeformat##\\s##,",
-   "lastChapter": "<js>\nlast=JSON.parse(java.ajax('http://android.jjwxc.net/androidapi/chapterList?novelId='+java.get('id'))).chapterlist;\nif(last){\nlast=last[last.length-1];\nvip=last.isvip!=0?\"🔒\":'';\ndate=last.chapterdate;\nchapter=last.chaptername;\nchapterid=last.chapterid;\nresult=vip+chapterid+'.'+chapter+' • '+date}\n</js>\n<js>result.replace(/\\.\\d+/,'').replace(/\\d+\\.第/,'第').replace(/\\d+\\.Chapter/,'Chapter')</js>",
-   "name": "$.novelname@put:{id:$.novelid||$.novelId}",
-   "wordCount": "$.novelstep\n@js:result==2?'已完结':'连载中';"
-  },
-  "ruleExplore": {
-   "author": "tag.a.1@text||$.authorName",
-   "bookList": "class.b module@tag.li!-1||$..[?(@.novelName)]",
-   "bookUrl": "##(?:/book2/|novelid=|novelId=)(\\d+)##http://app-cdn.jjwxc.net/androidapi/novelbasicinfo?novelId=$1###",
-   "coverUrl": "$.cover||$.novelCover",
-   "intro": "$.novelIntroShort||$.novelintroshort",
-   "kind": "$.className&&$.novelSizeformat&&$.tags##\\s##,",
-   "lastChapter": "第{{$.maxChapterId}}章##第章",
-   "name": "tag.a.0@text||$.novelName",
-   "wordCount": "$.novelStep\n@js:result==2?'完结':'连载';"
-  },
-  "ruleBookInfo": {
-   "author": "$.authorName",
-   "canReName": "true",
-   "coverUrl": "$.novelCover",
-   "intro": "<js>\n//请假条\na=JSON.parse(java.ajax('http://app.jjwxc.org/androidapi/getnovelOtherInfo?novelId='+baseUrl.match(/(\\d+)/)[1]+'&type=novelbasicinfo&versionCode=163'));\n$=a.novelLeave;\nn='\\n';\nleave=$.leaveContent?'————————•————————'+n+'​'+n+$.leaveDateBack+n+'​'+'​'+'      '+$.leaveContent+n+$.leaveDate.replace(/请假时间：/,'⌚️')+n+$.leaveIntro:'';\njava.put('leave',leave);\njava.put('intro',JSON.parse(result).novelIntro.replace(/\\#/g,'◆'));\nresult\n</js>\n&nbsp;&nbsp;🔴 短介：🌸{{$.novelIntroShort##。$}}🌸{{'\\n&lrm;'}}<br>\n🔷 标签：{{$.novelTags##,|\\s##◆}}<br>\n🔶 {{$.protagonist##,|，|；|;##、}}<br>\n🔶 {{$.costar##,|，|；|;##、}}<br>\n🔶 {{$.other##,|，|；|;##、}}<br>\n🔶 视角：{{$.mainview}}<br>\n🔶 风格：{{$.novelStyle}}<br>\n🔷 评分：{{$.novelReviewScore}}<br>\n🔶 霸王票：{{$.ranking}}  🔶 评论：{{$.comment_count}}<br>\n🔶 收藏：{{$.novelbefavoritedcount}}    🔶 灌溉：{{$.nutrition_novel}}<br>\n\n{{String(java.get('intro')).replace(/立意:/,'🔴🔴 立意：')}}<br>{{java.get('leave')}}<br>\n{{'\\n'+'​'}}\n\n<js>\nresult=String(result);\nli=result.match(/🔴 立意.*/)?'&lrm;\\n'+result.match(/(🔴 立意.*?<br>)/)[1]:'';\nString(result).replace(/🌸🌸/,'').replace(/(🔶 收藏.*?<br>)/,'$1\\n'+li+'&lrm;\\n'+'————————•————————\\n').replace(/🔴🔴 立意.*<br>/,'').replace(/(?:🔷 标签：|🔶 主角：|🔶 配角：|🔶 其它：|🔶 视角：|🔷 评分：)<br>/g,'')</js>",
-   "kind": "{{$.novelClass}},{{java.get('ns')==1?'连载':'完结'}}",
-   "lastChapter": "<js>last=JSON.parse(java.ajax('http://android.jjwxc.net/androidapi/chapterList?novelId='+baseUrl.match(/(\\d+)/)[1])).chapterlist;\n$=last[last.length-1];\nvip=$.isvip?'🔒':'';\nchapterid=$.chapterid;\nchaptername=$.chaptername;\ndate=$.chapterdate;\nvip+chapterid+'.'+chaptername+' • '+date\n</js>\n<js>result.replace(/\\.\\d+/,'').replace(/\\d+\\.第/,'第').replace(/\\d+\\.Chapter/,'Chapter')</js>",
-   "name": "$.novelName@put:{id:$.novelId,ns:$.novelStep,nw:'$.novelSize##\\\\D'}",
-   "tocUrl": "http://app-cdn.jjwxc.net/androidapi/chapterList?novelId=@get:{id}&more=0&whole=1",
-   "wordCount": "{{(java.get('nw')/10000).toFixed(2)+'万字'}}"
-  },
-  "ruleToc": {
-   "chapterList": "<js>last=JSON.parse(java.ajax('http://android.jjwxc.net/androidapi/chapterList?novelId='+baseUrl.match(/novelId=(\\d+)/)[1])).chapterlist;\nlast=last[last.length-1];\nlist=JSON.parse(result).chapterlist;\nlist.push(last);\ncookie=java.getCookie(\"http://m.jjwxc.net\",\"sid\");\njava.put('cookie',cookie);\nJSON.stringify(list)\n</js>\n$.[*]",
-   "chapterName": "$.chaptername\n@js:\nresult=result.replace(/^\\s+/,'');\nvip='{{$.isvip}}'!='0';\nlock='{{$.islock}}'!='0';\ntype='{{$.chaptertype}}'=='1';\nnum=!type?'{{$.chapterid}}.':'';\nif(result.match(/[一二三四五六七八九十百千万\\d]+\\s*章|^\\d+[、\\.\\s]|chapter\\s*\\d+/i)){\nnum=''\n}else{num=num}\njuan=type?'📖 '+result+' 📖':result;\nv=vip&&!type?' · 🔒':'';l=lock?'[此章节已锁]':'';\nresult=num+juan+l+v;\n##\\.\\d+",
-   "chapterUrl": "$.chapterid\n@js:\ncookie=java.get('cookie');\nvip='{{$.isvip}}'!='0';\ntype='{{$.chaptertype}}'=='1';\nif(!type){\nif(vip){\nresult=\"http://app.jjwxc.org/androidapi/chapterContent?novelId=\"+baseUrl.match(/novelId=(\\d+)/)[1]+'&versionCode=191&token='+cookie+'&chapterId='+result\n}else{result='https://app-cdn.jjwxc.net/androidapi/chapterContent?novelId='+baseUrl.match(/novelId=(\\d+)/)[1]+'&chapterId='+result}\n}else{result='http://www.baidu.com?wd='+result}",
-   "isVip": "",
-   "updateTime": "{{$.chaptersize}}字🍴{{$.chapterdate}}🍴{{$.pointMeassge}}🍴{{$.chapterintro##^\\s*}}##^🍴|0000-00-00.*|^0字🍴|🍴0晋江币|\\s\\d+:\\d+:\\d+@js:result.replace(/晋江币/g,'币')"
-  },
-  "ruleContent": {
-   "content": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n     Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.java.util \n);\nwith(javaImport){\n    let IV_PARAMETER = String(\"1ae2c94b\");\n    let ALGORITHM = \"DES\"; \n    let CIPHER_ALGORITHM = \"DES/CBC/PKCS5Padding\";\n    let CHARSET = \"utf-8\";\n    let password=String(\"KK!%G3JdCHJxpAF3%Vg9pN\");\n\n\nfunction decode(data){\nlet dks = new DESKeySpec(String(password).getBytes());\nlet keyFactory = SecretKeyFactory.getInstance(\"DES\");\nlet secretKey = keyFactory.generateSecret(dks);\nlet cipher = Cipher.getInstance(CIPHER_ALGORITHM);\nlet iv = new IvParameterSpec(IV_PARAMETER.getBytes(CHARSET));\ncipher.init(Cipher.DECRYPT_MODE, secretKey, iv);\nreturn new String(cipher.doFinal(Base64.getDecoder().decode(String(data).getBytes(CHARSET))), CHARSET);\n\n}\n}\n//DES解密结束\n\n\ncontent=java.getString(\"$.content\",false);\n\nif(baseUrl.match(/token/)){\n\nresult=String(decode(content));\n}else{result=content}\n\n</js>\n\n",
-   "imageStyle": "TEXT",
-   "nextContentUrl": "",
-   "replaceRegex": "##,\\s*##，",
-   "sourceRegex": ""
-  }
- },
- {
   "bookSourceUrl": "https://www.bdido.com#♤Haxc",
   "bookSourceName": "1359漫画②",
   "bookSourceGroup": "发现失效,【】⛺漫画,【❌❌】搜索失-效,搜索失效",
@@ -1663,6 +1597,72 @@
   "customOrder": 13804,
   "lastUpdateTime": 1626513905749,
   "respondTime": 186455,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "$.authorname",
+   "bookList": "<js>\nkey=java.get('key');\npage=java.get('page');\n\n//创建两个空数组\njson=[];json2=[];\n\n//判定json里是否有items\nif(JSON.parse(result).items){\njson=JSON.parse(result).items;}\n\n//加载作者搜索页面并转为json\njson1=JSON.parse(java.ajax('http://android.jjwxc.net/androidapi/search?keyword='+key+'&type=2&page='+page+'&searchType=7&sortMode=DESC'));\n\n//判定json里是否有items\nif(json1.items){\njson2=json1.items\n}\n\n//书名搜索列表与作者搜索列表拼接\nlist=json.concat(json2);\n\n\nresult=JSON.stringify(list)\n</js>\n$.[*]",
+   "bookUrl": "http://app-cdn.jjwxc.net/androidapi/novelbasicinfo?novelId={{$.novelid||$.novelId}}",
+   "coverUrl": "$.cover",
+   "intro": "$.novelintroshort",
+   "kind": "$.tags&&$.novelSizeformat##\\s##,",
+   "lastChapter": "<js>\nlast=JSON.parse(java.ajax('http://android.jjwxc.net/androidapi/chapterList?novelId='+java.get('id'))).chapterlist;\nif(last){\nlast=last[last.length-1];\nvip=last.isvip!=0?\"🔒\":'';\ndate=last.chapterdate;\nchapter=last.chaptername;\nchapterid=last.chapterid;\nresult=vip+chapterid+'.'+chapter+' • '+date}\n</js>\n<js>result.replace(/\\.\\d+/,'').replace(/\\d+\\.第/,'第').replace(/\\d+\\.Chapter/,'Chapter')</js>",
+   "name": "$.novelname@put:{id:$.novelid||$.novelId}",
+   "wordCount": "$.novelstep\n@js:result==2?'已完结':'连载中';"
+  },
+  "ruleExplore": {
+   "author": "tag.a.1@text||$.authorName",
+   "bookList": "class.b module@tag.li!-1||$..[?(@.novelName)]",
+   "bookUrl": "##(?:/book2/|novelid=|novelId=)(\\d+)##http://app-cdn.jjwxc.net/androidapi/novelbasicinfo?novelId=$1###",
+   "coverUrl": "$.cover||$.novelCover",
+   "intro": "$.novelIntroShort||$.novelintroshort",
+   "kind": "$.className&&$.novelSizeformat&&$.tags##\\s##,",
+   "lastChapter": "第{{$.maxChapterId}}章##第章",
+   "name": "tag.a.0@text||$.novelName",
+   "wordCount": "$.novelStep\n@js:result==2?'完结':'连载';"
+  },
+  "ruleBookInfo": {
+   "author": "$.authorName",
+   "canReName": "true",
+   "coverUrl": "$.novelCover",
+   "intro": "<js>\n//请假条\na=JSON.parse(java.ajax('http://app.jjwxc.org/androidapi/getnovelOtherInfo?novelId='+baseUrl.match(/(\\d+)/)[1]+'&type=novelbasicinfo&versionCode=163'));\n$=a.novelLeave;\nn='\\n';\nleave=$.leaveContent?'————————•————————'+n+'​'+n+$.leaveDateBack+n+'​'+'​'+'      '+$.leaveContent+n+$.leaveDate.replace(/请假时间：/,'⌚️')+n+$.leaveIntro:'';\njava.put('leave',leave);\njava.put('intro',JSON.parse(result).novelIntro.replace(/\\#/g,'◆'));\nresult\n</js>\n&nbsp;&nbsp;🔴 短介：🌸{{$.novelIntroShort##。$}}🌸{{'\\n&lrm;'}}<br>\n🔷 标签：{{$.novelTags##,|\\s##◆}}<br>\n🔶 {{$.protagonist##,|，|；|;##、}}<br>\n🔶 {{$.costar##,|，|；|;##、}}<br>\n🔶 {{$.other##,|，|；|;##、}}<br>\n🔶 视角：{{$.mainview}}<br>\n🔶 风格：{{$.novelStyle}}<br>\n🔷 评分：{{$.novelReviewScore}}<br>\n🔶 霸王票：{{$.ranking}}  🔶 评论：{{$.comment_count}}<br>\n🔶 收藏：{{$.novelbefavoritedcount}}    🔶 灌溉：{{$.nutrition_novel}}<br>\n\n{{String(java.get('intro')).replace(/立意:/,'🔴🔴 立意：')}}<br>{{java.get('leave')}}<br>\n{{'\\n'+'​'}}\n\n<js>\nresult=String(result);\nli=result.match(/🔴 立意.*/)?'&lrm;\\n'+result.match(/(🔴 立意.*?<br>)/)[1]:'';\nString(result).replace(/🌸🌸/,'').replace(/(🔶 收藏.*?<br>)/,'$1\\n'+li+'&lrm;\\n'+'————————•————————\\n').replace(/🔴🔴 立意.*<br>/,'').replace(/(?:🔷 标签：|🔶 主角：|🔶 配角：|🔶 其它：|🔶 视角：|🔷 评分：)<br>/g,'')</js>",
+   "kind": "{{$.novelClass}},{{java.get('ns')==1?'连载':'完结'}}",
+   "lastChapter": "<js>last=JSON.parse(java.ajax('http://android.jjwxc.net/androidapi/chapterList?novelId='+baseUrl.match(/(\\d+)/)[1])).chapterlist;\n$=last[last.length-1];\nvip=$.isvip?'🔒':'';\nchapterid=$.chapterid;\nchaptername=$.chaptername;\ndate=$.chapterdate;\nvip+chapterid+'.'+chaptername+' • '+date\n</js>\n<js>result.replace(/\\.\\d+/,'').replace(/\\d+\\.第/,'第').replace(/\\d+\\.Chapter/,'Chapter')</js>",
+   "name": "$.novelName@put:{id:$.novelId,ns:$.novelStep,nw:'$.novelSize##\\\\D'}",
+   "tocUrl": "http://app-cdn.jjwxc.net/androidapi/chapterList?novelId=@get:{id}&more=0&whole=1",
+   "wordCount": "{{(java.get('nw')/10000).toFixed(2)+'万字'}}"
+  },
+  "ruleToc": {
+   "chapterList": "<js>last=JSON.parse(java.ajax('http://android.jjwxc.net/androidapi/chapterList?novelId='+baseUrl.match(/novelId=(\\d+)/)[1])).chapterlist;\nlast=last[last.length-1];\nlist=JSON.parse(result).chapterlist;\nlist.push(last);\ncookie=java.getCookie(\"http://m.jjwxc.net\",\"sid\");\njava.put('cookie',cookie);\nJSON.stringify(list)\n</js>\n$.[*]",
+   "chapterName": "$.chaptername\n@js:\nresult=result.replace(/^\\s+/,'');\nvip='{{$.isvip}}'!='0';\nlock='{{$.islock}}'!='0';\ntype='{{$.chaptertype}}'=='1';\nnum=!type?'{{$.chapterid}}.':'';\nif(result.match(/[一二三四五六七八九十百千万\\d]+\\s*章|^\\d+[、\\.\\s]|chapter\\s*\\d+/i)){\nnum=''\n}else{num=num}\njuan=type?'📖 '+result+' 📖':result;\nv=vip&&!type?' · 🔒':'';l=lock?'[此章节已锁]':'';\nresult=num+juan+l+v;\n##\\.\\d+",
+   "chapterUrl": "$.chapterid\n@js:\ncookie=java.get('cookie');\nvip='{{$.isvip}}'!='0';\ntype='{{$.chaptertype}}'=='1';\nif(!type){\nif(vip){\nresult=\"http://app.jjwxc.org/androidapi/chapterContent?novelId=\"+baseUrl.match(/novelId=(\\d+)/)[1]+'&versionCode=191&token='+cookie+'&chapterId='+result\n}else{result='https://app-cdn.jjwxc.net/androidapi/chapterContent?novelId='+baseUrl.match(/novelId=(\\d+)/)[1]+'&chapterId='+result}\n}else{result='http://www.baidu.com?wd='+result}",
+   "isVip": "",
+   "updateTime": "{{$.chaptersize}}字🍴{{$.chapterdate}}🍴{{$.pointMeassge}}🍴{{$.chapterintro##^\\s*}}##^🍴|0000-00-00.*|^0字🍴|🍴0晋江币|\\s\\d+:\\d+:\\d+@js:result.replace(/晋江币/g,'币')"
+  },
+  "ruleContent": {
+   "content": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n     Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.java.util \n);\nwith(javaImport){\n    let IV_PARAMETER = String(\"1ae2c94b\");\n    let ALGORITHM = \"DES\"; \n    let CIPHER_ALGORITHM = \"DES/CBC/PKCS5Padding\";\n    let CHARSET = \"utf-8\";\n    let password=String(\"KK!%G3JdCHJxpAF3%Vg9pN\");\n\n\nfunction decode(data){\nlet dks = new DESKeySpec(String(password).getBytes());\nlet keyFactory = SecretKeyFactory.getInstance(\"DES\");\nlet secretKey = keyFactory.generateSecret(dks);\nlet cipher = Cipher.getInstance(CIPHER_ALGORITHM);\nlet iv = new IvParameterSpec(IV_PARAMETER.getBytes(CHARSET));\ncipher.init(Cipher.DECRYPT_MODE, secretKey, iv);\nreturn new String(cipher.doFinal(Base64.getDecoder().decode(String(data).getBytes(CHARSET))), CHARSET);\n\n}\n}\n//DES解密结束\n\n\ncontent=java.getString(\"$.content\",false);\n\nif(baseUrl.match(/token/)){\n\nresult=String(decode(content));\n}else{result=content}\n\n</js>\n\n",
+   "imageStyle": "TEXT",
+   "nextContentUrl": "",
+   "replaceRegex": "##,\\s*##，",
+   "sourceRegex": ""
+  }
+ },
+ {
+  "bookSourceUrl": "https://m.jjwxc.net#迷迭edit-zbbgbl",
+  "bookSourceName": "||💰晋江app🌸言情/耽美🌸",
+  "bookSourceGroup": "发现失效,﹅ ♞ 普通,﹅ ㊣ 正版,漫画,﹅ ✾ 言耽",
+  "bookUrlPattern": "",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
+  "loginUrl": "http://m.jjwxc.net",
+  "bookSourceComment": "// Error: 发现失效\n\n💡APP源\n💡我的书架 - 千字收益 无需登录即可获取\n💡其他书架需要登录才能获取\n💡【所有书架】获取APP里的所有书架 \n     分类标签为书架名称+书籍标签\n💡【养儿待嫁】是我个人的单独书架 \n     可以删除 或自行抓包获取自己的单独书架\n💡收藏时间/更新时间为晋江网页版收藏\n💡文末附带评论（默认15条）\n💡正文自带净化（逗号修正、感谢语删除）\nBy关耳+乃星改\n迷迭二次排版、轻改，交流群637775313\n作者有话要说的净化规则，会拖慢文章的加载速度，所以迷迭把作者有话要说、文末15条评论都去掉了。（若想看作者有话要说、文末15条评论，可把原bak复制回去）\n■■正文，正文规则■■6.30乃星 原bak\n<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n     Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.java.util \n);\nwith(javaImport){\n    let IV_PARAMETER = String(\"1ae2c94b\");\n    let ALGORITHM = \"DES\"; \n    let CIPHER_ALGORITHM = \"DES/CBC/PKCS5Padding\";\n    let CHARSET = \"utf-8\";\n    let password=String(\"KK!%G3JdCHJxpAF3%Vg9pN\");\nfunction decode(data){\nlet dks = new DESKeySpec(String(password).getBytes());\nlet keyFactory = SecretKeyFactory.getInstance(\"DES\");\nlet secretKey = keyFactory.generateSecret(dks);\nlet cipher = Cipher.getInstance(CIPHER_ALGORITHM);\nlet iv = new IvParameterSpec(IV_PARAMETER.getBytes(CHARSET));\ncipher.init(Cipher.DECRYPT_MODE, secretKey, iv);\nreturn new String(cipher.doFinal(Base64.getDecoder().decode(String(data).getBytes(CHARSET))), CHARSET);\n}\n}\n//DES解密结束\ncontent=java.getString(\"$.content\",false);\nsaybody=java.getString(\"$.sayBody\",false);\nsay=saybody!=\"\"?\"\\n◎作者有话说：\\n\"+saybody:\"\";\nif(baseUrl.match(/token/)){\nresult=String(decode(content)+say);\n}else{result=content+say}\n//获取评论开启\nif(!baseUrl.match(/baidu/)){\n//匹配书籍id跟章节id\nbid=baseUrl.match(/novelId=(\\d+)/)[1];\ncid=baseUrl.match(/chapterId=(\\d+)/)[1];\n//拼接评论url\nurl=\"https://s8-static.jjwxc.net/comment_json.php?novelid=\"+bid+\"&chapterid=\"+cid;\n//获取评论列表\nlist=JSON.parse(java.ajax(url)).body;\ncomment=\"\";\n//判断评论数量\nlen=list.length>15?15:list.length;\nfor(i=0;i<len;i++){\ncomment+=list[i].commentbody+\"\\n\"\n}\n//判断是否有评论\ncomment=\"\"?\"\":\"\\n◎最新评论：\\n\"+comment+\"\\n-完-\";\n//正文拼接评论\nresult=result+comment\n}else{result=result}\n</js>\n##◎作者有话说：\\s*感谢(在|投出|灌溉|小天使|.*扔了).*(小天使|老板|营养液|火箭炮|地雷).*|感谢(在|投出|灌溉|小天使).*?(小天使|老板|营养液).*|非常感谢.*?会继续努力.*|.*?(浅水炸弹|深水鱼雷|手榴弹|地雷|火箭炮|捉个虫|普通用户、初级).*|为营造更好的评论环境，近期网站要求发评须进行.*|此评论超时未审，暂被系统自动屏蔽.*\n■■详情，简介规则■■ 6.30乃星 原bak\n<js>if(/完结/.test(book.kind))book.canUpdate=false;\n//请假条\na=JSON.parse(java.ajax('http://app.jjwxc.org/androidapi/getnovelOtherInfo?novelId='+java.get('id')+'&type=novelbasicinfo&versionCode=163'));\n$=a.novelLeave;\nn='\\n';\nleave=$.leaveContent?'​'+'🎐'+$.leaveDateBack+n+'🎐'+$.leaveContent+n+'🎐'+$.leaveDate+n+'​'+n:'';\njava.put('leave',leave);\njava.put('intro',JSON.parse(result).novelIntro.replace(/\\#/g,'＃'));\nresult\n</js>\n&nbsp;&nbsp;{{java.get('leave')}}\n📍霸票排行：第 {{$.ranking##第|名}} 名\n📍收藏人数：共 {{$.novelbefavoritedcount}} 人\n📍营养液数：共 {{$.nutrition_novel}} 瓶\n📍该作视角：ฅ  {{$.mainview}}  ฅ<br>{{'\\n'+'​'}}\n🍶{{$.novelIntroShort}}🍶{{'\\n'+'​'}}\n{{String(java.get(\"intro\")).replace(/立意:/,'立意：')}}<br>\n标签：{{$.novelTags##,|\\s##🏷}}<br>\n{{$.protagonist##,|，|；|;##、}}<br>\n{{$.costar##,|，|；|;##、}}<br>\n{{$.other##,|，|；|;##、}}<br>\n风格：{{$.novelStyle}}\n评分：{{$.novelReviewScore}}<br>\n评论：{{$.comment_count}}\n<js>result.replace(/(立意：|标签：)/,'​\\n$1').replace(/🍶🍶/,'').replace(/(?:标签：|主角：|配角：|其它：|📍该作视角：|评分：)<br>/g,'').replace(/(立意：[\\s\\S]+?<br>)/,'$1'+'​'+'\\n').replace(/请假条\\(/,'请假条【').replace(/回归\\)：/,'回归】').replace(/请假时间：/,'请假时间◎')</js>\n■■详情，简介规则■■ 原bak\n<js>\n//请假条\na=JSON.parse(java.ajax('http://app.jjwxc.org/androidapi/getnovelOtherInfo?novelId='+baseUrl.match(/(\\d+)/)[1]+'&type=novelbasicinfo&versionCode=163'));\n$=a.novelLeave;\nn='\\n';\nleave=$.leaveContent?'————————•————————'+n+'​'+n+$.leaveDateBack+n+'​'+'​'+'      '+$.leaveContent+n+$.leaveDate.replace(/请假时间：/,'⌚️')+n+$.leaveIntro:'';\njava.put('leave',leave);\njava.put('intro',JSON.parse(result).novelIntro.replace(/\\#/g,'◆'));\nresult\n</js>\n&nbsp;&nbsp;📖{{$.novelIntroShort##。$}}📖{{'\\n&lrm;'}}<br>\n◉ 标签：{{$.novelTags##,|\\s##🏷}}<br>\n◉ {{$.protagonist##,|，|；|;##、}}<br>\n◉ {{$.costar##,|，|；|;##、}}<br>\n◉ {{$.other##,|，|；|;##、}}<br>\n◉ 视角：{{$.mainview}}<br>\n◉ 评分：{{$.novelReviewScore}}<br>\n◉ 收藏：{{$.novelbefavoritedcount}}<br>\n{{String(java.get('intro')).replace(/立意:/,'◎◎ 立意：')}}<br>{{java.get('leave')}}<br>\n{{'\\n'+'​'}}\n◉ 霸王票排行：{{$.ranking}}<br>\n◉ 灌溉：{{$.nutrition_novel}}    ◉ 评论：{{$.comment_count}}<br> \n◉ 风格：{{$.novelStyle}}\n<js>\nresult=String(result);\nli=result.match(/◎ 立意.*/)?'&lrm;\\n'+result.match(/(◎ 立意.*?<br>)/)[1]:'';\nString(result).replace(/📖📖/,'').replace(/(◉ 收藏.*?<br>)/,'$1\\n'+li+'&lrm;\\n'+'————————•————————\\n').replace(/◎◎ 立意.*<br>/,'').replace(/(?:◉ 标签：|◉ 主角：|◉ 配角：|◉ 其它：|◉ 视角：|◉ 评分：)<br>/g,'')</js>",
+  "exploreUrl": "🌸　　　　　◆ 我的书架 ◆　　　　　🌸::\n 所有书架 ::http://app.jjwxc.org:80/androidapi/incrementFavorite?versionCode=185&token={{java.getCookie(\"https://m.jjwxc.net\",\"sid\")}}&backupTime=1041350400&order=1\n 养儿待嫁 ::http://app.jjwxc.org:80/androidapi/incrementFavorite?versionCode=185&token={{java.getCookie(\"https://m.jjwxc.net\",\"sid\")}}&classId=17444&backupTime=1041350400&order=1\n 收藏作者 ::http://app.jjwxc.org:80/androidapi/favAuthorList?versionCode=185&token={{java.getCookie(\"https://m.jjwxc.net\",\"sid\")}}&isAll=1\n 千字收益 ::http://app.jjwxc.org:80/androidapi/newDayList?channelMore=1\n 收藏时间 ::https://m.jjwxc.net/my/fav?p={{page}}&r=1\n 更新时间 ::https://m.jjwxc.net/my/fav?p={{page}}\n\n\n🌸　　　　　◆ 言情首页 ◆　　　　　🌸::::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?channel=yq&version=4\n\n 驻站排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700031%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 新晋作者 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700026%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 长  生  殿 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700016%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n 月度排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700001%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 季度排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700006%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 半年排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700011%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n ★  古 言 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000020%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  现 言 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000021%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  衍 言 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000022%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  完 结 半 价  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000023%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n 古代言情 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000012%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 古代穿越 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000015%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 都市青春 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000013%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 幻想现言 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000014%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 奇幻言情 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000016%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 幻想未来 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000017%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 衍生言情 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2210000019%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n　　　　  ::\n　　　　  ::\n\n\n 古言淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000001%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 古穿淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000004%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 现言淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000002%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 幻言淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000003%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 奇幻淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000005%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 未来淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000006%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 衍言淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000012%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n　　　　  ::\n　　　　  ::\n\n\n🌸　　　　　◆ 耽美首页 ◆　　　　　🌸::::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?channel=noyq&version=4\n\n 月度排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700002%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 季度排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700007%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 半年排行 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700012%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n ★  古 耽 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000013%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  现 耽 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000012%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  幻 耽 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000017%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ★  衍 耽 完 结  ★::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000015%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n ☆  古 代 纯 爱  ☆::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000009%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ☆  都 市 现 纯  ☆::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000008%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ☆  幻 想 现 纯  ☆::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000016%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n ☆  衍 生 纯 爱  ☆::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2212000011%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n 古纯淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000008%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 现纯淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000007%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n 幻纯淘文 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%2240000013%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n\n 新晋作者 ::https://app-cdn.jjwxc.net:443/bookstore/getFullPage?versionCode=185&channelBody=%7B%22700027%22%3A%7B%22offset%22%3A%22<,{{(page-1)*25}}>%22%2C%22limit%22%3A%2225%22%7D%7D&channelMore=1\n　　　　  ::\n　　　　  ::\n\n\n",
+  "searchUrl": "http://android.jjwxc.net/androidapi/search?keyword={{key}}&type=1&page={{page}}&searchType=1&sortMode=DESC\n@js:java.put('key',key);java.put('page',page);result",
+  "bookSourceType": 0,
+  "customOrder": 13800,
+  "lastUpdateTime": 1626513872834,
+  "respondTime": 183980,
   "weight": 0,
   "enabled": true,
   "enabledExplore": true,
@@ -4631,7 +4631,7 @@
  },
  {
   "bookSourceUrl": "https://manga.bilibili.com#♤yc",
-  "bookSourceName": "哔哩哔哩  ",
+  "bookSourceName": "哔哩哔哩",
   "bookSourceGroup": "正版漫画 书源",
   "header": "",
   "loginUrl": "https://manga.bilibili.com/",
@@ -7022,7 +7022,7 @@
  },
  {
   "bookSourceUrl": "https://www.iqiyi.com/manhua",
-  "bookSourceName": "爱奇艺漫画 ",
+  "bookSourceName": "爱奇艺漫画",
   "bookSourceGroup": "漫画",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n}",
@@ -8117,6 +8117,47 @@
   }
  },
  {
+  "bookSourceUrl": "https://m.ac.qq.com#一程",
+  "bookSourceName": "腾讯漫画",
+  "bookSourceGroup": "正版漫画 书源",
+  "bookSourceComment": "",
+  "exploreUrl": "飙升榜::https://m.ac.qq.com/rank/index?type=rise&pageSize=10&page={{page}}\n畅销榜::https://m.ac.qq.com/rank/index?type=pay&pageSize=10&page={{page}}\n新作榜::https://m.ac.qq.com/rank/index?type=new&pageSize=10&page={{page}}\n真香榜::https://m.ac.qq.com/rank/index?type=hot&pageSize=10&page={{page}}\n条漫::https://m.ac.qq.com/category/listAll?type=tm&rank=upt&pageSize=30&page={{page}}\n独家::https://m.ac.qq.com/category/listAll?type=dj&rank=upt&pageSize=30&page={{page}}\n完结::https://m.ac.qq.com/category/listAll?type=wj&rank=upt&pageSize=30&page={{page}}\n日漫::https://m.ac.qq.com/category/listAll?type=rm&rank=upt&pageSize=30&page={{page}}\n恐怖::https://m.ac.qq.com/category/listAll?type=kb&rank=pgv&pageSize=30&page={{page}}\n妖怪::https://m.ac.qq.com/category/listAll?type=yg&rank=pgv&pageSize=30&page={{page}}\n恋爱::https://m.ac.qq.com/category/listAll?type=na&rank=pgv&pageSize=30&page={{page}}\n玄幻::https://m.ac.qq.com/category/listAll?type=xh&rank=pgv&pageSize=30&page={{page}}\n热血::https://m.ac.qq.com/category/listAll?type=rx&rank=pgv&pageSize=30&page={{page}}\n悬疑::https://m.ac.qq.com/category/listAll?type=xy&rank=pgv&pageSize=30&page={{page}}\n彩虹::https://m.ac.qq.com/category/listAll?type=dm&rank=pgv&pageSize=30&page={{page}}\n少女::https://m.ac.qq.com/category/listAll?type=sv&rank=pgv&pageSize=30&page={{page}}\n韩漫::https://m.ac.qq.com/category/listAll?type=hm&rank=pgv&pageSize=30&page={{page}}\n科幻::https://m.ac.qq.com/category/listAll?type=kh&rank=pgv&pageSize=30&page={{page}}\n逗比::https://m.ac.qq.com/category/listAll?type=db&rank=pgv&pageSize=30&page={{page}}\n校园::https://m.ac.qq.com/category/listAll?type=qcxy&rank=pgv&pageSize=30&page={{page}}\n都市::https://m.ac.qq.com/category/listAll?type=ds&rank=pgv&pageSize=30&page={{page}}\n治愈::https://m.ac.qq.com/category/listAll?type=zy&rank=pgv&pageSize=30&page={{page}}",
+  "searchUrl": "/search/result?word={{key}}",
+  "bookSourceType": 2,
+  "customOrder": 441,
+  "lastUpdateTime": 1765829536250,
+  "respondTime": 2641,
+  "weight": 100,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "eventListener": false,
+  "customButton": false,
+  "ruleSearch": {
+   "bookList": "id.lst_searchResult@tag.li||id.list_update@tag.li||class.comic-link",
+   "bookUrl": "class.comic-link@href",
+   "coverUrl": "tag.img@src",
+   "intro": "class.comic-desc@text",
+   "kind": "class.comic-tag@text&&class.comic-update@text##\\s.*",
+   "name": "class.comic-title@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.head-info-author@text##作者：",
+   "intro": "class.head-info-desc@text",
+   "lastChapter": "class.mod-chapter-title@tag.span.0@text##，",
+   "name": "class.head-title-tags@h1@text"
+  },
+  "ruleToc": {
+   "chapterList": "@css:.chapter-wrap-list.normal>li",
+   "chapterName": "tag.a@class&&tag.a@text@js:result.replace(/chapter-link/g,'').replace(/\\s/g,'').replace(/lock/g,'💲')",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "@js:\ndata=result.match(/data:\\s*'(.*?)'/)[1];\nnonce=result.match(/<script>window.*?=(.*?)<\\/script>/)[1];\nnonce=eval(nonce);\nvar N = String(nonce).match(/\\d+\\w+/);\njlen=N.length;\nwhile(jlen){\njlen -= 1;\njlocate = parseInt(N[jlen].match(/(\\d+)/)[0]) &255;\njstr = N[jlen].replace(/\\d+/g,'');\ndata=data.substring(0,parseInt(jlocate))+data.substring(parseInt(jlocate)+jstr.length,data.length)}\npiclist=eval(java.base64Decode(data).match(/\"picture\":(\\[{\".*\\])/)[1]);\nhtml='';\nfor(i in piclist){\nhtml += '<img src=\"'+piclist[i].url+'\">\\n'\n}\nhtml",
+   "imageStyle": "FULL"
+  }
+ },
+ {
   "bookSourceUrl": "https://m.ac.qq.com#♤yc",
   "bookSourceName": "腾讯漫画",
   "bookSourceGroup": "正版漫画 书源",
@@ -8269,47 +8310,6 @@
    "coverUrl": "class.comic-cover@tag.img@src",
    "kind": "class.comic-tag@text",
    "lastChapter": "class.chapter@text||class.comic-update@text##更新",
-   "name": "class.comic-title@text"
-  },
-  "ruleBookInfo": {
-   "author": "class.head-info-author@text##作者：",
-   "intro": "class.head-info-desc@text",
-   "lastChapter": "class.mod-chapter-title@tag.span.0@text##，",
-   "name": "class.head-title-tags@h1@text"
-  },
-  "ruleToc": {
-   "chapterList": "@css:.chapter-wrap-list.normal>li",
-   "chapterName": "tag.a@class&&tag.a@text@js:result.replace(/chapter-link/g,'').replace(/\\s/g,'').replace(/lock/g,'💲')",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "@js:\ndata=result.match(/data:\\s*'(.*?)'/)[1];\nnonce=result.match(/<script>window.*?=(.*?)<\\/script>/)[1];\nnonce=eval(nonce);\nvar N = String(nonce).match(/\\d+\\w+/);\njlen=N.length;\nwhile(jlen){\njlen -= 1;\njlocate = parseInt(N[jlen].match(/(\\d+)/)[0]) &255;\njstr = N[jlen].replace(/\\d+/g,'');\ndata=data.substring(0,parseInt(jlocate))+data.substring(parseInt(jlocate)+jstr.length,data.length)}\npiclist=eval(java.base64Decode(data).match(/\"picture\":(\\[{\".*\\])/)[1]);\nhtml='';\nfor(i in piclist){\nhtml += '<img src=\"'+piclist[i].url+'\">\\n'\n}\nhtml",
-   "imageStyle": "FULL"
-  }
- },
- {
-  "bookSourceUrl": "https://m.ac.qq.com#一程",
-  "bookSourceName": "腾讯漫画 ",
-  "bookSourceGroup": "正版漫画 书源",
-  "bookSourceComment": "",
-  "exploreUrl": "飙升榜::https://m.ac.qq.com/rank/index?type=rise&pageSize=10&page={{page}}\n畅销榜::https://m.ac.qq.com/rank/index?type=pay&pageSize=10&page={{page}}\n新作榜::https://m.ac.qq.com/rank/index?type=new&pageSize=10&page={{page}}\n真香榜::https://m.ac.qq.com/rank/index?type=hot&pageSize=10&page={{page}}\n条漫::https://m.ac.qq.com/category/listAll?type=tm&rank=upt&pageSize=30&page={{page}}\n独家::https://m.ac.qq.com/category/listAll?type=dj&rank=upt&pageSize=30&page={{page}}\n完结::https://m.ac.qq.com/category/listAll?type=wj&rank=upt&pageSize=30&page={{page}}\n日漫::https://m.ac.qq.com/category/listAll?type=rm&rank=upt&pageSize=30&page={{page}}\n恐怖::https://m.ac.qq.com/category/listAll?type=kb&rank=pgv&pageSize=30&page={{page}}\n妖怪::https://m.ac.qq.com/category/listAll?type=yg&rank=pgv&pageSize=30&page={{page}}\n恋爱::https://m.ac.qq.com/category/listAll?type=na&rank=pgv&pageSize=30&page={{page}}\n玄幻::https://m.ac.qq.com/category/listAll?type=xh&rank=pgv&pageSize=30&page={{page}}\n热血::https://m.ac.qq.com/category/listAll?type=rx&rank=pgv&pageSize=30&page={{page}}\n悬疑::https://m.ac.qq.com/category/listAll?type=xy&rank=pgv&pageSize=30&page={{page}}\n彩虹::https://m.ac.qq.com/category/listAll?type=dm&rank=pgv&pageSize=30&page={{page}}\n少女::https://m.ac.qq.com/category/listAll?type=sv&rank=pgv&pageSize=30&page={{page}}\n韩漫::https://m.ac.qq.com/category/listAll?type=hm&rank=pgv&pageSize=30&page={{page}}\n科幻::https://m.ac.qq.com/category/listAll?type=kh&rank=pgv&pageSize=30&page={{page}}\n逗比::https://m.ac.qq.com/category/listAll?type=db&rank=pgv&pageSize=30&page={{page}}\n校园::https://m.ac.qq.com/category/listAll?type=qcxy&rank=pgv&pageSize=30&page={{page}}\n都市::https://m.ac.qq.com/category/listAll?type=ds&rank=pgv&pageSize=30&page={{page}}\n治愈::https://m.ac.qq.com/category/listAll?type=zy&rank=pgv&pageSize=30&page={{page}}",
-  "searchUrl": "/search/result?word={{key}}",
-  "bookSourceType": 2,
-  "customOrder": 441,
-  "lastUpdateTime": 1765829536250,
-  "respondTime": 2641,
-  "weight": 100,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "eventListener": false,
-  "customButton": false,
-  "ruleSearch": {
-   "bookList": "id.lst_searchResult@tag.li||id.list_update@tag.li||class.comic-link",
-   "bookUrl": "class.comic-link@href",
-   "coverUrl": "tag.img@src",
-   "intro": "class.comic-desc@text",
-   "kind": "class.comic-tag@text&&class.comic-update@text##\\s.*",
    "name": "class.comic-title@text"
   },
   "ruleBookInfo": {
@@ -11591,7 +11591,7 @@
  },
  {
   "bookSourceUrl": "http://www.gll8.com",
-  "bookSourceName": "🎨 鬼罗丽 ",
+  "bookSourceName": "🎨 鬼罗丽",
   "bookSourceGroup": "🎨漫画",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
   "bookSourceComment": "",

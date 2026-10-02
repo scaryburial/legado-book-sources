@@ -1,39 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://m.85iu.com/",
-  "bookSourceName": "🎨 85漫画网",
-  "bookSourceGroup": "漫画",
-  "bookSourceComment": "",
-  "searchUrl": "https://m.85iu.com/search/?keywords={{key}}",
-  "bookSourceType": 2,
-  "customOrder": 18531,
-  "lastUpdateTime": 1674806785743,
-  "respondTime": 55837,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": ".txtItme.0@text",
-   "bookList": "#update_list@.itemBox",
-   "bookUrl": "a@href",
-   "checkKeyWord": "",
-   "coverUrl": "mip-img@src",
-   "kind": ".pd@text",
-   "name": ".title@text",
-   "wordCount": ".date@text"
-  },
-  "ruleToc": {
-   "chapterList": ".list@ul@li@a",
-   "chapterName": "text",
-   "chapterUrl": "href"
-  },
-  "ruleContent": {
-   "content": ".erPag@mip-img@src\n@js:result.split(\"\\n\").map(x=>'<img src=\"'+x+'\">').join(\"\\n\")",
-   "nextContentUrl": "text.下一页@href"
-  }
- },
- {
   "bookSourceUrl": "https://www.lemonyd.com",
   "bookSourceName": "柠檬🎈",
   "bookSourceGroup": "",
@@ -2674,7 +2640,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.580bk.com/ ",
+  "bookSourceUrl": "https://www.580bk.com/",
   "bookSourceName": "锦绣文波",
   "bookSourceGroup": "-TinyZ",
   "bookUrlPattern": "",
@@ -2742,7 +2708,7 @@
  },
  {
   "bookSourceUrl": "https://m.thxsw.com/",
-  "bookSourceName": "官术网 ",
+  "bookSourceName": "官术网",
   "bookSourceGroup": "🏵️  小说",
   "bookSourceComment": "error:failed to connect to m.thxsw.com/2001::9df0:705 (port 443) from /240e:45f:c00:2ac3:7a1f:5379:68a7:111f (port 47982) after 15000ms\n",
   "searchUrl": "https://m.thxsw.com/search.php?q={{key}}",
@@ -14802,7 +14768,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://minguodaomuwangshi.wddsnxn.org",
+  "bookSourceUrl": "http://minguodaomuwangshi.wddsnxn.org",
   "bookSourceName": "民国盗墓",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "",
@@ -20533,7 +20499,7 @@
  },
  {
   "bookSourceUrl": "https://www.28lu.net/book/100655867/341617450.html",
-  "bookSourceName": " 笔趣阁。",
+  "bookSourceName": "笔趣阁。",
   "bookSourceGroup": "搜索链接规则为空",
   "bookSourceComment": "https://www.28lu.net/book/100655867/341617450.html",
   "bookSourceType": 0,

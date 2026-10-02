@@ -1,44 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://m.manhuaju.com",
-  "bookSourceName": "漫画居",
-  "bookSourceGroup": "",
-  "bookUrlPattern": "",
-  "loginUrl": "",
-  "bookSourceComment": "",
-  "exploreUrl": "完结::http://m.manhuaju.com/wanjie/\n连载中::http://m.manhuaju.com/lianzai/\n日韩::http://m.manhuaju.com/rihan/\n内地::http://m.manhuaju.com/neidi/\n港台::http://m.manhuaju.com/gangntai/\n欧美::http://m.manhuaju.com/oumei/\n其他::http://m.manhuaju.com/qita/\n少年::http://m.manhuaju.com/shaonianqu/\n少女::http://m.manhuaju.com/shaonvqu/\n青年::http://m.manhuaju.com/qingnian/\n少儿::http://m.manhuaju.com/shaoer/\n热血::http://m.manhuaju.com/rexue/\n格斗::http://m.manhuaju.com/gedou/\n科幻::http://m.manhuaju.com/kehuan/\n竞技::http://m.manhuaju.com/jingji/\n搞笑::http://m.manhuaju.com/gaoxiao/\n推理::http://m.manhuaju.com/tuili/\n恐怖::http://m.manhuaju.com/kongbu/\n耽美::http://m.manhuaju.com/danmei/\n少女::http://m.manhuaju.com/shaonv/\n恋爱::http://m.manhuaju.com/lianai/\n生活::http://m.manhuaju.com/shenghuo/\n战争::http://m.manhuaju.com/zhanzheng/\n故事::http://m.manhuaju.com/gushi/\n冒险::http://m.manhuaju.com/maoxian/\n魔幻::http://m.manhuaju.com/mohuan/\n玄幻::http://m.manhuaju.com/xuanhuan/\n校园::http://m.manhuaju.com/xiaoyuan/\n悬疑::http://m.manhuaju.com/xuanyi/\n萌系::http://m.manhuaju.com/mengxi/\n穿越::http://m.manhuaju.com/chuanyue/\n后宫::http://m.manhuaju.com/hougong/\n都市::http://m.manhuaju.com/dushi/\n武侠::http://m.manhuaju.com/wuxia/\n历史::http://m.manhuaju.com/lishi/\n同人::http://m.manhuaju.com/tongren/\n励志::http://m.manhuaju.com/lizhi/\n百合::http://m.manhuaju.com/baihe/\n治愈::http://m.manhuaju.com/zhiyu/\n机甲::http://m.manhuaju.com/jijia/\n纯爱::http://m.manhuaju.com/chunai/\n美食::http://m.manhuaju.com/meishi/\n血腥::http://m.manhuaju.com/xuexing/\n僵尸::http://m.manhuaju.com/jiangshi/\n恶搞::http://m.manhuaju.com/egao/\n虐心::http://m.manhuaju.com/nuexin/\n动作::http://m.manhuaju.com/dongzuo/\n惊险::http://m.manhuaju.com/jingxian/\n唯美::http://m.manhuaju.com/weimei/\n震撼::http://m.manhuaju.com/zhenhan/\n复仇::http://m.manhuaju.com/fuchou/\n侦探::http://m.manhuaju.com/zhentan/\n脑洞::http://m.manhuaju.com/naodong/\n奇幻::http://m.manhuaju.com/qihuan/\n宫斗::http://m.manhuaju.com/gongdou/\n爆笑::http://m.manhuaju.com/baoxiao/\n运动::http://m.manhuaju.com/yundong/\n青春::http://m.manhuaju.com/qingchun/\n灵异::http://m.manhuaju.com/lingyi/\n古风::http://m.manhuaju.com/gufeng/\n权谋::http://m.manhuaju.com/quanmou/\n节操::http://m.manhuaju.com/jiecao/\n明星::http://m.manhuaju.com/mingxing/\n暗黑::http://m.manhuaju.com/anhei/\n社会::http://m.manhuaju.com/shehui/\n浪漫::http://m.manhuaju.com/langman/\n栏目::http://m.manhuaju.com/lanmu/\n仙侠::http://m.manhuaju.com/xianxia/\nnull",
-  "searchUrl": "http://m.manhuaju.com/statics/search.aspx?key={{key}}",
-  "bookSourceType": 0,
-  "customOrder": 21754,
-  "lastUpdateTime": 0,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "bookList": "class.imgBox@tag.li||class.col_3_1@tag.li",
-   "bookUrl": "tag.a.0@href||tag.a.0@href",
-   "coverUrl": "tag.img@src||tag.img@src",
-   "lastChapter": "class.info@text||class.info@text",
-   "name": "class.txtA@text||class.txtA@text"
-  },
-  "ruleBookInfo": {
-   "author": "class.sub_r@class.txtItme.1@text",
-   "intro": "class.Introduct@tag.p.4@text",
-   "kind": "class.sub_r@class.txtItme.2@text"
-  },
-  "ruleToc": {
-   "chapterList": "-id.list@class.Drama autoHeight@tag.li",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "function getImgList(){\r\n    var str = html.match(/murl_e=\\\"(.*?)\\\"/)[1];\r\n    var list = JsEngine.atob(str).split(\"\\\\$qingtiandy\\\\$\");\r\n    return list;\r\n}",
-   "nextContentUrl": "class.action-list@tag.li.2@text.下一页@href"
-  }
- },
- {
   "bookSourceUrl": "http://ac.zxh.la",
   "bookSourceName": "漫画搜",
   "bookSourceGroup": "发现规则语法错误",
@@ -23623,6 +23584,48 @@
   "ruleContent": {
    "content": "id.contents@textNodes",
    "nextContentUrl": "text.下一页@href"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.luluskw.com",
+  "bookSourceName": "鲁鲁小说网",
+  "bookSourceGroup": "³۝天域整理",
+  "bookUrlPattern": "",
+  "loginUrl": "",
+  "bookSourceComment": "",
+  "exploreUrl": "最近更新::https://www.luluskw.com/top/lastupdate_{{page}}/\n最新入库::https://www.luluskw.com/top/postdate_{{page}}/\n总排行榜::https://www.luluskw.com/top/allvisit_{{page}}/\n总推荐榜::https://www.luluskw.com/top/allvote_{{page}}/\n总收藏榜::https://www.luluskw.com/top/goodnum_{{page}}/\n总字数榜::https://www.luluskw.com/top/size_{{page}}/\n玄幻小说::https://www.luluskw.com/xuanhuan/\n武侠小说::https://www.luluskw.com/wuxia/\n穿越小说::https://www.luluskw.com/chuanyue/\n都市小说::https://www.luluskw.com/dushi/\n历史小说::https://www.luluskw.com/lishi/\n科幻小说::https://www.luluskw.com/kehuan/\n网游小说::https://www.luluskw.com/wangyou/\n恐怖小说::https://www.luluskw.com/kongbu/\n推理小说::https://www.luluskw.com/tuili/\n耽美小说::https://www.luluskw.com/danmei/\n其他小说::https://www.luluskw.com/qita/",
+  "searchUrl": "http://www.luluskw.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+  "bookSourceType": 0,
+  "customOrder": -2085969801,
+  "lastUpdateTime": 0,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": false,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.four@text",
+   "bookList": "class.clearfix@ul!0",
+   "bookUrl": "tag.a.0@href",
+   "coverUrl": "a@href<js>'/files/article/image'+String(result).replace(/.*?(\\d+)(\\d{3})/,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+   "kind": "class.two@text##\\[|\\]",
+   "lastChapter": "class.sev@text",
+   "name": "class.three@text"
+  },
+  "ruleBookInfo": {
+   "coverUrl": "class.con_limg@img@src",
+   "intro": "class.r_cons@textNodes",
+   "kind": "class.green@text",
+   "lastChapter": "class.lastrecord@a@text",
+   "tocUrl": "text.开始阅读@href"
+  },
+  "ruleToc": {
+   "chapterList": "class.clearfix dirconone@li@a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "ruleContent": {
+   "content": "id.BookText@textNodes"
   }
  }
 ]

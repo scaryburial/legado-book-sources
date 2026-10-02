@@ -1,62 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://m.agedm.org/",
-  "bookSourceName": "艾格动漫（优）",
-  "bookSourceGroup": "影视 书源",
-  "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36\",\n\t\t\"Referer\":\"https://m.agedm.org/\",\n\t\"Origin\": \"https://m.agedm.org\",\n\t\"authority\":\"upos-sz-mirrorhw.bilivideo.com\"\n}",
-  "bookSourceComment": "",
-  "exploreUrl": "[\n{\"title\":\"𓆡𓆝𓆟地ོ区ོ​​𓆟𓆜𓆞\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"❄️全部地区\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"❄️中国\",\"url\":\"https://api.agedm.org/v2/catalog?region=中国&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"❄️日本\",\"url\":\"https://api.agedm.org/v2/catalog?region=日本&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"❄️欧美\",\"url\":\"https://api.agedm.org/v2/catalog?region=欧美&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n\n{\"title\":\"𓆡𓆝𓆟版ོ本ོ​​𓆟𓆜𓆞\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"💦TV\",\n\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=TV&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n\n{\"title\":\"💦剧场版\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=剧场版&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n\n{\"title\":\"💦OVA\",\n\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=OVA&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n\n{\"title\":\"𓆡𓆝𓆟季ོ度ོ​​𓆟𓆜𓆞\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"🍋1月\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=1&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"🍋4月\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=4&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"🍋7月\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=7&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"🍋10月\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=10&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n\n{\"title\":\"𓆡𓆝𓆟状ོ态ོ𓆟𓆜𓆞\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"🪣连载\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=连载&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"🪣完结\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=完结&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"🪣未播\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=未播放&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n\n{\"title\":\"𓆡𓆝𓆟资ོ源ོ𓆟𓆜𓆞\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"⭐BDRIP\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=BDRIP&order=time&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"⭐AGERIP\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=AGERIP&order=time&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n\n{\"title\":\"𓆡𓆝𓆟排ོ序ོ𓆟𓆜𓆞\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"🍊更新\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=time&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"🍈名称\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=name&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"🥚点击\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=hits&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n\n{\"title\":\"𓆡𓆝𓆟年ོ份ོ𓆟𓆜𓆞\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"💧2024\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2024&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2023\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2023&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2022\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2022&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2021\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2021&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2020\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2020&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2019\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2019&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2018\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2018&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2017\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2017&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2016\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2016&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2015\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2015&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2014\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2014&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2013\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2013&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2012\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2012&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2011\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2011&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2010\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2010&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2009\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2009&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2008\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2008&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2007\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2007&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2006\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2006&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2005\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2005&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2004\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2004&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2003\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2003&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2002\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2002&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"💧2001\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2001&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"☀️2000☀️\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2000&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n\n{\"title\":\"𓆡𓆝𓆟喜ོ好ོ𓆟𓆜𓆞\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"搞笑🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=搞笑&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"励志🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=励志&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"热血🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=热血&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"战斗🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=战斗&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"竞技🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=竞技&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"校园🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=校园&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"青春🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=青春&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"爱情🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=爱情&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"恋爱🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=恋爱&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"冒险🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=冒险&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"冒险🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=冒险&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"后宫🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=后宫&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"百合🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=百合&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"治愈🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=治愈&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"萝莉🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=萝莉&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"魔法🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=魔法&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"悬疑🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=悬疑&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"推理🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=推理&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"奇幻🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=奇幻&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"科幻🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=科幻&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"游戏🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=游戏&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"神魔🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=神魔&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"恐怖🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=恐怖&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"血腥🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=血腥&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"机战🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=机战&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"战争🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=战争&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"犯罪🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=犯罪&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"历史🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=历史&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"社会🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=社会&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"职场🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=职场&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"剧情🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=剧情&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"伪娘🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=伪娘&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"耽美🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=耽美&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"童年🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=童年&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"教育🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=教育&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"亲子🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=亲子&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"真人🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=真人&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"歌舞🌙\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=歌舞&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}\n]",
-  "searchUrl": "https://api.agedm.org/v2/search?query={{key}}&page={{page}}",
-  "bookSourceType": 2,
-  "customOrder": 4993,
-  "lastUpdateTime": 1734944331022,
-  "respondTime": 190185,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "$.writer",
-   "bookList": "$.data.videos",
-   "bookUrl": "$.id\n@js:\n\"https://api.agedm.org/v2/detail/\"+result",
-   "coverUrl": "$.cover",
-   "intro": "$.intro",
-   "kind": "$.tags",
-   "lastChapter": "$.uptodate",
-   "name": "$.name"
-  },
-  "ruleExplore": {
-   "author": "$.writer",
-   "bookList": "$.videos",
-   "bookUrl": "$.id\n@js:\n\"https://api.agedm.org/v2/detail/\"+result",
-   "coverUrl": "$.cover",
-   "intro": "$.intro",
-   "kind": "$.tags",
-   "lastChapter": "$.uptodate",
-   "name": "$.name"
-  },
-  "ruleBookInfo": {
-   "author": "$.video.writer",
-   "canReName": "",
-   "coverUrl": "$.video.cover",
-   "init": "",
-   "intro": "$.video.intro",
-   "kind": "$.video.tags",
-   "lastChapter": "$.video.uptodate",
-   "name": "$.video.name",
-   "tocUrl": "$.video.playlists\n@js:\n//java.log(result)\nu=java.get(\"u\"),q=result.match(/\".*?\"/g)\nh=[],n=[],o=1,x=0\nfor(i=0;i<q.length/2;i++)\n{\n\tn.push(q[x].match(/\".*?\"/)[0])\n\th.push('\"'+u+q[o].match(/\"(.*?\")/)[1])\n\to=o+2;x=x+2\n}\njava.put(\"n\",n),java.put(\"h\",h)\nresult=null",
-   "wordCount": "$.player_jx\n@js:\nu=result.match(/h.*?=/)[0]\njava.put(\"u\",u)\nresult=null"
-  },
-  "ruleToc": {
-   "chapterList": "@js:\na=java.get(\"h\"),b=java.get(\"n\"),url=[]\nh=a.match(/\".*?\"/g),n=b.match(/\".*?\"/g)\nfor(i=0;i<h.length;i++)\n{\n\turl[i]=\n\t\t{\n\t\t\t\"Name\":\"🥣\"+n[i].match(/\"(.*?)\"/)[1],\n\t\t\t\"URL\":h[i].match(/\"(.*?)\"/)[1]\n\t\t\t}\n}\nurl",
-   "chapterName": "Name",
-   "chapterUrl": "URL"
-  },
-  "ruleContent": {
-   "content": "@js:\nif(book.durChapterIndex==chapter.index)\n{\n\t\t java.startBrowser(baseUrl,title)\n\t\t java.toast(title)\n}"
-  }
- },
- {
   "bookSourceUrl": "https://www.yydsmh.com/",
   "bookSourceName": "瑞雪漫画（魔法）",
   "bookSourceGroup": "漫画 书源",
@@ -15876,7 +15819,7 @@
  },
  {
   "bookSourceUrl": "https://m.67txt.com/#喜静",
-  "bookSourceName": " 胡行小说",
+  "bookSourceName": "胡行小说",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "// Error: Connection reset\n\n发现规则来自@游客2580大佬",
   "exploreUrl": "[{\"title\":\"全部·分类\",\"url\":\"/sort/all/{{page}}\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"玄幻魔法\",\"url\":\"/sort/xuanhuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠修真\",\"url\":\"/sort/wuxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"仙侠小说\",\"url\":\"/sort/xianxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/sort/dushi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/sort/lishi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻灵异\",\"url\":\"/sort/kehuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"游戏竞技\",\"url\":\"/sort/youxi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女生小说\",\"url\":\"/sort/nvsheng/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/sort/qita/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"完本·分类\",\"url\":\"/full/all/{{page}}\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"玄幻魔法\",\"url\":\"/full/xuanhuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠修真\",\"url\":\"/full/wuxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"仙侠小说\",\"url\":\"/full/xianxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/full/dushi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/full/lishi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻灵异\",\"url\":\"/full/kehuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"游戏竞技\",\"url\":\"/full/youxi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女生小说\",\"url\":\"/full/nvsheng/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/full/qita/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -15922,7 +15865,7 @@
  },
  {
   "bookSourceUrl": "https://m.67txt.com/",
-  "bookSourceName": " 胡行小说",
+  "bookSourceName": "胡行小说",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "// Error: Connection reset\n\n发现规则来自@游客2580大佬",
   "exploreUrl": "[{\"title\":\"全部·分类\",\"url\":\"/sort/all/{{page}}\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"玄幻魔法\",\"url\":\"/sort/xuanhuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠修真\",\"url\":\"/sort/wuxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"仙侠小说\",\"url\":\"/sort/xianxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/sort/dushi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/sort/lishi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻灵异\",\"url\":\"/sort/kehuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"游戏竞技\",\"url\":\"/sort/youxi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女生小说\",\"url\":\"/sort/nvsheng/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/sort/qita/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"完本·分类\",\"url\":\"/full/all/{{page}}\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"玄幻魔法\",\"url\":\"/full/xuanhuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠修真\",\"url\":\"/full/wuxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"仙侠小说\",\"url\":\"/full/xianxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/full/dushi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/full/lishi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻灵异\",\"url\":\"/full/kehuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"游戏竞技\",\"url\":\"/full/youxi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女生小说\",\"url\":\"/full/nvsheng/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/full/qita/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -25680,7 +25623,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://m.23uswx.org/ ",
+  "bookSourceUrl": "http://m.23uswx.org/",
   "bookSourceName": "顶点小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "http://m.23uswx.org/book/\\d+/",
@@ -30559,7 +30502,7 @@
  },
  {
   "bookSourceUrl": "http://www.yqk.net#♤yc",
-  "bookSourceName": "言情小说 ",
+  "bookSourceName": "言情小说",
   "bookSourceGroup": "小说 书源",
   "loginUrl": "",
   "bookSourceComment": "// Error: Connection reset\n\n两次搜索间隔10秒",
@@ -31142,7 +31085,7 @@
  },
  {
   "bookSourceUrl": "http://comic.mkzhan.com#Haxc1107",
-  "bookSourceName": "🎨 漫客栈🅰 ",
+  "bookSourceName": "🎨 漫客栈🅰",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"okhttp/3.11.0\"\n}",
@@ -33480,7 +33423,7 @@
  },
  {
   "bookSourceUrl": "https://manga.bilibili.com#♤yc",
-  "bookSourceName": "哔哩哔哩  ",
+  "bookSourceName": "哔哩哔哩",
   "bookSourceGroup": "正版漫画 书源",
   "header": "",
   "loginUrl": "https://manga.bilibili.com/",
@@ -45691,7 +45634,7 @@
  },
  {
   "bookSourceUrl": "https://www.121du.net#(没问题有可能魔法)",
-  "bookSourceName": " 一读小说",
+  "bookSourceName": "一读小说",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "最开始第1篇加载不出来之后正常。",
   "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/dushi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/lishi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻灵异\",\"url\":\"/kehuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"网游竞技\",\"url\":\"/wangyou/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女频频道\",\"url\":\"/nvpin/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/qita/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -45733,7 +45676,7 @@
  },
  {
   "bookSourceUrl": "https://www.121du.net",
-  "bookSourceName": " 一读小说",
+  "bookSourceName": "一读小说",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "最开始第1篇加载不出来之后正常。",
   "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市言情\",\"url\":\"/dushi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/lishi/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻灵异\",\"url\":\"/kehuan/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"网游竞技\",\"url\":\"/wangyou/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女频频道\",\"url\":\"/nvpin/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/qita/{{page-1}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -49385,7 +49328,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#namo-gl",
-  "bookSourceName": "  起点女频流",
+  "bookSourceName": "起点女频流",
   "bookSourceGroup": "起点",
   "bookUrlPattern": "",
   "header": "",
@@ -51009,6 +50952,56 @@
    "author": "a.2@text",
    "bookList": "+@css:.librarylist li",
    "bookUrl": "@get:{u}",
+   "coverUrl": "img@src",
+   "intro": ".intro@text",
+   "kind": "a.3@text&&.last@text##.*\\(|\\)",
+   "lastChapter": ".last a@text",
+   "name": "a.1@text@put:{u:\"a.1@href\"}",
+   "wordCount": ""
+  },
+  "ruleBookInfo": {
+   "author": "[property$=author]@content",
+   "coverUrl": "[property$=image]@content",
+   "init": "meta",
+   "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+   "kind": "[property~=category|status|update_time]@content##\\s.*",
+   "lastChapter": "[property$=chapter_name]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+   "name": "[property$=book_name]@content",
+   "wordCount": ""
+  },
+  "ruleToc": {
+   "chapterList": "+@css:.fulldir li a",
+   "chapterName": "text",
+   "chapterUrl": "href##^.*shu_(\\d+)\\/(\\d+)[^\\d]+##/novelsearch/reader/transcode/siteid/$1/$2/"
+  },
+  "ruleContent": {
+   "content": "$.info",
+   "nextContentUrl": "",
+   "replaceRegex": ""
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.xpshuku.com#借用",
+  "bookSourceName": "爱读书◎",
+  "bookSourceGroup": "",
+  "header": "\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"",
+  "bookSourceComment": "abysses七七出品\n更新源url,◎筱,www好用,m不行",
+  "variableComment": "",
+  "exploreUrl": "全部::/sort/all/{{page}}.html\n玄幻::/sort/xuanhuan/{{page}}.html\n奇幻::/sort/qihuan/{{page}}.html\n武侠::/sort/wuxia/{{page}}.html\n仙侠::/sort/xianxia/{{page}}.html\n都市::/sort/dushi/{{page}}.html\n历史::/sort/lishi/{{page}}.html\n军事::/sort/junshi/{{page}}.html\n游戏::/sort/youxi/{{page}}.html\n竞技::/sort/jingji/{{page}}.html\n科幻::/sort/kehuan/{{page}}.html\n灵异::/sort/lingyi/{{page}}.html\n同人::/sort/tongren/{{page}}.html\n女生::/sort/nvsheng/{{page}}.html\n其他::/sort/qita/{{page}}.html",
+  "searchUrl": "/search.html?searchtype=novelname&searchkey={{key}}",
+  "bookSourceType": 0,
+  "customOrder": 3270,
+  "lastUpdateTime": 1722827013358,
+  "respondTime": 2595,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "a.2@text",
+   "bookList": "+@css:.librarylist li",
+   "bookUrl": "@get:{u}",
+   "checkKeyWord": "",
    "coverUrl": "img@src",
    "intro": ".intro@text",
    "kind": "a.3@text&&.last@text##.*\\(|\\)",

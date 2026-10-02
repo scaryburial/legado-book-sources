@@ -1,55 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://wap.115wx.cc",
-  "bookSourceName": "次呀文学",
-  "bookSourceGroup": "-------",
-  "header": "{\"Referer\":'http://wap.115wx.cc'}",
-  "loginUrl": "",
-  "bookSourceComment": "",
-  "exploreUrl": "",
-  "searchUrl": "http://wap.115wx.cc/search,{\n  \"method\": \"POST\",\n  \"body\":\"keyword={{key}}&page={{page}}\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 15268,
-  "lastUpdateTime": 1733245635131,
-  "respondTime": 2627,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "class.book-meta-l@text",
-   "bookList": "class.book-li",
-   "bookUrl": "class.book-li@a@href",
-   "coverUrl": "div@img@src",
-   "intro": "class.book-intro@text",
-   "kind": "class.sk_b_span@textNodes",
-   "lastChapter": "class.blue@text",
-   "name": "class.book-cell@h4@text"
-  },
-  "ruleExplore": {
-   "intro": ""
-  },
-  "ruleBookInfo": {
-   "author": "class.qtxx@a@text",
-   "coverUrl": "img.0@src",
-   "intro": "class.book_desc@text",
-   "kind": "class.qtxx@p.1@text",
-   "lastChapter": "class.creat_time@text",
-   "name": "class.book_inf@h3@text",
-   "tocUrl": "text.更多章节@href",
-   "wordCount": "class.qtxx@p.2@text"
-  },
-  "ruleToc": {
-   "chapterList": "class.mulu_uld@li",
-   "chapterName": "h3@text##>",
-   "chapterUrl": "a@href"
-  },
-  "ruleContent": {
-   "content": "id.rd-txt@p@text",
-   "nextContentUrl": "@js:\nif (result.indexOf(\"next.png\") > -1) {\n\teval(String(result.match(/(eval\\(function\\(p,a,c,k,e,d\\)[^\\n]+\\)\\));/)[1]).replace(/\\|u[\\da-z]{13}\\|/,\"|nexturl|\"))\n\tnexturl\n}"
-  }
- },
- {
   "bookSourceUrl": "https://m.beifanghongrui.com#🎃",
   "bookSourceName": "欻书网🎃",
   "bookSourceGroup": "",
@@ -336,7 +286,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.50zw.la ",
+  "bookSourceUrl": "https://www.50zw.la",
   "bookSourceName": "武林中文网 50zw.la",
   "bookSourceGroup": "🏵️  小说,🎉 精选 🎉",
   "bookUrlPattern": "",
@@ -23932,6 +23882,50 @@
    "content": "#content@all",
    "nextContentUrl": ".page_chapter@ul@li.2@a@href",
    "replaceRegex": "##\\s*内容未完，下一页继续阅读\\n*\\s*|【本章阅读完毕.*"
+  }
+ },
+ {
+  "bookSourceUrl": "https://m.newbiquge.org#",
+  "bookSourceName": "笔趣阁#6",
+  "bookSourceGroup": "🍁 笔趣",
+  "bookUrlPattern": "https://m.newbiquge.org/shu.*",
+  "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+  "bookSourceComment": "",
+  "searchUrl": "https://m.newbiquge.org/book/search.aspx?ie=utf-8&siteid=xinbiquge.org&s=000&key={{key}}",
+  "bookSourceType": 0,
+  "customOrder": 5694,
+  "lastUpdateTime": 1716233184723,
+  "respondTime": 1195,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "p.1@text",
+   "bookList": "class.hot_sale hot_saleEm",
+   "bookUrl": "a@href",
+   "coverUrl": "@js:\"/img/am.jpg\"",
+   "kind": "0",
+   "name": "p.0@text"
+  },
+  "ruleBookInfo": {
+   "author": "[property$=author]@content",
+   "coverUrl": "[property=\"og:image\"]@content",
+   "intro": "[property$=description]@content",
+   "kind": "[property~=category|status|update_time]@content",
+   "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+   "name": "[property$=book_name]@content",
+   "wordCount": "{{@@text.字数@text##字数：}}##W##万字"
+  },
+  "ruleToc": {
+   "chapterList": ".book_last.1@dd",
+   "chapterName": "a@text",
+   "chapterUrl": "a@href"
+  },
+  "ruleContent": {
+   "content": "#chaptercontent@html",
+   "nextContentUrl": "text.下一@href",
+   "replaceRegex": "##新笔趣阁.*org"
   }
  }
 ]

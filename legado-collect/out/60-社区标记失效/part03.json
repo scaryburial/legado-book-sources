@@ -1372,7 +1372,7 @@
  },
  {
   "bookSourceUrl": "https://m.bqgxsw.com/modules/article/search.php?searchtype=all&searchkey=%E6%88%91%E7%9A%84",
-  "bookSourceName": " ✎笔趣阁⑬④ ",
+  "bookSourceName": "✎笔趣阁⑬④",
   "bookSourceGroup": "笔趣,﹅ ♝ 优良,搜索目录失效",
   "bookUrlPattern": "",
   "concurrentRate": "",
@@ -1435,7 +1435,7 @@
  },
  {
   "bookSourceUrl": "https://m.bqgxsw.com/",
-  "bookSourceName": " ✎笔趣阁⑬④ ",
+  "bookSourceName": "✎笔趣阁⑬④",
   "bookSourceGroup": "笔趣,﹅ ♝ 优良,搜索目录失效",
   "bookUrlPattern": "",
   "concurrentRate": "",
@@ -3577,7 +3577,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.jinyongwang.com",
+  "bookSourceUrl": "http://www.jinyongwang.com",
   "bookSourceName": "金庸小说",
   "bookSourceGroup": "搜索目录失效",
   "bookUrlPattern": "",
@@ -17964,7 +17964,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.fenxbook.com#fengtui dl         ",
+  "bookSourceUrl": "https://www.fenxbook.com#fengtui dl",
   "bookSourceName": "封推中文",
   "bookSourceGroup": "🍁,搜索失效",
   "bookUrlPattern": "",
@@ -25965,7 +25965,7 @@
  },
  {
   "bookSourceUrl": "https://m.8kana.com#南笙21.0101",
-  "bookSourceName": " 不可能的世界#南笙21.0101",
+  "bookSourceName": "不可能的世界#南笙21.0101",
   "bookSourceGroup": "﹅ 通用书源▪︎玄奇,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -34538,7 +34538,7 @@
  },
  {
   "bookSourceUrl": "https://quapp.shenbabao.com#wy18-1001",
-  "bookSourceName": " APP① #未月十八1001",
+  "bookSourceName": "APP① #未月十八1001",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
   "bookSourceComment": "// Error: 搜索失效",
@@ -34574,7 +34574,7 @@
  },
  {
   "bookSourceUrl": "https://baike.baidu已整理",
-  "bookSourceName": " 百度百科",
+  "bookSourceName": "百度百科",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "已校验",
   "loginUrl": "",
@@ -34879,7 +34879,7 @@
  },
  {
   "bookSourceUrl": "https://www.downbook.org#guaner",
-  "bookSourceName": "当书网 ",
+  "bookSourceName": "当书网",
   "bookSourceGroup": "发现失效,小说,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -36661,7 +36661,7 @@
  },
  {
   "bookSourceUrl": "https://www.xxsy.net/#kd11",
-  "bookSourceName": "✾+㊣潇湘书院 ",
+  "bookSourceName": "✾+㊣潇湘书院",
   "bookSourceGroup": "发现失效,搜索目录失效,﹅ ㊣ 正版,﹅ ✾ 言耽",
   "bookSourceComment": "// Error: 发现失效, 搜索目录失效",
   "exploreUrl": "[{\"title\":\"                         女频                        \",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"   潇湘书库   \",\"url\":\"https://www.xxsy.net/search?s_wd=&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   古代言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=1&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   玄幻言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=3&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   仙侠奇缘   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=4&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   现代言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=2&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   浪漫青春   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=6&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   悬疑推理   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=5&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   科幻空间   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=7&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   游戏竞技   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=8&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",

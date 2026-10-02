@@ -15494,7 +15494,7 @@
  },
  {
   "bookSourceUrl": "https://www.bimidu.com",
-  "bookSourceName": "笔迷读 ",
+  "bookSourceName": "笔迷读",
   "bookSourceGroup": "",
   "bookUrlPattern": "https?://www.bimidu.com/\\d+/\\d+/",
   "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
@@ -16122,7 +16122,7 @@
  },
  {
   "bookSourceUrl": "http://www.xs55.org",
-  "bookSourceName": "无限小说网 ",
+  "bookSourceName": "无限小说网",
   "bookSourceGroup": "",
   "bookSourceComment": "",
   "exploreUrl": "[\n{\"title\":\"玄幻\",\"url\":\"/html/xuanhuan/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/html/wuxia/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/html/dushi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/html/wangyou/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/html/chuanyue/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/html/kehuan/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/html/xuanyi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/html/qita/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"全本\",\"url\":\"/quanben/html/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]",
@@ -16177,7 +16177,7 @@
  },
  {
   "bookSourceUrl": "http://www.motiexs.com",
-  "bookSourceName": "磨铁小说 ",
+  "bookSourceName": "磨铁小说",
   "bookSourceGroup": "",
   "exploreUrl": "[\n{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuanqihuan/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/wuxiaxianxia/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/dushiyanqing/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/lishijunshi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/youxijingji/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻传奇\",\"url\":\"/kehuanchuanqi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖灵异\",\"url\":\"/kongbulingyi/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.29,\"layout_flexGrow\":-1}},\n\n]",
   "searchUrl": "@js:\n\nvar html = java.ajax(source.getKey())\n\ntoken = org.jsoup.Jsoup.parse(html).select('input[name=_token]').attr('value')\n\n\"/search,\"+JSON.stringify({\n  \"body\": `_token=${token}&keyword=${key}`,\n  \"method\": \"POST\"\n})",
@@ -16302,7 +16302,7 @@
  },
  {
   "bookSourceUrl": "http://www.xfjxs.com#♤yc",
-  "bookSourceName": "九五小说 ",
+  "bookSourceName": "九五小说",
   "bookSourceGroup": "",
   "loginUrl": "",
   "bookSourceComment": "",
@@ -16504,7 +16504,7 @@
  },
  {
   "bookSourceUrl": "https://www.xbiquge.la/",
-  "bookSourceName": " 笔趣阁",
+  "bookSourceName": "笔趣阁",
   "bookSourceGroup": "",
   "bookUrlPattern": "https://www.xbiquge.la/\\d+/\\d+/",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows; U; Windows NT 5.2;. en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 Quark/4.6.6.164\"\n}",
@@ -16707,7 +16707,7 @@
  },
  {
   "bookSourceUrl": "http://www.zzs5.com#yc1101",
-  "bookSourceName": "♜ 猪猪书网 ",
+  "bookSourceName": "♜ 猪猪书网",
   "bookSourceGroup": "",
   "bookSourceComment": "",
   "exploreUrl": "[{\"title\":\"穿越\",\"url\":\"/chuanyue/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/yanqing/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/lingyi/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/wuxia/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/kehuan/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/lishi/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"校园\",\"url\":\"/xiaoyuan/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"文学\",\"url\":\"/wenxue/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"魔幻\",\"url\":\"/mohuan/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"重生\",\"url\":\"/chongsheng/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美\",\"url\":\"/danmei/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"国外\",\"url\":\"/guowai/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/wangyou/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"豪门\",\"url\":\"/haomen/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/qita/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"人物\",\"url\":\"/renwu/list-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
@@ -16998,7 +16998,7 @@
  },
  {
   "bookSourceUrl": "https://t.shuqi.com",
-  "bookSourceName": "书旗小说 ",
+  "bookSourceName": "书旗小说",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "",
@@ -18446,7 +18446,7 @@
  },
  {
   "bookSourceUrl": "https://m.qingrenyouxi.com/",
-  "bookSourceName": " 情人游戏",
+  "bookSourceName": "情人游戏",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "",
@@ -21932,7 +21932,7 @@
  },
  {
   "bookSourceUrl": "http://www.xshuyaya.cc",
-  "bookSourceName": " 小说呀丫",
+  "bookSourceName": "小说呀丫",
   "bookSourceGroup": "综合",
   "exploreUrl": "玄幻魔法::/xuanhuan/list_update_{{page}}.html\n武侠修真::/wuxia/list_update_{{page}}.html\n现代都市::/dushi/list_update_{{page}}.html\n言情小说::/yanqing/list_update_{{page}}.html\n历史军事::/junshi/list_update_{{page}}.html\n游戏竞技::/jingji/list_update_{{page}}.html\n科幻灵异::/kehuan/list_update_{{page}}.html\n耽美小说::/shenmei/list_update_{{page}}.html\n同人小说::/tongren/list_update_{{page}}.html\n其他小说::/qita/list_update_{{page}}.html\n全本小说::/quanben/list_update_{{page}}.html\n全部小说::/all/list_update_{{page}}.html",
   "searchUrl": "http://www.xshuyaya.cc/search?wd={{key}}&page={{page}}",
@@ -24228,7 +24228,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.luoliwx.net",
+  "bookSourceUrl": "https://www.luoliwx.net",
   "bookSourceName": "萝莉文学",
   "bookSourceGroup": "涩文",
   "exploreUrl": "最近更新::https://m.3322t.com/top/lastupdate_{{page}}/\n最新入库::https://m.3322t.com/top/postdate_{{page}}/\n总收藏榜::https://m.3322t.com/top/goodnum_{{page}}/\n总点击榜::https://m.3322t.com/top/allvisit_{{page}}/\n总推荐榜::https://m.3322t.com/top/allvote_{{page}}/\n总字数榜::https://m.3322t.com/top/size_{{page}}/\n玄幻奇幻::https://m.3322t.com/sort/1_{{page}}/\n武侠仙侠::https://m.3322t.com/sort/2_{{page}}/\n都市言情::https://m.3322t.com/sort/3_{{page}}/\n科幻网游::https://m.3322t.com/sort/4_{{page}}/\n惊悚悬疑::https://m.3322t.com/sort/5_{{page}}/\n耽美同人::https://m.3322t.com/sort/6_{{page}}/\n穿越架空::https://m.3322t.com/sort/7_{{page}}/\n高辣浓情::https://m.3322t.com/sort/8_{{page}}/\n禁忌百合::https://m.3322t.com/sort/9_{{page}}/\n精品文学::https://m.3322t.com/sort/10_{{page}}/",
@@ -24852,7 +24852,7 @@
  },
  {
   "bookSourceUrl": "https://danwenku.com",
-  "bookSourceName": "蛋文库 ",
+  "bookSourceName": "蛋文库",
   "bookSourceGroup": "轻小说",
   "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0) Mobile Safari/537.36\"}",
   "loginUrl": "https://danwenku.com",
@@ -29685,7 +29685,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://android.jjwxc.net       ",
+  "bookSourceUrl": "http://android.jjwxc.net",
   "bookSourceName": "绿江小说",
   "bookSourceGroup": "女频",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
@@ -30657,7 +30657,7 @@
  },
  {
   "bookSourceUrl": "https://www.ijjjxsw.com",
-  "bookSourceName": " 爱久久网",
+  "bookSourceName": "爱久久网",
   "bookSourceGroup": "综合",
   "bookUrlPattern": "https://www.ijjjxs.com/txt/\\d+.htm",
   "bookSourceComment": "//可到源网站下载小说再本地阅读",
@@ -40451,7 +40451,7 @@
  },
  {
   "bookSourceUrl": "http://m.63shu.com",
-  "bookSourceName": " 63书吧",
+  "bookSourceName": "63书吧",
   "bookSourceGroup": "综合",
   "exploreUrl": "玄幻小说::http://m.63shu.com/class/1_{{page}}.html\n修真小说::http://m.63shu.com/class/2_{{page}}.html\n都市小说::http://m.63shu.com/class/3_{{page}}.html\n历史小说::http://m.63shu.com/class/4_{{page}}.html\n网游小说::http://m.63shu.com/class/5_{{page}}.html\n科幻小说::http://m.63shu.com/class/6_{{page}}.html\n言情小说::http://m.63shu.com/class/7_{{page}}.html\n其他小说::http://m.63shu.com/class/8_{{page}}.html",
   "searchUrl": "https://m.63shu.com/s.php,{\n  \"body\": \"type=articlename&s={{key}}&submit=\",\n  \"charset\": \"gbk\",\n  \"method\": \"POST\"\n}",
@@ -43180,7 +43180,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.5200.net   ",
+  "bookSourceUrl": "https://www.5200.net",
   "bookSourceName": "5200小说",
   "bookSourceGroup": "综合",
   "exploreUrl": "玄幻::http://www.ksshu.com/list1/{{page}}.html\n武侠::http://www.ksshu.com/list2/{{page}}.html\n都市::http://www.ksshu.com/list3/{{page}}.html\n历史::http://www.ksshu.com/list4/{{page}}.html\n网游::http://www.ksshu.com/list5/{{page}}.html\n科幻::http://www.ksshu.com/list6/{{page}}.html\n言情::http://www.ksshu.com/list7/{{page}}.html\n其他::http://www.ksshu.com/list8/{{page}}.html\n总排行::http://www.ksshu.com/top/all_0_{{page}}.html\n月排行::http://www.ksshu.com/top/month_0_{{page}}.html\n周排行::http://www.ksshu.com/top/week_0_{{page}}.html\n完本::http://www.ksshu.com/full/0_{{page}}.html",

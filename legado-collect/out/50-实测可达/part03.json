@@ -12264,7 +12264,7 @@
   }
  },
  {
-  "bookSourceUrl": "        https://m.shubaozu.org",
+  "bookSourceUrl": "https://m.shubaozu.org",
   "bookSourceName": "书包族吧",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "// Error: Timed out waiting for 180000 ms\n\n//@youke2580发现规则",
@@ -13836,7 +13836,7 @@
  },
  {
   "bookSourceUrl": "https://t.shuqi.com",
-  "bookSourceName": "书旗小说 ",
+  "bookSourceName": "书旗小说",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "",

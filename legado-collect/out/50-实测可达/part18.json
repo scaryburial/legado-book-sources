@@ -1,49 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://m.newbiquge.org#",
-  "bookSourceName": "笔趣阁#6",
-  "bookSourceGroup": "🍁 笔趣",
-  "bookUrlPattern": "https://m.newbiquge.org/shu.*",
-  "header": "{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
-  "bookSourceComment": "",
-  "searchUrl": "https://m.newbiquge.org/book/search.aspx?ie=utf-8&siteid=xinbiquge.org&s=000&key={{key}}",
-  "bookSourceType": 0,
-  "customOrder": 5694,
-  "lastUpdateTime": 1716233184723,
-  "respondTime": 1195,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "p.1@text",
-   "bookList": "class.hot_sale hot_saleEm",
-   "bookUrl": "a@href",
-   "coverUrl": "@js:\"/img/am.jpg\"",
-   "kind": "0",
-   "name": "p.0@text"
-  },
-  "ruleBookInfo": {
-   "author": "[property$=author]@content",
-   "coverUrl": "[property=\"og:image\"]@content",
-   "intro": "[property$=description]@content",
-   "kind": "[property~=category|status|update_time]@content",
-   "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
-   "name": "[property$=book_name]@content",
-   "wordCount": "{{@@text.字数@text##字数：}}##W##万字"
-  },
-  "ruleToc": {
-   "chapterList": ".book_last.1@dd",
-   "chapterName": "a@text",
-   "chapterUrl": "a@href"
-  },
-  "ruleContent": {
-   "content": "#chaptercontent@html",
-   "nextContentUrl": "text.下一@href",
-   "replaceRegex": "##新笔趣阁.*org"
-  }
- },
- {
   "bookSourceUrl": "https://www.yingsx.com/#嘚嘚21.0201",
   "bookSourceName": "笔趣阁#嘚嘚21.0201",
   "bookSourceGroup": "🍁 笔趣",
@@ -14547,7 +14503,7 @@
   }
  },
  {
-  "bookSourceUrl": "  https://m.mayids.com",
+  "bookSourceUrl": "https://m.mayids.com",
   "bookSourceName": "蚂蚁文学",
   "bookSourceGroup": "3",
   "bookUrlPattern": "",
@@ -21951,7 +21907,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://www.jinyongwang.com",
+  "bookSourceUrl": "http://www.jinyongwang.com",
   "bookSourceName": "金庸小说",
   "bookSourceGroup": "搜索目录失效",
   "bookUrlPattern": "",
@@ -23219,7 +23175,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://book.vik.im/ ",
+  "bookSourceUrl": "https://book.vik.im/",
   "bookSourceName": "阅读电子书屋◎GEd520◎",
   "bookSourceGroup": "写源",
   "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 14; V2304A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.118 Mobile Safari/537.36',\n\"Referer\":\"https://book.vik.im/\"}",
@@ -24632,6 +24588,62 @@
    "nextContentUrl": "",
    "sourceRegex": "",
    "webJs": ""
+  }
+ },
+ {
+  "bookSourceUrl": "https://m.yuyanxs.com",
+  "bookSourceName": "雨烟小说",
+  "bookSourceGroup": "【小说1书源】",
+  "bookUrlPattern": "https?://m.yuyanxs.com/\\w+.html",
+  "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+  "bookSourceComment": "",
+  "exploreUrl": "",
+  "searchUrl": "/search/,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 7956,
+  "lastUpdateTime": 1704522337155,
+  "respondTime": 7286,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "a.1@text",
+   "bookList": ".search-card",
+   "bookUrl": "a.0@href",
+   "checkKeyWord": "",
+   "intro": ".sc-content@text",
+   "kind": "span.-1@text",
+   "lastChapter": "span.-2@text",
+   "name": "a.0@text",
+   "wordCount": ""
+  },
+  "ruleExplore": {
+   "author": "",
+   "bookList": "",
+   "bookUrl": "",
+   "intro": "",
+   "kind": "",
+   "name": ""
+  },
+  "ruleBookInfo": {
+   "author": "@get:{a}",
+   "coverUrl": "http:@get:{c}",
+   "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content&&.sectionTwo-content p.0@html\",\nc:\"[property$=image]@content\",\nt:\"text.目录@href\"}",
+   "intro": "@get:{i}",
+   "kind": "@get:{k}",
+   "lastChapter": "@get:{l}",
+   "name": "@get:{n}",
+   "tocUrl": "@get:{t}"
+  },
+  "ruleToc": {
+   "chapterList": ".chapter-list li a",
+   "chapterName": "text",
+   "chapterUrl": "href##$##,{'webView': true}",
+   "nextTocUrl": "text.下页@href"
+  },
+  "ruleContent": {
+   "content": "@js:\nurl=\"https:\"+result.match(/initTxt\\(\"([^\"]+)\",\"[^\"]+\"\\)/)[1];\nr=String(java.ajax(url).match(/_txt_call\\(([\\s\\S]+\\})\\)/)[1]);\nvar r = eval('(' + r + ')');\n\t\t\t\tif(r.content!=null){\t\t\t\t\n      var e = r.replace;\n\t\t\t\tfor (var n in e) {\n\t\t\t\t\tvar i = new RegExp(e[n], \"ig\");\n\t\t\t\t\tr.content = r.content.replace(i, n)\n\t\t\t\t}\n\t\t\t\tresult=r.content\n\t\t\t\t\t}else{\n\t\t\t\t\t\thtml=java.getString(\"#chapter-content@html\")\n\t\t\t\t\t\tresult=html.length>10?html:\"章节加载失败，或者内容正在手打中，请稍后访问~\"\n\t\t\t\t\t\t}\n\t\t\t\t\t\nresult;"
   }
  }
 ]

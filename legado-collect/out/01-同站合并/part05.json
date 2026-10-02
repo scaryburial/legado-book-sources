@@ -1,66 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://www.shuben.org",
-  "bookSourceName": "🔰 新书本网",
-  "bookSourceGroup": "🔰 普通,测试组,测试",
-  "bookUrlPattern": "https://www.xbookben.com/txt/\\d+.html",
-  "loginUrl": "",
-  "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
-  "bookSourceComment": "",
-  "exploreUrl": "[\n    {\n        \"title\":\"玄幻奇幻\",\n        \"url\":\"/class/xuanhuanqihuan/{{page}}/\",\n        \"style\":{\n            \"layout_flexGrow\":1,\n            \"layout_flexBasisPercent\":0.25\n        }\n    },\n    {\n        \"title\":\"武侠修真\",\n        \"url\":\"/class/wuxiaxiuzhen/{{page}}/\",\n        \"style\":{\n            \"layout_flexGrow\":1,\n            \"layout_flexBasisPercent\":0.25\n        }\n    },\n    {\n        \"title\":\"都市重生\",\n        \"url\":\"/class/dushichongsheng/{{page}}/\",\n        \"style\":{\n            \"layout_flexGrow\":1,\n            \"layout_flexBasisPercent\":0.25\n        }\n    },\n    {\n        \"title\":\"历史军事\",\n        \"url\":\"/class/lishijunshi/{{page}}/\",\n        \"style\":{\n            \"layout_flexGrow\":1,\n            \"layout_flexBasisPercent\":0.25\n        }\n    },\n    {\n        \"title\":\"灵异恐怖\",\n        \"url\":\"/class/jingyikongbu/{{page}}/\",\n        \"style\":{\n            \"layout_flexGrow\":1,\n            \"layout_flexBasisPercent\":0.25\n        }\n    },\n    {\n        \"title\":\"网游竞技\",\n        \"url\":\"/class/wangyoujingji/{{page}}/\",\n        \"style\":{\n            \"layout_flexGrow\":1,\n            \"layout_flexBasisPercent\":0.25\n        }\n    },\n    {\n        \"title\":\"科幻次元\",\n        \"url\":\"/class/kehuanchiyuan/{{page}}/\",\n        \"style\":{\n            \"layout_flexGrow\":1,\n            \"layout_flexBasisPercent\":0.25\n        }\n    },\n    {\n        \"title\":\"女生言情\",\n        \"url\":\"/class/nvshengyanqing/{{page}}/\",\n        \"style\":{\n            \"layout_flexGrow\":1,\n            \"layout_flexBasisPercent\":0.25\n        }\n    }\n]",
-  "searchUrl": "/search/?searchkey={{key}}",
-  "bookSourceType": 0,
-  "customOrder": 16092,
-  "lastUpdateTime": 1683215646574,
-  "respondTime": 173221,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": ".btm a@text",
-   "bookList": "div.item",
-   "bookUrl": "dt a@href",
-   "coverUrl": "img@src",
-   "intro": "",
-   "kind": "",
-   "lastChapter": "",
-   "name": "dt a@text",
-   "wordCount": ""
-  },
-  "ruleExplore": {
-   "author": "span.s4@text##作者：",
-   "bookList": ".l li",
-   "bookUrl": ".s2 a@href",
-   "coverUrl": "",
-   "kind": "span.s1@text",
-   "name": ".s2 a@text",
-   "wordCount": ""
-  },
-  "ruleBookInfo": {
-   "author": "id.info@p.0@a@text",
-   "coverUrl": "img@src",
-   "init": "",
-   "intro": "div#intro@text",
-   "kind": ".con_top a:nth-of-type(2)@text",
-   "lastChapter": "#info .hidden-xs a@text",
-   "name": "h1@text",
-   "tocUrl": "a.chapterlist@href",
-   "wordCount": ""
-  },
-  "ruleToc": {
-   "chapterList": "#content_1 a",
-   "chapterName": "text",
-   "chapterUrl": "href",
-   "nextTocUrl": "dt:nth-of-type(1) a:nth-of-type(2)@href"
-  },
-  "ruleContent": {
-   "content": "div#booktxt@html##本章未完，点击下一页继续阅读。",
-   "imageStyle": "",
-   "nextContentUrl": ".bottem2 a:nth-of-type(3)@href"
-  }
- },
- {
   "bookSourceUrl": "https://www.sutxt.com/##@遇知",
   "bookSourceName": "🪔️ 书趣阁",
   "bookSourceGroup": "【❌❌】搜索失-效,发现失效,搜索失效",
@@ -1082,7 +1021,7 @@
  },
  {
   "bookSourceUrl": "https://biquge42.com",
-  "bookSourceName": " 笔趣阁⑭",
+  "bookSourceName": "笔趣阁⑭",
   "bookSourceGroup": "【小说1书源】",
   "bookSourceComment": "无搜索",
   "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/shu/xuanhuan/1/\",\"style\":{}},{\"title\":\"武侠\",\"url\":\"/shu/wuxia/1/\",\"style\":{}},{\"title\":\"都市\",\"url\":\"/shu/dushi/1/\",\"style\":{}},{\"title\":\"穿越\",\"url\":\"/shu/lishi/1/\",\"style\":{}},{\"title\":\"科幻\",\"url\":\"/shu/kehuan/1/\",\"style\":{}},{\"title\":\"网游\",\"url\":\"/shu/youxi/1/\",\"style\":{}},{\"title\":\"女生\",\"url\":\"/shu/nvsheng/1/\",\"style\":{}},{\"title\":\"同人\",\"url\":\"/shu/qita/1/\",\"style\":{}}]",
@@ -1130,7 +1069,7 @@
  },
  {
   "bookSourceUrl": "http://www.jilin567.com",
-  "bookSourceName": " 吉林小说",
+  "bookSourceName": "吉林小说",
   "bookSourceGroup": "",
   "bookSourceComment": "",
   "exploreUrl": "玄幻小说::/xuanhuan/{{page}}.html&&仙侠小说::/xianxia/{{page}}.html&&都市小说::/dushi/{{page}}.html&&军史小说::/junshi/{{page}}.html&&网游小说::/wangyou/{{page}}.html&&科幻小说::/kehuan/{{page}}.html&&恐怖小说::/kongbu/{{page}}.html",
@@ -1175,7 +1114,7 @@
  },
  {
   "bookSourceUrl": "https://www.muye.net",
-  "bookSourceName": " 木叶小说",
+  "bookSourceName": "木叶小说",
   "bookSourceGroup": "【小说2书源】",
   "header": "{\"User-Agent\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E230 Safari/601.1\"}",
   "loginUrl": "https://m.jjwxc.net/",
@@ -2646,7 +2585,7 @@
  },
  {
   "bookSourceUrl": "http://www.bixia.org##自己",
-  "bookSourceName": " 笔下文学",
+  "bookSourceName": "笔下文学",
   "bookSourceGroup": "发现失效,【❌❌】网站失-效,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -6166,7 +6105,7 @@
  },
  {
   "bookSourceUrl": "https://www.meiguixsw.com",
-  "bookSourceName": "🍺 玫瑰小说 ",
+  "bookSourceName": "🍺 玫瑰小说",
   "bookSourceGroup": "小说",
   "bookUrlPattern": "http://www.meiguixsw.com/book/\\d+.html",
   "header": "",
@@ -6234,7 +6173,7 @@
  },
  {
   "bookSourceUrl": "https://www.manhuadb.com",
-  "bookSourceName": "✐ 漫画DB ",
+  "bookSourceName": "✐ 漫画DB",
   "bookSourceGroup": "🍉漫画",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -8442,7 +8381,7 @@
  },
  {
   "bookSourceUrl": "https://www.qubook.cc#md2303",
-  "bookSourceName": "  ⚫︎趣書㊦",
+  "bookSourceName": "⚫︎趣書㊦",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "loginUrl": "{\n  \"url\": \"\"\n}",
@@ -12753,7 +12692,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.xigua211.com ",
+  "bookSourceUrl": "https://www.xigua211.com",
   "bookSourceName": "👍西瓜网",
   "bookSourceGroup": "已检验",
   "bookSourceComment": "",
@@ -12844,7 +12783,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.xigua211.com/wap_index.html ",
+  "bookSourceUrl": "https://www.xigua211.com/wap_index.html",
   "bookSourceName": "西瓜小说网",
   "bookSourceComment": "",
   "exploreUrl": "排行::https://www.xigua211.com/wap_pai_{{page}}.html\n言情::https://www.xigua211.com/wap_fenlei/1_{{page}}.html\n其他::https://www.xigua211.com/wap_fenlei/2_{{page}}.html\n仙侠::https://www.xigua211.com/wap_fenlei/3_{{page}}.html\n衍生::https://www.xigua211.com/wap_fenlei/4_{{page}}.html\n全本::https://www.xigua211.com/wap_all/1.html",
@@ -17701,7 +17640,7 @@
  },
  {
   "bookSourceUrl": "https://www.ttxs789.com",
-  "bookSourceName": "🍺 天天 ",
+  "bookSourceName": "🍺 天天",
   "bookSourceGroup": "🍺特优",
   "bookSourceComment": "备份部分小说缺章(目录看)备用宝书网https://www.baoshuxuan.com\n目录url\nid.lastchapter@tag.a.-1@href\n<js>\na=result.match(/book\\/([\\d]+)\\/[\\d]+/)[1];\nb=result.match(/book\\/[\\d]+\\/([\\d]+)/)[1];\n\"/novelsearch/novel/getdlist/?id=\"+a+\"&num=\"+b+\"&order=asc\"\n</js>",
   "exploreUrl": "[{\"title\":\"最近更新\",\"url\":\"/type/0_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"最近入库\",\"url\":\"/type/0_0_0_postdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"玄幻\",\"url\":\"/type/1_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"仙侠\",\"url\":\"/type/2_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"/type/3_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"职场\",\"url\":\"/type/4_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/type/5_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"军事\",\"url\":\"/type/6_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/type/7_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"游戏\",\"url\":\"/type/8_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"灵异\",\"url\":\"/type/9_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"乡村\",\"url\":\"/type/10_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"现言\",\"url\":\"/type/11_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"古言\",\"url\":\"/type/12_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"幻侠\",\"url\":\"/type/13_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"穿越\",\"url\":\"/type/14_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"总裁\",\"url\":\"/type/15_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"浪漫\",\"url\":\"/type/16_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"耽美\",\"url\":\"/type/17_0_0_lastupdate_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}}]",
@@ -21259,7 +21198,7 @@
  },
  {
   "bookSourceUrl": "https://www.xbbshuwu.com",
-  "bookSourceName": " BB书屋",
+  "bookSourceName": "BB书屋",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookSourceComment": "",
   "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/bbshu_1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/bbshu_2/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/bbshu_3/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/bbshu_4/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/bbshu_5/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/bbshu_6/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女频频道\",\"url\":\"/bbshu_7/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},]",
@@ -33712,7 +33651,7 @@
  },
  {
   "bookSourceUrl": "https://www.shuchong.info#edit2",
-  "bookSourceName": "  b💯书虫💜全部▪分类▪💜💜💜🔎bak",
+  "bookSourceName": "b💯书虫💜全部▪分类▪💜💜💜🔎bak",
   "bookSourceGroup": "﹅ ♛ 精品,发现失效,搜索失效",
   "bookSourceComment": "// Error: 发现失效, 搜索失效\n\nold\n发现列表，迷迭二次排版，交流群637775313",
   "exploreUrl": "🔹➖➖➖➖➖➖女生言情➖➖➖➖➖➖🔹::/shuku/9_1_0_0_0_{{page}}_0_0\n☆总点☆::/shuku/9_1_0_0_2_{{page}}_0_0\n☆月点☆::/shuku/9_1_0_0_5_{{page}}_0_0\n☆周点☆::/shuku/9_1_0_0_4_{{page}}_0_0\n☆总推☆::/shuku/9_1_0_0_1_{{page}}_0_0\n☆月推☆::/shuku/9_1_0_0_7_{{page}}_0_0\n☆周推☆::/shuku/9_1_0_0_6_{{page}}_0_0\n☆总收☆::/shuku/9_1_0_0_3_{{page}}_0_0\n☆总字☆::/shuku/9_1_0_0_9_{{page}}_0_0\n　　　　::\n🔸豪门总裁::/shuku/9_1_0_1_0_{{page}}_0_0\n🔸现代言情::/shuku/9_1_0_2_0_{{page}}_0_0\n🔸星际科幻::/shuku/9_1_0_3_0_{{page}}_0_0\n🔸灵异推理::/shuku/9_1_0_4_0_{{page}}_0_0\n🔸婚恋情缘::/shuku/9_1_0_5_0_{{page}}_0_0\n🔸古代言情::/shuku/9_1_0_6_0_{{page}}_0_0\n🔸玄幻仙侠::/shuku/9_1_0_7_0_{{page}}_0_0\n🔸宫闱宅斗::/shuku/9_1_0_8_0_{{page}}_0_0\n\n\n🔹➖➖➖➖➖➖男生书库➖➖➖➖➖➖🔹::/shuku/11_1_0_0_0_{{page}}_0_0\n男频连载::/shuku/11_2_0_0_0_{{page}}_0_0\n男频完结::/shuku/11_3_0_0_0_{{page}}_0_0\n添加时间::/shuku/11_1_0_0_8_{{page}}_0_0\n总点击榜::/shuku/11_1_0_0_2_{{page}}_0_0\n月点击榜::/shuku/11_1_0_0_5_{{page}}_0_0\n周点击榜::/shuku/11_1_0_0_4_{{page}}_0_0\n总推荐榜::/shuku/11_1_0_0_1_{{page}}_0_0\n月推荐榜::/shuku/11_1_0_0_7_{{page}}_0_0\n周推荐榜::/shuku/11_1_0_0_6_{{page}}_0_0\n总收藏榜::/shuku/11_1_0_0_3_{{page}}_0_0\n总字数榜::/shuku/11_1_0_0_9_{{page}}_0_0\n\n🔹　　　　　　　玄幻奇幻　　　　　　　🔹::/shuku/1_1_0_0_0_{{page}}_0_0\n☆总点☆::/shuku/1_1_0_0_2_{{page}}_0_0\n☆月点☆::/shuku/1_1_0_0_5_{{page}}_0_0\n☆周点☆::/shuku/1_1_0_0_4_{{page}}_0_0\n☆总推☆::/shuku/1_1_0_0_1_{{page}}_0_0\n☆月推☆::/shuku/1_1_0_0_7_{{page}}_0_0\n☆周推☆::/shuku/1_1_0_0_6_{{page}}_0_0\n☆总收☆::/shuku/1_1_0_0_3_{{page}}_0_0\n☆总字☆::/shuku/1_1_0_0_9_{{page}}_0_0\n　　　　::\n🔸东方玄幻::/shuku/1_1_0_1_0_{{page}}_0_0\n🔸异世大陆::/shuku/1_1_0_2_0_{{page}}_0_0\n🔸史诗奇幻::/shuku/1_1_0_3_0_{{page}}_0_0\n🔸高武世界::/shuku/1_1_0_4_0_{{page}}_0_0\n🔸剑与魔法::/shuku/1_1_0_5_0_{{page}}_0_0\n\n🔹　　　　　　　武侠仙侠　　　　　　　🔹::/shuku/2_1_0_0_0_{{page}}_0_0\n☆总点☆::/shuku/2_1_0_0_2_{{page}}_0_0\n☆月点☆::/shuku/2_1_0_0_5_{{page}}_0_0\n☆周点☆::/shuku/2_1_0_0_4_{{page}}_0_0\n☆总推☆::/shuku/2_1_0_0_1_{{page}}_0_0\n☆月推☆::/shuku/2_1_0_0_7_{{page}}_0_0\n☆周推☆::/shuku/2_1_0_0_6_{{page}}_0_0\n☆总收☆::/shuku/2_1_0_0_3_{{page}}_0_0\n☆总字☆::/shuku/2_1_0_0_9_{{page}}_0_0\n　　　　::\n🔸古典仙侠::/shuku/2_1_0_1_0_{{page}}_0_0\n🔸修真文明::/shuku/2_1_0_2_0_{{page}}_0_0\n🔸现代修真::/shuku/2_1_0_3_0_{{page}}_0_0\n🔸神话修真::/shuku/2_1_0_4_0_{{page}}_0_0\n🔸武侠幻想::/shuku/2_1_0_5_0_{{page}}_0_0\n🔸幻想修仙::/shuku/2_1_0_6_0_{{page}}_0_0\n\n🔹　　　　　　　都市青春　　　　　　　🔹::/shuku/3_1_0_0_0_{{page}}_0_0\n☆总点☆::/shuku/3_1_0_0_2_{{page}}_0_0\n☆月点☆::/shuku/3_1_0_0_5_{{page}}_0_0\n☆周点☆::/shuku/3_1_0_0_4_{{page}}_0_0\n☆总推☆::/shuku/3_1_0_0_1_{{page}}_0_0\n☆月推☆::/shuku/3_1_0_0_7_{{page}}_0_0\n☆周推☆::/shuku/3_1_0_0_6_{{page}}_0_0\n☆总收☆::/shuku/3_1_0_0_3_{{page}}_0_0\n☆总字☆::/shuku/3_1_0_0_9_{{page}}_0_0\n　　　　::\n🔸都市生活::/shuku/3_1_0_1_0_{{page}}_0_0\n🔸官场沉浮::/shuku/3_1_0_2_0_{{page}}_0_0\n🔸娱乐明星::/shuku/3_1_0_3_0_{{page}}_0_0\n🔸异术超能::/shuku/3_1_0_4_0_{{page}}_0_0\n\n🔹　　　　　　　历史军事　　　　　　　🔹::/shuku/4_1_0_0_0_{{page}}_0_0\n☆总点☆::/shuku/4_1_0_0_2_{{page}}_0_0\n☆月点☆::/shuku/4_1_0_0_5_{{page}}_0_0\n☆周点☆::/shuku/4_1_0_0_4_{{page}}_0_0\n☆总推☆::/shuku/4_1_0_0_1_{{page}}_0_0\n☆月推☆::/shuku/4_1_0_0_7_{{page}}_0_0\n☆周推☆::/shuku/4_1_0_0_6_{{page}}_0_0\n☆总收☆::/shuku/4_1_0_0_3_{{page}}_0_0\n☆总字☆::/shuku/4_1_0_0_9_{{page}}_0_0\n　　　　::\n🔸架空历史::/shuku/4_1_0_1_0_{{page}}_0_0\n🔸秦汉三国::/shuku/4_1_0_2_0_{{page}}_0_0\n🔸两晋隋唐::/shuku/4_1_0_3_0_{{page}}_0_0\n🔸两宋元明::/shuku/4_1_0_4_0_{{page}}_0_0\n🔸清史民国::/shuku/4_1_0_5_0_{{page}}_0_0\n🔸外国历史::/shuku/4_1_0_6_0_{{page}}_0_0\n🔸军事战争::/shuku/4_1_0_7_0_{{page}}_0_0\n🔸抗战烽火::/shuku/4_1_0_8_0_{{page}}_0_0\n\n🔹　　　　　　　科幻灵异　　　　　　　🔹::/shuku/5_1_0_0_0_{{page}}_0_0\n☆总点☆::/shuku/5_1_0_0_2_{{page}}_0_0\n☆月点☆::/shuku/5_1_0_0_5_{{page}}_0_0\n☆周点☆::/shuku/5_1_0_0_4_{{page}}_0_0\n☆总推☆::/shuku/5_1_0_0_1_{{page}}_0_0\n☆月推☆::/shuku/5_1_0_0_7_{{page}}_0_0\n☆周推☆::/shuku/5_1_0_0_6_{{page}}_0_0\n☆总收☆::/shuku/5_1_0_0_3_{{page}}_0_0\n☆总字☆::/shuku/5_1_0_0_9_{{page}}_0_0\n　　　　::\n🔸未来世界::/shuku/5_1_0_1_0_{{page}}_0_0\n🔸超级科技::/shuku/5_1_0_2_0_{{page}}_0_0\n🔸时空穿梭::/shuku/5_1_0_3_0_{{page}}_0_0\n🔸进化变异::/shuku/5_1_0_4_0_{{page}}_0_0\n🔸末世危机::/shuku/5_1_0_5_0_{{page}}_0_0\n🔸灵异鬼怪::/shuku/5_1_0_6_0_{{page}}_0_0\n🔸侦探推理::/shuku/5_1_0_7_0_{{page}}_0_0\n🔸寻墓探险::/shuku/5_1_0_8_0_{{page}}_0_0\n\n🔹　　　　　　　游戏竞技　　　　　　　🔹::/shuku/6_1_0_0_0_{{page}}_0_0\n☆总点☆::/shuku/6_1_0_0_2_{{page}}_0_0\n☆月点☆::/shuku/6_1_0_0_5_{{page}}_0_0\n☆周点☆::/shuku/6_1_0_0_4_{{page}}_0_0\n☆总推☆::/shuku/6_1_0_0_1_{{page}}_0_0\n☆月推☆::/shuku/6_1_0_0_7_{{page}}_0_0\n☆周推☆::/shuku/6_1_0_0_6_{{page}}_0_0\n☆总收☆::/shuku/6_1_0_0_3_{{page}}_0_0\n☆总字☆::/shuku/6_1_0_0_9_{{page}}_0_0\n　　　　::\n🔸虚拟网游::/shuku/6_1_0_1_0_{{page}}_0_0\n🔸游戏异界::/shuku/6_1_0_2_0_{{page}}_0_0\n🔸体育竞技::/shuku/6_1_0_3_0_{{page}}_0_0\n🔸游戏生涯::/shuku/6_1_0_4_0_{{page}}_0_0\n🔸电子竞技::/shuku/6_1_0_5_0_{{page}}_0_0\n\n\n\n🔹　　　　　　　次元同人　　　　　　　🔹::/shuku/20_1_0_0_0_{{page}}_0_0\n☆总点☆::/shuku/20_1_0_0_2_{{page}}_0_0\n☆月点☆::/shuku/20_1_0_0_5_{{page}}_0_0\n☆周点☆::/shuku/20_1_0_0_4_{{page}}_0_0\n☆总推☆::/shuku/20_1_0_0_1_{{page}}_0_0\n☆月推☆::/shuku/20_1_0_0_7_{{page}}_0_0\n☆周推☆::/shuku/20_1_0_0_6_{{page}}_0_0\n☆总收☆::/shuku/20_1_0_0_3_{{page}}_0_0\n☆总字☆::/shuku/20_1_0_0_9_{{page}}_0_0\n　　　　::\n🔸动漫同人::/shuku/20_1_0_1_0_{{page}}_0_0\n🔸小说同人::/shuku/20_1_0_2_0_{{page}}_0_0\n🔸影视同人::/shuku/20_1_0_3_0_{{page}}_0_0\n🔸原生幻想::/shuku/20_1_0_4_0_{{page}}_0_0",
@@ -38925,7 +38864,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://m.iswwx.com ",
+  "bookSourceUrl": "http://m.iswwx.com",
   "bookSourceName": "📡 35小说网",
   "bookSourceGroup": "📡,搜索失效",
   "bookUrlPattern": "",
@@ -42350,7 +42289,7 @@
  },
  {
   "bookSourceUrl": "http://www.xuanjiezhimen.org",
-  "bookSourceName": "🧾笔 趣 阁 ",
+  "bookSourceName": "🧾笔 趣 阁",
   "bookSourceGroup": "🧾优选,🔮发现",
   "bookUrlPattern": "http://www.xuanjiezhimen.org/\\d+_\\d+",
   "header": "",
@@ -44391,7 +44330,7 @@
  },
  {
   "bookSourceUrl": "http://www.gll8.com",
-  "bookSourceName": "🎨 鬼罗丽 ",
+  "bookSourceName": "🎨 鬼罗丽",
   "bookSourceGroup": "🎨漫画",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
   "bookSourceComment": "",
@@ -48002,6 +47941,59 @@
   },
   "ruleContent": {
    "content": "id.content@html##请记住本书首发.*com|天才一秒.*cc|http.*html|一秒记住笔趣阁.*|笔趣阁首.*|扫描.*免费阅读《.*》"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.77mh.co#Haxc1107",
+  "bookSourceName": "✐ 新新漫画₁-co #Haxc 移动不能看",
+  "bookSourceGroup": "漫画🎟️",
+  "header": "",
+  "bookSourceComment": "",
+  "exploreUrl": "热血机战::https://www.77mh.co/rexue/index_{{page}}.html\n科幻未来::https://www.77mh.co/kehuan/index_{{page}}.html\n恐怖惊悚::https://www.77mh.co/kongbu/index_{{page}}.html\n推理悬疑::https://www.77mh.co/xuanyi/index_{{page}}.html\n滑稽搞笑::https://www.77mh.co/gaoxiao/index_{{page}}.html\n恋爱生活::https://www.77mh.co/love/index_{{page}}.html\n耽美人生::https://www.77mh.co/danmei/index_{{page}}.html\n体育竞技::https://www.77mh.co/tiyu/index_{{page}}.html\n纯情少女::https://www.77mh.co/chunqing/index_{{page}}.html\n魔法奇幻::https://www.77mh.co/qihuan/index_{{page}}.html\n武侠经典::https://www.77mh.co/wuxia/index_{{page}}.html",
+  "searchUrl": "https://so.77mh.co/k.php?k={{key}}&p={{page}}",
+  "bookSourceType": 0,
+  "customOrder": -2085966199,
+  "lastUpdateTime": 1641106320852,
+  "respondTime": 11556,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.author@tag.a.1@text",
+   "bookList": "tag.ul@tag.dl",
+   "bookUrl": "tag.a@href",
+   "coverUrl": "tag.img@src@js:header={\"Referer\":baseUrl}\nheaders={\"headers\":JSON.stringify(header)}\nresult=result+','+JSON.stringify(headers)",
+   "intro": "class.info@text",
+   "kind": "class.font_colorA@text",
+   "name": "tag.h1@text"
+  },
+  "ruleExplore": {
+   "author": "class.author@tag.a@text",
+   "bookList": "class.ar_list_co@tag.dl",
+   "bookUrl": "tag.a@href",
+   "coverUrl": "tag.img@src",
+   "intro": "class.info@text",
+   "name": "tag.h1@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.ar_list_coc.0@tag.li.1@tag.a@text",
+   "coverUrl": "class.ar_list_coc@dl@img@src",
+   "intro": "id.det@text",
+   "kind": "tag.h3.0@tag.a!0@text",
+   "lastChapter": "class.main_left@tag.ul.2@tag.li.0@a@text",
+   "name": "tag.h1@text"
+  },
+  "ruleToc": {
+   "chapterList": "-class.main_left@tag.ul.2@tag.li",
+   "chapterName": "tag.a.0@text",
+   "chapterUrl": "tag.a.0@href",
+   "updateTime": ""
+  },
+  "ruleContent": {
+   "content": "@js:\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)};\n//执行eval函数，获取图片列表信息\neval(result.match(/(eval\\([\\s\\S]+?)\\s*<\\/script>/)[1]);\n//图片服务器列表，抓包可得\nserver=[\"https://hws.gdbyhtl.net\",\"https://a16d.gdbyhtl.net:64443\",\"https://imgmum.dm365.top:2096\",\"https://picsh.77dm.top\",\"https://imgsh.dm365.top\"];\nserver2=[\"https://a16d.gdbyhtl.net:64443\"];\n//自动选可用服务器\nvar select=\"\";for(let i=0;i<server.length;i++){if(select==\"\"){if(String(java.ajax(server[i]+\"/h\"+img_s+\"/\"+msg.split(\"|\")[0]+'.webp')).match(/webp/i)){select=i;}}}\n//拼接img标签\nmsg.split(\"|\").map(url=>\n'<img src=\"'+server2+\"/h\"+img_s+\"/\"+url+'.webp'+','+JSON.stringify(headers)+'\">').join(\"\\n\")",
+   "imageStyle": "FULL",
+   "webJs": ""
   }
  }
 ]

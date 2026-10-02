@@ -1,61 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.ranwen.tv/",
-  "bookSourceName": "燃文小说",
-  "bookSourceGroup": "小说 书源",
-  "bookUrlPattern": "https://www.ranwen.tv/book_\\d+/",
-  "loginUrl": "",
-  "bookSourceComment": "// Error: 搜索失效",
-  "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"/fenlei/1_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"仙侠修真\",\"url\":\"/fenlei/2_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"都市言情\",\"url\":\"/fenlei/3_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"历史军事\",\"url\":\"/fenlei/4_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"网游竞技\",\"url\":\"/fenlei/5_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/fenlei/6_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"恐怖惊悚\",\"url\":\"/fenlei/7_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"其他类型\",\"url\":\"/fenlei/8_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"完本小说\",\"url\":\"/quanben/{{page}}\",\"style\":{\"layout_flexGrow\":0.25}}]",
-  "searchUrl": "https://www.ranwen.tv/modules/article/search.php?searchkey={{key}}&submit=%CB%D1%CB%F7,{\n'charset': 'gbk'\n}",
-  "bookSourceType": 0,
-  "customOrder": 15323,
-  "lastUpdateTime": 1720558126464,
-  "respondTime": 183133,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "tag.td.2@text",
-   "bookList": "class.grid@tag.tr!0",
-   "bookUrl": "tag.td.0@tag.a@href",
-   "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ranwen.tv/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
-   "kind": "tag.td.4@text&&\ntag.td.5@text",
-   "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
-   "name": "tag.td.0@tag.a@text",
-   "wordCount": "tag.td.3@text"
-  },
-  "ruleExplore": {
-   "author": "class.s4@text",
-   "bookList": "class.news@ul@li",
-   "bookUrl": "class.s2@a@href",
-   "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ranwen.tv/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
-   "kind": "class.s1@text&&\nclass.s5@text",
-   "lastChapter": "class.s3@a@text",
-   "name": "class.s2@a@text"
-  },
-  "ruleBookInfo": {
-   "author": "id.info@tag.h1@tag.small@tag.a@text",
-   "coverUrl": "class.pic@img@src",
-   "init": "",
-   "intro": "class.bookinfo_intro@text",
-   "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
-   "lastChapter": "class.update@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
-   "name": "id.info@tag.h1@text##/.*",
-   "wordCount": ""
-  },
-  "ruleToc": {
-   "chapterList": "class.chapterlist.1@tag.li",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "id.htmlContent@html##燃文小说网.*最新章节！| 本章未完.*页继续阅读|",
-   "nextContentUrl": "text.下一页@href"
-  }
- },
- {
   "bookSourceUrl": "https://www.ranwen.tv#🎃",
   "bookSourceName": "燃文小说",
   "bookSourceGroup": "小说 书源",
@@ -1169,7 +1113,7 @@
  },
  {
   "bookSourceUrl": "https://jpxs123.cc#001",
-  "bookSourceName": " 精品小说",
+  "bookSourceName": "精品小说",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "// Error: 搜索失效",
   "exploreUrl": "[{\"title\":\"最新小说\",\"url\":\"/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"精品小说\",\"url\":\"/book/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市小说\",\"url\":\"/dsxs/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"玄幻修真\",\"url\":\"/xuanhuan/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/lishi/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻竞技\",\"url\":\"/khjj/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"穿越架空\",\"url\":\"/cyjk/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"鬼话悬疑\",\"url\":\"/guihua/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"同人小说\",\"url\":\"/tongren/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -4198,7 +4142,7 @@
   }
  },
  {
-  "bookSourceUrl": "  https://m.ytryx.com",
+  "bookSourceUrl": "https://m.ytryx.com",
   "bookSourceName": "顶点小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "",
@@ -6273,7 +6217,7 @@
   }
  },
  {
-  "bookSourceUrl": "        https://m.shubaozu.org",
+  "bookSourceUrl": "https://m.shubaozu.org",
   "bookSourceName": "书包族吧",
   "bookSourceGroup": "小说 书源",
   "bookSourceComment": "// Error: Timed out waiting for 180000 ms\n\n//@youke2580发现规则",
@@ -12042,7 +11986,7 @@
  },
  {
   "bookSourceUrl": "https://www.69book.net/",
-  "bookSourceName": "♜69书吧① ",
+  "bookSourceName": "♜69书吧①",
   "bookSourceGroup": "【小说 书源】",
   "bookUrlPattern": "https://www.69book.net/book/\\d+/",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
@@ -12598,7 +12542,7 @@
  },
  {
   "bookSourceUrl": "https://api.yousuu.com#md109b",
-  "bookSourceName": " 优书网api▪书评 ♛♛♛  关键词 »» 搜书名；\n　  @作者名 »» 搜作者； #作者名 »» 搜作者。",
+  "bookSourceName": "优书网api▪书评 ♛♛♛  关键词 »» 搜书名；\n　  @作者名 »» 搜作者； #作者名 »» 搜作者。",
   "bookSourceGroup": "📃 优书",
   "bookUrlPattern": ".+/api/book/.+",
   "header": "{\n\"cookie\":\"Hm_lvt_42e120beff2c918501a12c0d39a4e067=1633547154;Hm_lpvt_42e120beff2c918501a12c0d39a4e067=1633548639;token=dxJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTU4MDYzMSwiaWF0IjoxNjMzNTQ4MzEyLCJleHAiOjE2MzYxNDAzMTJ9.9AT4u_mJfIEHHtT8XLyuURjnX0dEdFeaMQ00RCmL3hb;token.sig=tMIAzO7keIPLSV0HQXGecStYR7YV3rhD8Jc_1evvx8F\"\n}",
@@ -13460,7 +13404,7 @@
  },
  {
   "bookSourceUrl": "https://m.junjh.com",
-  "bookSourceName": " 全本小说网junth",
+  "bookSourceName": "全本小说网junth",
   "bookSourceGroup": "🎉 精品",
   "bookUrlPattern": "https?://m.junjh.com/xiazai/\\d+/\\d+/",
   "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\",\n\"Referer\": \"{{baseUrl}}\"\n\t}",
@@ -14620,7 +14564,7 @@
  },
  {
   "bookSourceUrl": "https://m.laimanhua.net#♤Haxc",
-  "bookSourceName": "来漫画 ",
+  "bookSourceName": "来漫画",
   "bookSourceGroup": "🎨 漫画",
   "bookUrlPattern": "",
   "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36\"}",
@@ -14997,7 +14941,7 @@
  },
  {
   "bookSourceUrl": "https://www.liquge.com#♤yc",
-  "bookSourceName": " 笔趣阁 #一程",
+  "bookSourceName": "笔趣阁 #一程",
   "bookSourceGroup": "🍁 笔趣",
   "loginUrl": "",
   "bookSourceComment": "",
@@ -25337,6 +25281,48 @@
   },
   "ruleContent": {
    "content": "@css:#content@html"
+  }
+ },
+ {
+  "bookSourceUrl": "http://quanxiaoshuo.net/",
+  "bookSourceName": "💦全全小说②",
+  "bookSourceGroup": "",
+  "bookUrlPattern": "http://quanxiaoshuo.net/\\d+/",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+  "loginUrl": "",
+  "bookSourceComment": "",
+  "exploreUrl": "奇幻小说::/qihuan/{{page}}/\n玄幻小说::/xuanhuan/{{page}}/\n言情小说::/yanqing/{{page}}/\n都市小说::/dushi/{{page}}/\n游戏小说::/youxi/{{page}}/\n竞技小说::/jingji/{{page}}/\n武侠小说::/wuxia/{{page}}/\n历史小说::/lishi/{{page}}/\n军事小说::/junshi/{{page}}/\n科幻小说::/kehuan/{{page}}/\n仙侠小说::/xianxia/{{page}}/\n灵异小说::/lingyi/{{page}}/\n女性小说::/nvxing/{{page}}/\n其他小说::/qita/{{page}}/",
+  "searchUrl": "http://quanxiaoshuo.net/s_{{key}}/{{page}}/,{\n\"charset\":\"gbk\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 26123,
+  "lastUpdateTime": 1715030927361,
+  "respondTime": 79670,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "class.cc4@tag.a@text",
+   "bookList": "class.list_content",
+   "bookUrl": "class.cc2@tag.a@href",
+   "kind": "class.cc5@text",
+   "lastChapter": "class.cc3@tag.a@text",
+   "name": "class.cc2@tag.a@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.w2@a@text",
+   "intro": "class.desc@text##简介：",
+   "kind": "class.w3@font@text&&\nclass.w4@text##.*（|）",
+   "lastChapter": "class.w4@a@text",
+   "name": "class.text@h1@tag.a.0@text"
+  },
+  "ruleToc": {
+   "chapterList": "class.chapters@class.chapter",
+   "chapterName": "tag.a.0@text",
+   "chapterUrl": "tag.a.0@href"
+  },
+  "ruleContent": {
+   "content": "id.content@textNodes"
   }
  }
 ]

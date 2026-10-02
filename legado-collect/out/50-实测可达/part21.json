@@ -1,70 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.shouda8.com#alistbox",
-  "bookSourceName": "👍 手打吧",
-  "bookSourceGroup": "👍 优选",
-  "bookUrlPattern": "https://www.shouda8.com/\\d+/",
-  "header": "",
-  "loginUrl": "coolapk@芜恙",
-  "bookSourceComment": "",
-  "exploreUrl": "",
-  "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 26227,
-  "lastUpdateTime": 1605988614491,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "author",
-   "bookList": "#alistbox\n<js>\nresult.toArray().slice(0, 3).map(el => {\n\tvar url = String(el.select('a:eq(0)').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n\tvar J = org.jsoup.Jsoup.parse(java.ajax(url));\n\tvar o = selector => String(J.select(selector).text());\n\tvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\treturn {\n\t\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\t\tauthor: og('novel:author'),\n\t\tkind: og('novel:category') + ',' + o('.top').match(/状态：(.*)\\s更/)[1].replace(/中|已/, ''),\n    wordCount: o('.top').match(/字数：(.*)字/)[1],\n\t\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, '') + ' • ' + o('.top').match(/时间：(.*)\\s/)[1].replace(/\\//g, '-'),\n\t\tintro: o('.intro').replace(/.*(观看小说|简介)[:：]|(各位书友|Tags).*/g, '').replace(/\\s+/g, ''),\n\t\tcover: og('image'),\n\t\turl: url,\n\t};\n}); \n</js>",
-   "bookUrl": "url",
-   "coverUrl": "cover",
-   "intro": "intro",
-   "kind": "kind",
-   "lastChapter": "latest",
-   "name": "name",
-   "wordCount": "wordCount"
-  },
-  "ruleExplore": {
-   "author": "",
-   "bookList": "",
-   "bookUrl": "",
-   "coverUrl": "",
-   "intro": "",
-   "kind": "",
-   "lastChapter": "",
-   "name": "",
-   "wordCount": ""
-  },
-  "ruleBookInfo": {
-   "author": "author",
-   "coverUrl": "cover",
-   "init": "<js> \nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).text()) ;\nvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\nvar book = {\n\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\tauthor: og('novel:author'),\n\tkind: og('novel:category') + ',' + o('.top').match(/状态：(.*)\\s更/)[1].replace(/中|已/, ''),\n  wordCount: o('.top').match(/字数：(.*)字/)[1],\n\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, ''),\n\tintro: '　　最近更新:' + o('.top').match(/时间：(.*)\\s/)[1].replace(/\\//g, '-') + '\\n' + o('.intro').replace(/.*(观看小说|简介)[:：]|(各位书友|Tags).*/g, '').replace(/\\s+/g, '\\n'),\n\tcover: og('image'),\n\turl: og('novel:read_url'),\n};\nbook;\n</js>",
-   "intro": "intro",
-   "kind": "kind",
-   "lastChapter": "latest",
-   "name": "name",
-   "tocUrl": "url",
-   "wordCount": "wordCount"
-  },
-  "ruleToc": {
-   "chapterList": ".link_14 dd a",
-   "chapterName": "text##^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*",
-   "chapterUrl": "href",
-   "nextTocUrl": "",
-   "updateTime": ""
-  },
-  "ruleContent": {
-   "content": "#content p:not(:last-child)@html",
-   "nextContentUrl": "",
-   "sourceRegex": "",
-   "webJs": ""
-  }
- },
- {
   "bookSourceUrl": "https://www.wenxuemi6.com#result-item",
   "bookSourceName": "👍 文学迷",
   "bookSourceGroup": "👍优质",
@@ -6910,7 +6845,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.caimoge.com#sitembox dl",
+  "bookSourceUrl": "https://www.caimoge.com#sitembox dl",
   "bookSourceName": "💯采墨阁",
   "bookSourceGroup": "搜书",
   "bookUrlPattern": "",
@@ -8573,7 +8508,7 @@
  },
  {
   "bookSourceUrl": "https://www.alphapolis.co.jp/",
-  "bookSourceName": "📖 AlphaPolis ",
+  "bookSourceName": "📖 AlphaPolis",
   "bookSourceGroup": "📖 小说",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -20114,7 +20049,7 @@
  },
  {
   "bookSourceUrl": "http://m.31xiaoshuo.org",
-  "bookSourceName": "🥛31② ",
+  "bookSourceName": "🥛31②",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -20155,7 +20090,7 @@
  },
  {
   "bookSourceUrl": "https://www.800edu.net",
-  "bookSourceName": "🥛有声屋 ",
+  "bookSourceName": "🥛有声屋",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "https://www.800edu.net/book/\\d+/\\d+",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
@@ -20209,7 +20144,7 @@
  },
  {
   "bookSourceUrl": "https://www.yanqing888.org/#sitemboxdl",
-  "bookSourceName": "🥛言情888① ",
+  "bookSourceName": "🥛言情888①",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "https://www.yq-888.com/xiaoshuo/\\d+/\\d+/",
   "header": "",
@@ -20273,7 +20208,7 @@
  },
  {
   "bookSourceUrl": "https://www.yanqing888.org/",
-  "bookSourceName": "🥛言情888① ",
+  "bookSourceName": "🥛言情888①",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "https://www.yq-888.com/xiaoshuo/\\d+/\\d+/",
   "header": "",
@@ -20813,7 +20748,7 @@
  },
  {
   "bookSourceUrl": "https://www.xxsy.net/#kd11",
-  "bookSourceName": "✾+㊣潇湘书院 ",
+  "bookSourceName": "✾+㊣潇湘书院",
   "bookSourceGroup": "发现失效,搜索目录失效,﹅ ㊣ 正版,﹅ ✾ 言耽",
   "bookSourceComment": "// Error: 发现失效, 搜索目录失效",
   "exploreUrl": "[{\"title\":\"                         女频                        \",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"   潇湘书库   \",\"url\":\"https://www.xxsy.net/search?s_wd=&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   古代言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=1&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   玄幻言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=3&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   仙侠奇缘   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=4&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   现代言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=2&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   浪漫青春   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=6&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   悬疑推理   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=5&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   科幻空间   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=7&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   游戏竞技   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=8&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
@@ -21222,7 +21157,7 @@
  },
  {
   "bookSourceUrl": "https://www.downbook.org#guaner",
-  "bookSourceName": "当书网 ",
+  "bookSourceName": "当书网",
   "bookSourceGroup": "发现失效,小说,搜索失效",
   "bookUrlPattern": "",
   "loginUrl": "",

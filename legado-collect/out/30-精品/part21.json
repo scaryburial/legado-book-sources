@@ -1,46 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.2wxs.net/",
-  "bookSourceName": "🎉我爱小说①",
-  "bookSourceGroup": "🎉 精选 🎉",
-  "bookUrlPattern": "http://www.2wxs.net/xstxt/\\d+/",
-  "loginUrl": "{\n  \"url\": \"\"\n}",
-  "bookSourceComment": "",
-  "searchUrl": "http://www.2wxs.net/s.php?keyword={{key}}&page={{page}}",
-  "bookSourceType": 0,
-  "customOrder": 15949,
-  "lastUpdateTime": 1631814178916,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "tag.a.2@text",
-   "bookList": "class.grid@tag.tr!0",
-   "bookUrl": "tag.a.0@href",
-   "kind": "tag.a.0@text&&tag.td.3@text##\\[|].*",
-   "lastChapter": "tag.a.1@text",
-   "name": "tag.a.0@text##.*\\]",
-   "wordCount": "tag.td.4@text"
-  },
-  "ruleBookInfo": {
-   "author": "class.btitle@tag.em@tag.a@text",
-   "intro": "class.intro@text##内容简介：",
-   "kind": "class.bookinfo@class.fr@i@text",
-   "lastChapter": "class.bookinfo@class.fl@a@text",
-   "name": "class.btitle@tag.h1@text"
-  },
-  "ruleToc": {
-   "chapterList": "class.chapterlist@tag.dd!0:1:2:3:4:5:6:7:8",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "id.BookText@html"
-  }
- },
- {
   "bookSourceUrl": "http://www.97ub.org/",
   "bookSourceName": "㊝幽冰中文♜♜+ 精校",
   "bookSourceGroup": "",
@@ -393,7 +352,7 @@
  },
  {
   "bookSourceUrl": "https://www.bsl666.com#md",
-  "bookSourceName": "㊝ 百书楼 ♜♜♜ ",
+  "bookSourceName": "㊝ 百书楼 ♜♜♜",
   "bookSourceGroup": "",
   "bookSourceComment": ",8++,0++👍百书楼🅰️🅰️💙💙💙🅰️z  haxc",
   "searchUrl": "https://www.bsl666.com/s.php?ie=gbk&q={{key}}",
@@ -436,7 +395,7 @@
  },
  {
   "bookSourceUrl": "https://www.bsl666.com",
-  "bookSourceName": "🍺 百书楼 ♜♜♜ ",
+  "bookSourceName": "🍺 百书楼 ♜♜♜",
   "bookSourceGroup": "",
   "bookSourceComment": ",8++,0++👍百书楼🅰️🅰️💙💙💙🅰️z  haxc",
   "searchUrl": "https://www.bsl666.com/s.php?ie=gbk&q={{key}}",
@@ -8238,7 +8197,7 @@
  },
  {
   "bookSourceUrl": "http://www.tsxsw.net",
-  "bookSourceName": "🐳吞噬小说 ",
+  "bookSourceName": "🐳吞噬小说",
   "bookSourceGroup": "🍥 男频备用 🍥,⌛️ 全局搜书 ⌛️,®️ 搜书男频 ®️",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -8584,7 +8543,7 @@
  },
  {
   "bookSourceUrl": "http://www.147xs.org#grid tr!0#芜恙",
-  "bookSourceName": "  b🌸147小说🅰💜💜💜w #芜恙 bak",
+  "bookSourceName": "b🌸147小说🅰💜💜💜w #芜恙 bak",
   "bookSourceGroup": "👍 优质,21.01芜恙,★,",
   "bookUrlPattern": "",
   "header": "",
@@ -8795,7 +8754,7 @@
  },
  {
   "bookSourceUrl": "https://m.9txs.com#关耳",
-  "bookSourceName": "  b💯九桃小说🅰🔎com#关耳 bak",
+  "bookSourceName": "b💯九桃小说🅰🔎com#关耳 bak",
   "bookSourceGroup": "21.0619关耳,★,★🔎",
   "bookUrlPattern": "https?://www.9txs.com/book/\\d+.html",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
@@ -14818,7 +14777,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.50zw.la ",
+  "bookSourceUrl": "https://www.50zw.la",
   "bookSourceName": "武林中文网 50zw.la",
   "bookSourceGroup": "🏵️  小说,🎉 精选 🎉",
   "bookUrlPattern": "",
@@ -21708,6 +21667,48 @@
   },
   "ruleContent": {
    "content": "id.content@html##<!--go--> |<!--over--> "
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.ks67.com/",
+  "bookSourceName": "🔰第五文学",
+  "bookSourceGroup": "🏵️  小说",
+  "bookSourceComment": "",
+  "searchUrl": "https://www.ks67.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 26810,
+  "lastUpdateTime": 1612710790670,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "tag.td.2@text",
+   "bookList": "class.grid@tag.tr",
+   "bookUrl": "tag.td.0@tag.a@href",
+   "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ks67.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+   "kind": "tag.td.4@text&&\ntag.td.5@text",
+   "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "tag.td.0@tag.a@text##\\（.*",
+   "wordCount": "tag.td.3@text"
+  },
+  "ruleBookInfo": {
+   "author": "id.info@tag.p.0@text##作 者：",
+   "coverUrl": "id.fmimg@img@src",
+   "init": "",
+   "intro": "id.intro@tag.p.1@text",
+   "kind": "id.info@tag.p.2@text##类 别：",
+   "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "id.info@h1@text##\\（.*"
+  },
+  "ruleToc": {
+   "chapterList": "id.list@tag.dd",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "id.content@p@html"
   }
  }
 ]

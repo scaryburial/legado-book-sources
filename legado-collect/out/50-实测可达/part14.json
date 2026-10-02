@@ -1,59 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.13800100.com#🎃",
-  "bookSourceName": "138看书网🎃",
-  "bookSourceGroup": "",
-  "bookUrlPattern": "https://www.13800100.com/list/\\d+/",
-  "loginUrl": "",
-  "bookSourceComment": "",
-  "exploreUrl": "",
-  "searchUrl": "https://www.13800100.com/search.php?keyword={{key}}",
-  "bookSourceType": 0,
-  "customOrder": 5930,
-  "lastUpdateTime": 0,
-  "respondTime": 8173,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.s4@a@text",
-   "bookList": "class.novelslist2@ul@li",
-   "bookUrl": "class.s2@a@href",
-   "coverUrl": "",
-   "kind": "class.s6@text",
-   "lastChapter": "class.s3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
-   "name": "class.s2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
-  },
-  "ruleExplore": {
-   "author": "",
-   "bookList": "",
-   "bookUrl": "",
-   "coverUrl": "",
-   "kind": "",
-   "lastChapter": "",
-   "name": ""
-  },
-  "ruleBookInfo": {
-   "author": "id.info@tag.p.0@a@text",
-   "coverUrl": "id.fmimg@img@src",
-   "init": "",
-   "intro": "id.intro@text",
-   "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
-   "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
-   "name": "id.bookdetail@id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
-  },
-  "ruleToc": {
-   "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
-   "chapterName": "text",
-   "chapterUrl": "href"
-  },
-  "ruleContent": {
-   "content": "id.content@textNodes##本小说.*无广告免费阅读。|：。：|一秒记住.*免费阅读！|.*第.*章.*",
-   "replaceRegex": ""
-  }
- },
- {
   "bookSourceUrl": "https://www.138txt.com/",
   "bookSourceName": "138阅读网",
   "bookSourceGroup": "待删,希弥,常用A,网站失效",
@@ -3402,7 +3348,7 @@
  },
  {
   "bookSourceUrl": "https://www.69read.net/",
-  "bookSourceName": "69书吧read ",
+  "bookSourceName": "69书吧read",
   "bookSourceGroup": "S_Lin",
   "bookUrlPattern": "",
   "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36\"}",
@@ -4267,7 +4213,7 @@
  },
  {
   "bookSourceUrl": "https://quapp.shenbabao.com#♤guaner",
-  "bookSourceName": "APP① ",
+  "bookSourceName": "APP①",
   "bookSourceGroup": "已检验",
   "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
   "bookSourceComment": "",
@@ -23510,6 +23456,45 @@
   "ruleContent": {
    "content": "@js:result.match(/content\":(\".*?\")/)[1].replace(/\\\\r\\\\n/g,\"\\n\")",
    "imageStyle": "0"
+  }
+ },
+ {
+  "bookSourceUrl": "http://yc.ireader.com.cn",
+  "bookSourceName": "⚡ 掌阅书城",
+  "bookSourceGroup": "⚡ 正版",
+  "bookUrlPattern": "",
+  "loginUrl": "http://wap.yc.ireader.com.cn/login",
+  "bookSourceComment": "",
+  "searchUrl": "/search/{{key}}/",
+  "bookSourceType": 0,
+  "customOrder": 21825,
+  "lastUpdateTime": 1622072217557,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": ".book_aut@text",
+   "bookList": ".result-list ul li:lt(3)",
+   "bookUrl": ".book_name@href",
+   "coverUrl": ".book_cov img@src",
+   "intro": ".book_int@text@js:result.trim()",
+   "kind": ".book_inf_sec .label@text&&.book_inf_right@tag.p.0@text##中|已",
+   "lastChapter": ".book_inf_right@tag.p.1@text",
+   "name": ".book_name@text"
+  },
+  "ruleBookInfo": {
+   "intro": ".book_int_con .div1@html##^\\s*##<br>",
+   "tocUrl": "@js:baseUrl.replace(/\\/?$/, '/chapters/')"
+  },
+  "ruleToc": {
+   "chapterList": ".cata_list li",
+   "chapterName": "@js:(result.select('s').hasClass('vip') ? '🔒' : '') + String(result.select('a').text()).replace(/(\\d章)\\s?([^：])/, '$1 $2')",
+   "chapterUrl": "a@href"
+  },
+  "ruleContent": {
+   "content": ".read_text@html"
   }
  }
 ]

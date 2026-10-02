@@ -2501,7 +2501,7 @@
  },
  {
   "bookSourceUrl": "https://www.uaa004.com/api/novel/app/novel/",
-  "bookSourceName": " UAA小说",
+  "bookSourceName": "UAA小说",
   "bookSourceGroup": "🔞",
   "loginUrl": "/",
   "bookSourceComment": "发布页https://uaadizhi.com/",
@@ -6129,7 +6129,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.po18xs.com",
+  "bookSourceUrl": "https://www.po18xs.com",
   "bookSourceName": "御书屋",
   "bookSourceGroup": "女频",
   "bookUrlPattern": "https://m.po18xs.com/book/\\d+/#",
@@ -9651,7 +9651,7 @@
  },
  {
   "bookSourceUrl": "https://www.uaa001.com/api/novel/app/novel/",
-  "bookSourceName": " UAA小说",
+  "bookSourceName": "UAA小说",
   "bookSourceGroup": "r",
   "bookUrlPattern": "",
   "header": "",
@@ -21655,7 +21655,7 @@
  },
  {
   "bookSourceUrl": "https://wap.sashclamps.com/",
-  "bookSourceName": " 耽美文贰",
+  "bookSourceName": "耽美文贰",
   "bookSourceGroup": "[1]",
   "header": "",
   "bookSourceComment": "🔸同站\n🔸https://new.zcw555.com/\n🔸https://wap.sashclamps.com/\n🔸https://m.dmx5.cc/\n🔸https://m.knitcook.com/",

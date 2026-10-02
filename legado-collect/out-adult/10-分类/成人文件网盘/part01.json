@@ -47,7 +47,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.po18xs.com",
+  "bookSourceUrl": "https://www.po18xs.com",
   "bookSourceName": "御书屋",
   "bookSourceGroup": "女频",
   "bookUrlPattern": "https://m.po18xs.com/book/\\d+/#",

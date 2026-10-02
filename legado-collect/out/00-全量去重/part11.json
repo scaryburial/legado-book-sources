@@ -1,49 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.2nunu.com",
-  "bookSourceName": "奴奴漫画",
-  "bookSourceGroup": "漫画",
-  "bookUrlPattern": "",
-  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4094.1 Safari/537.36\"\n}",
-  "loginUrl": "",
-  "bookSourceComment": "error:List is empty.\nerror:List is empty.\n",
-  "exploreUrl": "今日更新::https://www.2nunu.com/index-newdate\n熱門排行::https://www.2nunu.com/index-rank-date-ALL-type-ALL-fir-ALL-area-ALL-st-ALL\n添加时间::https://www.2nunu.com/index.php?s=/index-html-sort-pubtime-type-ALL-fir-ALL-area-ALL-st-ALL&page={{page}}\n观看次数::https://www.2nunu.com/index.php?s=/index-html-sort-hot-type-ALL-fir-ALL-area-ALL-st-ALL&page={{page}}\n更新时间::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-ALL-area-ALL-st-ALL&page={{page}}\n連載中::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-ALL-area-ALL-st-1&page={{page}}\n已完結::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-ALL-area-ALL-st-2&page={{page}}\n科幻魔幻::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-1-fir-ALL-area-ALL-st-ALL&page={{page}}\n少年熱血::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-2-fir-ALL-area-ALL-st-ALL&page={{page}}\n東方同人::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-3-fir-ALL-area-ALL-st-ALL&page={{page}}\n少女愛情::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-4-fir-ALL-area-ALL-st-ALL&page={{page}}\n武俠格鬥::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-5-fir-ALL-area-ALL-st-ALL&page={{page}}\n爆笑喜劇::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-6-fir-ALL-area-ALL-st-ALL&page={{page}}\n其它漫畫::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-7-fir-ALL-area-ALL-st-ALL&page={{page}}\n競技體育::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-8-fir-ALL-area-ALL-st-ALL&page={{page}}\n偵探推理::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-9-fir-ALL-area-ALL-st-ALL&page={{page}}\n恐怖靈異::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-10-fir-ALL-area-ALL-st-ALL&page={{page}}\nBL::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-11-fir-ALL-area-ALL-st-ALL&page={{page}}\n其它類型::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-12-fir-ALL-area-ALL-st-ALL&page={{page}}\n艦娘同人::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-13-fir-ALL-area-ALL-st-ALL&page={{page}}\nLL同人::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-14-fir-ALL-area-ALL-st-ALL&page={{page}}\n戀愛::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-15-fir-ALL-area-ALL-st-ALL&page={{page}}\n治癒::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-16-fir-ALL-area-ALL-st-ALL&page={{page}}\n幽默爆笑::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-17-fir-ALL-area-ALL-st-ALL&page={{page}}\n運動競技::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-18-fir-ALL-area-ALL-st-ALL&page={{page}}\n校園::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-19-fir-ALL-area-ALL-st-ALL&page={{page}}\n耽美::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-20-fir-ALL-area-ALL-st-ALL&page={{page}}\n港臺::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-ALL-area-1-st-ALL&page={{page}}\n日韓::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-ALL-area-2-st-ALL&page={{page}}\n中國::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-ALL-area-3-st-ALL&page={{page}}\n歐美::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-ALL-area-4-st-ALL&page={{page}}\n火星::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-ALL-area-0-st-ALL&page={{page}}\nA::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-A-area-ALL-st-ALL&page={{page}}\nB::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-B-area-ALL-st-ALL&page={{page}}\nC::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-C-area-ALL-st-ALL&page={{page}}\nD::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-D-area-ALL-st-ALL&page={{page}}\nE::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-E-area-ALL-st-ALL&page={{page}}\nF::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-F-area-ALL-st-ALL&page={{page}}\nG::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-G-area-ALL-st-ALL&page={{page}}\nH::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-H-area-ALL-st-ALL&page={{page}}\nI::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-I-area-ALL-st-ALL&page={{page}}\nJ::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-J-area-ALL-st-ALL&page={{page}}\nK::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-K-area-ALL-st-ALL&page={{page}}\nL::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-L-area-ALL-st-ALL&page={{page}}\nM::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-M-area-ALL-st-ALL&page={{page}}\nN::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-N-area-ALL-st-ALL&page={{page}}\nO::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-O-area-ALL-st-ALL&page={{page}}\nP::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-P-area-ALL-st-ALL&page={{page}}\nQ::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-Q-area-ALL-st-ALL&page={{page}}\nR::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-R-area-ALL-st-ALL&page={{page}}\nS::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-S-area-ALL-st-ALL&page={{page}}\nT::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-T-area-ALL-st-ALL&page={{page}}\nU::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-U-area-ALL-st-ALL&page={{page}}\nV::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-V-area-ALL-st-ALL&page={{page}}\nW::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-W-area-ALL-st-ALL&page={{page}}\nX::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-X-area-ALL-st-ALL&page={{page}}\nY::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-Y-area-ALL-st-ALL&page={{page}}\nZ::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-Z-area-ALL-st-ALL&page={{page}}\n0-9::https://www.2nunu.com/index.php?s=/index-html-sort-uptime-type-ALL-fir-9-area-ALL-st-ALL&page={{page}}",
-  "searchUrl": "https://www.2nunu.com/index.php?s=%2Fsearch-index&searchType=1&title={{key}}&page={{page}}",
-  "bookSourceType": 0,
-  "customOrder": 24273,
-  "lastUpdateTime": 0,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.k120.0@tag.a@text",
-   "bookList": "class.in_02@tag.ul!0||class.in_01@tag.li||class.latest-list@tag.li",
-   "bookUrl": "tag.a.0@href",
-   "coverUrl": "tag.img@src",
-   "lastChapter": "tag.a.1@text##[|]|（.*?P）",
-   "name": "tag.a.0@href@js:result.match(/comic-(.*)-\\d+.html/)[1]"
-  },
-  "ruleBookInfo": {
-   "author": "class.sy_k22@tag.li.2@tag.a@text",
-   "coverUrl": "class.sy_k1@tag.img@src",
-   "intro": "class.sy_k22@tag.li.7@text##^.*?簡介：",
-   "kind": "class.sy_k22@tag.li.4@tag.a@text&&class.sy_k22@tag.li.1@tag.a@text",
-   "lastChapter": "clasd.sy_k22@tag.li.0@tag.a.0@text",
-   "name": "class.sy_k21@tag.h1@text"
-  },
-  "ruleToc": {
-   "chapterList": ":_H001_2vm+8Jv22qsn1EX/tFO51KjpASMXJLbsHfRGKpqdKGQ=\n",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href##（.*?P）"
-  },
-  "ruleContent": {
-   "content": ":_H001_M13veZNidGBkl706Uv4fqskNgv6qkaA7RTBpNFCuIDU=\n",
-   "nextContentUrl": "@css:span.current+a@href"
-  }
- },
- {
   "bookSourceUrl": "http://hotxww.com#🎃",
   "bookSourceName": "好文书屋🎃",
   "bookSourceGroup": "",
@@ -47961,6 +47917,53 @@
   "ruleContent": {
    "content": "//*[@id=\"content\"]/html()",
    "nextContentUrl": ""
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.hycmds.com#🎃",
+  "bookSourceName": "🎃雅楠文藏🎃",
+  "bookSourceGroup": "",
+  "header": "{\n  \"User-Agent\":\"Mozilla/5.0 (Linux; Android 12; Yolo) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/4.0 Chrome/100.0.2987.108 Mobile Safari/537.36\"\n}",
+  "bookSourceComment": "// Error: Unable to resolve host \"www.hycmds.com\": No address associated with hostname",
+  "exploreUrl": "@js:\nlet url = source.key; \nlet arr = []\nlet push = (title, url, type) => arr.push({\n  title: title,\n  url: url,\n  style: {\n    layout_flexGrow: 1,\n    layout_flexBasisPercent: type\n  }\n})\n\nlet res = org.jsoup.Jsoup.parse(java.ajax(url))\nlet lis = res.select('.nav li');\nfor (let i = 0; i < lis.length; i++) {\n    let text = lis[i].select('a').text();\n    let href = String(url + lis[i].select('a').attr('href')).replace(/\\_1/g, \"_\\{\\{page\\}\\}\");\n    if (i === 0) push(text, href, 1);\n    else push(text, href, 0.25);\n}\nJSON.stringify(arr)",
+  "searchUrl": "/search/?searchkey={{key}}",
+  "bookSourceType": 0,
+  "customOrder": 3045,
+  "lastUpdateTime": 0,
+  "respondTime": 282258,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "//dl/div[@class=\"btm\"]/a/text()",
+   "bookList": "//div[@class=\"item\"]",
+   "bookUrl": "a@href",
+   "coverUrl": "img@data-original",
+   "intro": "dd@text##\\&\\#;\\&\\#;",
+   "kind": "//em[@class=\"blue visible-xs\"]/text()",
+   "name": "//dl/dt/a/text()",
+   "wordCount": "//em[@class=\"orange visible-xs\"]/text()"
+  },
+  "ruleBookInfo": {
+   "author": "[property=\"og:novel:author\"]@content",
+   "canReName": "1",
+   "coverUrl": "[property=\"og:image\"]@content",
+   "intro": "[property=\"og:description\"]@content##\\&\\#;\\&\\#;",
+   "kind": "[property=\"og:novel:category\"]@content",
+   "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+   "name": "[property=\"og:title\"]@content",
+   "wordCount": "p@text##(\\w+)万?字##$1字###"
+  },
+  "ruleToc": {
+   "chapterList": "#newlist dd a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "ruleContent": {
+   "content": "id.booktxt@p@html",
+   "nextContentUrl": "text.下一页@href",
+   "replaceRegex": "##\\.*本章未完.*|\\(未完待续.*"
   }
  }
 ]

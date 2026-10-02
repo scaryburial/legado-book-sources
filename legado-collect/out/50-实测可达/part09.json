@@ -1173,7 +1173,7 @@
  },
  {
   "bookSourceUrl": "http://www.yqk.net#♤yc",
-  "bookSourceName": "言情小说 ",
+  "bookSourceName": "言情小说",
   "bookSourceGroup": "小说 书源",
   "loginUrl": "",
   "bookSourceComment": "// Error: Connection reset\n\n两次搜索间隔10秒",
@@ -4917,7 +4917,7 @@
  },
  {
   "bookSourceUrl": "http://www.3qxs.cc/#♤pb",
-  "bookSourceName": "起来小说 ",
+  "bookSourceName": "起来小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "http://www.3qxs.cc/article/\\d+/",
   "loginUrl": "",
@@ -5395,7 +5395,7 @@
  },
  {
   "bookSourceUrl": "https://m.qidian.com",
-  "bookSourceName": "起点中文网 ",
+  "bookSourceName": "起点中文网",
   "bookSourceGroup": "",
   "header": "",
   "bookSourceComment": "",
@@ -6882,7 +6882,7 @@
  },
  {
   "bookSourceUrl": "http://yz4.chaoxing.com/#11",
-  "bookSourceName": "超星图书馆　　　　　　　",
+  "bookSourceName": "超星图书馆",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "",
@@ -16462,7 +16462,7 @@
  },
  {
   "bookSourceUrl": "http://m.suixkan.com#♤yc",
-  "bookSourceName": "阅友小说 ",
+  "bookSourceName": "阅友小说",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "concurrentRate": "",
@@ -21537,7 +21537,7 @@
   }
  },
  {
-  "bookSourceUrl": "  https://m.ytryx.com",
+  "bookSourceUrl": "https://m.ytryx.com",
   "bookSourceName": "顶点小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "",

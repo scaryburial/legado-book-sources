@@ -1,71 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.bequgew.com/#♤pb",
-  "bookSourceName": "♜ 笔趣阁",
-  "bookSourceGroup": "",
-  "bookUrlPattern": "https://www.bequgew.com/\\d+/",
-  "header": "",
-  "loginUrl": "",
-  "bookSourceComment": "                    \"error:failed to connect to www.bequgew.com/202.160.129.36 (port 443) from /192.168.10.4 (port 43814) after 15000ms\n                                        \"error:failed to connect to www.bequgew.com/208.101.21.43 (port 443) from /192.168.10.4 (port 37718) after 15000ms\n                    \"error:failed to connect to www.bequgew.com/69.63.187.12 (port 443) from /192.168.10.4 (port 49892) after 15000ms\n\"\"\"",
-  "exploreUrl": "玄幻小说::/fenlei/1_{{page}}/\n修真小说::/fenlei/2_{{page}}/\n都市小说::/fenlei/3_{{page}}/\n历史小说::/fenlei/4_{{page}}/\n网游小说::/fenlei/5_{{page}}/\n科幻小说::/fenlei/6_{{page}}/\n其他小说::/fenlei/7_{{page}}/",
-  "searchUrl": "https://www.bequgew.com/modules/article/search.php?searchkey={{key}}",
-  "bookSourceType": 0,
-  "customOrder": 17620,
-  "lastUpdateTime": 1721730087805,
-  "respondTime": 9702,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": true,
-  "ruleSearch": {
-   "author": "tag.td.2@text",
-   "bookList": "class.grid@tr!0",
-   "bookUrl": "tag.td.0@tag.a@href",
-   "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.bequgew.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
-   "intro": "",
-   "kind": "tag.td.4@text&&\ntag.td.5@text",
-   "lastChapter": "tag.td.1@tag.a@text##百度搜索.*",
-   "name": "tag.td.0@tag.a@text",
-   "wordCount": ""
-  },
-  "ruleExplore": {
-   "author": "class.name@tag.span.1@text",
-   "bookList": "id.BookList@li",
-   "bookUrl": "class.name@a@href",
-   "coverUrl": "img@src",
-   "intro": "p@text",
-   "kind": "dl@em@text",
-   "lastChapter": "dl@a@text##最新章节：",
-   "name": "class.name@a@text",
-   "wordCount": ""
-  },
-  "ruleBookInfo": {
-   "author": "class.info@h3@text",
-   "coverUrl": "class.img@img@src",
-   "init": "class.content",
-   "intro": "id.intro@tag.p.0@text",
-   "kind": "class.info@tag.p.0@text&&\nclass.info@tag.p.1@text&&\nclass.info@tag.p.2@text##所属类型：|更新时间：|连载完成：",
-   "lastChapter": "class.info@tag.span@tag.a@text##百度搜索.*",
-   "name": "class.info@h1@text",
-   "tocUrl": "",
-   "wordCount": ""
-  },
-  "ruleToc": {
-   "chapterList": "class.article_texttitleb@li",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href",
-   "isVip": "",
-   "nextTocUrl": "",
-   "updateTime": ""
-  },
-  "ruleContent": {
-   "content": "id.book_text@html##记住本站网址(.*|\\n)本站|最新网址.*com|快捷c作: 按键盘上方向键.*加入书签” 功能！|.*免费电子书下载|手机用户请.*阅读更方便。|\\\\|\\║|作者.*|.*本书公告.*",
-   "nextContentUrl": "text.下一页@href",
-   "sourceRegex": "",
-   "webJs": ""
-  }
- },
- {
   "bookSourceUrl": "http://www.xyusk.com/#♤pb",
   "bookSourceName": "♜-4小说 #破冰",
   "bookSourceGroup": "",
@@ -744,7 +678,7 @@
  },
  {
   "bookSourceUrl": "http://www.3qxs.cc/#♤pb",
-  "bookSourceName": "起来小说 ",
+  "bookSourceName": "起来小说",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "http://www.3qxs.cc/article/\\d+/",
   "loginUrl": "",
@@ -16196,7 +16130,7 @@
  },
  {
   "bookSourceUrl": "https://sspwk.me",
-  "bookSourceName": " 少数派吧",
+  "bookSourceName": "少数派吧",
   "bookSourceGroup": "小说 书源",
   "loginUrl": "",
   "bookSourceComment": "// Error: 搜索失效",
@@ -18208,7 +18142,7 @@
  },
  {
   "bookSourceUrl": "http://www.yunxs.com/#pb1101",
-  "bookSourceName": "云中书库 ",
+  "bookSourceName": "云中书库",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -18573,7 +18507,7 @@
  },
  {
   "bookSourceUrl": "http://www.77dushu.com/#♤pb",
-  "bookSourceName": "包读书网 ",
+  "bookSourceName": "包读书网",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "http://www.77dushu.com/novel/\\d+/",
   "loginUrl": "",
@@ -25332,6 +25266,62 @@
   },
   "ruleContent": {
    "content": "#mycontent@html"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.ranwen.tv/",
+  "bookSourceName": "燃文小说",
+  "bookSourceGroup": "小说 书源",
+  "bookUrlPattern": "https://www.ranwen.tv/book_\\d+/",
+  "loginUrl": "",
+  "bookSourceComment": "// Error: 搜索失效",
+  "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"/fenlei/1_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"仙侠修真\",\"url\":\"/fenlei/2_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"都市言情\",\"url\":\"/fenlei/3_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"历史军事\",\"url\":\"/fenlei/4_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"网游竞技\",\"url\":\"/fenlei/5_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/fenlei/6_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"恐怖惊悚\",\"url\":\"/fenlei/7_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"其他类型\",\"url\":\"/fenlei/8_{{page}}/\",\"style\":{\"layout_flexGrow\":0.25}},{\"title\":\"完本小说\",\"url\":\"/quanben/{{page}}\",\"style\":{\"layout_flexGrow\":0.25}}]",
+  "searchUrl": "https://www.ranwen.tv/modules/article/search.php?searchkey={{key}}&submit=%CB%D1%CB%F7,{\n'charset': 'gbk'\n}",
+  "bookSourceType": 0,
+  "customOrder": 15323,
+  "lastUpdateTime": 1720558126464,
+  "respondTime": 183133,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "tag.td.2@text",
+   "bookList": "class.grid@tag.tr!0",
+   "bookUrl": "tag.td.0@tag.a@href",
+   "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ranwen.tv/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+   "kind": "tag.td.4@text&&\ntag.td.5@text",
+   "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "tag.td.0@tag.a@text",
+   "wordCount": "tag.td.3@text"
+  },
+  "ruleExplore": {
+   "author": "class.s4@text",
+   "bookList": "class.news@ul@li",
+   "bookUrl": "class.s2@a@href",
+   "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ranwen.tv/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+   "kind": "class.s1@text&&\nclass.s5@text",
+   "lastChapter": "class.s3@a@text",
+   "name": "class.s2@a@text"
+  },
+  "ruleBookInfo": {
+   "author": "id.info@tag.h1@tag.small@tag.a@text",
+   "coverUrl": "class.pic@img@src",
+   "init": "",
+   "intro": "class.bookinfo_intro@text",
+   "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
+   "lastChapter": "class.update@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "id.info@tag.h1@text##/.*",
+   "wordCount": ""
+  },
+  "ruleToc": {
+   "chapterList": "class.chapterlist.1@tag.li",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "id.htmlContent@html##燃文小说网.*最新章节！| 本章未完.*页继续阅读|",
+   "nextContentUrl": "text.下一页@href"
   }
  }
 ]

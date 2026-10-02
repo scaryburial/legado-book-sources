@@ -1716,7 +1716,7 @@
  },
  {
   "bookSourceUrl": "https://www.kbwang.org/#pb1101",
-  "bookSourceName": "🎈笔趣阁⑪⑥ ",
+  "bookSourceName": "🎈笔趣阁⑪⑥",
   "bookSourceGroup": "笔趣阁",
   "bookUrlPattern": "https://www.kbwang.org/shu\\d+/",
   "loginUrl": "",
@@ -13253,7 +13253,7 @@
  },
  {
   "bookSourceUrl": "https://xiaoshuo.sm.cn",
-  "bookSourceName": "🎉神马小说api▼多源接口,自动换源 ",
+  "bookSourceName": "🎉神马小说api▼多源接口,自动换源",
   "bookSourceGroup": "🎉1039,发现目录失效,搜索目录失效",
   "header": "",
   "bookSourceComment": "// Error: 搜索目录失效, 发现目录失效\n\nC66\n本书源自动换源，遇到目录错乱，无法加载，加载慢，点刷新即可，不用换源，不用换源。",
@@ -13310,7 +13310,7 @@
  },
  {
   "bookSourceUrl": "https://xiaoshuo.sm.cn#温暖满怀",
-  "bookSourceName": "🎉神马小说api▼多源接口,自动换源 ",
+  "bookSourceName": "🎉神马小说api▼多源接口,自动换源",
   "bookSourceGroup": "🎉1039,发现目录失效,搜索目录失效",
   "header": "",
   "bookSourceComment": "// Error: 搜索目录失效, 发现目录失效\n\nC66\n本书源自动换源，遇到目录错乱，无法加载，加载慢，点刷新即可，不用换源，不用换源。",
@@ -18895,7 +18895,7 @@
  },
  {
   "bookSourceUrl": "http://comic.mkzhan.com#Haxc1107",
-  "bookSourceName": "🎨 漫客栈🅰 ",
+  "bookSourceName": "🎨 漫客栈🅰",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "{\n  \"User-Agent\": \"okhttp/3.11.0\"\n}",
@@ -19830,7 +19830,7 @@
  },
  {
   "bookSourceUrl": "http://www.gll8.com",
-  "bookSourceName": "🎨 鬼罗丽 ",
+  "bookSourceName": "🎨 鬼罗丽",
   "bookSourceGroup": "🎨漫画",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
   "bookSourceComment": "",
@@ -25020,7 +25020,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://qidian.com ",
+  "bookSourceUrl": "http://qidian.com",
   "bookSourceName": "🏵起点【女频】",
   "bookSourceGroup": "⁶❀耽女︎ºั轻言",
   "loginUrl": "https://passport.qidian.com",

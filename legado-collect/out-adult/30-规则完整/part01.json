@@ -2501,7 +2501,7 @@
  },
  {
   "bookSourceUrl": "https://www.uaa004.com/api/novel/app/novel/",
-  "bookSourceName": " UAA小说",
+  "bookSourceName": "UAA小说",
   "bookSourceGroup": "🔞",
   "loginUrl": "/",
   "bookSourceComment": "发布页https://uaadizhi.com/",
@@ -6747,7 +6747,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.po18xs.com",
+  "bookSourceUrl": "https://www.po18xs.com",
   "bookSourceName": "御书屋",
   "bookSourceGroup": "女频",
   "bookUrlPattern": "https://m.po18xs.com/book/\\d+/#",
@@ -10220,7 +10220,7 @@
  },
  {
   "bookSourceUrl": "https://app.shubl.com##",
-  "bookSourceName": " 书耽小说",
+  "bookSourceName": "书耽小说",
   "bookSourceGroup": "📃论坛",
   "bookUrlPattern": "",
   "header": "",
@@ -10566,7 +10566,7 @@
  },
  {
   "bookSourceUrl": "https://www.uaa001.com/api/novel/app/novel/",
-  "bookSourceName": " UAA小说",
+  "bookSourceName": "UAA小说",
   "bookSourceGroup": "r",
   "bookUrlPattern": "",
   "header": "",
@@ -21153,7 +21153,7 @@
  },
  {
   "bookSourceUrl": "https://m.lrxs.org#1",
-  "bookSourceName": " 懒人小说",
+  "bookSourceName": "懒人小说",
   "bookSourceGroup": "③🚫  禁验,⑶🔞  束冠",
   "bookUrlPattern": "",
   "loginUrl": "",

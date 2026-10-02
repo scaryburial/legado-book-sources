@@ -1,45 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://m.aixdzs.com##响海",
-  "bookSourceName": "爱下电子书",
-  "bookSourceGroup": "校验可用",
-  "bookSourceComment": "",
-  "searchUrl": "https://m.aixdzs.com/search?k={{key}}",
-  "bookSourceType": 0,
-  "customOrder": 989,
-  "lastUpdateTime": 1659798259028,
-  "respondTime": 21259,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.meta-l@text",
-   "bookList": "class.ix-list ix-border-t@tag.li",
-   "bookUrl": "tag.a@href",
-   "coverUrl": "tag.img@src",
-   "intro": "class.nowrap.1@html",
-   "kind": "class.tag-small lightgreen@text&&class=tag-small smallblue@text&&class.lz@text",
-   "lastChapter": "class.nowrap.-1@text##最新:",
-   "name": "class.ix-list-img-square@tag.a@tag.img@alt##封面",
-   "wordCount": "class=tag-small smallblue@text"
-  },
-  "ruleBookInfo": {
-   "author": "class.ix-nowrap.0@tag.a@text",
-   "name": "class.ix-list-img-square.0@tag.img.0@alt##封面",
-   "wordCount": "class.ix-nowrap.2@text## .*| 热度.*|字数:"
-  },
-  "ruleToc": {
-   "chapterList": "class.chapter@tag.li!0",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "class.page-content@tag.section@tag.p@html",
-   "nextContentUrl": ""
-  }
- },
- {
   "bookSourceUrl": "http://www.bxwx6.org#未月十八改",
   "bookSourceName": "Ⓢ 笔下文学",
   "bookSourceGroup": "¹▽置顶`ȏ´正版发现",
@@ -738,7 +698,7 @@
  },
  {
   "bookSourceUrl": "https://s.lansheweb.com#渊呀81",
-  "bookSourceName": " 值得阅读API ",
+  "bookSourceName": "值得阅读API",
   "bookSourceGroup": "已检",
   "bookUrlPattern": "",
   "header": "",
@@ -1140,7 +1100,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.ymxxs.com/",
+  "bookSourceUrl": "https://www.ymxxs.com/",
   "bookSourceName": "衍墨轩",
   "bookSourceGroup": "已检验",
   "bookSourceComment": "",
@@ -11443,7 +11403,7 @@
  },
  {
   "bookSourceUrl": "https://m.meiguixsw.com#wy18-1001",
-  "bookSourceName": "❄️  玫瑰小说 ",
+  "bookSourceName": "❄️  玫瑰小说",
   "bookSourceGroup": "已检验",
   "bookUrlPattern": "https://m.meiguixsw.com/book/\\d+.html",
   "header": "",
@@ -13969,7 +13929,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://m.yueduwu.com",
+  "bookSourceUrl": "http://m.yueduwu.com",
   "bookSourceName": "🍞阅读屋网",
   "bookSourceGroup": "⁵♡ོ晨光雨露✺普通源",
   "bookUrlPattern": "",
@@ -16211,7 +16171,7 @@
  },
  {
   "bookSourceUrl": "http://www.gc21.cn",
-  "bookSourceName": " 小说书城",
+  "bookSourceName": "小说书城",
   "bookSourceGroup": "¹▽置顶`ȏ´正版发现",
   "bookSourceComment": "",
   "searchUrl": "http://www.gc21.cn/plus/search.php,{\n'method': 'POST',\n'charset': 'gb2312',\n'body': 'q={{key}}'\n}",
@@ -16249,7 +16209,7 @@
  },
  {
   "bookSourceUrl": "http://m.qishuxx.com",
-  "bookSourceName": " 奇  书  网",
+  "bookSourceName": "奇  书  网",
   "bookSourceGroup": "¹▽置顶`ȏ´正版发现",
   "bookSourceComment": "",
   "searchUrl": "/e/search/index.php,{\n'charset': 'gb2312',\n'method': 'POST',\n'body': 'keyboard={{key}}&show=title,writer'\n}",
@@ -16418,7 +16378,7 @@
  },
  {
   "bookSourceUrl": "https://www.yanqing888.org/#sitemboxdl",
-  "bookSourceName": "🥛言情888① ",
+  "bookSourceName": "🥛言情888①",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "https://www.yq-888.com/xiaoshuo/\\d+/\\d+/",
   "header": "",
@@ -16482,7 +16442,7 @@
  },
  {
   "bookSourceUrl": "https://www.yanqing888.org/",
-  "bookSourceName": "🥛言情888① ",
+  "bookSourceName": "🥛言情888①",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "https://www.yq-888.com/xiaoshuo/\\d+/\\d+/",
   "header": "",
@@ -16546,7 +16506,7 @@
  },
  {
   "bookSourceUrl": "https://www.800edu.net",
-  "bookSourceName": "🥛有声屋 ",
+  "bookSourceName": "🥛有声屋",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "https://www.800edu.net/book/\\d+/\\d+",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
@@ -16641,7 +16601,7 @@
  },
  {
   "bookSourceUrl": "http://yd.sogou.com",
-  "bookSourceName": "🥛搜狗售卖 ",
+  "bookSourceName": "🥛搜狗售卖",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "",
   "header": "{\n\"User-Agent\": \"Sogou Free Novel Android/Redmi/10\"\n}",
@@ -16689,7 +16649,7 @@
  },
  {
   "bookSourceUrl": "http://m.31xiaoshuo.org",
-  "bookSourceName": "🥛31② ",
+  "bookSourceName": "🥛31②",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -20223,7 +20183,7 @@
  },
  {
   "bookSourceUrl": "https://www.feisitesujiao.com",
-  "bookSourceName": "✐   快眼看书 ",
+  "bookSourceName": "✐   快眼看书",
   "bookSourceGroup": "☃ 自用",
   "bookUrlPattern": "",
   "header": "",
@@ -23209,6 +23169,47 @@
   "ruleContent": {
    "content": "class.con_left@html##看书海.*最新章节！",
    "nextContentUrl": "text.下一页@href"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.2wxs.net/",
+  "bookSourceName": "🎉我爱小说①",
+  "bookSourceGroup": "🎉 精选 🎉",
+  "bookUrlPattern": "http://www.2wxs.net/xstxt/\\d+/",
+  "loginUrl": "{\n  \"url\": \"\"\n}",
+  "bookSourceComment": "",
+  "searchUrl": "http://www.2wxs.net/s.php?keyword={{key}}&page={{page}}",
+  "bookSourceType": 0,
+  "customOrder": 15949,
+  "lastUpdateTime": 1631814178916,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "tag.a.2@text",
+   "bookList": "class.grid@tag.tr!0",
+   "bookUrl": "tag.a.0@href",
+   "kind": "tag.a.0@text&&tag.td.3@text##\\[|].*",
+   "lastChapter": "tag.a.1@text",
+   "name": "tag.a.0@text##.*\\]",
+   "wordCount": "tag.td.4@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.btitle@tag.em@tag.a@text",
+   "intro": "class.intro@text##内容简介：",
+   "kind": "class.bookinfo@class.fr@i@text",
+   "lastChapter": "class.bookinfo@class.fl@a@text",
+   "name": "class.btitle@tag.h1@text"
+  },
+  "ruleToc": {
+   "chapterList": "class.chapterlist@tag.dd!0:1:2:3:4:5:6:7:8",
+   "chapterName": "tag.a@text",
+   "chapterUrl": "tag.a@href"
+  },
+  "ruleContent": {
+   "content": "id.BookText@html"
   }
  }
 ]

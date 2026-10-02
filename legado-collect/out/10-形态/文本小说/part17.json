@@ -1,42 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://m.yzwxs.org/",
-  "bookSourceName": "信息网",
-  "bookSourceGroup": "自添",
-  "bookSourceComment": "",
-  "searchUrl": "https://m.yzwxs.org/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 9366,
-  "lastUpdateTime": 0,
-  "respondTime": 5144,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.odd.1@text",
-   "bookList": "tag.tbody.0@id.nr",
-   "bookUrl": "class.odd.0@tag.a@href",
-   "lastChapter": "class.even.0@tag.a@text",
-   "name": "class.odd.0@tag.a@text"
-  },
-  "ruleBookInfo": {
-   "author": "id.info@tag.p.0@text##作    者",
-   "coverUrl": "id.fmimg@tag.img@src",
-   "intro": "id.intro@tag.p@text",
-   "lastChapter": "tag.dl@tag.dd.0@tag.a@text",
-   "name": "tag.h1@text"
-  },
-  "ruleToc": {
-   "chapterList": "tag.dl@tag.dd",
-   "chapterName": "tag.a@text",
-   "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-   "content": "id.content@text"
-  }
- },
- {
   "bookSourceUrl": "http://www.xiuzhent.com#🎃",
   "bookSourceName": "修真堂🎃",
   "bookSourceGroup": "",
@@ -34710,7 +34673,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.xbiquge6.com④     ",
+  "bookSourceUrl": "https://www.xbiquge6.com④",
   "bookSourceName": "🐶笔趣阁④",
   "bookSourceGroup": "SSS",
   "bookSourceComment": "",
@@ -34748,7 +34711,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.bqg5.cc       ⑥  ",
+  "bookSourceUrl": "https://www.bqg5.cc       ⑥",
   "bookSourceName": "🐶笔趣阁⑥",
   "bookSourceGroup": "SSS",
   "bookSourceComment": "",
@@ -34784,7 +34747,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.biqugexx.com⑥    ",
+  "bookSourceUrl": "https://www.biqugexx.com⑥",
   "bookSourceName": "🐶笔趣阁⑥",
   "bookSourceGroup": "SSS",
   "bookUrlPattern": "",
@@ -34821,7 +34784,7 @@
   }
  },
  {
-  "bookSourceUrl": "http://www.biqugewb.com        ",
+  "bookSourceUrl": "http://www.biqugewb.com",
   "bookSourceName": "🐶笔趣阁完本",
   "bookSourceGroup": "SSS",
   "header": "",
@@ -34862,7 +34825,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.booktxt.com①    ",
+  "bookSourceUrl": "https://www.booktxt.com①",
   "bookSourceName": "🐶顶点小说①",
   "bookSourceGroup": "SSS",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
@@ -35328,7 +35291,7 @@
   }
  },
  {
-  "bookSourceUrl": " https://www.motanwx.com#search_text",
+  "bookSourceUrl": "https://www.motanwx.com#search_text",
   "bookSourceName": "👍 墨坛",
   "bookSourceGroup": "👍优质",
   "bookUrlPattern": "",
@@ -37527,7 +37490,7 @@
  },
  {
   "bookSourceUrl": "https://miao.qimao.com",
-  "bookSourceName": "奇妙小说网 ",
+  "bookSourceName": "奇妙小说网",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -40504,7 +40467,7 @@
  },
  {
   "bookSourceUrl": "http://www.liudatxt.com/",
-  "bookSourceName": " 溜达小说",
+  "bookSourceName": "溜达小说",
   "bookSourceGroup": "",
   "bookSourceComment": "",
   "exploreUrl": "",
@@ -43336,7 +43299,7 @@
  },
  {
   "bookSourceUrl": "https://quapp.shenbabao.com#wy18-1001",
-  "bookSourceName": " APP① #未月十八1001",
+  "bookSourceName": "APP① #未月十八1001",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
   "bookSourceComment": "// Error: 搜索失效",
@@ -43372,7 +43335,7 @@
  },
  {
   "bookSourceUrl": "https://baike.baidu.com/",
-  "bookSourceName": " 百度百科",
+  "bookSourceName": "百度百科",
   "bookSourceGroup": "💭💭💭💭💭💭,校验公众号：【omega推文】",
   "bookUrlPattern": "已校验",
   "loginUrl": "",
@@ -43408,7 +43371,7 @@
  },
  {
   "bookSourceUrl": "https://baike.baidu已整理",
-  "bookSourceName": " 百度百科",
+  "bookSourceName": "百度百科",
   "bookSourceGroup": "💭💭💭💭💭💭,搜索失效",
   "bookUrlPattern": "已校验",
   "loginUrl": "",
@@ -43655,6 +43618,38 @@
   },
   "ruleContent": {
    "content": ".article@all"
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.yqzww.net",
+  "bookSourceName": "🍒 言情中文",
+  "bookSourceGroup": "🍒30,🍋🍋🍋🍋🍋🍋,搜索失效",
+  "bookUrlPattern": "",
+  "loginUrl": "",
+  "bookSourceComment": "// Error: 搜索失效",
+  "searchUrl": "https://www.yqzww.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+  "bookSourceType": 0,
+  "customOrder": 22459,
+  "lastUpdateTime": 1685778444956,
+  "respondTime": 182958,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": true,
+  "ruleSearch": {
+   "author": "class.s4@text",
+   "bookList": "class.novelslistss@tag.li",
+   "bookUrl": "class.s2@tag.a.0@href",
+   "lastChapter": "class.s3@tag.a.0@text",
+   "name": "class.s2@tag.a.0@text"
+  },
+  "ruleToc": {
+   "chapterList": "class.article-list@tag.dd@tag.a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "ruleContent": {
+   "content": "id.content@html##言情中文网.*"
   }
  }
 ]

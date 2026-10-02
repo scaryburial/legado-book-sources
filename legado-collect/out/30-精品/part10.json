@@ -1,62 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://m.syt2008.com/",
-  "bookSourceName": "♠ 2008小说",
-  "bookSourceGroup": "",
-  "bookUrlPattern": "https://m.syt2008.com/book/\\d+.html",
-  "loginUrl": "",
-  "bookSourceComment": "搜索结果链接无效，这是网站问题，非本源的锅\n增加发现\n\nBy~江湖",
-  "exploreUrl": "玄幻小说::/type/1/<,{{page-1}}.html>\n都市小说::/type/2/<,{{page-1}}.html>\n科幻小说::/type/3/<,{{page-1}}.html>\n武侠修真::/type/4/<,{{page-1}}.html>\n网游竞技::/type/5/<,{{page-1}}.html>\n恐怖灵异::/type/6/<,{{page-1}}.html>\n历史军事::/type/7/<,{{page-1}}.html>\n侦探推理::/type/8/<,{{page-1}}.html>\n其他小说::/type/0/<,{{page-1}}.html>",
-  "searchUrl": "/sousuo?k={{key}}",
-  "bookSourceType": 0,
-  "customOrder": 18039,
-  "lastUpdateTime": 1652179765563,
-  "respondTime": 180748,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "span.0@text",
-   "bookList": ".item",
-   "bookUrl": "a.0@href",
-   "checkKeyWord": "",
-   "coverUrl": "img@src",
-   "intro": "a.-1@text",
-   "kind": "",
-   "lastChapter": "",
-   "name": "img@alt"
-  },
-  "ruleExplore": {
-   "author": ".s4@text",
-   "bookList": ".txt-list-row5 li",
-   "bookUrl": ".s2 a@href",
-   "coverUrl": ".s2 a@href##/(\\d*(\\d{3}))/$##/images/$2/$1.jpeg###",
-   "intro": "",
-   "kind": ".s5@text",
-   "lastChapter": ".s3 a@text",
-   "name": ".s2 a@text"
-  },
-  "ruleBookInfo": {
-   "author": "[property=\"og:novel:author\"]@content",
-   "coverUrl": "[property=\"og:image\"]@content",
-   "init": "head",
-   "intro": "[property=\"og:description\"]@content",
-   "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&\r\n[property=\"og:novel:update_time\"]@content##\\s.*",
-   "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
-   "name": "[property=\"og:novel:book_name\"]@content"
-  },
-  "ruleToc": {
-   "chapterList": ".section-list.1@li a",
-   "chapterName": "text",
-   "chapterUrl": "href",
-   "nextTocUrl": "text.下一页@href"
-  },
-  "ruleContent": {
-   "content": "#content@html##http.*html|天才一秒记住.*com"
-  }
- },
- {
   "bookSourceUrl": "http://www.xinqingdou.cc",
   "bookSourceName": "青豆小说",
   "bookSourceGroup": "精选",
@@ -5617,7 +5560,7 @@
  },
  {
   "bookSourceUrl": "http://www.xuanjiezhimen.org",
-  "bookSourceName": "🧾笔 趣 阁 ",
+  "bookSourceName": "🧾笔 趣 阁",
   "bookSourceGroup": "🧾优选,🔮发现",
   "bookUrlPattern": "http://www.xuanjiezhimen.org/\\d+_\\d+",
   "header": "",
@@ -7613,7 +7556,7 @@
  },
  {
   "bookSourceUrl": "http://www.gll8.com",
-  "bookSourceName": "🎨 鬼罗丽 ",
+  "bookSourceName": "🎨 鬼罗丽",
   "bookSourceGroup": "🎨漫画",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
   "bookSourceComment": "",
@@ -13314,7 +13257,7 @@
  },
  {
   "bookSourceUrl": "https://www.qidian.com#♂",
-  "bookSourceName": "💰 起点 ",
+  "bookSourceName": "💰 起点",
   "bookSourceGroup": "[小说源]",
   "bookUrlPattern": "",
   "header": "",
@@ -19508,7 +19451,7 @@
  },
  {
   "bookSourceUrl": "https://m.zongheng.com#□namo edit4",
-  "bookSourceName": "  🖤㊣ 纵横m▪细分榜单",
+  "bookSourceName": "🖤㊣ 纵横m▪细分榜单",
   "bookSourceGroup": "¹▽置顶`ȏ´正版发现",
   "bookUrlPattern": "",
   "header": "",
@@ -19564,7 +19507,7 @@
  },
  {
   "bookSourceUrl": "https://www.urhtbooks.com",
-  "bookSourceName": " 海  棠  城",
+  "bookSourceName": "海  棠  城",
   "bookSourceGroup": "⁸̶̥̥̥̆ૢ)论坛↓下载",
   "header": "",
   "loginUrl": "https://www.urhtbooks.com/login.php",
@@ -20001,7 +19944,7 @@
  },
  {
   "bookSourceUrl": "http://www.go5.cc",
-  "bookSourceName": " 🥛go5 ",
+  "bookSourceName": "🥛go5",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "http://www.go5.cc/book/\\d+",
   "loginUrl": "{\n  \"url\": \"null\"\n}",
@@ -20056,7 +19999,7 @@
  },
  {
   "bookSourceUrl": "https://www.imiaobige.com#发现",
-  "bookSourceName": "🥛妙笔阁 ",
+  "bookSourceName": "🥛妙笔阁",
   "bookSourceGroup": "⁴☃晨光雨露᭄精品源",
   "bookUrlPattern": "",
   "header": "",
@@ -21385,7 +21328,7 @@
  },
  {
   "bookSourceUrl": "https://www.9txs.org#冷魅edit33",
-  "bookSourceName": "  🖤㊝ 九桃小说▪︎CSS ♛♛♛♚✘",
+  "bookSourceName": "🖤㊝ 九桃小说▪︎CSS ♛♛♛♚✘",
   "bookSourceGroup": "",
   "bookUrlPattern": "",
   "header": "",
@@ -25107,6 +25050,50 @@
    "content": "class.c_box.0@tag.img@src",
    "nextContentUrl": "text.下☆页@href",
    "replaceRegex": "##(http.*)##<img src=\"$1\"/>"
+  }
+ },
+ {
+  "bookSourceUrl": "https://api.dmzj1.com",
+  "bookSourceName": "🎨 动漫之家₂-M",
+  "bookSourceGroup": "🎨漫画",
+  "bookUrlPattern": "",
+  "loginUrl": "",
+  "bookSourceComment": "Error: json string can not be null or empty \n\nerror:json string can not be null or empty\nerror:List is empty.\n",
+  "exploreUrl": "人气排行日榜::https://api.m.dmzj1.com/rank/0-0-0-{{page-1}}.json\n人气排行周榜::https://api.m.dmzj1.com/rank/0-0-1-{{page-1}}.json\n人气排行月榜::https://api.m.dmzj1.com/rank/0-0-2-{{page-1}}.json\n人气排行总榜::https://api.m.dmzj1.com/rank/0-0-3-{{page-1}}.json\n吐槽排行日榜::https://api.m.dmzj1.com/rank/1-0-0-{{page-1}}.json\n吐槽排行周榜::https://api.m.dmzj1.com/rank/1-0-1-{{page-1}}.json\n吐槽排行月榜::https://api.m.dmzj1.com/rank/1-0-2-{{page-1}}.json\n吐槽排行总榜::https://api.m.dmzj1.com/rank/1-0-3-{{page-1}}.json\n订阅排行日榜::https://api.m.dmzj1.com/rank/2-0-0-{{page-1}}.json\n订阅排行周榜::https://api.m.dmzj1.com/rank/2-0-1-{{page-1}}.json\n订阅排行月榜::https://api.m.dmzj1.com/rank/2-0-2-{{page-1}}.json\n订阅排行总榜::https://api.m.dmzj1.com/rank/2-0-3-{{page-1}}.json\n最近更新::https://api.m.dmzj1.com/recommend/latest/{{page-1}}.json\n人气::https://api.m.dmzj1.com/classify/0-0-0-0-0-{{page-1}}.json\n更新::https://api.m.dmzj1.com/classify/0-0-0-0-1-{{page-1}}.json\n连载::https://api.m.dmzj1.com/classify/0-0-1-0-1-{{page-1}}.json\n完结::https://api.m.dmzj1.com/classify/0-0-2-0-1-{{page-1}}.json\n少年::https://api.m.dmzj1.com/classify/0-1-0-0-1-{{page-1}}.json\n少女::https://api.m.dmzj1.com/classify/0-2-0-0-1-{{page-1}}.json\n青年::https://api.m.dmzj1.com/classify/0-3-0-0-1-{{page-1}}.json\n日本::https://api.m.dmzj1.com/classify/0-0-0-1-1-{{page-1}}.json\n内地::https://api.m.dmzj1.com/classify/0-0-0-2-1-{{page-1}}.json\n欧美::https://api.m.dmzj1.com/classify/0-0-0-3-1-{{page-1}}.json\n港台::https://api.m.dmzj1.com/classify/0-0-0-4-1-{{page-1}}.json\n韩国::https://api.m.dmzj1.com/classify/0-0-0-5-1-{{page-1}}.json\n其他::https://api.m.dmzj1.com/classify/0-0-0-6-1-{{page-1}}.json\n冒险::https://api.m.dmzj1.com/classify/1-0-0-0-1-{{page-1}}.json\n欢乐向::https://api.m.dmzj1.com/classify/2-0-0-0-1-{{page-1}}.json\n格斗::https://api.m.dmzj1.com/classify/3-0-0-0-1-{{page-1}}.json\n科幻::https://api.m.dmzj1.com/classify/4-0-0-0-1-{{page-1}}.json\n爱情::https://api.m.dmzj1.com/classify/5-0-0-0-1-{{page-1}}.json\n竞技::https://api.m.dmzj1.com/classify/6-0-0-0-1-{{page-1}}.json\n魔法::https://api.m.dmzj1.com/classify/7-0-0-0-1-{{page-1}}.json\n校园::https://api.m.dmzj1.com/classify/8-0-0-0-1-{{page-1}}.json\n悬疑::https://api.m.dmzj1.com/classify/9-0-0-0-1-{{page-1}}.json\n恐怖::https://api.m.dmzj1.com/classify/10-0-0-0-1-{{page-1}}.json\n生活亲情::https://api.m.dmzj1.com/classify/11-0-0-0-1-{{page-1}}.json\n百合::https://api.m.dmzj1.com/classify/12-0-0-0-1-{{page-1}}.json\n伪娘::https://api.m.dmzj1.com/classify/13-0-0-0-1-{{page-1}}.json\n耽美::https://api.m.dmzj1.com/classify/14-0-0-0-1-{{page-1}}.json\n后宫::https://api.m.dmzj1.com/classify/15-0-0-0-1-{{page-1}}.json\n萌系::https://api.m.dmzj1.com/classify/16-0-0-0-1-{{page-1}}.json\n治愈::https://api.m.dmzj1.com/classify/17-0-0-0-1-{{page-1}}.json\n武侠::https://api.m.dmzj1.com/classify/18-0-0-0-1-{{page-1}}.json\n职场::https://api.m.dmzj1.com/classify/19-0-0-0-1-{{page-1}}.json\n奇幻::https://api.m.dmzj1.com/classify/20-0-0-0-1-{{page-1}}.json\n节操::https://api.m.dmzj1.com/classify/21-0-0-0-1-{{page-1}}.json\n轻小说::https://api.m.dmzj1.com/classify/22-0-0-0-1-{{page-1}}.json\n搞笑::https://api.m.dmzj1.com/classify/23-0-0-0-1-{{page-1}}.json",
+  "searchUrl": "https://api.m.dmzj1.com/search/{{key}}",
+  "bookSourceType": 0,
+  "customOrder": 12776,
+  "lastUpdateTime": 1632998528404,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "$.authors",
+   "bookList": "$.[*]",
+   "bookUrl": "https://api.m.dmzj1.com/info/{$.comic_py}.html",
+   "coverUrl": "$.cover@js:header={\"Referer\":baseUrl}\nheaders={\"headers\":JSON.stringify(header)}\n;result.indexOf(\"http\")==0?result:\"https://images.dmzj1.com/\"+result+','+JSON.stringify(headers)",
+   "kind": "$.types&&$.status",
+   "lastChapter": "$.last_update_chapter_name",
+   "name": "$.name"
+  },
+  "ruleBookInfo": {
+   "author": "$.comic.authors",
+   "coverUrl": "",
+   "intro": "$.comic.description",
+   "kind": "$.comic.types&&$.comic.status##\\/",
+   "lastChapter": "$.comic.last_update_chapter_name",
+   "name": "$.comic.name"
+  },
+  "ruleToc": {
+   "chapterList": "-<js>\njava.getString(\"$.chapter_json\");\n</js>\n$.[*]data[*]",
+   "chapterName": "$.chapter_name",
+   "chapterUrl": "https://api.m.dmzj1.com/comic/chapter/{$.comic_id}/{$.id}.html"
+  },
+  "ruleContent": {
+   "content": "<js>\nvar data = result.match(/\"page_url\":(\\[.*?\\])/)[1];\ndata\n</js>\n$.[*]@js:\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)}\n;\nresult.split(\"\\n\").map(x=>'<img src=\\\"'+x+','+JSON.stringify(headers)+'\\\">').join(\"\\n\")",
+   "imageStyle": "FULL"
   }
  }
 ]

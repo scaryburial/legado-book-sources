@@ -1,42 +1,5 @@
 [
  {
-  "bookSourceUrl": "http://www.qingaiw.com",
-  "bookSourceName": "文本豪居网",
-  "bookSourceGroup": "",
-  "bookSourceComment": "error:failed to connect to www.qingaiw.com/128.1.91.64 (port 80) from /192.168.1.168 (port 42224) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
-  "exploreUrl": "最近更新::http://www.qingaiw.com/gengxin.html\n玄幻科幻::http://www.qingaiw.com/xh/{{page}}/\n都市小说::http://www.qingaiw.com/ds/{{page}}/\n言情小说::http://www.qingaiw.com/yq/{{page}}/\n历史架空::http://www.qingaiw.com/ls/{{page}}/\n网游武侠::http://www.qingaiw.com/yx/{{page}}/\n耽美小说::http://www.qingaiw.com/dm/{{page}}/\n其他类型::http://www.qingaiw.com/qt/{{page}}/",
-  "searchUrl": "http://www.qingaiw.com/search,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename&page={{page}}\"\n}",
-  "bookSourceType": 0,
-  "customOrder": -255,
-  "lastUpdateTime": 1614911667378,
-  "respondTime": 180000,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "ruleSearch": {
-   "author": "tag.dd.1@tag.span.0@tag.a.0@text||class.odd.1@text||id.maininfo@id.bookinfo@class.bookright@tag.a.0@text",
-   "bookList": "id.sitebox@tag.dl||class.grid searall@tag.tr!0||tag.body",
-   "bookUrl": "tag.dd.0@tag.h3.0@tag.a.0@href||class.odd.0@tag.a.0@href",
-   "coverUrl": "tag.dt.0@tag.a.0@tag.img.0@src||id.maininfo@id.bookinfo@class.bookleft@id.bookimg@tag.img.0@src",
-   "kind": "tag.dd.1@tag.span.1@text||class.even.2@text||id.maininfo@id.bookinfo@class.bookright@tag.span.0@text",
-   "lastChapter": "tag.dd.3@tag.a.0@text||class.even.0@tag.a.0@text||id.newlist@tag.ul.0@tag.li.0@tag.a.0@text",
-   "name": "tag.dd.0@tag.h3.0@tag.a.0@text||class.odd.0@tag.a.0@text||id.maininfo@id.bookinfo@class.bookright@tag.h1.0@text"
-  },
-  "ruleBookInfo": {
-   "coverUrl": "id.maininfo@id.bookinfo@class.bookleft@id.bookimg@tag.img.0@src",
-   "intro": "id.bookintro@tag.p.2@textNodes",
-   "tocUrl": "id.newlist@class.newrap@tag.strong.0@tag.a.0@href"
-  },
-  "ruleToc": {
-   "chapterList": "id.readerlist@tag.ul@tag.li@tag.a",
-   "chapterName": "text",
-   "chapterUrl": "href"
-  },
-  "ruleContent": {
-   "content": "id.content@textNodes"
-  }
- },
- {
   "bookSourceUrl": "https://www.10tou.com",
   "bookSourceName": "💯石头小说",
   "bookSourceGroup": "💯 精品 💯",
@@ -11087,7 +11050,7 @@
  },
  {
   "bookSourceUrl": "http://m.97yd.com",
-  "bookSourceName": " 🎉九七阅读",
+  "bookSourceName": "🎉九七阅读",
   "bookSourceGroup": "🎉精品",
   "bookSourceComment": "",
   "exploreUrl": "玄幻奇幻::/xuanhuan/<,index_{{page}}.html>\n武侠仙侠::/wuxia/<,index_{{page}}.html>\n都市生活::/dushi/<,index_{{page}}.html>\n历史军事::/junshi/<,index_{{page}}.html>\n游戏竞技::/youxi/<,index_{{page}}.html>\n科幻灵异::/kehuan/<,index_{{page}}.html>\n现代言情::/xianyan/<,index_{{page}}.html>\n青春校园::/xiaoyuan/<,index_{{page}}.html>\n乡村爱情::/xiangcun/<,index_{{page}}.html>\n耽美同人::/danmei/<,index_{{page}}.html>\n古代言情::/guyan/<,index_{{page}}.html>\n穿越架空::/chuanyue/<,index_{{page}}.html>\n惊秫恐怖::/kongbu/<,index_{{page}}.html>\n悬疑推理::/xuanyi/<,index_{{page}}.html>\n综合其他::/qita/<,index_{{page}}.html>",
@@ -16938,7 +16901,7 @@
  },
  {
   "bookSourceUrl": "http://so.slieny.com",
-  "bookSourceName": "📖幽月轻小说文库 ",
+  "bookSourceName": "📖幽月轻小说文库",
   "bookSourceGroup": "发现失效,📖轻文,搜索失效",
   "bookSourceComment": "// Error: 发现失效, 搜索失效",
   "exploreUrl": "冒险::http://novel.slieny.com/list/1_{{page}}.html\n搞笑::http://novel.slieny.com/list/2_{{page}}.html\n格斗::http://novel.slieny.com/list/3_{{page}}.html\n科幻::http://novel.slieny.com/list/4_{{page}}.html\n侦探::http://novel.slieny.com/list/5_{{page}}.html\n爱情::http://novel.slieny.com/list/6_{{page}}.html\n魔法::http://novel.slieny.com/list/7_{{page}}.html\n神魔::http://novel.slieny.com/list/8_{{page}}.html\n校园::http://novel.slieny.com/list/9_{{page}}.html\n恐怖::http://novel.slieny.com/list/10_{{page}}.html\n其他::http://novel.slieny.com/list/11_{{page}}.html\n已完结::http://novel.slieny.com/modules/article/index.php?fullflag=1&page={{page}}",
@@ -39277,7 +39240,7 @@
  },
  {
   "bookSourceUrl": "http://zuopinj.com-DM",
-  "bookSourceName": " 🔖 作品集",
+  "bookSourceName": "🔖 作品集",
   "bookSourceGroup": " 🔖 书刊",
   "bookSourceComment": "",
   "exploreUrl": "金庸::http://jinyong.zuopinj.com\n匪我思存::http://feiwosicun.zuopinj.com\n亦舒::http://yishu.zuopinj.com\n东野圭吾::http://dongyeguiwu.zuopinj.com\n席绢::http://xijuan.zuopinj.com\n梁羽生::http://liangyusheng.zuopinj.com\n琼瑶::http://qiongyao.zuopinj.com\n古灵::http://guling.zuopinj.com\n卧龙生::http://wolongsheng.zuopinj.com\n顾漫::http://guman.zuopinj.com\n三毛::http://sanmao.zuopinj.com\n刘慈欣::http://liucixin.zuopinj.com\n陈青云::http://chenqingyun.zuopinj.com\n松柏生::http://songbaisheng.zuopinj.com\n唐七公子::http://tangqi.zuopinj.com\n温瑞安::http://wenruian.zuopinj.com\n柳残阳::http://liucanyang.zuopinj.com\n古龙::http://gulong.zuopinj.com\n云中岳::http://yunzhongyue.zuopinj.com\n岑凯伦::http://cenkailun.zuopinj.com\n王朔::http://wangshuo.zuopinj.com\n诸葛青云::http://zhugeqingyun.zuopinj.com\n贾平凹::http://jiapingwa.zuopinj.com\n莫言::http://moyan.zuopinj.com\n鲁迅::http://luxun.zuopinj.com\n张爱玲::http://zhangailing.zuopinj.com\n沧月::http://cangyue.zuopinj.com\n九把刀::http://jiubadao.zuopinj.com\n渡边淳一::http://dubianchunyi.zuopinj.com\n曹若冰::http://caoruobing.zuopinj.com\n李凉::http://liliang.zuopinj.com\n天蚕土豆::http://tiancantudou.zuopinj.com\n天下霸唱::http://tianxiabachang.zuopinj.com\n村上春树::http://cscs.zuopinj.com\n张小娴::http://zhangxiaoxian.zuopinj.com\n我吃西红柿::http://wochixihongshi.zuopinj.com\n黄易::http://huangyi.zuopinj.com\n紫金陈::http://zijinchen.zuopinj.com\n唐家三少::http://tangjiasanshao.zuopinj.com\n饶雪漫::http://raoxueman.zuopinj.com\n小妮子::http://xiaonizi.zuopinj.com\n麦家::http://maijia.zuopinj.com\n东方玉::http://dongfangyu.zuopinj.com\n萧逸::http://xiaoyi.zuopinj.com\n安知晓::http://anzhixiao.zuopinj.com\n江南::http://jiangnan.zuopinj.com\n郭敬明::http://guojingming.zuopinj.com\n惜之::http://xizhi.zuopinj.com\n池莉::http://chili.zuopinj.com\n王小波::http://wangxiaobo.zuopinj.com\n刘震云::http://liuzhenyun.zuopinj.com\n二月河::http://eryuehe.zuopinj.com\n郑媛::http://zhengyuan.zuopinj.com\n高月::http://gaoyue.zuopinj.com\n西村寿行::http://xicunshouxing.zuopinj.com\n独孤红::http://duguhong.zuopinj.com\n晴空蓝兮::http://qingkonglanxi.zuopinj.com\n裘梦::http://qiumeng.zuopinj.com\n严歌苓::http://yangeling.zuopinj.com\n安琪::http://anqi.zuopinj.com\n老舍::http://laoshe.zuopinj.com\n白落梅::http://bailuomei.zuopinj.com\n路遥::http://luyao.zuopinj.com\n八月长安::http://bayuechangan.zuopinj.com\n寄秋::http://jiqiu.zuopinj.com\n蔡骏::http://caijun.zuopinj.com\n上官鼎::http://shangguanding.zuopinj.com\n柳下挥::http://liuxiahui.zuopinj.com\n楼采凝::http://loucaining.zuopinj.com\n司马翎::http://simaling.zuopinj.com\n六六::http://liuliu.zuopinj.com\n辛夷坞::http://xinyiwu.zuopinj.com\n戊戟::http://wuji.zuopinj.com\n月关::http://yueguan.zuopinj.com\n辰东::http://chendong.zuopinj.com\n那多::http://naduo.zuopinj.com\n余华::http://yuhua.zuopinj.com\n武陵樵子::http://wulingqiaozi.zuopinj.com\n步非烟::http://bufeiyan.zuopinj.com\n桐华::http://tonghua.zuopinj.com\n千草::http://qiancao.zuopinj.com\n韩寒::http://hanhan.zuopinj.com\n浅草茉莉::http://qiancaomoli.zuopinj.com\n丹云::http://danyun.zuopinj.com\n飞烟::http://feiyan.zuopinj.com\n叶冰伦::http://yebinglun.zuopinj.com\n横沟正史::http://henggouzhengshi.zuopinj.com\n南派三叔::http://nanpaisanshu.zuopinj.com\n明星::http://mingxing.zuopinj.com\n萧鼎::http://xiaoding.zuopinj.com\n王安忆::http://wanganyi.zuopinj.com\n秋梦痕::http://qiumenghen.zuopinj.com\n宋雨桐::http://songyutong.zuopinj.com\n水阡墨::http://shuiqianmo.zuopinj.com\n阿加莎·克里斯蒂::http://akelisidi.zuopinj.com\n高阳::http://gaoyang.zuopinj.com\n飘阿兮::http://piaoaxi.zuopinj.com\n梦入神机::http://mengrushenji.zuopinj.com\n周浩晖::http://zhouhaohui.zuopinj.com\n张恨水::http://zhanghenshui.zuopinj.com\n红娘子::http://hongniangzi.zuopinj.com\n都梁::http://duliang.zuopinj.com\n藤萍::http://tengping.zuopinj.com\n徐公子胜治::http://xushengzhi.zuopinj.com\n苏童::http://sutong.zuopinj.com\n毕飞宇::http://bifeiyu.zuopinj.com\n宫白羽::http://gongbaiyu.zuopinj.com\n安妮宝贝::http://annibaobei.zuopinj.com\n无处可逃::http://wuchuketao.zuopinj.com\n三两二钱::http://sanliangerqian.zuopinj.com\n骷髅精灵::http://kuloujingling.zuopinj.com\n可爱淘::http://keaitao.zuopinj.com\n打眼::http://dayan.zuopinj.com\n缪娟::http://miujuan.zuopinj.com\n宁航一::http://ninghangyi.zuopinj.com\n靡宝::http://mibaoxs.zuopinj.com\n还珠楼主::http://huanzhulouzhu.zuopinj.com\n冯唐::http://fengtang.zuopinj.com\n李敖::http://liao.zuopinj.com\n玄色::http://xuanse.zuopinj.com\n暗夜流光::http://anyeliuguang.zuopinj.com\n叶迷::http://yemi.zuopinj.com\n阿城::http://acheng.zuopinj.com\n黄鹰::http://huangying.zuopinj.com\n莫萦::http://moying.zuopinj.com\n烽火戏诸侯::http://fhxzh.zuopinj.com\n安宁::http://anning.zuopinj.com\n猫腻::http://maoni.zuopinj.com\n道门老九::http://daomenlaojiu.zuopinj.com\n刘墉::http://liuyong.zuopinj.com\n陈忠实::http://chenzhongshi.zuopinj.com\n肖仁福::http://xiaorenfu.zuopinj.com\n桩桩::http://zhuangzhuang.zuopinj.com\n忆文::http://yiwen.zuopinj.com\n南湘野叟::http://nanxiangye.zuopinj.com\n湛亮::http://zhanliang.zuopinj.com\n海宴::http://haiyan.zuopinj.com\n川端康成::http://chuanduankangcheng.zuopinj.com\n铁凝::http://tiening.zuopinj.com\n金子::http://jinzi.zuopinj.com\n森村诚一::http://sencunchengyi.zuopinj.com\n倪匡::http://nikuang.zuopinj.com\n黄晓阳::http://huangxiaoyang.zuopinj.com\n子澄::http://zicheng.zuopinj.com\n天下归元::http://tianxiaguiyuan.zuopinj.com\n墨舞碧歌::http://mowubige.zuopinj.com\n凌淑芬::http://lingshufen.zuopinj.com\n鬼谷子::http://guiguzi.zuopinj.com\n公孙梦::http://gongsunmeng.zuopinj.com\n大薮春彦::http://dscy.zuopinj.com\n西德尼·谢尔顿::http://xdnxed.zuopinj.com\n上官云飞::http://shangguanyunfei.zuopinj.com\n白芸::http://baiyun.zuopinj.com\n刘猛::http://liumeng.zuopinj.com\n凤歌::http://fengge.zuopinj.com\n刘恒::http://liuheng.zuopinj.com\n柳晨枫::http://liuchenfeng.zuopinj.com\n艾米::http://aimi.zuopinj.com\n耳根::http://ergen.zuopinj.com\n张贤亮::http://zhangxianliang.zuopinj.com\n王晋康::http://wangjinkang.zuopinj.com\n江户川乱步::http://jianghuchuanluanbu.zuopinj.com\n奈奈::http://nainai.zuopinj.com\n耳东水寿::http://erdongshuishou.zuopinj.com\n府天::http://futian.zuopinj.com\n司马紫烟::http://simaziyan.zuopinj.com\n白天::http://baitian.zuopinj.com\n暗修兰::http://anxiulan.zuopinj.com\n毕淑敏::http://bishumin.zuopinj.com\n乐小米::http://lexiaomi.zuopinj.com\n雪雁::http://xueyan.zuopinj.com\n马荣成::http://marongcheng.zuopinj.com\n金晶::http://jinjing.zuopinj.com\n机器猫::http://jiqimao.zuopinj.com\n萧瑟::http://xiaose.zuopinj.com\n史蒂芬·金::http://shidifenjin.zuopinj.com\n石钟山::http://shizhongshan.zuopinj.com\n王晓方::http://wangxiaofang.zuopinj.com\n犬犬::http://quanquan.zuopinj.com\n郭妮::http://guoni.zuopinj.com\n艾佟::http://aitong.zuopinj.com\n伍美珍::http://wumeizhen.zuopinj.com\n凌力::http://lingli.zuopinj.com\n方白羽::http://fangbaiyu.zuopinj.com\n莎士比亚::http://shashibiya.zuopinj.com\n时未寒::http://shiweihan.zuopinj.com\n晓叁::http://xiaosan.zuopinj.com\n张平::http://zhangping.zuopinj.com\n王度庐::http://wangdulu.zuopinj.com\n慕容美::http://murongmei.zuopinj.com\n流潋紫::http://liulianzi.zuopinj.com\n蒋胜男::http://jiangshengnan.zuopinj.com\n燕垒生::http://yanleisheng.zuopinj.com\n白先勇::http://baixianyong.zuopinj.com\n莫泊桑::http://mobosang.zuopinj.com\n心梦无痕::http://xinmengwuhen.zuopinj.com\n阿来::http://alai.zuopinj.com\n米朵拉::http://miduola.zuopinj.com\n蜘蛛::http://zhizhu.zuopinj.com\n马舸::http://mage.zuopinj.com\n明晓溪::http://mingxiaoxi.zuopinj.com\n东方英::http://dongfangying.zuopinj.com\n安房直子::http://anfangzhizi.zuopinj.com\n刘建良::http://liujianliang.zuopinj.com\n卫慧::http://weihui.zuopinj.com\n欧阳云飞::http://ouyangyunfei.zuopinj.com\n松本清张::http://songbenqingzhang.zuopinj.com\n蒋方舟::http://jiangfangzhou.zuopinj.com\n六道::http://liudao.zuopinj.com\nFresh果果::http://fresh.zuopinj.com\n杨千紫::http://yangqianzi.zuopinj.com\n慕容雪村::http://murongxuecun.zuopinj.com\n香弥::http://xiangmi.zuopinj.com\n灵希::http://lingxi.zuopinj.com\n酒徒::http://jiutu.zuopinj.com\n高庸::http://gaoyong.zuopinj.com\n平江不肖生::http://pjbs.zuopinj.com\n列夫·托尔斯泰::http://tuoersitai.zuopinj.com\n三岛由纪夫::http://sandaoyoujifu.zuopinj.com\n人海中::http://renhaizhong.zuopinj.com\n蔡智恒::http://caizhiheng.zuopinj.com\n王海鸰::http://wanghailing.zuopinj.com\n谷崎润一郎::http://guqirunyilang.zuopinj.com\n令狐庸::http://linghuyong.zuopinj.com\n彭柳蓉::http://pengliurong.zuopinj.com\n张悦然::http://zhangyueran.zuopinj.com\n张炜::http://zhangwei.zuopinj.com\n艾可乐::http://aikele.zuopinj.com\n月下箫声::http://yuexiaxiaosheng.zuopinj.com\n徐贵祥::http://xuguixiang.zuopinj.com\n易中天::http://yizhongtian.zuopinj.com\n九夜茴::http://jiuyehui.zuopinj.com\n念一::http://nianyi.zuopinj.com\n冯华::http://fenghua.zuopinj.com\n高尔基::http://gaoerji.zuopinj.com\n袁腾飞::http://yuantengfei.zuopinj.com\n墨余生::http://moyusheng.zuopinj.com\n安意如::http://anyiru.zuopinj.com\n风凌天下::http://fenglingtianxia.zuopinj.com\n兰立::http://lanli.zuopinj.com\n岳凡::http://yuefan.zuopinj.com\n樱桃::http://yingtao.zuopinj.com\n袁茵::http://yuanyin.zuopinj.com\n四大名著::http://sidamingzhu.zuopinj.com\nvivibear::http://vivibear.zuopinj.com\n李承鹏::http://lichengpeng.zuopinj.com\n毛姆::http://maomu.zuopinj.com\n刘心武::http://liuxinwu.zuopinj.com\n李李翔::http://lilixiang.zuopinj.com\n秋风寒::http://qiufenghan.zuopinj.com\n岛田庄司::http://daotianzhuangsi.zuopinj.com\n风光::http://fengguang.zuopinj.com\n当年明月::http://dnmy.zuopinj.com\n宅小花::http://zhaixiaohua.zuopinj.com\n艾蜜莉::http://aimili.zuopinj.com\n鲁班尺::http://lubanchi.zuopinj.com\n米米拉::http://mimila.zuopinj.com\n虹影::http://hongying.zuopinj.com\n异度社::http://yidushe.zuopinj.com\n石康::http://shikang.zuopinj.com\n杨虚白::http://yangxubai.zuopinj.com\n皮皮::http://pipi.zuopinj.com\n夏茗悠::http://xiamingyou.zuopinj.com\n西村京太郎::http://xicunjingtailang.zuopinj.com\n龙人::http://longren.zuopinj.com\n小椴::http://xiaoduan.zuopinj.com\n蜀客::http://shuke.zuopinj.com\n何马::http://hema.zuopinj.com\n余秋雨::http://yuqiuyu.zuopinj.com\n萧宣::http://xiaoxuan.zuopinj.com\n于东楼::http://yudonglou.zuopinj.com\n米兰·昆德拉::http://milankundela.zuopinj.com\n秦红::http://qinhong.zuopinj.com\n瞬间倾城::http://sjqcheng.zuopinj.com\n夏乔恩::http://xiaqiaoen.zuopinj.com\n南绫::http://nanling.zuopinj.com\n笛安::http://dian.zuopinj.com\n方凌::http://fangling.zuopinj.com\n天使奥斯卡::http://tianshiaosika.zuopinj.com\n玉翎燕::http://yulingyan.zuopinj.com\n清虚道君::http://qingxudaojun.zuopinj.com\n七巧::http://qiqiao.zuopinj.com\n程小青::http://chengxiaoqing.zuopinj.com\n海明威::http://haimingwei.zuopinj.com\n陆观澜::http://luguanlan.zuopinj.com\n奥斯卡·王尔德::http://wangerde.zuopinj.com\n高和::http://gaohe.zuopinj.com\n夏树静子::http://xiashujingzi.zuopinj.com\n绫辻行人::http://lingshixingren.zuopinj.com\n周郎::http://zhoulang.zuopinj.com\n巴尔扎克::http://baerzhake.zuopinj.com\n内田康夫::http://neitiankangfu.zuopinj.com\n简·奥斯汀::http://jianaositing.zuopinj.com\n艾棻::http://aifen.zuopinj.com\n喵哆哆::http://miaoduoduo.zuopinj.com\n田歌::http://tiange.zuopinj.com\n冷玥::http://lengyue.zuopinj.com\n云外天都::http://yunwaitiandu.zuopinj.com\n木梵::http://mufan.zuopinj.com\n李莫野::http://limoye.zuopinj.com\n猫小白::http://maoxiaobai.zuopinj.com\n三十::http://sanshi.zuopinj.com\n冯君::http://fengjun.zuopinj.com\n阿瑟·黑利::http://aseheili.zuopinj.com\n陆天明::http://lutianming.zuopinj.com\n狗尾续金::http://gouweixujin.zuopinj.com\n石三::http://shisan.zuopinj.com\n高行健::http://gaoxingjian.zuopinj.com\n李歆::http://lixin.zuopinj.com\n吉儿::http://jier.zuopinj.com\n白槿湖::http://baijinhu.zuopinj.com\n祁钰::http://qiyu.zuopinj.com\n叶紫::http://yezi.zuopinj.com\n奇儒::http://qiru.zuopinj.com\n李亮::http://liliangwx.zuopinj.com\n维克多·雨果::http://yuguo.zuopinj.com\n敖飞扬::http://aofeiyang.zuopinj.com\n张海帆::http://zhanghaifan.zuopinj.com\n安靖::http://anjing.zuopinj.com\n孙玉鑫::http://sunyuxin.zuopinj.com\n慕夏::http://muxia.zuopinj.com\n楚惜刀::http://chuxidao.zuopinj.com\n雪儿::http://xueer.zuopinj.com\n胡伟红::http://huweihong.zuopinj.com\n艾勒里·奎恩::http://ailelikuien.zuopinj.com\n长晏::http://changyan.zuopinj.com\n斯蒂芬·茨威格::http://ciweige.zuopinj.com\n陈舜臣::http://chenshunchen.zuopinj.com\n冷情::http://lengqing.zuopinj.com\n孙睿::http://sunrui.zuopinj.com\n潘海天::http://panhaitian.zuopinj.com\n十八子墨::http://shibazimo.zuopinj.com\n甜橙::http://tiancheng.zuopinj.com\n林白::http://linbai.zuopinj.com\n正午月光::http://zhengwuyueguang.zuopinj.com\n蔡康永::http://caikangyong.zuopinj.com\n安安::http://anan.zuopinj.com\n托马斯·哈里斯::http://tuomasihalisi.zuopinj.com\n史生荣::http://shishengrong.zuopinj.com\n土屋隆夫::http://tuwulongfu.zuopinj.com\n呢喃::http://ninan.zuopinj.com\n王强::http://wangqiang.zuopinj.com\n陀思妥耶夫斯基::http://tuosituoyefusiji.zuopinj.com\n晁翎::http://chaoling.zuopinj.com\n朵朵::http://duoduo.zuopinj.com\n周显::http://zhouxian.zuopinj.com\n玛格丽特·杜拉斯::http://dulasi.zuopinj.com\n石玉昆::http://shiyukun.zuopinj.com\n唐欣恬::http://tangxintian.zuopinj.com\n大江健三郎::http://djjsl.zuopinj.com\n唐德刚::http://tangdegang.zuopinj.com\n简凡::http://jianfan.zuopinj.com\n丹·布朗::http://danbulang.zuopinj.com\n雪峰::http://xuefeng.zuopinj.com\n信周::http://xinzhou.zuopinj.com\n暖暖风轻::http://nuannuanfq.zuopinj.com\n井上靖::http://jingshangjing.zuopinj.com\n陈可芹::http://chenkeqin.zuopinj.com\n红猪侠::http://hongzhuxia.zuopinj.com\n燕歌::http://yange.zuopinj.com\n岩井俊二::http://yanjingjuner.zuopinj.com\n大仲马::http://dazhongma.zuopinj.com\n吴淡如::http://wudanru.zuopinj.com\n戴西::http://daixi.zuopinj.com\n山冈庄八::http://sgzb.zuopinj.com\n奥尔罕·帕慕克::http://aoerhanpamuke.zuopinj.com\n欧文·华莱士::http://hualaishi.zuopinj.com\n梅心白::http://meixinbai.zuopinj.com\n梁海燕::http://lianghaiyan.zuopinj.com\n加西亚·马尔克斯::http://jxymeks.zuopinj.com\n方晴::http://fangqing.zuopinj.com\n易容::http://yirong.zuopinj.com\n韦昕::http://weixin.zuopinj.com\n飘灯::http://piaodeng.zuopinj.com\n齐晏::http://qiyan.zuopinj.com\n姚雪垠::http://yaoxueyin.zuopinj.com\n盛颜::http://shengyan.zuopinj.com\n凯心::http://kaixin.zuopinj.com\n安妮·赖斯::http://annilaisi.zuopinj.com\n高木彬光::http://gaomubinguang.zuopinj.com\n叶萱::http://yexuan.zuopinj.com\n桃子夏::http://taozixia.zuopinj.com\n屠格涅夫::http://tugeniefu.zuopinj.com\n阿白白::http://abaibai.zuopinj.com\n周倩::http://zhouqian.zuopinj.com\n荻宜::http://diyi.zuopinj.com\n盛可以::http://shengkeyi.zuopinj.com\n山村美纱::http://shancunmeisha.zuopinj.com\n伊坂幸太郎::http://ybxtl.zuopinj.com\n莫辰::http://mochen.zuopinj.com\n柯怡::http://keyi.zuopinj.com\n童非非::http://tongfeifei.zuopinj.com\n一草::http://yicao.zuopinj.com\n高罗佩::http://gaoluopei.zuopinj.com\n黑柳彻子::http://heiliuchezi.zuopinj.com\n杨叛::http://yangpan.zuopinj.com\n黄仁宇::http://huangrenyu.zuopinj.com\n阿蛮::http://aman.zuopinj.com\n马克·吐温::http://maketuwen.zuopinj.com\n查尔斯·狄更斯::http://digengsi.zuopinj.com\n鬼鬼::http://guigui.zuopinj.com\n弗兰兹·卡夫卡::http://fulanzikafuka.zuopinj.com\n伊能静::http://yinengjing.zuopinj.com\n江雨朵::http://jiangyuduo.zuopinj.com\n舒浅::http://shuqian.zuopinj.com\n曾炜::http://cengwei.zuopinj.com\n求无欲::http://qiuwuyu.zuopinj.com\n阿香::http://axiang.zuopinj.com\n池秀贤::http://chixiuxian.zuopinj.com\n檀月::http://tanyue.zuopinj.com\n猪小萌::http://zhuxiaomeng.zuopinj.com\n辰晞::http://chenxi.zuopinj.com\n杨华团::http://yanghuatuan.zuopinj.com\n红杏::http://hongxing.zuopinj.com\n谢天::http://xietian.zuopinj.com\n森见登美彦::http://sjdmy.zuopinj.com\n掰着脚丫数太阳::http://zuopinj.com/kb/zjsty/\n塞林格::http://sailinge.zuopinj.com\n沈璎璎::http://shenyingying.zuopinj.com\n青微::http://qingwei.zuopinj.com\n乔治·西姆农::http://ximunong.zuopinj.com\n安瑟儿::http://anseer.zuopinj.com\n季柔::http://jirou.zuopinj.com\n夕照红::http://xizhaohong.zuopinj.com\n崔曼莉::http://cuimanli.zuopinj.com\n赫塔·米勒::http://hetamile.zuopinj.com\n颜依依::http://yanyiyi.zuopinj.com\n艾妮::http://aini.zuopinj.com\n唐席::http://tangxi.zuopinj.com\n乔治·奥威尔::http://qzawe.zuopinj.com\n天平::http://tianping.zuopinj.com\n藤井树::http://tengjingshu.zuopinj.com\n约翰·格里森姆::http://gelisenmu.zuopinj.com\n艾林::http://ailin.zuopinj.com\n灿非::http://canfei.zuopinj.com\n夷梦::http://yimeng.zuopinj.com\n何员外::http://heyuanwai.zuopinj.com\n司汤达::http://sitangda.zuopinj.com\n马里奥·普佐::http://tmapz.zuopinj.com\n天树征丸::http://tianshuzhengwan.zuopinj.com\n余以键::http://yuyijian.zuopinj.com\n菲茨杰拉德::http://feicijielade.zuopinj.com\n宝贝::http://baobei.zuopinj.com\n米包::http://mibao.zuopinj.com\nAPPLE::http://apple.zuopinj.com\n刘定坚::http://liudingjian.zuopinj.com\n明前雨后::http://mingqianyuhou.zuopinj.com\n李可::http://like.zuopinj.com\n宁肯::http://ningken.zuopinj.com\n赫尔曼·黑塞::http://heermanheisai.zuopinj.com\n斯蒂芬妮·梅尔::http://sidifennimeier.zuopinj.com\n安德烈·纪德::http://andeliejide.zuopinj.com\n子萱::http://zixuan.zuopinj.com\n于丹::http://yudan.zuopinj.com\n迈克尔·克莱顿::http://mkekld.zuopinj.com\n胭脂::http://yanzhi.zuopinj.com\n汪晴::http://wangqing.zuopinj.com\n伊恩·弗莱明::http://fulaiming.zuopinj.com\n沙沙::http://shasha.zuopinj.com\n安琦::http://anqii.zuopinj.com\n苏小懒::http://suxiaolan.zuopinj.com\n阎真::http://yanzhen.zuopinj.com\n点心::http://dianxin.zuopinj.com\n戴·赫·劳伦斯::http://laolunsi.zuopinj.com\n黄珍::http://huangzhen.zuopinj.com\n春树::http://chunshu.zuopinj.com\n袭玦::http://xijueyq.zuopinj.com\n冉云::http://ranyun.zuopinj.com\n日下圭介::http://rixiaguijie.zuopinj.com\n伊塔罗·卡尔维诺::http://kaerweinuo.zuopinj.com\n彼得·梅尔::http://bidemeier.zuopinj.com\n风千樱::http://fengqianying.zuopinj.com\n云晴::http://yunqing.zuopinj.com\n艾玟::http://aimin.zuopinj.com\n田蜜::http://tianmi.zuopinj.com\n徐徐::http://xuxu.zuopinj.com\n小米拉::http://xiaomila.zuopinj.com\n陶晴::http://taoqing.zuopinj.com\n芦雅萍::http://luyaping.zuopinj.com\n阿辛::http://axin.zuopinj.com\n滴滴::http://didi.zuopinj.com\n阿尔弗里·缪塞::http://aerfulisai.zuopinj.com\nbaby::http://baby.zuopinj.com\n白双::http://baishuang.zuopinj.com\nE·S·加德纳::http://jiadena.zuopinj.com\n埃尔弗里德·耶利内克::http://yelineike.zuopinj.com\n典典::http://diandian.zuopinj.com\n托马斯·哈代::http://tuomasihadai.zuopinj.com\n莎莲·哈里斯::http://charlaineharris.zuopinj.com\n嘻哈宝贝::http://xihabaobei.zuopinj.com\n库尔特·冯内古特::http://fengneigute.zuopinj.com\n莫可可::http://mokeke.zuopinj.com\n约翰·狄克森·卡尔::http://dikesenkaer.zuopinj.com\n莫里斯·勒布朗::http://molisilebulang.zuopinj.com\n艾珈::http://aijia.zuopinj.com\n果戈理::http://guogeli.zuopinj.com\n映彤::http://yingtong.zuopinj.com\n埃里奇·西格尔::http://ailiqixigeer.zuopinj.com\n张一一::http://zhangyiyi.zuopinj.com\n帕特里克·莫迪亚诺::http://ptlkmdyn.zuopinj.com\n棉花糖::http://mianhuatang.zuopinj.com\n水蓝::http://shuilan.zuopinj.com\n乖乖爱尔::http://guaiguaiaier.zuopinj.com\n卡尔·麦::http://kaermai.zuopinj.com\n海因茨·G·孔萨利克::http://kongsalike.zuopinj.com\n大谷羊太郎::http://daguyangtailang.zuopinj.com\n应小璐::http://yingxiaolu.zuopinj.com\n王文华::http://wangwenhua.zuopinj.com\n金河仁::http://jinheren.zuopinj.com\n桔梗::http://jiegeng.zuopinj.com\n苏珊·柯林斯::http://kelinsi.zuopinj.com\n内尔森·德米勒::http://demile.zuopinj.com\n唐纯::http://tangchun.zuopinj.com\n乔斯坦·贾德::http://josteingaarder.zuopinj.com\n托马斯·曼::http://tuomasiman.zuopinj.com\n王晓磊::http://wangxiaolei.zuopinj.com\n碧洛::http://biluo.zuopinj.com\n卡希布::http://kaxibu.zuopinj.com\n罗宾·科克::http://luobinkeke.zuopinj.com\n冬凌::http://dongling.zuopinj.com\n绿乔::http://lvqiao.zuopinj.com\n殷蓝::http://yinlan.zuopinj.com\n银戒指::http://yinjiezhi.zuopinj.com\n陈一夫::http://chenyifu.zuopinj.com\n石泽英太郎::http://shizeyingtailang.zuopinj.com\n爱哲::http://aizhe.zuopinj.com\n笔玉::http://biyu.zuopinj.com\n伊迪丝·华顿::http://yidisihuadun.zuopinj.com\n孟轩::http://mengxuan.zuopinj.com\n水格::http://shuige.zuopinj.com\n普罗斯佩·梅里美::http://meilimei.zuopinj.com\n曹芸::http://caoyun.zuopinj.com\n雷蒙德·本森::http://bensen.zuopinj.com\n洛瑶::http://luoyao.zuopinj.com\n宛柔::http://wanrou.zuopinj.com\nKiller::http://killer.zuopinj.com\n亚莱克斯·齐冈::http://qigang.zuopinj.com\n小林久三::http://xiaolinjiusan.zuopinj.com\n薇子::http://weizi.zuopinj.com\n吴若权::http://wuruoquan.zuopinj.com\n米·布尔加科夫::http://buerjiakefu.zuopinj.com\n安臣敬一::http://anchenjingyi.zuopinj.com\n范·戴恩::http://fandaien.zuopinj.com\n威廉德·普赖斯::http://wldpls.zuopinj.com\n赫尔曼·沃克::http://heermanwoke.zuopinj.com\n火星公主::http://huoxinggongzhu.zuopinj.com\n解嬿嬿::http://jieyanyan.zuopinj.com\n君特·格拉斯::http://juntegelasi.zuopinj.com\n董晓磊::http://dongxiaolei.zuopinj.com\n凉儿::http://lianger.zuopinj.com\n杨眉::http://yangmei.zuopinj.com\n莫非非::http://mofeifei.zuopinj.com\n哇卡卡::http://wakaka.zuopinj.com\n西奥多·德莱塞::http://xaddls.zuopinj.com\n苏栩::http://suxu.zuopinj.com\n斋藤荣::http://zhaitengrong.zuopinj.com\n玛格丽特·杜鲁门::http://dulumen.zuopinj.com\n纳兰真::http://nalanzhen.zuopinj.com\n水渝::http://shuiyu.zuopinj.com\nH·列昂诺夫::http://hlenf.zuopinj.com\n南无袈裟理科佛::http://zuopinj.com/kb/nwjslkf/\n崔友丽::http://cuiyouli.zuopinj.com\n亚历山德拉·玛丽尼娜::http://malinina.zuopinj.com\n谢里尔·伍兹::http://xielierwuzi.zuopinj.com\n培果::http://peiguo.zuopinj.com\n郝树声::http://haoshusheng.zuopinj.com\n露茜::http://luqian.zuopinj.com\n芴香初::http://wuxiangchu.zuopinj.com\n厄尔·德尔·比格斯::http://bigesi.zuopinj.com\n林银喜::http://linyinxi.zuopinj.com\n冰澈::http://bingche.zuopinj.com\n李林银::http://lilinyin.zuopinj.com\n杉井光::http://shanjingguang.zuopinj.com\n朱星辰::http://zhuxingchen.zuopinj.com\n白玉虹::http://baiyuhong.zuopinj.com\n岚云::http://lanyun.zuopinj.com\n薇雅::http://weiya.zuopinj.com\n徐亨周::http://xuhengzhou.zuopinj.com\nSTEIN::http://stein.zuopinj.com\n三好彻::http://sanhaoche.zuopinj.com\n葆琳::http://baolin.zuopinj.com\n宝蒂::http://baodi.zuopinj.com\n展蓉::http://zhanrong.zuopinj.com\n银锋::http://yinfeng.zuopinj.com\n美娜::http://meina.zuopinj.com\n苗希卡::http://miaoxika.zuopinj.com\n桑暧::http://sangnuan.zuopinj.com\n爱琤::http://aicheng.zuopinj.com\n朱少麟::http://zhushaolin.zuopinj.com\n飞天::http://zuopinj.com/kb/feitian/\n鱼悠::http://yuyou.zuopinj.com\n有马赖义::http://youmalaiyi.zuopinj.com\n欧倩兮::http://ouqianxi.zuopinj.com\n刘斯奋::http://liusifen.zuopinj.com\n兰郡::http://lanjun.zuopinj.com\n纪连海::http://zuopinj.com/ls/jilianhai/\n欧斯卡::http://ousika.zuopinj.com\n阴阳眼::http://zuopinj.com/kb/yinyangyan/\n仐三::http://zuopinj.com/kb/jinsan/\n夏忆::http://zuopinj.com/kb/xiayi/\n紫色女孩::http://zuopinj.com/xy/zisenvhai/\n扬扬::http://zuopinj.com/xy/yangyang/\n子尤::http://zuopinj.com/xy/ziyou/\n李林麒::http://zuopinj.com/kb/lilinqi/\n庞家康少::http://zuopinj.com/kb/pangjiakangshao/\n郑周喜::http://zuopinj.com/xy/zhengzhouxi/\n郑恩京::http://zuopinj.com/xy/zhengenjing/\n周孝善::http://zuopinj.com/xy/zhouxiaoshan/\n詹馥华::http://zuopinj.com/xy/zhanfuhua/\n灵椿八千::http://zuopinj.com/kb/lingchunbaqian/",
@@ -41009,6 +40972,82 @@
   },
   "ruleContent": {
    "content": "#txt@html##一秒记住.*biquge\\d+.*",
+   "nextContentUrl": "",
+   "imageStyle": "",
+   "webJs": "",
+   "sourceRegex": "",
+   "replaceRegex": ""
+  }
+ },
+ {
+  "bookSourceUrl": "http://www.ciweimao.com",
+  "bookSourceName": "刺猬猫",
+  "bookSourceGroup": "",
+  "bookUrlPattern": "",
+  "concurrentRate": "",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36\"\n}",
+  "loginUrl": "",
+  "loginUi": "",
+  "loginCheckJs": "",
+  "coverDecodeJs": "",
+  "bookSourceComment": "",
+  "variableComment": "",
+  "exploreUrl": "",
+  "exploreScreen": "",
+  "searchUrl": "https://www.ciweimao.com/get-search-book-list/{{key}}/1",
+  "bookSourceType": 0,
+  "customOrder": 3217,
+  "lastUpdateTime": 1769584389739,
+  "respondTime": 71,
+  "weight": 1,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.cnt.0@tag.p.1@tag.a.0@text",
+   "bookList": "class.rank-book-list@tag.li",
+   "bookUrl": "class.cnt.0@class.tit.0@tag.a.0@href",
+   "coverUrl": "tag.img.0@src",
+   "intro": "",
+   "kind": "",
+   "lastChapter": "class.cnt.0@tag.p.2@text##.*/",
+   "name": "class.cnt.0@class.tit.0@tag.a@text",
+   "wordCount": ""
+  },
+  "ruleExplore": {
+   "author": "",
+   "bookList": "",
+   "bookUrl": "",
+   "coverUrl": "",
+   "intro": "",
+   "kind": "",
+   "lastChapter": "",
+   "name": "",
+   "wordCount": ""
+  },
+  "ruleBookInfo": {
+   "init": "",
+   "author": "class.book-title.0@tag.span.0@tag.a.0@text",
+   "coverUrl": "tag.img.0@src",
+   "intro": "class.book-desc.0@text",
+   "kind": "",
+   "lastChapter": "",
+   "name": "tag.h1.0@text",
+   "canReName": "",
+   "tocUrl": "class.btn-more ly-fr@herf",
+   "wordCount": ""
+  },
+  "ruleToc": {
+   "chapterList": "class.book-chapter-list@tag.a",
+   "chapterName": "text",
+   "chapterUrl": "href",
+   "isVip": "",
+   "isVolume": "",
+   "nextTocUrl": "",
+   "updateTime": ""
+  },
+  "ruleContent": {
+   "content": "id.J_BookRead@textNodes||class.chapter@textNodes",
    "nextContentUrl": "",
    "imageStyle": "",
    "webJs": "",

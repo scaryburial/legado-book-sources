@@ -1,38 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.ucyst.com",
-  "bookSourceName": "酷书包",
-  "bookSourceGroup": "AAA,搜索失效",
-  "bookUrlPattern": "",
-  "loginUrl": "",
-  "bookSourceComment": "// Error: 搜索失效",
-  "searchUrl": "https://www.ucyst.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 24634,
-  "lastUpdateTime": 1601610339333,
-  "respondTime": 180239,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": false,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "class.odd.1@text",
-   "bookList": "class.grid@tag.tr!0",
-   "bookUrl": "class.odd.0@tag.a.0@href",
-   "lastChapter": "class.even.0@tag.a.0@text",
-   "name": "class.odd.0@tag.a.0@text"
-  },
-  "ruleToc": {
-   "chapterList": "class.ml_list@tag.li@tag.a",
-   "chapterName": "text",
-   "chapterUrl": "href"
-  },
-  "ruleContent": {
-   "content": "class.articlecontent@html",
-   "imageStyle": "0"
-  }
- },
- {
   "bookSourceUrl": "https://www.bilibili.com/audio",
   "bookSourceName": "🎼 哔哩音乐",
   "bookSourceGroup": "神段【大乘级】（小说源）",
@@ -879,7 +846,7 @@
  },
  {
   "bookSourceUrl": "https://www.diyibanzhu2.in",
-  "bookSourceName": " 版主",
+  "bookSourceName": "版主",
   "bookSourceGroup": "优质源",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; xxxx;wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.132 Mobile Safari/537.36\"\n}",
   "bookSourceComment": "",
@@ -9296,7 +9263,7 @@
  },
  {
   "bookSourceUrl": "https://www.xxsy.net/#kd11",
-  "bookSourceName": "✾+㊣潇湘书院 ",
+  "bookSourceName": "✾+㊣潇湘书院",
   "bookSourceGroup": "发现失效,搜索目录失效,﹅ ㊣ 正版,﹅ ✾ 言耽",
   "bookSourceComment": "// Error: 发现失效, 搜索目录失效",
   "exploreUrl": "[{\"title\":\"                         女频                        \",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"   潇湘书库   \",\"url\":\"https://www.xxsy.net/search?s_wd=&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   古代言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=1&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   玄幻言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=3&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   仙侠奇缘   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=4&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   现代言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=2&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   浪漫青春   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=6&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   悬疑推理   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=5&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   科幻空间   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=7&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   游戏竞技   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=8&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
@@ -13532,7 +13499,7 @@
   }
  },
  {
-  "bookSourceUrl": " http://minguodaomuwangshi.wddsnxn.org",
+  "bookSourceUrl": "http://minguodaomuwangshi.wddsnxn.org",
   "bookSourceName": "民国盗墓",
   "bookSourceGroup": "小说 书源",
   "bookUrlPattern": "",
@@ -16304,7 +16271,7 @@
  },
  {
   "bookSourceUrl": "http://ku.mumuceo.com#乃星edit",
-  "bookSourceName": "a🔎全网榜单💙仅发现mumuceo➖➖➖➖➖　",
+  "bookSourceName": "a🔎全网榜单💙仅发现mumuceo➖➖➖➖➖",
   "bookSourceGroup": "21.0228乃星,★",
   "bookUrlPattern": "",
   "header": "",
@@ -19727,7 +19694,7 @@
  },
  {
   "bookSourceUrl": "https://www.28lu.net/book/100655867/341617450.html",
-  "bookSourceName": " 笔趣阁。",
+  "bookSourceName": "笔趣阁。",
   "bookSourceGroup": "搜索链接规则为空",
   "bookSourceComment": "https://www.28lu.net/book/100655867/341617450.html",
   "bookSourceType": 0,

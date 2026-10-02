@@ -1,52 +1,5 @@
 [
  {
-  "bookSourceUrl": "https://www.19826.net",
-  "bookSourceName": "Ⓢ 19826",
-  "bookSourceGroup": "𐄚 Ⓢ级",
-  "bookUrlPattern": "",
-  "header": "",
-  "loginUrl": "",
-  "bookSourceComment": "",
-  "exploreUrl": "",
-  "searchUrl": "https://www.19826.net/?a=search&,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
-  "bookSourceType": 0,
-  "customOrder": 13065,
-  "lastUpdateTime": 1635430654223,
-  "respondTime": 3850,
-  "weight": 0,
-  "enabled": true,
-  "enabledExplore": true,
-  "enabledCookieJar": false,
-  "ruleSearch": {
-   "author": "tag.td.2@text",
-   "bookList": "table@tr!0",
-   "bookUrl": "tag.a.0@href",
-   "coverUrl": "tag.a.0@href<js>java.ajax(result)</js>img@src",
-   "intro": "tag.a.0@href<js>java.ajax(result)</js>#bookIntro@text",
-   "kind": "tag.td.-1@text",
-   "lastChapter": "{{@@tag.a.1@text}}▪{{@@tag.td.-2@text}}",
-   "name": "tag.a.0@text"
-  },
-  "ruleBookInfo": {
-   "author": "class.booktag@tag.a.0@text",
-   "coverUrl": "img@src##.*/nocover.jpg",
-   "intro": "id.bookIntro@text",
-   "kind": "class.booktag@tag.a!0@text",
-   "lastChapter": "class.panel-body panel-chapterlist.0@a.0@text",
-   "name": "class.bookTitle@text"
-  },
-  "ruleToc": {
-   "chapterList": "class.panel-chapterlist.-1@dd@a",
-   "chapterName": "text",
-   "chapterUrl": "href"
-  },
-  "ruleContent": {
-   "content": "#htmlContent+div@html##注意：显示本章节全部内容[\\s\\S]+##❌",
-   "nextContentUrl": "##url = \"([^\"]+)\";##$1###",
-   "replaceRegex": "##\\s*❌\\s*|出错了，请刷新重试|热门小说txt下载|.*百度畅读模式下功能不全.*|https://www.19826.net|.*请百度搜.*"
-  }
- },
- {
   "bookSourceUrl": "https://www.19826.net#未月十八改",
   "bookSourceName": "Ⓢ 19826",
   "bookSourceGroup": "𐄚 Ⓢ级",
@@ -4877,7 +4830,7 @@
  },
  {
   "bookSourceUrl": "https://www.feisitesujiao.com",
-  "bookSourceName": "✐   快眼看书 ",
+  "bookSourceName": "✐   快眼看书",
   "bookSourceGroup": "☃ 自用",
   "bookUrlPattern": "",
   "header": "",
@@ -13163,7 +13116,7 @@
  },
  {
   "bookSourceUrl": "https://www.bsl666.com#md",
-  "bookSourceName": "㊝ 百书楼 ♜♜♜ ",
+  "bookSourceName": "㊝ 百书楼 ♜♜♜",
   "bookSourceGroup": "",
   "bookSourceComment": ",8++,0++👍百书楼🅰️🅰️💙💙💙🅰️z  haxc",
   "searchUrl": "https://www.bsl666.com/s.php?ie=gbk&q={{key}}",
@@ -13206,7 +13159,7 @@
  },
  {
   "bookSourceUrl": "https://www.bsl666.com",
-  "bookSourceName": "🍺 百书楼 ♜♜♜ ",
+  "bookSourceName": "🍺 百书楼 ♜♜♜",
   "bookSourceGroup": "",
   "bookSourceComment": ",8++,0++👍百书楼🅰️🅰️💙💙💙🅰️z  haxc",
   "searchUrl": "https://www.bsl666.com/s.php?ie=gbk&q={{key}}",
@@ -21039,7 +20992,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.fenxbook.com#fengtui dl         ",
+  "bookSourceUrl": "https://www.fenxbook.com#fengtui dl",
   "bookSourceName": "封推中文",
   "bookSourceGroup": "🍁,搜索失效",
   "bookUrlPattern": "",
@@ -26371,7 +26324,7 @@
  },
  {
   "bookSourceUrl": "http://www.tsxsw.net",
-  "bookSourceName": "🐳吞噬小说 ",
+  "bookSourceName": "🐳吞噬小说",
   "bookSourceGroup": "🍥 男频备用 🍥,⌛️ 全局搜书 ⌛️,®️ 搜书男频 ®️",
   "bookUrlPattern": "",
   "loginUrl": "",
@@ -26845,7 +26798,7 @@
  },
  {
   "bookSourceUrl": "http://www.147xs.org#grid tr!0#芜恙",
-  "bookSourceName": "  b🌸147小说🅰💜💜💜w #芜恙 bak",
+  "bookSourceName": "b🌸147小说🅰💜💜💜w #芜恙 bak",
   "bookSourceGroup": "👍 优质,21.01芜恙,★,",
   "bookUrlPattern": "",
   "header": "",
@@ -27147,7 +27100,7 @@
  },
  {
   "bookSourceUrl": "https://api.ywpxg.com/api/v1/#ag2s",
-  "bookSourceName": "  b💯笔趣屋🅰APP💜💜💜🔎 #ag2s bak",
+  "bookSourceName": "b💯笔趣屋🅰APP💜💜💜🔎 #ag2s bak",
   "bookSourceGroup": "API,zip,🎉 精品,★,★🔎,☀️搜书/换源 A▪精品",
   "bookUrlPattern": "",
   "header": "",
@@ -27185,7 +27138,7 @@
  },
  {
   "bookSourceUrl": "https://m.9txs.com#关耳",
-  "bookSourceName": "  b💯九桃小说🅰🔎com#关耳 bak",
+  "bookSourceName": "b💯九桃小说🅰🔎com#关耳 bak",
   "bookSourceGroup": "21.0619关耳,★,★🔎",
   "bookUrlPattern": "https?://www.9txs.com/book/\\d+.html",
   "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
@@ -36729,7 +36682,7 @@
   }
  },
  {
-  "bookSourceUrl": "https://www.50zw.la ",
+  "bookSourceUrl": "https://www.50zw.la",
   "bookSourceName": "武林中文网 50zw.la",
   "bookSourceGroup": "🏵️  小说,🎉 精选 🎉",
   "bookUrlPattern": "",
@@ -41857,7 +41810,7 @@
  },
  {
   "bookSourceUrl": "http://www.lewen7.com",
-  "bookSourceName": "\r乐文小说网",
+  "bookSourceName": "乐文小说网",
   "bookSourceGroup": "⁵♡ོ晨光雨露✺普通源",
   "bookUrlPattern": "",
   "loginUrl": "null",
@@ -42498,6 +42451,48 @@
   },
   "ruleContent": {
    "content": "id.content@textNodes##天才一秒记住.*|转载请注明出处："
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.81zw.cc/",
+  "bookSourceName": "🎊八一中文⑰",
+  "bookSourceGroup": "优质源👍",
+  "bookSourceComment": "",
+  "searchUrl": "https://www.81zw.cc/search/,{\r\n  \"method\": \"POST\",\r\n  \"body\": \"searchkey={{key}}&searchtype=all\"\r\n}",
+  "bookSourceType": 0,
+  "customOrder": 26327,
+  "lastUpdateTime": 1615545555083,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.s4@text",
+   "bookList": "class.layout layout2 layout-co18@tag.li",
+   "bookUrl": "tag.a.0@href",
+   "kind": "class.s1@text&&\nclass.s5@text##\\[|\\]",
+   "lastChapter": "class.s3@a@text",
+   "name": "class.s2@a@text"
+  },
+  "ruleBookInfo": {
+   "author": "class.fix@tag.p.0@text##作者：",
+   "coverUrl": "class.imgbox@tag.img@src",
+   "intro": "class.m-desc@text",
+   "kind": "class.fix@tag.p.1@text&&\nclass.fix@tag.p.2@text&&\nclass.fix@tag.p.4@text##类别：|状态：|最后更新：",
+   "lastChapter": "class.section-box.0@tag.li.0@a@text",
+   "name": "class.top@tag.h1@text",
+   "tocUrl": ""
+  },
+  "ruleToc": {
+   "chapterList": "class.section-box.1@li",
+   "chapterName": "tag.a.0@text",
+   "chapterUrl": "tag.a.0@href",
+   "nextTocUrl": "text.下一页@href"
+  },
+  "ruleContent": {
+   "content": "id.content@html##章节错误.*并刷新页面。|天才一秒记.*更新最快！",
+   "nextContentUrl": "text.下一页@href"
   }
  }
 ]

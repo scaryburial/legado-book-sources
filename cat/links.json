@@ -2,7 +2,7 @@
  {
   "分类": "小说",
   "文件": "Novel-1.json",
-  "条数": 3016,
+  "条数": 3025,
   "大小MB": 17.4,
   "直链": "https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/Novel-1.json",
   "一键导入": "legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FNovel-1.json"
@@ -10,8 +10,8 @@
  {
   "分类": "小说",
   "文件": "Novel-2.json",
-  "条数": 2761,
-  "大小MB": 10.0,
+  "条数": 2771,
+  "大小MB": 10.1,
   "直链": "https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/Novel-2.json",
   "一键导入": "legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FNovel-2.json"
  },
