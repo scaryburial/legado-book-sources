@@ -1,0 +1,18 @@
+{
+ "files": 189,
+ "entries": 115434,
+ "type_dist": {
+  "0": 108173,
+  "2": 4702,
+  "3": 501,
+  "1": 2033,
+  "4": 25
+ },
+ "errors": [
+  "legado-adult-built.apk:bookSources.json: 有 3 个重复 bookSourceUrl（导入会互相覆盖）",
+  "legado-main-built.apk:bookSources.json: 有 3 个重复 bookSourceUrl（导入会互相覆盖）"
+ ],
+ "warnings": [],
+ "error_count": 2,
+ "warning_count": 0
+}

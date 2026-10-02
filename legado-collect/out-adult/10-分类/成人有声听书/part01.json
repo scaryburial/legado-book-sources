@@ -1,27 +1,19 @@
 [
  {
-  "bookSourceComment": "源社区@yemingkong\n源社区：https://taoba.cf\n萌新写源，能力有限，有声小说无法获取mp3格式",
-  "bookSourceGroup": "🌹",
-  "bookSourceName": "成人小说网🌹",
-  "bookSourceType": 0,
   "bookSourceUrl": "https://crxs.me",
-  "customOrder": 27252,
-  "enabled": true,
-  "enabledCookieJar": true,
-  "enabledExplore": false,
+  "bookSourceName": "成人小说网🌹",
+  "bookSourceGroup": "🌹",
+  "bookSourceComment": "源社区@yemingkong\n源社区：https://taoba.cf\n萌新写源，能力有限，有声小说无法获取mp3格式",
   "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/fictions/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"编辑推荐\",\"url\":\"/fictions/tag-编辑推荐/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"人妻女友\",\"url\":\"/fictions/tag-人妻女友/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"学生校园\",\"url\":\"/fictions/tag-学生校园/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"伴侣交换\",\"url\":\"/fictions/tag-伴侣交换/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市生活\",\"url\":\"/fictions/tag-都市生活/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"动漫游戏\",\"url\":\"/fictions/tag-动漫游戏/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"名人明星\",\"url\":\"/fictions/tag-名人明星/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"经验故事\",\"url\":\"/fictions/tag-经验故事/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"古典玄幻\",\"url\":\"/fictions/tag-古典玄幻/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"家庭乱伦\",\"url\":\"/fictions/tag-家庭乱伦/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"多人群交\",\"url\":\"/fictions/tag-多人群交/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"公司职场\",\"url\":\"/fictions/tag-公司职场/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"露出暴露\",\"url\":\"/fictions/tag-露出暴露/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"强暴性虐\",\"url\":\"/fictions/tag-强暴性虐/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"西方主题\",\"url\":\"/fictions/tag-西方主题/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"同性主题\",\"url\":\"/fictions/tag-同性主题/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"绿帽主题\",\"url\":\"/fictions/tag-绿帽主题/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"长篇连载\",\"url\":\"/fictions/tag-长篇连载/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"经典回忆\",\"url\":\"/fictions/tag-经典回忆/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"有声小说\",\"url\":\"/fictions/tag-有声小说/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"——\",\"url\":\"/fictions/tag-有声小说/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n]",
+  "searchUrl": "https://crxs.me/fictions/keyword-{{key}}/{{page}}.html",
+  "bookSourceType": 0,
+  "customOrder": 27252,
   "lastUpdateTime": 1750219896359,
   "respondTime": 3934,
-  "ruleBookInfo": {
-   "author": "class.author@text",
-   "intro": "class.brief@text##导读：",
-   "tocUrl": ""
-  },
-  "ruleContent": {
-   "content": "class.content@tag.p@html##（看精彩成人小说上《成人小说网》：https://crxs.me）|",
-   "replaceRegex": ""
-  },
-  "ruleExplore": {},
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": false,
+  "enabledCookieJar": true,
   "ruleSearch": {
    "author": "class.author@text",
    "bookList": "class.lists@a",
@@ -30,107 +22,40 @@
    "kind": "class.tag@text##编辑推荐",
    "name": "class.title@text"
   },
+  "ruleBookInfo": {
+   "author": "class.author@text",
+   "intro": "class.brief@text##导读：",
+   "tocUrl": ""
+  },
   "ruleToc": {
    "chapterList": "class.chapters@tag.a",
    "chapterName": "tag.a@text",
    "chapterUrl": "tag.a@href"
   },
-  "searchUrl": "https://crxs.me/fictions/keyword-{{key}}/{{page}}.html",
-  "weight": 0
+  "ruleContent": {
+   "content": "class.content@tag.p@html##（看精彩成人小说上《成人小说网》：https://crxs.me）|",
+   "replaceRegex": ""
+  }
  },
  {
-  "bookSourceComment": "uaa地址发布页：\nhttps://uaadizhi.com\n可自行更改源域名：\nhttps://www.uaa.com\nhttps://www.uaa001.com\nhttps://www.uaa002.com\nhttps://www.uaa003.com\nhttps://www.uaa004.com\nhttps://www.uaa005.com\nhttps://www.uaa202410.com\nby_tlyanyu",
-  "bookSourceGroup": "9",
-  "bookSourceName": "💝 UAA有声",
-  "bookSourceType": 1,
   "bookSourceUrl": "https://www.uaa001.com##有声##",
-  "customOrder": 3036,
-  "enabled": true,
-  "enabledCookieJar": false,
-  "enabledExplore": true,
-  "exploreUrl": "[{'title':'分类 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'有声小说','url':'/api/audio/app/audio/search?category=有声小说&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'淫词艳曲','url':'/api/audio/app/audio/search?category=淫词艳曲&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'激情骚麦','url':'/api/audio/app/audio/search?category=激情骚麦&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'寸止训练','url':'/api/audio/app/audio/search?category=寸止训练&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时长 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'短篇','url':'/api/audio/app/audio/search?duration=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'中篇','url':'/api/audio/app/audio/search?duration=2&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'长篇','url':'/api/audio/app/audio/search?duration=3&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'来源 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'原创首发','url':'/api/audio/app/audio/search?page={{page}}&size=25&source=1','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'会员上传','url':'/api/audio/app/audio/search?page={{page}}&size=25&source=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'状态 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'已完结','url':'/api/audio/app/audio/search?finished=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'连载中','url':'/api/audio/app/audio/search?finished=0&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时段 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'周榜','url':'/api/audio/app/audio/rank?page={{page}}&type=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'月榜','url':'/api/audio/app/audio/rank?page={{page}}&type=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'年榜','url':'/api/audio/app/audio/rank?page={{page}}&type=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'热门','url':'/api/audio/app/audio/rank?page={{page}}&type=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'评分 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'＞4','url':'/api/audio/app/audio/search?page={{page}}&score=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞3','url':'/api/audio/app/audio/search?page={{page}}&score=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞2','url':'/api/audio/app/audio/search?page={{page}}&score=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞1','url':'/api/audio/app/audio/search?page={{page}}&score=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'CV','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'小苮儿','url':'/api/audio/app/audio/search?author=小苮儿&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'曼曼','url':'/api/audio/app/audio/search?author=曼曼&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'点心','url':'/api/audio/app/audio/search?author=点心&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小窈','url':'/api/audio/app/audio/search?author=小窈&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小咪','url':'/api/audio/app/audio/search?author=小咪&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'戴逸','url':'/api/audio/app/audio/search?author=戴逸&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'雅朵','url':'/api/audio/app/audio/search?author=雅朵&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小野猫','url':'/api/audio/app/audio/search?author=小野猫&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'步非烟','url':'/api/audio/app/audio/search?author=步非烟&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小瑶','url':'/api/audio/app/audio/search?author=小瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'姽狐','url':'/api/audio/app/audio/search?author=姽狐&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'芯媛','url':'/api/audio/app/audio/search?author=芯媛&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小美','url':'/api/audio/app/audio/search?author=小美&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'浅浅','url':'/api/audio/app/audio/search?author=浅浅&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'沙拉','url':'/api/audio/app/audio/search?author=沙拉&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'萱妹','url':'/api/audio/app/audio/search?author=萱妹&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Rain','url':'/api/audio/app/audio/search?author=Rain&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'南征','url':'/api/audio/app/audio/search?author=南征&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小筝','url':'/api/audio/app/audio/search?author=小筝&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小琳','url':'/api/audio/app/audio/search?author=小琳&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'林三岁','url':'/api/audio/app/audio/search?author=林三岁&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'叶倩彤','url':'/api/audio/app/audio/search?author=叶倩彤&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'秋水','url':'/api/audio/app/audio/search?author=秋水&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Mini姐','url':'/api/audio/app/audio/search?author=Mini姐&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'戴猫耳的大魔王','url':'/api/audio/app/audio/search?author=戴猫耳的大魔王&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'源源','url':'/api/audio/app/audio/search?author=源源&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'青梅','url':'/api/audio/app/audio/search?author=青梅&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'嫣然','url':'/api/audio/app/audio/search?author=嫣然&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小爽','url':'/api/audio/app/audio/search?author=小爽&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'大宝','url':'/api/audio/app/audio/search?author=大宝&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Rainnight.雨','url':'/api/audio/app/audio/search?author=Rainnight.雨&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小颦','url':'/api/audio/app/audio/search?author=小颦&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'楪祈','url':'/api/audio/app/audio/search?author=楪祈&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小一熟了吗','url':'/api/audio/app/audio/search?author=小一熟了吗&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小晶晶软糖','url':'/api/audio/app/audio/search?author=小晶晶软糖&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'李二狗','url':'/api/audio/app/audio/search?author=李二狗&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'绝色','url':'/api/audio/app/audio/search?author=绝色&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'梦瑶','url':'/api/audio/app/audio/search?author=梦瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'紫洛','url':'/api/audio/app/audio/search?author=紫洛&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小晴','url':'/api/audio/app/audio/search?author=小晴&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'想睡觉','url':'/api/audio/app/audio/search?author=想睡觉&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'宋恩','url':'/api/audio/app/audio/search?author=宋恩&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小优','url':'/api/audio/app/audio/search?author=小优&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'墨白','url':'/api/audio/app/audio/search?author=墨白&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小媚','url':'/api/audio/app/audio/search?author=小媚&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'魅惑','url':'/api/audio/app/audio/search?author=魅惑&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'鹿梧','url':'/api/audio/app/audio/search?author=鹿梧&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'偷听','url':'/api/audio/app/audio/search?author=偷听&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'狐姬','url':'/api/audio/app/audio/search?author=狐姬&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'柳瑶','url':'/api/audio/app/audio/search?author=柳瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}}]",
+  "bookSourceName": "💝 UAA有声",
+  "bookSourceGroup": "9",
   "header": "{\"token\": \"eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ODYwNzIxNzA0MDMxMzU4OTc2LCJ0eXBlIjoiY3VzdG9tZXIiLCJ0aW1lc3RhbXAiOjE2ODUzNzg1MTE1NzQsImV4cCI6MTY4NTk4MzMxMX0.-FX7rOJP7I10ApjeM5NVaGj57aeYnkVyopniC7U_Dv8\",\"Referer\":\"https://www.uaa001.com\"}",
-  "lastUpdateTime": 1739850337005,
-  "loginCheckJs": "",
   "loginUrl": "/",
-  "respondTime": 5630,
-  "ruleBookInfo": {
-   "author": ".authors",
-   "canReName": "1",
-   "coverUrl": ".coverUrl",
-   "init": "",
-   "intro": "&nbsp;{{$..brief}}\n&shy;\n开坑：{{$..createTime##(.*?)T(.*?)\\.##$1 $2###}}\n更新：{{$..updateTime##(.*?)T(.*?)\\.##$1 $2###}}\n##^&nbsp;\\n&shy;",
-   "kind": "{{java.getString('.finished')==1?\"完结\":\"连载\"}},{{$..categories}}",
-   "lastChapter": ".latestUpdate",
-   "name": "",
-   "tocUrl": ".id##^##catalog/",
-   "wordCount": ".wordCount"
-  },
-  "ruleContent": {
-   "content": ".url",
-   "replaceRegex": "##[\\s\\S]*请访问源网站！[\\s\\S]*",
-   "title": ""
-  },
-  "ruleExplore": {},
-  "ruleSearch": {
-   "author": "authors\n@js:\nr = result;\nr != \"\" ? r: \"UAA\";",
-   "bookList": ".[?(@.title)]",
-   "bookUrl": "id||audioId##^##intro?id=",
-   "checkKeyWord": "",
-   "coverUrl": "coverUrl",
-   "intro": "shortBrief##\\s*",
-   "kind": "{{$.finished##1##完结}},{{$.categories&&updateTimeFormat}}##^0,##连载,",
-   "lastChapter": "latestUpdate",
-   "name": "title",
-   "wordCount": ""
-  },
-  "ruleToc": {
-   "chapterList": ".[?(@.title)]",
-   "chapterName": "title",
-   "chapterUrl": "@js:\n`../chapter?force=false&id={{$.id}}&offset=0&viewId=` + new Date().getTime() + Math.round(Math.random() * (9999 - 1000) + 1000);",
-   "isPay": "purchased",
-   "isVip": "vip",
-   "isVolume": "",
-   "updateTime": "{{$.price}}U币  {{$.onlineTime##(.*?)T(.*?)\\.##$1 $2###}}##^0.0U币\\s*"
-  },
-  "searchUrl": "/api/audio/app/audio/search?category=&keyword={{encodeURIComponent(key)}}&orderType=0&page={{page}}&searchType=1&size=42",
-  "variableComment": "",
-  "weight": 0
- },
- {
+  "loginCheckJs": "",
   "bookSourceComment": "uaa地址发布页：\nhttps://uaadizhi.com\n可自行更改源域名：\nhttps://www.uaa.com\nhttps://www.uaa001.com\nhttps://www.uaa002.com\nhttps://www.uaa003.com\nhttps://www.uaa004.com\nhttps://www.uaa005.com\nhttps://www.uaa202410.com\nby_tlyanyu",
-  "bookSourceGroup": "🔞 小说",
-  "bookSourceName": "UAA有声，友声",
-  "bookSourceType": 1,
-  "bookSourceUrl": "https://www.uaa004.com##有声",
-  "customOrder": 1402,
-  "enabled": true,
-  "enabledCookieJar": false,
-  "enabledExplore": true,
+  "variableComment": "",
   "exploreUrl": "[{'title':'分类 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'有声小说','url':'/api/audio/app/audio/search?category=有声小说&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'淫词艳曲','url':'/api/audio/app/audio/search?category=淫词艳曲&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'激情骚麦','url':'/api/audio/app/audio/search?category=激情骚麦&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'寸止训练','url':'/api/audio/app/audio/search?category=寸止训练&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时长 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'短篇','url':'/api/audio/app/audio/search?duration=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'中篇','url':'/api/audio/app/audio/search?duration=2&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'长篇','url':'/api/audio/app/audio/search?duration=3&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'来源 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'原创首发','url':'/api/audio/app/audio/search?page={{page}}&size=25&source=1','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'会员上传','url':'/api/audio/app/audio/search?page={{page}}&size=25&source=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'状态 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'已完结','url':'/api/audio/app/audio/search?finished=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'连载中','url':'/api/audio/app/audio/search?finished=0&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时段 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'周榜','url':'/api/audio/app/audio/rank?page={{page}}&type=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'月榜','url':'/api/audio/app/audio/rank?page={{page}}&type=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'年榜','url':'/api/audio/app/audio/rank?page={{page}}&type=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'热门','url':'/api/audio/app/audio/rank?page={{page}}&type=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'评分 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'＞4','url':'/api/audio/app/audio/search?page={{page}}&score=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞3','url':'/api/audio/app/audio/search?page={{page}}&score=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞2','url':'/api/audio/app/audio/search?page={{page}}&score=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞1','url':'/api/audio/app/audio/search?page={{page}}&score=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'CV','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'小苮儿','url':'/api/audio/app/audio/search?author=小苮儿&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'曼曼','url':'/api/audio/app/audio/search?author=曼曼&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'点心','url':'/api/audio/app/audio/search?author=点心&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小窈','url':'/api/audio/app/audio/search?author=小窈&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小咪','url':'/api/audio/app/audio/search?author=小咪&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'戴逸','url':'/api/audio/app/audio/search?author=戴逸&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'雅朵','url':'/api/audio/app/audio/search?author=雅朵&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小野猫','url':'/api/audio/app/audio/search?author=小野猫&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'步非烟','url':'/api/audio/app/audio/search?author=步非烟&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小瑶','url':'/api/audio/app/audio/search?author=小瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'姽狐','url':'/api/audio/app/audio/search?author=姽狐&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'芯媛','url':'/api/audio/app/audio/search?author=芯媛&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小美','url':'/api/audio/app/audio/search?author=小美&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'浅浅','url':'/api/audio/app/audio/search?author=浅浅&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'沙拉','url':'/api/audio/app/audio/search?author=沙拉&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'萱妹','url':'/api/audio/app/audio/search?author=萱妹&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Rain','url':'/api/audio/app/audio/search?author=Rain&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'南征','url':'/api/audio/app/audio/search?author=南征&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小筝','url':'/api/audio/app/audio/search?author=小筝&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小琳','url':'/api/audio/app/audio/search?author=小琳&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'林三岁','url':'/api/audio/app/audio/search?author=林三岁&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'叶倩彤','url':'/api/audio/app/audio/search?author=叶倩彤&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'秋水','url':'/api/audio/app/audio/search?author=秋水&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Mini姐','url':'/api/audio/app/audio/search?author=Mini姐&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'戴猫耳的大魔王','url':'/api/audio/app/audio/search?author=戴猫耳的大魔王&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'源源','url':'/api/audio/app/audio/search?author=源源&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'青梅','url':'/api/audio/app/audio/search?author=青梅&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'嫣然','url':'/api/audio/app/audio/search?author=嫣然&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小爽','url':'/api/audio/app/audio/search?author=小爽&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'大宝','url':'/api/audio/app/audio/search?author=大宝&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Rainnight.雨','url':'/api/audio/app/audio/search?author=Rainnight.雨&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小颦','url':'/api/audio/app/audio/search?author=小颦&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'楪祈','url':'/api/audio/app/audio/search?author=楪祈&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小一熟了吗','url':'/api/audio/app/audio/search?author=小一熟了吗&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小晶晶软糖','url':'/api/audio/app/audio/search?author=小晶晶软糖&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'李二狗','url':'/api/audio/app/audio/search?author=李二狗&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'绝色','url':'/api/audio/app/audio/search?author=绝色&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'梦瑶','url':'/api/audio/app/audio/search?author=梦瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'紫洛','url':'/api/audio/app/audio/search?author=紫洛&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小晴','url':'/api/audio/app/audio/search?author=小晴&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'想睡觉','url':'/api/audio/app/audio/search?author=想睡觉&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'宋恩','url':'/api/audio/app/audio/search?author=宋恩&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小优','url':'/api/audio/app/audio/search?author=小优&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'墨白','url':'/api/audio/app/audio/search?author=墨白&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小媚','url':'/api/audio/app/audio/search?author=小媚&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'魅惑','url':'/api/audio/app/audio/search?author=魅惑&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'鹿梧','url':'/api/audio/app/audio/search?author=鹿梧&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'偷听','url':'/api/audio/app/audio/search?author=偷听&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'狐姬','url':'/api/audio/app/audio/search?author=狐姬&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'柳瑶','url':'/api/audio/app/audio/search?author=柳瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}}]",
-  "header": "{\"token\": \"eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ODYwNzIxNzA0MDMxMzU4OTc2LCJ0eXBlIjoiY3VzdG9tZXIiLCJ0aW1lc3RhbXAiOjE2ODUzNzg1MTE1NzQsImV4cCI6MTY4NTk4MzMxMX0.-FX7rOJP7I10ApjeM5NVaGj57aeYnkVyopniC7U_Dv8\"}",
-  "lastUpdateTime": 1736378318691,
-  "loginCheckJs": "",
-  "loginUrl": "/",
-  "respondTime": 180000,
-  "ruleBookInfo": {
-   "author": ".authors",
-   "canReName": "1",
-   "coverUrl": ".coverUrl",
-   "init": "",
-   "intro": "&nbsp;{{$..brief}}\n&shy;\n开坑：{{$..createTime##(.*?)T(.*?)\\.##$1 $2###}}\n更新：{{$..updateTime##(.*?)T(.*?)\\.##$1 $2###}}\n##^&nbsp;\\n&shy;",
-   "kind": "{{java.getString('.finished')==1?\"完结\":\"连载\"}},{{$..categories}}",
-   "lastChapter": ".latestUpdate",
-   "name": "",
-   "tocUrl": ".id##^##catalog/",
-   "wordCount": ".wordCount"
-  },
-  "ruleContent": {
-   "content": ".url",
-   "replaceRegex": "##[\\s\\S]*请访问源网站！[\\s\\S]*",
-   "title": ""
-  },
-  "ruleExplore": {},
+  "searchUrl": "/api/audio/app/audio/search?category=&keyword={{encodeURIComponent(key)}}&orderType=0&page={{page}}&searchType=1&size=42",
+  "bookSourceType": 1,
+  "customOrder": 3036,
+  "lastUpdateTime": 1739850337005,
+  "respondTime": 5630,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
   "ruleSearch": {
    "author": "authors\n@js:\nr = result;\nr != \"\" ? r: \"UAA\";",
    "bookList": ".[?(@.title)]",
@@ -143,6 +68,18 @@
    "name": "title",
    "wordCount": ""
   },
+  "ruleBookInfo": {
+   "author": ".authors",
+   "canReName": "1",
+   "coverUrl": ".coverUrl",
+   "init": "",
+   "intro": "&nbsp;{{$..brief}}\n&shy;\n开坑：{{$..createTime##(.*?)T(.*?)\\.##$1 $2###}}\n更新：{{$..updateTime##(.*?)T(.*?)\\.##$1 $2###}}\n##^&nbsp;\\n&shy;",
+   "kind": "{{java.getString('.finished')==1?\"完结\":\"连载\"}},{{$..categories}}",
+   "lastChapter": ".latestUpdate",
+   "name": "",
+   "tocUrl": ".id##^##catalog/",
+   "wordCount": ".wordCount"
+  },
   "ruleToc": {
    "chapterList": ".[?(@.title)]",
    "chapterName": "title",
@@ -152,41 +89,87 @@
    "isVolume": "",
    "updateTime": "{{$.price}}U币  {{$.onlineTime##(.*?)T(.*?)\\.##$1 $2###}}##^0.0U币\\s*"
   },
-  "searchUrl": "/api/audio/app/audio/search?category=&keyword={{encodeURIComponent(key)}}&orderType=0&page={{page}}&searchType=1&size=42",
-  "variableComment": "",
-  "weight": 0
+  "ruleContent": {
+   "content": ".url",
+   "replaceRegex": "##[\\s\\S]*请访问源网站！[\\s\\S]*",
+   "title": ""
+  }
  },
  {
-  "bookSourceComment": "*参数参考\ncategory=分类\norderType=排序0相关性1上架时间3收听量4收藏量5评分\nexcludeTags=屏蔽标签\nincludeTags=标签\nfinished=0连载1完结\nsource=1原创首发2会员上传\n*若要使用自己账号，请用浏览器打开UAA官网(https://www.uaa.com)登录，推荐使用Reqable软件抓包自己账号的token，把本源的↓请求头↓的token换掉即可。",
-  "bookSourceGroup": "❤️精品",
-  "bookSourceName": "UAA有声",
-  "bookSourceType": 1,
-  "bookSourceUrl": "https://www.uaa004.com/api/audio/app/audio/",
-  "customOrder": 13545,
-  "enabled": true,
-  "enabledCookieJar": false,
-  "enabledExplore": true,
-  "exploreUrl": "@js:\nsort = [];\npush = (title, url, type) => sort.push({\n  title: title,\n  url: url,\n  style: {\n    layout_flexGrow: 1,\n    layout_flexBasisPercent: type\n  }\n});\n$ = (x) => `search?${x}&orderType=2&page={{page}}&searchType=1&size=40`;\nu = source.key;\npush(\"• 排行榜 •\", null, 1);\n[\"周榜\", \"月榜\", \"年榜\", \"总榜\"].map((p, q) => {\n  push(p, `rank?type=${q + 1}`, null);\n});\n[[\"题材\", \"category\"],\n[\"CV\", \"author\"]].map([a, b] => {\n  push(`• ${a} •`, $(\"\"), 1);\n  d = /y/.test(b) ? \"categories\": \"authors\";\n  c = JSON.parse(java.ajax(u + d)).model;\n  for (i = 0; i < c.length; i++) {\n    push(\n      c[i].name,\n      $(b + \"=\" + encodeURIComponent(c[i].name)),\n      null\n    );\n  };\n});\nJSON.stringify(sort);",
+  "bookSourceUrl": "https://www.uaa004.com##有声",
+  "bookSourceName": "UAA有声，友声",
+  "bookSourceGroup": "🔞 小说",
   "header": "{\"token\": \"eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ODYwNzIxNzA0MDMxMzU4OTc2LCJ0eXBlIjoiY3VzdG9tZXIiLCJ0aW1lc3RhbXAiOjE2ODUzNzg1MTE1NzQsImV4cCI6MTY4NTk4MzMxMX0.-FX7rOJP7I10ApjeM5NVaGj57aeYnkVyopniC7U_Dv8\"}",
-  "lastUpdateTime": 1734535293383,
-  "loginUrl": "",
-  "respondTime": 15434,
+  "loginUrl": "/",
+  "loginCheckJs": "",
+  "bookSourceComment": "uaa地址发布页：\nhttps://uaadizhi.com\n可自行更改源域名：\nhttps://www.uaa.com\nhttps://www.uaa001.com\nhttps://www.uaa002.com\nhttps://www.uaa003.com\nhttps://www.uaa004.com\nhttps://www.uaa005.com\nhttps://www.uaa202410.com\nby_tlyanyu",
+  "variableComment": "",
+  "exploreUrl": "[{'title':'分类 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'有声小说','url':'/api/audio/app/audio/search?category=有声小说&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'淫词艳曲','url':'/api/audio/app/audio/search?category=淫词艳曲&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'激情骚麦','url':'/api/audio/app/audio/search?category=激情骚麦&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'寸止训练','url':'/api/audio/app/audio/search?category=寸止训练&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时长 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'短篇','url':'/api/audio/app/audio/search?duration=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'中篇','url':'/api/audio/app/audio/search?duration=2&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'长篇','url':'/api/audio/app/audio/search?duration=3&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'来源 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'原创首发','url':'/api/audio/app/audio/search?page={{page}}&size=25&source=1','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'会员上传','url':'/api/audio/app/audio/search?page={{page}}&size=25&source=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'状态 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'已完结','url':'/api/audio/app/audio/search?finished=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'连载中','url':'/api/audio/app/audio/search?finished=0&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时段 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'周榜','url':'/api/audio/app/audio/rank?page={{page}}&type=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'月榜','url':'/api/audio/app/audio/rank?page={{page}}&type=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'年榜','url':'/api/audio/app/audio/rank?page={{page}}&type=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'热门','url':'/api/audio/app/audio/rank?page={{page}}&type=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'评分 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'＞4','url':'/api/audio/app/audio/search?page={{page}}&score=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞3','url':'/api/audio/app/audio/search?page={{page}}&score=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞2','url':'/api/audio/app/audio/search?page={{page}}&score=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞1','url':'/api/audio/app/audio/search?page={{page}}&score=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'CV','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'小苮儿','url':'/api/audio/app/audio/search?author=小苮儿&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'曼曼','url':'/api/audio/app/audio/search?author=曼曼&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'点心','url':'/api/audio/app/audio/search?author=点心&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小窈','url':'/api/audio/app/audio/search?author=小窈&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小咪','url':'/api/audio/app/audio/search?author=小咪&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'戴逸','url':'/api/audio/app/audio/search?author=戴逸&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'雅朵','url':'/api/audio/app/audio/search?author=雅朵&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小野猫','url':'/api/audio/app/audio/search?author=小野猫&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'步非烟','url':'/api/audio/app/audio/search?author=步非烟&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小瑶','url':'/api/audio/app/audio/search?author=小瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'姽狐','url':'/api/audio/app/audio/search?author=姽狐&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'芯媛','url':'/api/audio/app/audio/search?author=芯媛&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小美','url':'/api/audio/app/audio/search?author=小美&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'浅浅','url':'/api/audio/app/audio/search?author=浅浅&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'沙拉','url':'/api/audio/app/audio/search?author=沙拉&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'萱妹','url':'/api/audio/app/audio/search?author=萱妹&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Rain','url':'/api/audio/app/audio/search?author=Rain&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'南征','url':'/api/audio/app/audio/search?author=南征&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小筝','url':'/api/audio/app/audio/search?author=小筝&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小琳','url':'/api/audio/app/audio/search?author=小琳&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'林三岁','url':'/api/audio/app/audio/search?author=林三岁&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'叶倩彤','url':'/api/audio/app/audio/search?author=叶倩彤&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'秋水','url':'/api/audio/app/audio/search?author=秋水&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Mini姐','url':'/api/audio/app/audio/search?author=Mini姐&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'戴猫耳的大魔王','url':'/api/audio/app/audio/search?author=戴猫耳的大魔王&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'源源','url':'/api/audio/app/audio/search?author=源源&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'青梅','url':'/api/audio/app/audio/search?author=青梅&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'嫣然','url':'/api/audio/app/audio/search?author=嫣然&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小爽','url':'/api/audio/app/audio/search?author=小爽&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'大宝','url':'/api/audio/app/audio/search?author=大宝&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Rainnight.雨','url':'/api/audio/app/audio/search?author=Rainnight.雨&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小颦','url':'/api/audio/app/audio/search?author=小颦&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'楪祈','url':'/api/audio/app/audio/search?author=楪祈&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小一熟了吗','url':'/api/audio/app/audio/search?author=小一熟了吗&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小晶晶软糖','url':'/api/audio/app/audio/search?author=小晶晶软糖&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'李二狗','url':'/api/audio/app/audio/search?author=李二狗&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'绝色','url':'/api/audio/app/audio/search?author=绝色&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'梦瑶','url':'/api/audio/app/audio/search?author=梦瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'紫洛','url':'/api/audio/app/audio/search?author=紫洛&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小晴','url':'/api/audio/app/audio/search?author=小晴&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'想睡觉','url':'/api/audio/app/audio/search?author=想睡觉&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'宋恩','url':'/api/audio/app/audio/search?author=宋恩&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小优','url':'/api/audio/app/audio/search?author=小优&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'墨白','url':'/api/audio/app/audio/search?author=墨白&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小媚','url':'/api/audio/app/audio/search?author=小媚&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'魅惑','url':'/api/audio/app/audio/search?author=魅惑&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'鹿梧','url':'/api/audio/app/audio/search?author=鹿梧&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'偷听','url':'/api/audio/app/audio/search?author=偷听&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'狐姬','url':'/api/audio/app/audio/search?author=狐姬&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'柳瑶','url':'/api/audio/app/audio/search?author=柳瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}}]",
+  "searchUrl": "/api/audio/app/audio/search?category=&keyword={{encodeURIComponent(key)}}&orderType=0&page={{page}}&searchType=1&size=42",
+  "bookSourceType": 1,
+  "customOrder": 1402,
+  "lastUpdateTime": 1736378318691,
+  "respondTime": 180000,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "authors\n@js:\nr = result;\nr != \"\" ? r: \"UAA\";",
+   "bookList": ".[?(@.title)]",
+   "bookUrl": "id||audioId##^##intro?id=",
+   "checkKeyWord": "",
+   "coverUrl": "coverUrl",
+   "intro": "shortBrief##\\s*",
+   "kind": "{{$.finished##1##完结}},{{$.categories&&updateTimeFormat}}##^0,##连载,",
+   "lastChapter": "latestUpdate",
+   "name": "title",
+   "wordCount": ""
+  },
   "ruleBookInfo": {
    "author": ".authors",
    "canReName": "1",
    "coverUrl": ".coverUrl",
    "init": "",
-   "intro": "&nbsp;{{$..brief}}\n&shy;\n开坑：{{$..createTime##(.*?)T(.*?)\\.##$1 $2###}}\n更新：{{$..updateTime##(.*?)T(.*?)\\.##$1 $2###}}\n{{$..categories&&.tags##,|\\n##&nbsp;}}\n##^&nbsp;\\n&shy;",
-   "kind": "{{java.getString('.finished')==1?\"完结\":\"连载\"}}",
+   "intro": "&nbsp;{{$..brief}}\n&shy;\n开坑：{{$..createTime##(.*?)T(.*?)\\.##$1 $2###}}\n更新：{{$..updateTime##(.*?)T(.*?)\\.##$1 $2###}}\n##^&nbsp;\\n&shy;",
+   "kind": "{{java.getString('.finished')==1?\"完结\":\"连载\"}},{{$..categories}}",
    "lastChapter": ".latestUpdate",
+   "name": "",
    "tocUrl": ".id##^##catalog/",
-   "wordCount": ".durationFormat##00:00:00"
+   "wordCount": ".wordCount"
+  },
+  "ruleToc": {
+   "chapterList": ".[?(@.title)]",
+   "chapterName": "title",
+   "chapterUrl": "@js:\n`../chapter?force=false&id={{$.id}}&offset=0&viewId=` + new Date().getTime() + Math.round(Math.random() * (9999 - 1000) + 1000);",
+   "isPay": "purchased",
+   "isVip": "vip",
+   "isVolume": "",
+   "updateTime": "{{$.price}}U币  {{$.onlineTime##(.*?)T(.*?)\\.##$1 $2###}}##^0.0U币\\s*"
   },
   "ruleContent": {
    "content": ".url",
-   "replaceRegex": "##[\\s\\S]*本文来自：.*，请访问源网站！[\\s\\S]*"
-  },
-  "ruleExplore": {},
+   "replaceRegex": "##[\\s\\S]*请访问源网站！[\\s\\S]*",
+   "title": ""
+  }
+ },
+ {
+  "bookSourceUrl": "https://www.uaa004.com/api/audio/app/audio/",
+  "bookSourceName": "UAA有声",
+  "bookSourceGroup": "❤️精品",
+  "header": "{\"token\": \"eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ODYwNzIxNzA0MDMxMzU4OTc2LCJ0eXBlIjoiY3VzdG9tZXIiLCJ0aW1lc3RhbXAiOjE2ODUzNzg1MTE1NzQsImV4cCI6MTY4NTk4MzMxMX0.-FX7rOJP7I10ApjeM5NVaGj57aeYnkVyopniC7U_Dv8\"}",
+  "loginUrl": "",
+  "bookSourceComment": "*参数参考\ncategory=分类\norderType=排序0相关性1上架时间3收听量4收藏量5评分\nexcludeTags=屏蔽标签\nincludeTags=标签\nfinished=0连载1完结\nsource=1原创首发2会员上传\n*若要使用自己账号，请用浏览器打开UAA官网(https://www.uaa.com)登录，推荐使用Reqable软件抓包自己账号的token，把本源的↓请求头↓的token换掉即可。",
+  "exploreUrl": "@js:\nsort = [];\npush = (title, url, type) => sort.push({\n  title: title,\n  url: url,\n  style: {\n    layout_flexGrow: 1,\n    layout_flexBasisPercent: type\n  }\n});\n$ = (x) => `search?${x}&orderType=2&page={{page}}&searchType=1&size=40`;\nu = source.key;\npush(\"• 排行榜 •\", null, 1);\n[\"周榜\", \"月榜\", \"年榜\", \"总榜\"].map((p, q) => {\n  push(p, `rank?type=${q + 1}`, null);\n});\n[[\"题材\", \"category\"],\n[\"CV\", \"author\"]].map([a, b] => {\n  push(`• ${a} •`, $(\"\"), 1);\n  d = /y/.test(b) ? \"categories\": \"authors\";\n  c = JSON.parse(java.ajax(u + d)).model;\n  for (i = 0; i < c.length; i++) {\n    push(\n      c[i].name,\n      $(b + \"=\" + encodeURIComponent(c[i].name)),\n      null\n    );\n  };\n});\nJSON.stringify(sort);",
+  "searchUrl": "@js:\nu = source.key;\nu + `search?keyword={{encodeURIComponent(key)}}&orderType=0&page={{page}}&searchType=1&size=42`;",
+  "bookSourceType": 1,
+  "customOrder": 13545,
+  "lastUpdateTime": 1734535293383,
+  "respondTime": 15434,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
   "ruleSearch": {
    "author": "authors\n@js:\nr = result;\nr != \"\" ? r: \"UAA\";",
    "bookList": ".[?(@.title)]",
@@ -199,6 +182,17 @@
    "name": "title",
    "wordCount": "durationFormat##00:00:00"
   },
+  "ruleBookInfo": {
+   "author": ".authors",
+   "canReName": "1",
+   "coverUrl": ".coverUrl",
+   "init": "",
+   "intro": "&nbsp;{{$..brief}}\n&shy;\n开坑：{{$..createTime##(.*?)T(.*?)\\.##$1 $2###}}\n更新：{{$..updateTime##(.*?)T(.*?)\\.##$1 $2###}}\n{{$..categories&&.tags##,|\\n##&nbsp;}}\n##^&nbsp;\\n&shy;",
+   "kind": "{{java.getString('.finished')==1?\"完结\":\"连载\"}}",
+   "lastChapter": ".latestUpdate",
+   "tocUrl": ".id##^##catalog/",
+   "wordCount": ".durationFormat##00:00:00"
+  },
   "ruleToc": {
    "chapterList": ".[?(@.title)]",
    "chapterName": "title",
@@ -209,25 +203,42 @@
    "preUpdateJs": "",
    "updateTime": "{{$.price}}U币  {{$.onlineTime##(.*?)T(.*?)\\.##$1 $2###}}##^0.0U币\\s*"
   },
-  "searchUrl": "@js:\nu = source.key;\nu + `search?keyword={{encodeURIComponent(key)}}&orderType=0&page={{page}}&searchType=1&size=42`;",
-  "weight": 0
+  "ruleContent": {
+   "content": ".url",
+   "replaceRegex": "##[\\s\\S]*本文来自：.*，请访问源网站！[\\s\\S]*"
+  }
  },
  {
-  "bookSourceComment": "uaa地址发布页：\nhttps://uaadizhi.com\n可自行更改源域名：\nhttps://www.uaa.com\nhttps://www.uaa001.com\nhttps://www.uaa002.com\nhttps://www.uaa003.com\nhttps://www.uaa004.com\nhttps://www.uaa005.com\nhttps://www.uaa202410.com\nby_tlyanyu",
-  "bookSourceGroup": "",
-  "bookSourceName": "💝 UAA有声",
-  "bookSourceType": 1,
   "bookSourceUrl": "https://www.uaa001.com##有声",
-  "customOrder": 2457,
-  "enabled": true,
-  "enabledCookieJar": false,
-  "enabledExplore": true,
-  "exploreUrl": "[{'title':'分类 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'有声小说','url':'/api/audio/app/audio/search?category=有声小说&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'淫词艳曲','url':'/api/audio/app/audio/search?category=淫词艳曲&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'激情骚麦','url':'/api/audio/app/audio/search?category=激情骚麦&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'寸止训练','url':'/api/audio/app/audio/search?category=寸止训练&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时长 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'短篇','url':'/api/audio/app/audio/search?duration=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'中篇','url':'/api/audio/app/audio/search?duration=2&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'长篇','url':'/api/audio/app/audio/search?duration=3&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'来源 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'原创首发','url':'/api/audio/app/audio/search?page={{page}}&size=25&source=1','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'会员上传','url':'/api/audio/app/audio/search?page={{page}}&size=25&source=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'状态 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'已完结','url':'/api/audio/app/audio/search?finished=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'连载中','url':'/api/audio/app/audio/search?finished=0&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时段 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'周榜','url':'/api/audio/app/audio/rank?page={{page}}&type=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'月榜','url':'/api/audio/app/audio/rank?page={{page}}&type=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'年榜','url':'/api/audio/app/audio/rank?page={{page}}&type=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'热门','url':'/api/audio/app/audio/rank?page={{page}}&type=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'评分 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'＞4','url':'/api/audio/app/audio/search?page={{page}}&score=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞3','url':'/api/audio/app/audio/search?page={{page}}&score=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞2','url':'/api/audio/app/audio/search?page={{page}}&score=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞1','url':'/api/audio/app/audio/search?page={{page}}&score=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'CV','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'小苮儿','url':'/api/audio/app/audio/search?author=小苮儿&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'曼曼','url':'/api/audio/app/audio/search?author=曼曼&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'点心','url':'/api/audio/app/audio/search?author=点心&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小窈','url':'/api/audio/app/audio/search?author=小窈&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小咪','url':'/api/audio/app/audio/search?author=小咪&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'戴逸','url':'/api/audio/app/audio/search?author=戴逸&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'雅朵','url':'/api/audio/app/audio/search?author=雅朵&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小野猫','url':'/api/audio/app/audio/search?author=小野猫&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'步非烟','url':'/api/audio/app/audio/search?author=步非烟&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小瑶','url':'/api/audio/app/audio/search?author=小瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'姽狐','url':'/api/audio/app/audio/search?author=姽狐&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'芯媛','url':'/api/audio/app/audio/search?author=芯媛&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小美','url':'/api/audio/app/audio/search?author=小美&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'浅浅','url':'/api/audio/app/audio/search?author=浅浅&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'沙拉','url':'/api/audio/app/audio/search?author=沙拉&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'萱妹','url':'/api/audio/app/audio/search?author=萱妹&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Rain','url':'/api/audio/app/audio/search?author=Rain&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'南征','url':'/api/audio/app/audio/search?author=南征&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小筝','url':'/api/audio/app/audio/search?author=小筝&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小琳','url':'/api/audio/app/audio/search?author=小琳&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'林三岁','url':'/api/audio/app/audio/search?author=林三岁&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'叶倩彤','url':'/api/audio/app/audio/search?author=叶倩彤&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'秋水','url':'/api/audio/app/audio/search?author=秋水&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Mini姐','url':'/api/audio/app/audio/search?author=Mini姐&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'戴猫耳的大魔王','url':'/api/audio/app/audio/search?author=戴猫耳的大魔王&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'源源','url':'/api/audio/app/audio/search?author=源源&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'青梅','url':'/api/audio/app/audio/search?author=青梅&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'嫣然','url':'/api/audio/app/audio/search?author=嫣然&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小爽','url':'/api/audio/app/audio/search?author=小爽&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'大宝','url':'/api/audio/app/audio/search?author=大宝&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Rainnight.雨','url':'/api/audio/app/audio/search?author=Rainnight.雨&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小颦','url':'/api/audio/app/audio/search?author=小颦&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'楪祈','url':'/api/audio/app/audio/search?author=楪祈&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小一熟了吗','url':'/api/audio/app/audio/search?author=小一熟了吗&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小晶晶软糖','url':'/api/audio/app/audio/search?author=小晶晶软糖&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'李二狗','url':'/api/audio/app/audio/search?author=李二狗&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'绝色','url':'/api/audio/app/audio/search?author=绝色&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'梦瑶','url':'/api/audio/app/audio/search?author=梦瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'紫洛','url':'/api/audio/app/audio/search?author=紫洛&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小晴','url':'/api/audio/app/audio/search?author=小晴&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'想睡觉','url':'/api/audio/app/audio/search?author=想睡觉&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'宋恩','url':'/api/audio/app/audio/search?author=宋恩&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小优','url':'/api/audio/app/audio/search?author=小优&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'墨白','url':'/api/audio/app/audio/search?author=墨白&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小媚','url':'/api/audio/app/audio/search?author=小媚&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'魅惑','url':'/api/audio/app/audio/search?author=魅惑&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'鹿梧','url':'/api/audio/app/audio/search?author=鹿梧&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'偷听','url':'/api/audio/app/audio/search?author=偷听&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'狐姬','url':'/api/audio/app/audio/search?author=狐姬&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'柳瑶','url':'/api/audio/app/audio/search?author=柳瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}}]",
+  "bookSourceName": "💝 UAA有声",
+  "bookSourceGroup": "",
   "header": "{\"token\": \"eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ODYwNzIxNzA0MDMxMzU4OTc2LCJ0eXBlIjoiY3VzdG9tZXIiLCJ0aW1lc3RhbXAiOjE2ODUzNzg1MTE1NzQsImV4cCI6MTY4NTk4MzMxMX0.-FX7rOJP7I10ApjeM5NVaGj57aeYnkVyopniC7U_Dv8\"}",
-  "lastUpdateTime": 1731827884431,
-  "loginCheckJs": "",
   "loginUrl": "/",
+  "loginCheckJs": "",
+  "bookSourceComment": "uaa地址发布页：\nhttps://uaadizhi.com\n可自行更改源域名：\nhttps://www.uaa.com\nhttps://www.uaa001.com\nhttps://www.uaa002.com\nhttps://www.uaa003.com\nhttps://www.uaa004.com\nhttps://www.uaa005.com\nhttps://www.uaa202410.com\nby_tlyanyu",
+  "variableComment": "",
+  "exploreUrl": "[{'title':'分类 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'有声小说','url':'/api/audio/app/audio/search?category=有声小说&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'淫词艳曲','url':'/api/audio/app/audio/search?category=淫词艳曲&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'激情骚麦','url':'/api/audio/app/audio/search?category=激情骚麦&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'寸止训练','url':'/api/audio/app/audio/search?category=寸止训练&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时长 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'短篇','url':'/api/audio/app/audio/search?duration=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'中篇','url':'/api/audio/app/audio/search?duration=2&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'长篇','url':'/api/audio/app/audio/search?duration=3&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'来源 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'原创首发','url':'/api/audio/app/audio/search?page={{page}}&size=25&source=1','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'会员上传','url':'/api/audio/app/audio/search?page={{page}}&size=25&source=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'状态 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'已完结','url':'/api/audio/app/audio/search?finished=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'连载中','url':'/api/audio/app/audio/search?finished=0&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时段 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'周榜','url':'/api/audio/app/audio/rank?page={{page}}&type=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'月榜','url':'/api/audio/app/audio/rank?page={{page}}&type=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'年榜','url':'/api/audio/app/audio/rank?page={{page}}&type=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'热门','url':'/api/audio/app/audio/rank?page={{page}}&type=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'评分 • 全部','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'＞4','url':'/api/audio/app/audio/search?page={{page}}&score=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞3','url':'/api/audio/app/audio/search?page={{page}}&score=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞2','url':'/api/audio/app/audio/search?page={{page}}&score=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞1','url':'/api/audio/app/audio/search?page={{page}}&score=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'CV','url':'/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'小苮儿','url':'/api/audio/app/audio/search?author=小苮儿&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'曼曼','url':'/api/audio/app/audio/search?author=曼曼&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'点心','url':'/api/audio/app/audio/search?author=点心&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小窈','url':'/api/audio/app/audio/search?author=小窈&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小咪','url':'/api/audio/app/audio/search?author=小咪&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'戴逸','url':'/api/audio/app/audio/search?author=戴逸&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'雅朵','url':'/api/audio/app/audio/search?author=雅朵&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小野猫','url':'/api/audio/app/audio/search?author=小野猫&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'步非烟','url':'/api/audio/app/audio/search?author=步非烟&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小瑶','url':'/api/audio/app/audio/search?author=小瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'姽狐','url':'/api/audio/app/audio/search?author=姽狐&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'芯媛','url':'/api/audio/app/audio/search?author=芯媛&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小美','url':'/api/audio/app/audio/search?author=小美&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'浅浅','url':'/api/audio/app/audio/search?author=浅浅&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'沙拉','url':'/api/audio/app/audio/search?author=沙拉&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'萱妹','url':'/api/audio/app/audio/search?author=萱妹&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Rain','url':'/api/audio/app/audio/search?author=Rain&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'南征','url':'/api/audio/app/audio/search?author=南征&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小筝','url':'/api/audio/app/audio/search?author=小筝&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小琳','url':'/api/audio/app/audio/search?author=小琳&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'林三岁','url':'/api/audio/app/audio/search?author=林三岁&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'叶倩彤','url':'/api/audio/app/audio/search?author=叶倩彤&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'秋水','url':'/api/audio/app/audio/search?author=秋水&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Mini姐','url':'/api/audio/app/audio/search?author=Mini姐&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'戴猫耳的大魔王','url':'/api/audio/app/audio/search?author=戴猫耳的大魔王&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'源源','url':'/api/audio/app/audio/search?author=源源&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'青梅','url':'/api/audio/app/audio/search?author=青梅&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'嫣然','url':'/api/audio/app/audio/search?author=嫣然&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小爽','url':'/api/audio/app/audio/search?author=小爽&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'大宝','url':'/api/audio/app/audio/search?author=大宝&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Rainnight.雨','url':'/api/audio/app/audio/search?author=Rainnight.雨&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小颦','url':'/api/audio/app/audio/search?author=小颦&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'楪祈','url':'/api/audio/app/audio/search?author=楪祈&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小一熟了吗','url':'/api/audio/app/audio/search?author=小一熟了吗&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小晶晶软糖','url':'/api/audio/app/audio/search?author=小晶晶软糖&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'李二狗','url':'/api/audio/app/audio/search?author=李二狗&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'绝色','url':'/api/audio/app/audio/search?author=绝色&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'梦瑶','url':'/api/audio/app/audio/search?author=梦瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'紫洛','url':'/api/audio/app/audio/search?author=紫洛&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小晴','url':'/api/audio/app/audio/search?author=小晴&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'想睡觉','url':'/api/audio/app/audio/search?author=想睡觉&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'宋恩','url':'/api/audio/app/audio/search?author=宋恩&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小优','url':'/api/audio/app/audio/search?author=小优&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'墨白','url':'/api/audio/app/audio/search?author=墨白&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'小媚','url':'/api/audio/app/audio/search?author=小媚&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'魅惑','url':'/api/audio/app/audio/search?author=魅惑&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'鹿梧','url':'/api/audio/app/audio/search?author=鹿梧&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'偷听','url':'/api/audio/app/audio/search?author=偷听&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'狐姬','url':'/api/audio/app/audio/search?author=狐姬&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'柳瑶','url':'/api/audio/app/audio/search?author=柳瑶&sort=3&searchType=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}}]",
+  "searchUrl": "/api/audio/app/audio/search?category=&keyword={{encodeURIComponent(key)}}&orderType=0&page={{page}}&searchType=1&size=42",
+  "bookSourceType": 1,
+  "customOrder": 2457,
+  "lastUpdateTime": 1731827884431,
   "respondTime": 12375,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "authors\n@js:\nr = result;\nr != \"\" ? r: \"UAA\";",
+   "bookList": ".[?(@.title)]",
+   "bookUrl": "id||audioId##^##intro?id=",
+   "checkKeyWord": "",
+   "coverUrl": "coverUrl",
+   "intro": "shortBrief##\\s*",
+   "kind": "{{$.finished##1##完结}},{{$.categories&&updateTimeFormat}}##^0,##连载,",
+   "lastChapter": "latestUpdate",
+   "name": "title",
+   "wordCount": ""
+  },
   "ruleBookInfo": {
    "author": ".authors",
    "canReName": "1",
@@ -240,24 +251,6 @@
    "tocUrl": ".id##^##catalog/",
    "wordCount": ".wordCount"
   },
-  "ruleContent": {
-   "content": ".url",
-   "replaceRegex": "##[\\s\\S]*请访问源网站！[\\s\\S]*",
-   "title": ""
-  },
-  "ruleExplore": {},
-  "ruleSearch": {
-   "author": "authors\n@js:\nr = result;\nr != \"\" ? r: \"UAA\";",
-   "bookList": ".[?(@.title)]",
-   "bookUrl": "id||audioId##^##intro?id=",
-   "checkKeyWord": "",
-   "coverUrl": "coverUrl",
-   "intro": "shortBrief##\\s*",
-   "kind": "{{$.finished##1##完结}},{{$.categories&&updateTimeFormat}}##^0,##连载,",
-   "lastChapter": "latestUpdate",
-   "name": "title",
-   "wordCount": ""
-  },
   "ruleToc": {
    "chapterList": ".[?(@.title)]",
    "chapterName": "title",
@@ -267,93 +260,27 @@
    "isVolume": "",
    "updateTime": "{{$.price}}U币  {{$.onlineTime##(.*?)T(.*?)\\.##$1 $2###}}##^0.0U币\\s*"
   },
-  "searchUrl": "/api/audio/app/audio/search?category=&keyword={{encodeURIComponent(key)}}&orderType=0&page={{page}}&searchType=1&size=42",
-  "variableComment": "",
-  "weight": 0
- },
- {
-  "bookSourceComment": "*若要使用自己账号，请用浏览器打开UAA官网(https://www.uaa.com)登录，推荐使用Reqable软件抓包自己账号的token，把本源的↓请求头↓的token换掉即可。",
-  "bookSourceGroup": "源仓库",
-  "bookSourceName": "UAA•有声[自改]",
-  "bookSourceType": 1,
-  "bookSourceUrl": "这里也可以写任何内容。。。",
-  "customOrder": 1942,
-  "enabled": true,
-  "enabledCookieJar": false,
-  "enabledExplore": true,
-  "exploreUrl": "[{'title':'分类 • 全部','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'有声小说','url':'https://www.uaa.com/api/audio/app/audio/search?category=有声小说&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'淫词艳曲','url':'https://www.uaa.com/api/audio/app/audio/search?category=淫词艳曲&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'激情骚麦','url':'https://www.uaa.com/api/audio/app/audio/search?category=激情骚麦&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'寸止训练','url':'https://www.uaa.com/api/audio/app/audio/search?category=寸止训练&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时长 • 全部','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'短篇','url':'https://www.uaa.com/api/audio/app/audio/search?duration=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'中篇','url':'https://www.uaa.com/api/audio/app/audio/search?duration=2&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'长篇','url':'https://www.uaa.com/api/audio/app/audio/search?duration=3&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'来源 • 全部','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'原创首发','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&size=25&source=1','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'会员上传','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&size=25&source=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'状态 • 全部','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'已完结','url':'https://www.uaa.com/api/audio/app/audio/search?finished=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'连载中','url':'https://www.uaa.com/api/audio/app/audio/search?finished=0&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时段 • 全部','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'今日','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&period=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'本周','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&period=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'本月','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&period=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'评分 • 全部','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'＞4','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&score=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞3','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&score=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞2','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&score=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞1','url':'https://www.uaa.com/api/audio/app/audio/search?page={{page}}&score=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}}]",
-  "header": "{\"token\": \"eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ODYwNzIxNzA0MDMxMzU4OTc2LCJ0eXBlIjoiY3VzdG9tZXIiLCJ0aW1lc3RhbXAiOjE2ODUzNzg1MTE1NzQsImV4cCI6MTY4NTk4MzMxMX0.-FX7rOJP7I10ApjeM5NVaGj57aeYnkVyopniC7U_Dv8\"}",
-  "lastUpdateTime": 1722698455529,
-  "respondTime": 11344,
-  "ruleBookInfo": {
-   "author": "authors",
-   "coverUrl": "coverUrl",
-   "init": "model",
-   "intro": "",
-   "kind": "categories&&updateTime##T.*",
-   "lastChapter": "latestUpdate",
-   "name": "title",
-   "tocUrl": "https://www.uaa.com/api/audio/app/audio/catalog/{{$.id}}",
-   "wordCount": "@js:{{$.finished}}=='0'?'连载':'完结';"
-  },
   "ruleContent": {
-   "content": "model.url",
-   "imageStyle": ""
-  },
-  "ruleExplore": {},
-  "ruleSearch": {
-   "author": "authors",
-   "bookList": ".[?(@.title)]",
-   "bookUrl": "https://www.uaa.com/api/audio/app/audio/intro?id={{$.id}}",
-   "checkKeyWord": "",
-   "coverUrl": "coverUrl",
-   "intro": "",
-   "kind": "categories&&updateTime##T.*",
-   "lastChapter": "latestUpdate",
-   "name": "title",
-   "wordCount": "@js:{{$.finished}}=='0'?'连载':'完结';"
-  },
-  "ruleToc": {
-   "chapterList": ".[?(@.title)]",
-   "chapterName": "title",
-   "chapterUrl": "https://www.uaa.com/api/audio/app/audio/chapter?id={{$.id}}&viewId=16755023882598961",
-   "isVip": "",
-   "isVolume": "",
-   "preUpdateJs": "",
-   "updateTime": "onlineTime##T.*"
-  },
-  "searchUrl": "https://www.uaa.com/api/audio/app/audio/search?category=&excludeTags=&keyword={{key}}&orderType=0&page={{page}}&searchType=1&size=40",
-  "weight": 0
+   "content": ".url",
+   "replaceRegex": "##[\\s\\S]*请访问源网站！[\\s\\S]*",
+   "title": ""
+  }
  },
  {
-  "bookSourceComment": "",
-  "bookSourceGroup": "⌨🔞涩瑟",
-  "bookSourceName": "📻 UAA有声",
-  "bookSourceType": 1,
   "bookSourceUrl": "https://www.uaa.com/audio/",
-  "customOrder": 7772,
-  "enabled": true,
-  "enabledCookieJar": false,
-  "enabledExplore": true,
+  "bookSourceName": "📻 UAA有声",
+  "bookSourceGroup": "⌨🔞涩瑟",
+  "bookSourceComment": "",
   "exploreUrl": "[{'title':'分类 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'有声小说','url':'https://api.uaa.com/audio/app/audio/search?category=有声小说&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'淫词艳曲','url':'https://api.uaa.com/audio/app/audio/search?category=淫词艳曲&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'激情骚麦','url':'https://api.uaa.com/audio/app/audio/search?category=激情骚麦&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'寸止训练','url':'https://api.uaa.com/audio/app/audio/search?category=寸止训练&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时长 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'短篇','url':'https://api.uaa.com/audio/app/audio/search?duration=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'中篇','url':'https://api.uaa.com/audio/app/audio/search?duration=2&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'长篇','url':'https://api.uaa.com/audio/app/audio/search?duration=3&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'来源 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'原创首发','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25&source=1','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'会员上传','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25&source=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'状态 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'已完结','url':'https://api.uaa.com/audio/app/audio/search?finished=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'连载中','url':'https://api.uaa.com/audio/app/audio/search?finished=0&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时段 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'今日','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&period=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'本周','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&period=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'本月','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&period=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'评分 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'＞4','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&score=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞3','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&score=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞2','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&score=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞1','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&score=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}}]",
+  "searchUrl": "https://api.uaa.com/audio/app/audio/search?keyword={{key}}&page={{page}}&size=10",
+  "bookSourceType": 1,
+  "customOrder": 7772,
   "lastUpdateTime": 1716478628913,
   "respondTime": 4314,
-  "ruleBookInfo": {
-   "author": "authors",
-   "coverUrl": "coverUrl",
-   "init": "model",
-   "intro": "",
-   "kind": "categories&&updateTime##T.*",
-   "lastChapter": "latestUpdate",
-   "name": "title",
-   "tocUrl": "/audio/app/audio/catalog/{{$.id}}",
-   "wordCount": "@js:{{$.finished}}=='0'?'连载':'完结';"
-  },
-  "ruleContent": {
-   "content": "model.url",
-   "imageStyle": ""
-  },
-  "ruleExplore": {},
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
   "ruleSearch": {
    "author": "authors",
    "bookList": ".[?(@.title)]",
@@ -366,6 +293,17 @@
    "name": "title",
    "wordCount": "@js:{{$.finished}}=='0'?'连载':'完结';"
   },
+  "ruleBookInfo": {
+   "author": "authors",
+   "coverUrl": "coverUrl",
+   "init": "model",
+   "intro": "",
+   "kind": "categories&&updateTime##T.*",
+   "lastChapter": "latestUpdate",
+   "name": "title",
+   "tocUrl": "/audio/app/audio/catalog/{{$.id}}",
+   "wordCount": "@js:{{$.finished}}=='0'?'连载':'完结';"
+  },
   "ruleToc": {
    "chapterList": ".[?(@.title)]",
    "chapterName": "title",
@@ -375,33 +313,35 @@
    "preUpdateJs": "",
    "updateTime": "onlineTime##T.*"
   },
-  "searchUrl": "https://api.uaa.com/audio/app/audio/search?keyword={{key}}&page={{page}}&size=10",
-  "weight": 0
+  "ruleContent": {
+   "content": "model.url",
+   "imageStyle": ""
+  }
  },
  {
-  "bookSourceComment": "",
-  "bookSourceGroup": "🔞特殊🔞",
-  "bookSourceName": "🐳56听书网①",
-  "bookSourceType": 1,
   "bookSourceUrl": "https://www.ting56.com/",
-  "customOrder": 26848,
-  "enabled": true,
-  "enabledCookieJar": false,
-  "enabledExplore": true,
+  "bookSourceName": "🐳56听书网①",
+  "bookSourceGroup": "🔞特殊🔞",
+  "bookSourceComment": "",
   "exploreUrl": "玄幻武侠::/book/1<,_{{page}}>.html\n都市言情::/book/2<,_{{page}}>.html\n恐怖悬疑::/book/3<,_{{page}}>.html\n综艺娱乐::/book/45<,_{{page}}>.html\n网游竞技::/book/4<,_{{page}}>.html\n军事历史::/book/6<,_{{page}}>.html\n刑侦推理::/book/41<,_{{page}}>.html\n职场商战::/book/7<,_{{page}}>.html\n百家讲坛::/book/10<,_{{page}}>.html\n经典评书::/book/9<,_{{page}}>.html\n幽默笑话::/book/44<,_{{page}}>.html\n3D体验::/book/47<,_{{page}}>.html\n广播剧::/book/40<,_{{page}}>.html",
+  "searchUrl": "https://www.ting56.com/search.asp,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&searchword={{key}}&searchtype=-1\"\n}",
+  "bookSourceType": 1,
+  "customOrder": 26848,
   "lastUpdateTime": 1612000873978,
   "respondTime": 180000,
-  "ruleBookInfo": {
-   "author": "class.zz@tag.span.0@a@text",
-   "coverUrl": "class.r-img@img@src",
-   "intro": "class.jj@tag.p.0@text",
-   "kind": "class.zz@tag.span.1@text",
-   "lastChapter": "class.zz@tag.span.2@a@text",
-   "name": "class.tit@h1@text##有声小说"
-  },
-  "ruleContent": {
-   "content": "<js>result</js>",
-   "sourceRegex": ".*\\.(mp3|m4a).*"
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "class.zpxx@text##作者：|播讲.*",
+   "bookList": "class.xiaoshuo@tag.li",
+   "bookUrl": "tag.dt@tag.a.0@href",
+   "coverUrl": "tag.img@src",
+   "intro": "tag.dd.0@text",
+   "kind": "class.zpxx@text##.*播讲：",
+   "lastChapter": "tag.dt@tag.a.0@href<js>java.ajax('https://www.ting56.com'+result)</js>class.zz@tag.span.2@a@text",
+   "name": "tag.dt@tag.a.0@text"
   },
   "ruleExplore": {
    "author": "tag.dd.0@text##作者：",
@@ -413,45 +353,70 @@
    "lastChapter": "tag.dd.3@a@text",
    "name": "tag.dt@a@text"
   },
-  "ruleSearch": {
-   "author": "class.zpxx@text##作者：|播讲.*",
-   "bookList": "class.xiaoshuo@tag.li",
-   "bookUrl": "tag.dt@tag.a.0@href",
-   "coverUrl": "tag.img@src",
-   "intro": "tag.dd.0@text",
-   "kind": "class.zpxx@text##.*播讲：",
-   "lastChapter": "tag.dt@tag.a.0@href<js>java.ajax('https://www.ting56.com'+result)</js>class.zz@tag.span.2@a@text",
-   "name": "tag.dt@tag.a.0@text"
+  "ruleBookInfo": {
+   "author": "class.zz@tag.span.0@a@text",
+   "coverUrl": "class.r-img@img@src",
+   "intro": "class.jj@tag.p.0@text",
+   "kind": "class.zz@tag.span.1@text",
+   "lastChapter": "class.zz@tag.span.2@a@text",
+   "name": "class.tit@h1@text##有声小说"
   },
   "ruleToc": {
    "chapterList": "id.vlink_1@tag.li",
    "chapterName": "tag.a@text",
    "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
   },
-  "searchUrl": "https://www.ting56.com/search.asp,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&searchword={{key}}&searchtype=-1\"\n}",
-  "weight": 0
+  "ruleContent": {
+   "content": "<js>result</js>",
+   "sourceRegex": ".*\\.(mp3|m4a).*"
+  }
  },
  {
-  "bookSourceComment": "",
-  "bookSourceGroup": "第一批",
-  "bookSourceName": "UAA有声",
-  "bookSourceType": 1,
   "bookSourceUrl": "https://www.uaa.com/api/audio/app/audio",
+  "bookSourceName": "UAA有声",
+  "bookSourceGroup": "第一批",
   "bookUrlPattern": "",
   "concurrentRate": "",
-  "coverDecodeJs": "",
-  "customOrder": 454,
-  "enabled": true,
-  "enabledCookieJar": false,
-  "enabledExplore": false,
-  "exploreScreen": "",
-  "exploreUrl": "",
   "header": "",
-  "lastUpdateTime": 1750793012333,
-  "loginCheckJs": "",
-  "loginUi": "",
   "loginUrl": "",
+  "loginUi": "",
+  "loginCheckJs": "",
+  "coverDecodeJs": "",
+  "bookSourceComment": "",
+  "variableComment": "",
+  "exploreUrl": "",
+  "exploreScreen": "",
+  "searchUrl": "search?category=&keyword={{encodeURIComponent(key)}}&orderType=0&page={{page}}&searchType=1&size=42",
+  "bookSourceType": 1,
+  "customOrder": 454,
+  "lastUpdateTime": 1750793012333,
   "respondTime": 0,
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": false,
+  "enabledCookieJar": false,
+  "ruleSearch": {
+   "author": "authors\n@js:\nr = result;\nr != \"\" ? r: \"UAA\";",
+   "bookList": ".[?(@.title)]",
+   "bookUrl": "id||audioId##^##intro?id=",
+   "coverUrl": "coverUrl",
+   "intro": "shortBrief##\\s*",
+   "kind": "{{$.finished##1##完结}},{{$.categories&&updateTimeFormat}}##^0,##连载,",
+   "lastChapter": "latestUpdate",
+   "name": "title",
+   "wordCount": ""
+  },
+  "ruleExplore": {
+   "author": "authors\n@js:\nr = result;\nr != \"\" ? r: \"UAA\";",
+   "bookList": ".[?(@.title)]",
+   "bookUrl": "id||audioId##^##intro?id=",
+   "coverUrl": "coverUrl",
+   "intro": "shortBrief##\\s*",
+   "kind": "{{$.finished##1##完结}},{{$.categories&&updateTimeFormat}}##^0,##连载,",
+   "lastChapter": "latestUpdate",
+   "name": "title",
+   "wordCount": ""
+  },
   "ruleBookInfo": {
    "author": ".authors",
    "canReName": "",
@@ -464,36 +429,6 @@
    "tocUrl": ".id##^##catalog/",
    "wordCount": ".wordCount"
   },
-  "ruleContent": {
-   "content": ".url",
-   "imageStyle": "",
-   "nextContentUrl": "",
-   "replaceRegex": "##[\\s\\S]*请访问源网站！[\\s\\S]*",
-   "sourceRegex": "",
-   "webJs": ""
-  },
-  "ruleExplore": {
-   "author": "authors\n@js:\nr = result;\nr != \"\" ? r: \"UAA\";",
-   "bookList": ".[?(@.title)]",
-   "bookUrl": "id||audioId##^##intro?id=",
-   "coverUrl": "coverUrl",
-   "intro": "shortBrief##\\s*",
-   "kind": "{{$.finished##1##完结}},{{$.categories&&updateTimeFormat}}##^0,##连载,",
-   "lastChapter": "latestUpdate",
-   "name": "title",
-   "wordCount": ""
-  },
-  "ruleSearch": {
-   "author": "authors\n@js:\nr = result;\nr != \"\" ? r: \"UAA\";",
-   "bookList": ".[?(@.title)]",
-   "bookUrl": "id||audioId##^##intro?id=",
-   "coverUrl": "coverUrl",
-   "intro": "shortBrief##\\s*",
-   "kind": "{{$.finished##1##完结}},{{$.categories&&updateTimeFormat}}##^0,##连载,",
-   "lastChapter": "latestUpdate",
-   "name": "title",
-   "wordCount": ""
-  },
   "ruleToc": {
    "chapterList": ".[?(@.title)]",
    "chapterName": "title",
@@ -503,30 +438,31 @@
    "nextTocUrl": "",
    "updateTime": "{{$.price}}U币  {{$.onlineTime##(.*?)T(.*?)\\.##$1 $2###}}##^0.0U币\\s*"
   },
-  "searchUrl": "search?category=&keyword={{encodeURIComponent(key)}}&orderType=0&page={{page}}&searchType=1&size=42",
-  "variableComment": "",
-  "weight": 0
+  "ruleContent": {
+   "content": ".url",
+   "imageStyle": "",
+   "nextContentUrl": "",
+   "replaceRegex": "##[\\s\\S]*请访问源网站！[\\s\\S]*",
+   "sourceRegex": "",
+   "webJs": ""
+  }
  },
  {
-  "bookSourceComment": "",
-  "bookSourceGroup": "🔞",
-  "bookSourceName": "有声小说吧",
-  "bookSourceType": 1,
   "bookSourceUrl": "http://m.ysxs8.com",
-  "customOrder": 17970,
-  "enabled": true,
-  "enabledCookieJar": false,
-  "enabledExplore": true,
-  "exploreUrl": "探险墓盗::http://m.ysxs8.com/downlist/r45_{{page}}.html\n网络玄幻::http://m.ysxs8.com/downlist/r52_{{page}}.html\n恐怖悬疑::http://m.ysxs8.com/downlist/r17_{{page}}.html\n评书演义::http://m.ysxs8.com/downlist/r3_{{page}}.html\n儿童读物::http://m.ysxs8.com/downlist/r4_{{page}}.html\n管理营销::http://m.ysxs8.com/downlist/r6_{{page}}.html\n相声戏曲::http://m.ysxs8.com/downlist/r7_{{page}}.html\n传统武侠::http://m.ysxs8.com/downlist/r12_{{page}}.html\n都市言情::http://m.ysxs8.com/downlist/r13_{{page}}.html\n官场刑侦::http://m.ysxs8.com/downlist/r14_{{page}}.html\n历史军事::http://m.ysxs8.com/downlist/r15_{{page}}.html\n人物传记::http://m.ysxs8.com/downlist/r16_{{page}}.html\n广播剧::http://m.ysxs8.com/downlist/r18_{{page}}.html\n百家讲坛::http://m.ysxs8.com/downlist/r32_{{page}}.html\n外语读物::http://m.ysxs8.com/downlist/r35_{{page}}.html\n明朝事儿::http://m.ysxs8.com/downlist/r36_{{page}}.html\n有声文学::http://m.ysxs8.com/downlist/r41_{{page}}.html\n职场商战::http://m.ysxs8.com/downlist/r81_{{page}}.html",
+  "bookSourceName": "有声小说吧",
+  "bookSourceGroup": "🔞",
   "header": "",
+  "bookSourceComment": "",
+  "exploreUrl": "探险墓盗::http://m.ysxs8.com/downlist/r45_{{page}}.html\n网络玄幻::http://m.ysxs8.com/downlist/r52_{{page}}.html\n恐怖悬疑::http://m.ysxs8.com/downlist/r17_{{page}}.html\n评书演义::http://m.ysxs8.com/downlist/r3_{{page}}.html\n儿童读物::http://m.ysxs8.com/downlist/r4_{{page}}.html\n管理营销::http://m.ysxs8.com/downlist/r6_{{page}}.html\n相声戏曲::http://m.ysxs8.com/downlist/r7_{{page}}.html\n传统武侠::http://m.ysxs8.com/downlist/r12_{{page}}.html\n都市言情::http://m.ysxs8.com/downlist/r13_{{page}}.html\n官场刑侦::http://m.ysxs8.com/downlist/r14_{{page}}.html\n历史军事::http://m.ysxs8.com/downlist/r15_{{page}}.html\n人物传记::http://m.ysxs8.com/downlist/r16_{{page}}.html\n广播剧::http://m.ysxs8.com/downlist/r18_{{page}}.html\n百家讲坛::http://m.ysxs8.com/downlist/r32_{{page}}.html\n外语读物::http://m.ysxs8.com/downlist/r35_{{page}}.html\n明朝事儿::http://m.ysxs8.com/downlist/r36_{{page}}.html\n有声文学::http://m.ysxs8.com/downlist/r41_{{page}}.html\n职场商战::http://m.ysxs8.com/downlist/r81_{{page}}.html",
+  "searchUrl": "http://m.ysxs8.com/search.asp?page={{page}}&searchword={{key}}&searchtype=-1,{\n\"charset\": \"gb2312\"}",
+  "bookSourceType": 1,
+  "customOrder": 17970,
   "lastUpdateTime": 1608796971606,
   "respondTime": 180000,
-  "ruleBookInfo": {},
-  "ruleContent": {
-   "content": "<js>result</js>",
-   "sourceRegex": ".*\\.(mp3|m4a).*"
-  },
-  "ruleExplore": {},
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
   "ruleSearch": {
    "author": ".author@text##作者：",
    "bookList": "@css:div.bookbox",
@@ -541,24 +477,25 @@
    "chapterName": "text",
    "chapterUrl": "href@js:result+',{webView:“true”}'"
   },
-  "searchUrl": "http://m.ysxs8.com/search.asp?page={{page}}&searchword={{key}}&searchtype=-1,{\n\"charset\": \"gb2312\"}",
-  "weight": 0
+  "ruleContent": {
+   "content": "<js>result</js>",
+   "sourceRegex": ".*\\.(mp3|m4a).*"
+  }
  },
  {
-  "bookSourceGroup": "有声",
-  "bookSourceName": "华语中文(成人向有声)",
-  "bookSourceType": 1,
   "bookSourceUrl": "https://www.cnnovel.xyz",
-  "customOrder": 10483,
-  "enabled": true,
-  "enabledCookieJar": false,
-  "enabledExplore": true,
+  "bookSourceName": "华语中文(成人向有声)",
+  "bookSourceGroup": "有声",
   "exploreUrl": "[{\"title\":\"༺ˇ»`ʚ分类ɞ´«ˇ༻\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},{\"title\":\"有声短篇\",\"url\":\"https://www.cnnovel.xyz/%e6%9c%89%e5%a3%b0%e7%9f%ad%e7%af%87/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"有声中篇\",\"url\":\"https://www.cnnovel.xyz/%e6%9c%89%e5%a3%b0%e4%b8%ad%e7%af%87/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"有声长篇\",\"url\":\"https://www.cnnovel.xyz/%e6%9c%89%e5%a3%b0%e9%95%bf%e7%af%87/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"骚歌艳曲\",\"url\":\"https://www.cnnovel.xyz/%e9%aa%9a%e6%ad%8c%e8%89%b3%e6%9b%b2/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"淫生世界\",\"url\":\"https://www.cnnovel.xyz/%e6%9c%89%e5%a3%b0%e9%95%bf%e7%af%87/%e6%b7%ab%e7%94%9f%e4%b8%96%e7%95%8c/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"放荡生活\",\"url\":\"https://www.cnnovel.xyz/%e6%9c%89%e5%a3%b0%e9%95%bf%e7%af%87/%e8%8b%8f%e5%a9%b7%e7%9a%84%e6%94%be%e8%8d%a1%e7%94%9f%e6%b4%bb/page/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+  "searchUrl": "/page/{{page}}/?s={{key}}",
+  "bookSourceType": 1,
+  "customOrder": 10483,
   "lastUpdateTime": 1753432092592,
   "respondTime": 3088,
-  "ruleBookInfo": {},
-  "ruleContent": {},
-  "ruleExplore": {},
+  "weight": 0,
+  "enabled": true,
+  "enabledExplore": true,
+  "enabledCookieJar": false,
   "ruleSearch": {
    "author": ".meta-author@text",
    "bookList": "article",
@@ -574,8 +511,6 @@
    "chapterName": "{{book.name}}",
    "chapterUrl": "source.0@src||a.-1@href",
    "updateTime": "source.0@src||a.-1@href"
-  },
-  "searchUrl": "/page/{{page}}/?s={{key}}",
-  "weight": 0
+  }
  }
 ]
