@@ -22,5 +22,13 @@
   "大小MB": 0.1,
   "直链": "https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/Video.json",
   "一键导入": "legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FVideo.json"
+ },
+ {
+  "分类": "全部（小说+漫画+视频）",
+  "文件": "All.json",
+  "条数": 678,
+  "大小MB": 3.6,
+  "直链": "https://cdn.jsdelivr.net/gh/scaryburial/legado-book-sources@master/cat/All.json",
+  "一键导入": "legado://import/bookSource?src=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fscaryburial%2Flegado-book-sources%40master%2Fcat%2FAll.json"
  }
 ]

@@ -33,6 +33,7 @@ def main() -> int:
             pass
 
     links = []
+    merged = []
     for cat, slug in SLUG.items():
         items = []
         for p in sorted((FINAL / cat).glob("part*.json")):
@@ -61,10 +62,26 @@ def main() -> int:
             links.append({"分类": cat, "文件": name, "条数": len(ch), "大小MB": round(mb, 1),
                           "直链": raw, "一键导入": link})
             print(f"{cat}: {name}  {len(ch)} 条  {mb:.1f} MB")
+            if len(chunks) == 1:
+                merged.extend(ch)
+
+    # 三合一：小说 + 漫画 + 视频 合成一个包，一次导入搞定
+    if merged:
+        (CDN / "All.json").write_text(json.dumps(merged, ensure_ascii=False, indent=1), encoding="utf-8")
+        mb = (CDN / "All.json").stat().st_size / 1024 / 1024
+        raw = f"https://cdn.jsdelivr.net/gh/{REPO}@master/cat/All.json"
+        link = "legado://import/bookSource?src=" + __import__("urllib.parse", fromlist=["quote"]).quote(raw, safe="")
+        links.append({"分类": "全部（小说+漫画+视频）", "文件": "All.json", "条数": len(merged),
+                      "大小MB": round(mb, 1), "直链": raw, "一键导入": link})
+        print(f"全部: All.json  {len(merged)} 条  {mb:.1f} MB")
 
     (CDN / "links.json").write_text(json.dumps(links, ensure_ascii=False, indent=1), encoding="utf-8")
-    doc = ["# 三大分类 · 一键导入链接", "",
-           "> 只收录实测「可用」的书源。手机装好阅读 App 后点链接即可导入。", "",
+    doc = ["# 成人向书源 · 一键导入", "",
+           "> 三分类已合并成一个包，**只导 All.json 这一个文件就够了**。",
+           "> 全部为实测「可用」的成人向源。", "",
+           f"**一键导入（手机直接点）**：`{links[-1]['一键导入']}`", "",
+           "**网络导入直链（书源管理 → 右上角 → 网络导入 → 粘贴）**：", "",
+           f"- jsDelivr（国内可直连）：`{links[-1]['直链']}`", "",
            "| 分类 | 条数 | 大小 | 一键导入（手机点这个） | 网络导入直链 |",
            "| --- | ---: | ---: | --- | --- |"]
     for l in links:
